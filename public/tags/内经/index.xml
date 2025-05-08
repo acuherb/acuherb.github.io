@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>内经 - 标签 - My New Hugo Site</title>
+    <link>http://localhost:1313/tags/%E5%86%85%E7%BB%8F/</link>
+    <description>My New Hugo Site</description>
+    <generator>Hugo 0.147.2 &amp; FixIt v0.3.21-a85a6655</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E5%86%85%E7%BB%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>举痛论篇第三十九</title>
+      <link>http://localhost:1313/post/%E5%86%85%E7%BB%8F/%E4%B8%BE%E7%97%9B%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B9%9D/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/%E5%86%85%E7%BB%8F/%E4%B8%BE%E7%97%9B%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B9%9D/</guid>
+      <category domain="http://localhost:1313/categories/%E9%BB%84%E5%B8%9D%E5%86%85%E7%BB%8F/">黄帝内经</category>
+      <description>&lt;h2 class=&#34;heading-element&#34; id=&#34;举痛论&#34;&gt;&lt;span&gt;举痛论&lt;/span&gt;&#xD;&#xA;  &lt;a href=&#34;#%e4%b8%be%e7%97%9b%e8%ae%ba&#34; class=&#34;heading-mark&#34;&gt;&#xD;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&lt;h2 class=&#34;heading-element&#34; id=&#34;-原文&#34;&gt;&lt;span&gt;📜 原文&lt;/span&gt;&#xD;&#xA;  &lt;a href=&#34;#-%e5%8e%9f%e6%96%87&#34; class=&#34;heading-mark&#34;&gt;&#xD;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&lt;p&gt;{% note primary %}&#xA;　　黄帝问曰：余闻善言天者，必有验于人；善言古者，必有合于今；善言人者，必有厌于己。如此，则道不惑而要数极，所谓明也。今余问于夫子，令言而可知，视而可见，扪而可得，令验于己而发蒙解惑，可得而闻乎？岐伯再拜稽首对曰：何道之问也？帝曰：愿闻人之五藏卒痛，何气使然？岐伯对曰：经脉流行不止，环周不休，寒气入经而稽迟，泣而不行，客于脉外则血少，客于脉中则气不通，故卒然而痛。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
