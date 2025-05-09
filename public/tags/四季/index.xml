@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>四季 - 标签 - 针草堂</title>
-    <link>http://acuherb.github.io/tags/%E5%9B%9B%E5%AD%A3/</link>
+    <link>https://acuherb.github.io/tags/%E5%9B%9B%E5%AD%A3/</link>
     <description>以针通经络，以草养气血</description>
     <generator>Hugo 0.147.2 &amp; FixIt v0.3.21-a85a6655</generator>
     <language>zh-cn</language>
     <managingEditor>124768092@qq.com (AcuHerb)</managingEditor>
     <webMaster>124768092@qq.com (AcuHerb)</webMaster>
     <lastBuildDate>Sun, 05 Jan 2025 20:14:22 +0800</lastBuildDate>
-    <atom:link href="http://acuherb.github.io/tags/%E5%9B%9B%E5%AD%A3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://acuherb.github.io/tags/%E5%9B%9B%E5%AD%A3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>金匮真言论篇第四</title>
-      <link>http://acuherb.github.io/posts/%E9%87%91%E5%8C%AE%E7%9C%9F%E8%A8%80%E8%AE%BA%E7%AF%87%E7%AC%AC%E5%9B%9B/</link>
+      <link>https://acuherb.github.io/posts/%E9%87%91%E5%8C%AE%E7%9C%9F%E8%A8%80%E8%AE%BA%E7%AF%87%E7%AC%AC%E5%9B%9B/</link>
       <pubDate>Sun, 05 Jan 2025 20:14:22 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
-      <guid>http://acuherb.github.io/posts/%E9%87%91%E5%8C%AE%E7%9C%9F%E8%A8%80%E8%AE%BA%E7%AF%87%E7%AC%AC%E5%9B%9B/</guid>
-      <category domain="http://acuherb.github.io/categories/%E7%B4%A0%E9%97%AE/">素问</category>
+      <guid>https://acuherb.github.io/posts/%E9%87%91%E5%8C%AE%E7%9C%9F%E8%A8%80%E8%AE%BA%E7%AF%87%E7%AC%AC%E5%9B%9B/</guid>
+      <category domain="https://acuherb.github.io/categories/%E7%B4%A0%E9%97%AE/">素问</category>
       <description>黄帝与歧伯的对话深入探讨了天时地利与人体健康的关系，特别是四季风气变化对五脏六腑的影响。歧伯解释了八风与五风的不同风向和病邪传播路径，并从五行生克的角度阐述了四季交替时人体的脏腑反应。春风、夏风、秋风、冬风分别影响肝、心、肺、肾，风邪通过特定部位侵袭五脏，导致不同季节的常见病症。此外，长夏的特殊节令易引发脾病，精气的藏养是防病的关键。通过调整作息和养生方法，可以顺应自然的阴阳消长，从而预防季节性疾病。最终，歧伯强调了诊疗时对五脏六腑的顺逆变化、阴阳表里关系及男女不同生理特点的把握，才能做到精准的辨证施治。</description>
     </item>
     <item>
       <title>生气通天论篇第三</title>
-      <link>http://acuherb.github.io/posts/%E7%94%9F%E6%B0%94%E9%80%9A%E5%A4%A9%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%B8%89/</link>
+      <link>https://acuherb.github.io/posts/%E7%94%9F%E6%B0%94%E9%80%9A%E5%A4%A9%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%B8%89/</link>
       <pubDate>Fri, 03 Jan 2025 20:14:22 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
-      <guid>http://acuherb.github.io/posts/%E7%94%9F%E6%B0%94%E9%80%9A%E5%A4%A9%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%B8%89/</guid>
-      <category domain="http://acuherb.github.io/categories/%E7%B4%A0%E9%97%AE/">素问</category>
+      <guid>https://acuherb.github.io/posts/%E7%94%9F%E6%B0%94%E9%80%9A%E5%A4%A9%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%B8%89/</guid>
+      <category domain="https://acuherb.github.io/categories/%E7%B4%A0%E9%97%AE/">素问</category>
       <description>生命源自天地之气，人体的气与天地相通，五脏六腑、经脉相互协调。顺应天地法则、调和精神与阴阳，能保持健康与长寿；反之，生活不规律、情志不稳，阳气失调，则易生病。保持阴阳平衡，避免过度饮食、劳累和不良环境，是防病保健的关键。</description>
     </item>
   </channel>
