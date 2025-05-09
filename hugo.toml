@@ -219,17 +219,6 @@ mainSections = ["posts"]
   posts = "posts/:slugorfilename"
 
 # -------------------------------------------------------------------------------------
-# Privacy Configuration
-# See: https://gohugo.io/about/hugo-and-gdpr/
-# -------------------------------------------------------------------------------------
-
-[privacy]
-  [privacy.twitter]
-    enableDNT = true
-  [privacy.youtube]
-    privacyEnhanced = true
-
-# -------------------------------------------------------------------------------------
 # Media Types
 # See: https://gohugo.io/templates/output-formats/#media-types
 # -------------------------------------------------------------------------------------
@@ -329,7 +318,7 @@ mainSections = ["posts"]
   defaultTheme = "auto"
   # which hash function used for SRI, when empty, no SRI is used
   # ["sha256", "sha384", "sha512", "md5"]
-  fingerprint = "以针通经络，以草养气血"
+  fingerprint = ""
   # NEW date format
   dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards
@@ -456,7 +445,7 @@ mainSections = ["posts"]
     # FixIt 0.2.12 | NEW Header subtitle config
     [params.header.subtitle]
       # subtitle name
-      name = "以针通经络，以草养气血。"
+      name = "针通经络，草养气血。"
       # whether to use typeit animation for subtitle name
       typeit = true
 
@@ -505,10 +494,10 @@ mainSections = ["posts"]
       value = "2025-1-18T16:15:22+08:00" # e.g. "2021-12-18T16:15:22+08:00"
     # FixIt 0.2.17 | NEW footer lines order, optional values: ["first", 0, 1, 2, 3, 4, 5, "last"]
     [params.footer.order]
-      powered = 1
-      copyright = 2
-      statistics = 3
-      visitor = 4
+      powered = 4
+      copyright = 3
+      statistics = 2
+      visitor = 1
       beian = 5
 
   # FixIt 0.3.0 | NEW Archives page config (all pages of posts type)
