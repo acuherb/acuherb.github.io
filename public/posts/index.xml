@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>所有文章 - 针草堂</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>http://acuherb.github.io/posts/</link>
     <description>以针通经络，以草养气血</description>
     <generator>Hugo 0.147.2 &amp; FixIt v0.3.21-a85a6655</generator>
     <language>zh-cn</language>
     <managingEditor>124768092@qq.com (AcuHerb)</managingEditor>
     <webMaster>124768092@qq.com (AcuHerb)</webMaster>
     <lastBuildDate>Wed, 01 Jan 2025 20:14:22 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://acuherb.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>上古天真论篇第一</title>
-      <link>http://localhost:1313/posts/%E4%B8%8A%E5%8F%A4%E5%A4%A9%E7%9C%9F%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%B8%80/</link>
+      <link>http://acuherb.github.io/posts/%E4%B8%8A%E5%8F%A4%E5%A4%A9%E7%9C%9F%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%B8%80/</link>
       <pubDate>Wed, 01 Jan 2025 20:14:22 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
-      <guid>http://localhost:1313/posts/%E4%B8%8A%E5%8F%A4%E5%A4%A9%E7%9C%9F%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%B8%80/</guid>
-      <category domain="http://localhost:1313/categories/%E7%B4%A0%E9%97%AE/">素问</category>
+      <guid>http://acuherb.github.io/posts/%E4%B8%8A%E5%8F%A4%E5%A4%A9%E7%9C%9F%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%B8%80/</guid>
+      <category domain="http://acuherb.github.io/categories/%E7%B4%A0%E9%97%AE/">素问</category>
       <description>养生之本在于顺应自然、节制欲望、保全精气，达至“形与神俱”的和谐状态。不同境界的修行者通过调身养神，可突破生命局限，延年益寿。</description>
     </item>
   </channel>
