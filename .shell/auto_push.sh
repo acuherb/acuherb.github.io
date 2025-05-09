@@ -1,10 +1,12 @@
 #!/bin/bash
-#author: Lruihao
-cd ..
+
+# 确保当前在 Hugo 项目的根目录
+cd "$(dirname "$0")/.."
+
+# 执行 Git 操作
 git add .
-read -p "Please enter commit message: " commitMsg
-if [ -z $commitMsg ];then
-  commitMsg="Docs: Lruihao's Note update $(date +'%F %a %T')"
-fi
-git commit -m ":pencil: $commitMsg"
-git push
+git commit -m "Deploy Hugo site"
+git push -u origin main
+
+# 提示用户部署完成
+echo "Hugo site has been deployed successfully!"
