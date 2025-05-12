@@ -223,7 +223,7 @@ $blog-bg-color: #fafaf8 !default;
 }
 
 
-/* 隐藏 Powered by Twikoo */
-.twikoo-footer {
-  display: none !important;
+/* hide powered by Twikoo */
+.powered-by {
+    display: none;
 }
