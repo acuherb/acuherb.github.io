@@ -223,7 +223,16 @@ $blog-bg-color: #fafaf8 !default;
 }
 
 
-/* hide powered by Twikoo */
-.twikoo-powered-by {
+/* 更精确的 Twikoo 版权信息隐藏 */
+.twikoo .tk-footer, 
+.tk-powered-by, 
+a[href*="twikoo.js.org"] {
     display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    line-height: 0 !important;
+    font-size: 0 !important;
 }
+
