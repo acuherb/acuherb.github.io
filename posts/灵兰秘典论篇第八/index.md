@@ -71,6 +71,6 @@
 
 ---
 
-> 作者: [AcuHerb](acuherb.github.io)  
+> 作者: AcuHerb  
 > URL: https://acuherb.github.io/posts/%E7%81%B5%E5%85%B0%E7%A7%98%E5%85%B8%E8%AE%BA%E7%AF%87%E7%AC%AC%E5%85%AB/  
 

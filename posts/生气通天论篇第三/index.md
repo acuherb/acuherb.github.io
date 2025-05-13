@@ -144,6 +144,6 @@
 
 ---
 
-> 作者: [AcuHerb](acuherb.github.io)  
+> 作者: AcuHerb  
 > URL: https://acuherb.github.io/posts/%E7%94%9F%E6%B0%94%E9%80%9A%E5%A4%A9%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%B8%89/  
 
