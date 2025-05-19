@@ -252,3 +252,26 @@ a[href*="twikoo.js.org"] {
     -webkit-overflow-scrolling: touch; /* 添加触摸滚动优化 */
   }
 }
+
+/************************** 评论插件textrea背景特效 **************************/
+#wl-edit {
+  background-image: url(/images/common/comment-bg.gif) !important;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+textarea#wl-edit {
+  background-image: url(/images/common/comment-bg.gif) !important;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+textarea#wl-edit:focus {
+  background-position-x: -150px;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+/************************** 评论插件textrea背景特效 **************************/
