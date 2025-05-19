@@ -236,3 +236,19 @@ a[href*="twikoo.js.org"] {
     font-size: 0 !important;
 }
 
+
+/* 表格强制横向滚动 */
+.markdown-body table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* 小屏幕下优化表格 */
+@media screen and (max-width: 600px) {
+  .markdown-body table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* 添加触摸滚动优化 */
+  }
+}
