@@ -253,25 +253,34 @@ a[href*="twikoo.js.org"] {
   }
 }
 
-/************************** 评论插件textrea背景特效 **************************/
-#wl-edit {
-  background-image: url(/images/common/comment-bg.gif) !important;
-  background-size: auto 100%;
-  background-repeat: no-repeat;
-  background-position: right;
+/* Twikoo 评论框动态背景 */
+.tk-comments-container .tk-input {
+  position: relative; /* 定位父容器 */
+  overflow: hidden;   /* 隐藏溢出部分 */
 }
 
-textarea#wl-edit {
-  background-image: url(/images/common/comment-bg.gif) !important;
-  background-size: auto 100%;
-  background-repeat: no-repeat;
-  background-position: right;
-  transition: all 0.5s ease-in-out 0s;
+/* 动态背景图片层 */
+.tk-comment-animated-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;       /* 根据图片宽度调整 */
+  height: 100%;
+  background: url('/images/common/comment-bg.gif') no-repeat right center;
+  background-size: contain;
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+  z-index: 10;
 }
 
-textarea#wl-edit:focus {
-  background-position-x: -150px;
-  transition: all 0.5s ease-in-out 0s;
+/* 点击后向左滑出 */
+.tk-comment-animated-bg.active {
+  transform: translateX(-200%);
 }
 
-/************************** 评论插件textrea背景特效 **************************/
+/* 移动端隐藏（可选） */
+@media (max-width: 768px) {
+  .tk-comment-animated-bg {
+    display: none;
+  }
+}
