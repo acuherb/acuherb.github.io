@@ -253,27 +253,3 @@ a[href*="twikoo.js.org"] {
   }
 }
 
-/* Twikoo 评论框动态背景 */
-.tk-comment-animated-bg {
-  position: absolute;
-  right: 0;
-  width: 100px;
-  height: 100%;
-  background: url('/images/common/comment-bg.gif') no-repeat right center;
-  background-size: contain;
-  cursor: pointer;
-  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; /* 统一时间和属性 */
-}
-
-.tk-comment-animated-bg.active {
-  transform: translateX(-200%);
-  opacity: 0;
-  /* 不再重复定义 transition */
-}
-
-/* 移动端隐藏（可选） */
-@media (max-width: 768px) {
-  .tk-comment-animated-bg {
-    display: none;
-  }
-}
