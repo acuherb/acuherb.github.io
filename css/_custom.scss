@@ -237,39 +237,42 @@ a[href*="twikoo.js.org"] {
 }
 
 
-/* 表格基础样式 */
-.markdown-body {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
-
+/* 重置表格布局 - 关键修改 */
 .markdown-body table {
-  min-width: 100%;
+  display: table !important; /* 保持表格特性 */
+  width: 100% !important;
+  max-width: 100% !important;
+  table-layout: fixed !important; /* 改为fixed布局 */
   border-collapse: collapse;
-  table-layout: auto;
-  display: block;
-  overflow-x: auto;
-  white-space: nowrap;
 }
 
+/* 单元格处理 */
 .markdown-body table td,
 .markdown-body table th {
-  padding: 8px 16px;
-  white-space: nowrap;
-  text-align: left;
-  border: 1px solid #ddd;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  min-width: 80px !important; /* 设置最小宽度 */
+  max-width: none !important;
 }
 
-/* 移动端优化 */
+/* 容器处理 - 关键 */
+.markdown-body {
+  width: 100%;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+  display: block !important;
+}
+
+/* 移动端特殊处理 */
 @media screen and (max-width: 600px) {
   .markdown-body table {
-    font-size: 14px; /* 可选：缩小字体 */
+    min-width: 600px !important; /* 强制最小宽度 */
   }
   
   .markdown-body table td,
   .markdown-body table th {
-    padding: 6px 10px;
-    min-width: 80px;
+    padding: 4px 8px !important;
+    font-size: 13px !important;
   }
 }
-
