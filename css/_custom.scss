@@ -237,32 +237,39 @@ a[href*="twikoo.js.org"] {
 }
 
 
-/* 表格强制横向滚动 */
+/* 表格基础样式 */
+.markdown-body {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 .markdown-body table {
+  min-width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
   display: block;
   overflow-x: auto;
   white-space: nowrap;
 }
 
-/* 小屏幕下优化表格 */
-@media screen and (max-width: 600px) {
-  .markdown-body table {
-    display: block;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch; /* 添加触摸滚动优化 */
-  }
-}
-
-.markdown-body table {
-  display: block !important;
-  overflow-x: auto !important;
-  white-space: nowrap !important;
-  width: max-content !important; // 让表格以内容宽度自适应
-  max-width: 100%;
-}
-
 .markdown-body table td,
 .markdown-body table th {
-  white-space: nowrap !important; // 防止单元格换行
+  padding: 8px 16px;
+  white-space: nowrap;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* 移动端优化 */
+@media screen and (max-width: 600px) {
+  .markdown-body table {
+    font-size: 14px; /* 可选：缩小字体 */
+  }
+  
+  .markdown-body table td,
+  .markdown-body table th {
+    padding: 6px 10px;
+    min-width: 80px;
+  }
 }
 
