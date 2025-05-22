@@ -253,3 +253,16 @@ a[href*="twikoo.js.org"] {
   }
 }
 
+.markdown-body table {
+  display: block !important;
+  overflow-x: auto !important;
+  white-space: nowrap !important;
+  width: max-content !important; // 让表格以内容宽度自适应
+  max-width: 100%;
+}
+
+.markdown-body table td,
+.markdown-body table th {
+  white-space: nowrap !important; // 防止单元格换行
+}
+
