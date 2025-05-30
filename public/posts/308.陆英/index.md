@@ -8,5 +8,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: http://localhost:1313/posts/308.%E9%99%86%E8%8B%B1/  
+> URL: https://acuherb.xyz/posts/308.%E9%99%86%E8%8B%B1/  
 

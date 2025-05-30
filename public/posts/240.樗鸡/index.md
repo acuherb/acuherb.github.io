@@ -9,5 +9,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: http://localhost:1313/posts/240.%E6%A8%97%E9%B8%A1/  
+> URL: https://acuherb.xyz/posts/240.%E6%A8%97%E9%B8%A1/  
 

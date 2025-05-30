@@ -23,5 +23,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: http://localhost:1313/posts/320.%E9%9B%B7%E4%B8%B8/  
+> URL: https://acuherb.xyz/posts/320.%E9%9B%B7%E4%B8%B8/  
 

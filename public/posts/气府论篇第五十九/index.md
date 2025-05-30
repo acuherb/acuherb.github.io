@@ -184,5 +184,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: http://localhost:1313/posts/%E6%B0%94%E5%BA%9C%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%BA%94%E5%8D%81%E4%B9%9D/  
+> URL: https://acuherb.xyz/posts/%E6%B0%94%E5%BA%9C%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%BA%94%E5%8D%81%E4%B9%9D/  
 

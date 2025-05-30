@@ -23,5 +23,5 @@
 ---
 
 > 作者: <no value>  
-> URL: http://localhost:1313/friends/  
+> URL: https://acuherb.xyz/friends/  
 

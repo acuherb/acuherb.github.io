@@ -36,5 +36,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: http://localhost:1313/posts/317.%E6%A5%9D%E5%AE%9E/  
+> URL: https://acuherb.xyz/posts/317.%E6%A5%9D%E5%AE%9E/  
 
