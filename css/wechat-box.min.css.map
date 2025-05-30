@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "wechat-box.min.css",
+	"sourceRoot": "C:/hugo/my-blog",
+	"sources": [
+		"assets/css/_custom/wechat-box.scss"
+	],
+	"sourcesContent": [
+		".wechat-box {\r\n  z-index: 1024;\r\n  position: fixed;\r\n  bottom: 70px;\r\n  left: 22px;\r\n  border-radius: 5px;\r\n  box-shadow: 0 0 10px rgba(0,0,0,.35);\r\n\r\n  --wechat-menu-size: 2rem;\r\n}\r\n.wechat-menu {\r\n  position: relative;\r\n  height: var(--wechat-menu-size);\r\n  width: var(--wechat-menu-size);\r\n  background: url(/images/icons/wechat.svg);\r\n  background-size: var(--wechat-menu-size) var(--wechat-menu-size)\r\n}\r\n.wechat-hover {\r\n  position: absolute;\r\n  bottom: 0;\r\n  left: 0;\r\n  height: 0;\r\n  width: 0;\r\n  border-radius: 3px;\r\n  box-shadow: 0 0 10px 0 rgba(0,0,0,.35);\r\n  background: url(/images/qr-wx-mp_s.webp);\r\n  background-color: #fff;\r\n  background-repeat: no-repeat;\r\n  background-size: 150px 150px;\r\n  transition: all .35s ease-in-out;\r\n  z-index: 1024;\r\n  opacity: 0\r\n}\r\n.wechat-menu:hover .wechat-hover {\r\n  bottom: var(--wechat-menu-size);\r\n  left: var(--wechat-menu-size);\r\n  height: 170px;\r\n  width: 150px;\r\n  opacity: 1\r\n}\r\n.wechat-description {\r\n  opacity: 0;\r\n  position: absolute;\r\n  bottom: 3%;\r\n  left: 5%;\r\n  right: 5%;\r\n  font-size: 12px;\r\n  transition: all .35s cubic-bezier(1,0,0,1)\r\n}\r\n.wechat-menu:hover .wechat-description {\r\n  opacity: 1\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,WAAW,AAAC,CACV,OAAO,CAAE,IAAI,CACb,QAAQ,CAAE,KAAK,CACf,MAAM,CAAE,IAAI,CACZ,IAAI,CAAE,IAAI,CACV,aAAa,CAAE,GAAG,CAClB,UAAU,CAAE,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,gBAAe,CAEpC,kBAAkB,CAAA,KAAC,CACpB,AACD,AAAA,YAAY,AAAC,CACX,QAAQ,CAAE,QAAQ,CAClB,MAAM,CAAE,uBAAuB,CAC/B,KAAK,CAAE,uBAAuB,CAC9B,UAAU,CAAE,6BAA6B,CACzC,eAAe,CAAE,uBAAuB,CAAC,uBAAuB,CACjE,AACD,AAAA,aAAa,AAAC,CACZ,QAAQ,CAAE,QAAQ,CAClB,MAAM,CAAE,CAAC,CACT,IAAI,CAAE,CAAC,CACP,MAAM,CAAE,CAAC,CACT,KAAK,CAAE,CAAC,CACR,aAAa,CAAE,GAAG,CAClB,UAAU,CAAE,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC,gBAAe,CACtC,UAAU,CAAE,4BAA4B,CACxC,gBAAgB,CAAE,IAAI,CACtB,iBAAiB,CAAE,SAAS,CAC5B,eAAe,CAAE,WAAW,CAC5B,UAAU,CAAE,oBAAoB,CAChC,OAAO,CAAE,IAAI,CACb,OAAO,CAAE,CACX,CAAC,AACD,AAAA,YAAY,CAAC,KAAK,CAAC,aAAa,AAAC,CAC/B,MAAM,CAAE,uBAAuB,CAC/B,IAAI,CAAE,uBAAuB,CAC7B,MAAM,CAAE,KAAK,CACb,KAAK,CAAE,KAAK,CACZ,OAAO,CAAE,CACX,CAAC,AACD,AAAA,mBAAmB,AAAC,CAClB,OAAO,CAAE,CAAC,CACV,QAAQ,CAAE,QAAQ,CAClB,MAAM,CAAE,EAAE,CACV,IAAI,CAAE,EAAE,CACR,KAAK,CAAE,EAAE,CACT,SAAS,CAAE,IAAI,CACf,UAAU,CAAE,GAAG,CAAC,KAAI,CAAC,wBAAqB,CAC3C,AACD,AAAA,YAAY,CAAC,KAAK,CAAC,mBAAmB,AAAC,CACrC,OAAO,CAAE,CACX,CAAC"
+}
