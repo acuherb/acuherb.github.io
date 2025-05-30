@@ -2,42 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://acuherb.xyz/categories/</loc>
-    <lastmod>2025-05-23T10:30:22+08:00</lastmod>
+    <lastmod>2025-05-24T10:01:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://acuherb.xyz/collections/</loc>
-    <lastmod>2025-05-23T10:30:22+08:00</lastmod>
+    <lastmod>2025-05-24T10:01:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://acuherb.xyz/posts/</loc>
-    <lastmod>2025-05-23T10:30:22+08:00</lastmod>
+    <lastmod>2025-05-24T10:01:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://acuherb.xyz/categories/%E6%9C%AC%E8%8D%89%E7%BB%8F/</loc>
-    <lastmod>2025-05-23T10:30:22+08:00</lastmod>
+    <lastmod>2025-05-24T10:01:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://acuherb.xyz/posts/210.%E6%9E%B3%E5%AE%9E/</loc>
-    <lastmod>2025-05-23T10:30:22+08:00</lastmod>
+    <loc>https://acuherb.xyz/posts/211.%E5%8E%9A%E6%9C%B4/</loc>
+    <lastmod>2025-05-24T10:01:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://acuherb.xyz/collections/%E7%A5%9E%E5%86%9C%E6%9C%AC%E8%8D%89%E7%BB%8F/</loc>
-    <lastmod>2025-05-23T10:30:22+08:00</lastmod>
+    <lastmod>2025-05-24T10:01:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://acuherb.xyz/</loc>
+    <lastmod>2025-05-24T10:01:22+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://acuherb.xyz/posts/210.%E6%9E%B3%E5%AE%9E/</loc>
     <lastmod>2025-05-23T10:30:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
