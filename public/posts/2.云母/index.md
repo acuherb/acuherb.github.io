@@ -59,5 +59,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: https://acuherb.xyz/posts/2.%E4%BA%91%E6%AF%8D/  
+> URL: http://localhost:1313/posts/2.%E4%BA%91%E6%AF%8D/  
 

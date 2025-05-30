@@ -330,5 +330,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: https://acuherb.xyz/posts/%E6%B0%94%E4%BA%A4%E5%8F%98%E5%A4%A7%E8%AE%BA%E7%AF%87%E7%AC%AC%E5%85%AD%E5%8D%81%E4%B9%9D/  
+> URL: http://localhost:1313/posts/%E6%B0%94%E4%BA%A4%E5%8F%98%E5%A4%A7%E8%AE%BA%E7%AF%87%E7%AC%AC%E5%85%AD%E5%8D%81%E4%B9%9D/  
 
