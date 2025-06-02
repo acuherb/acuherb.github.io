@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://acuherb.xyz/categories/</loc>
-    <lastmod>2025-06-02T15:15:12+08:00</lastmod>
+    <lastmod>2025-06-02T16:37:39+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://acuherb.xyz/collections/</loc>
-    <lastmod>2025-06-02T15:15:12+08:00</lastmod>
+    <lastmod>2025-06-02T16:37:39+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://acuherb.xyz/posts/</loc>
-    <lastmod>2025-06-02T15:15:12+08:00</lastmod>
+    <lastmod>2025-06-02T16:37:39+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -32,13 +32,13 @@
   </url>
   <url>
     <loc>https://acuherb.xyz/collections/%E7%A5%9E%E5%86%9C%E6%9C%AC%E8%8D%89%E7%BB%8F/</loc>
-    <lastmod>2025-06-02T15:15:12+08:00</lastmod>
+    <lastmod>2025-06-02T16:37:39+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://acuherb.xyz/</loc>
-    <lastmod>2025-06-02T15:15:12+08:00</lastmod>
+    <lastmod>2025-06-02T16:37:39+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -206,7 +206,7 @@
   </url>
   <url>
     <loc>https://acuherb.xyz/categories/%E6%9C%AC%E8%8D%89%E7%BB%8F/</loc>
-    <lastmod>2025-06-02T15:15:12+08:00</lastmod>
+    <lastmod>2025-06-02T16:37:39+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -475,20 +475,20 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://acuherb.xyz/posts/313.%E5%B7%B4%E8%B1%86/</loc>
-    <lastmod>2025-05-30T16:27:56+08:00</lastmod>
+    <loc>https://acuherb.xyz/posts/313-badou/</loc>
+    <lastmod>2025-06-02T16:37:39+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://acuherb.xyz/posts/312.%E8%8A%AB%E8%8A%B1/</loc>
-    <lastmod>2025-05-30T16:27:26+08:00</lastmod>
+    <loc>https://acuherb.xyz/posts/312-yuanhua/</loc>
+    <lastmod>2025-06-02T16:34:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://acuherb.xyz/posts/311.%E5%A4%8F%E6%9E%AF%E8%8D%89/</loc>
-    <lastmod>2025-05-30T16:27:04+08:00</lastmod>
+    <loc>https://acuherb.xyz/posts/311-xiakucao/</loc>
+    <lastmod>2025-06-02T16:26:35+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -613,8 +613,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://acuherb.xyz/posts/290.%E8%B4%AF%E4%BC%97/</loc>
-    <lastmod>2025-05-30T16:18:10+08:00</lastmod>
+    <loc>https://acuherb.xyz/posts/290-guanzhong/</loc>
+    <lastmod>2025-06-02T15:42:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -631,8 +631,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://acuherb.xyz/posts/287.%E5%A4%A7%E6%88%9F/</loc>
-    <lastmod>2025-05-30T16:16:46+08:00</lastmod>
+    <loc>https://acuherb.xyz/posts/287-daji/</loc>
+    <lastmod>2025-06-02T15:34:30+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
