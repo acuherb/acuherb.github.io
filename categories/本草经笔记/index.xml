@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>本草经笔记 - 分类 - 针草堂</title>
+    <link>http://localhost:1313/categories/%E6%9C%AC%E8%8D%89%E7%BB%8F%E7%AC%94%E8%AE%B0/</link>
+    <description>以针通经络，以草养气血</description>
+    <generator>Hugo 0.147.2 &amp; FixIt v0.3.20</generator>
+    <language>zh-cn</language>
+    <managingEditor>124768092@qq.com (AcuHerb)</managingEditor>
+    <webMaster>124768092@qq.com (AcuHerb)</webMaster>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E6%9C%AC%E8%8D%89%E7%BB%8F%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
