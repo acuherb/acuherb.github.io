@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>伤寒论 - 分类 - 针草堂</title>
-    <link>https://acuherb.xyz/categories/%E4%BC%A4%E5%AF%92%E8%AE%BA/</link>
+    <title>伤寒论 - 合集 - 针草堂</title>
+    <link>https://acuherb.xyz/collections/%E4%BC%A4%E5%AF%92%E8%AE%BA/</link>
     <description>以针通经络，以草养气血</description>
     <generator>Hugo 0.147.2 &amp; FixIt v0.3.20</generator>
     <language>zh-cn</language>
     <managingEditor>124768092@qq.com (AcuHerb)</managingEditor>
     <webMaster>124768092@qq.com (AcuHerb)</webMaster>
     <lastBuildDate>Wed, 04 Jun 2025 20:18:01 +0800</lastBuildDate>
-    <atom:link href="https://acuherb.xyz/categories/%E4%BC%A4%E5%AF%92%E8%AE%BA/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://acuherb.xyz/collections/%E4%BC%A4%E5%AF%92%E8%AE%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>辨太阳病脉证并治法下篇</title>
       <link>https://acuherb.xyz/posts/1-3-taiyang/</link>
