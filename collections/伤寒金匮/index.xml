@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>伤寒金匮 - 合集 - 针草堂</title>
+    <link>https://acuherb.xyz/collections/%E4%BC%A4%E5%AF%92%E9%87%91%E5%8C%AE/</link>
+    <description>以针通经络，以草养气血</description>
+    <generator>Hugo 0.147.2 &amp; FixIt v0.3.20</generator>
+    <language>zh-cn</language>
+    <managingEditor>124768092@qq.com (AcuHerb)</managingEditor>
+    <webMaster>124768092@qq.com (AcuHerb)</webMaster>
+    <lastBuildDate>Wed, 04 Jun 2025 10:21:45 +0800</lastBuildDate>
+    <atom:link href="https://acuherb.xyz/collections/%E4%BC%A4%E5%AF%92%E9%87%91%E5%8C%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>辨太阳病脉证并治法下篇</title>
+      <link>https://acuherb.xyz/posts/1-3-taiyang/</link>
+      <pubDate>Wed, 04 Jun 2025 08:28:22 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
+      <guid>https://acuherb.xyz/posts/1-3-taiyang/</guid>
+      <category domain="https://acuherb.xyz/categories/%E4%BC%A4%E5%AF%92%E8%AE%BA/">伤寒论</category>
+      <description>辨太阳病脉证并治法下篇</description>
+    </item>
+    <item>
+      <title>辨太阳病脉证并治法中篇</title>
+      <link>https://acuherb.xyz/posts/1-2-taiyang/</link>
+      <pubDate>Tue, 03 Jun 2025 10:28:22 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
+      <guid>https://acuherb.xyz/posts/1-2-taiyang/</guid>
+      <category domain="https://acuherb.xyz/categories/%E4%BC%A4%E5%AF%92%E8%AE%BA/">伤寒论</category>
+      <description>辨太阳病脉证并治法中篇</description>
+    </item>
+    <item>
+      <title>辨太阳病脉证并治法上篇</title>
+      <link>https://acuherb.xyz/posts/1-1-taiyang/</link>
+      <pubDate>Mon, 02 Jun 2025 10:28:22 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
+      <guid>https://acuherb.xyz/posts/1-1-taiyang/</guid>
+      <category domain="https://acuherb.xyz/categories/%E4%BC%A4%E5%AF%92%E8%AE%BA/">伤寒论</category>
+      <description>辨太阳病脉证并治法上篇</description>
+    </item>
+    <item>
+      <title>倪注《伤寒论》前言</title>
+      <link>https://acuherb.xyz/posts/0-2-qianyan/</link>
+      <pubDate>Sun, 01 Jun 2025 15:28:22 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
+      <guid>https://acuherb.xyz/posts/0-2-qianyan/</guid>
+      <category domain="https://acuherb.xyz/categories/%E4%BC%A4%E5%AF%92%E8%AE%BA/">伤寒论</category>
+      <description>倪注《伤寒论》前言</description>
+    </item>
+    <item>
+      <title>倪注《伤寒论》序言</title>
+      <link>https://acuherb.xyz/posts/0-1-xuyan/</link>
+      <pubDate>Sat, 31 May 2025 10:28:22 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
+      <guid>https://acuherb.xyz/posts/0-1-xuyan/</guid>
+      <category domain="https://acuherb.xyz/categories/%E4%BC%A4%E5%AF%92%E8%AE%BA/">伤寒论</category>
+      <description>倪注《伤寒论》序言</description>
+    </item>
+  </channel>
+</rss>
