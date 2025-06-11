@@ -13,7 +13,7 @@
 
 ````markdown
 - nickname: 针草堂
-  avatar: https://acuherb.xyz/images/avatar.jpg
+  avatar: https://acuherb.xyz/images/avatar.png
   url: https://acuherb.xyz
   description: 针通经络，草养气血。
 ````
