@@ -13,7 +13,7 @@
 # website title
 title = "针草堂"
 # Hostname (and path) to the root
-baseURL = "https://acuherb.github.io"
+baseURL = "https://acuherb.xyz"
 # theme list
 theme = ["FixIt"] # enable in your site config file
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
@@ -161,7 +161,11 @@ mainSections = ["posts"]
 [module]
   [module.hugoVersion]
     extended = true
-    min = "0.146.0"
+    min = "0.147.7"
+  [[module.imports]]
+    path = "github.com/hugo-fixit/FixIt"
+  [[module.imports]]
+    path = "github.com/hugo-fixit/cmpt-translate"
 
 # -------------------------------------------------------------------------------------
 # Markup related configuration in Hugo
@@ -206,11 +210,11 @@ mainSections = ["posts"]
           enable = true
     # TODO passthrough refactor https://gohugo.io/render-hooks/passthrough/
     # TODO hugo 0.122.0 https://gohugo.io/content-management/mathematics/
-    # [markup.goldmark.extensions.passthrough]
-    #   enable = true
-    #   [markup.goldmark.extensions.passthrough.delimiters]
-    #     block = [['\[', '\]'], ['$$', '$$']]
-    #     inline = [['\(', '\)'], ['$', '$']]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
     [markup.goldmark.parser]
       [markup.goldmark.parser.attribute]
         block = true
@@ -239,7 +243,9 @@ mainSections = ["posts"]
 
 [Permalinks]
   # posts = ":year/:month/:filename"
-  posts = "posts/:slugorfilename"
+  posts = "posts/:slugorcontentbasename"
+  categories = "/categories/:slug/"
+  collections = "/collections/:slug/"
 
 # -------------------------------------------------------------------------------------
 # Media Types
@@ -303,7 +309,7 @@ mainSections = ["posts"]
 # -------------------------------------------------------------------------------------
 
 # Options to make hugo output files, the optional values are below:
-# home = ["html", "rss", "archives", "offline", "readme", "baidu_urls", "search"]
+# home = ["html", "rss", "archives", "offline", "readme", "baidu_urls", "search", "json"]
 # page = ["html", "markdown"]
 # section = ["html", "rss"]
 # taxonomy = ["html"]
@@ -336,7 +342,7 @@ mainSections = ["posts"]
   # site description
   description = "以针通经络，以草养气血"
   # site keywords
-  keywords = []
+  keywords = ["针灸", "内经", "本草经", "伤寒", "金匮"]
   # site default theme ["light", "dark", "auto"]
   defaultTheme = "auto"
   # which hash function used for SRI, when empty, no SRI is used
@@ -370,13 +376,13 @@ mainSections = ["posts"]
   [params.author]
     name = "AcuHerb"
     email = "124768092@qq.com"
-    link = "acuherb.github.io"
-    avatar = ""
+    link = "https://acuherb.xyz"
+    avatar = "https://acuherb.xyz/images/avatar.png"
 
   # FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
   [params.gitInfo]
     # e.g. "https://github.com/acuherb/acuherb.githerb.io"
-    repo = ""
+    repo = "https://github.com/acuherb/acuherb.githerb.io"
     branch = "main"
     # the content directory path relative to the root of the repository
     dir = "content"
@@ -409,7 +415,7 @@ mainSections = ["posts"]
     # max index length of the chunked content
     contentLength = 4000
     # placeholder of the search bar
-    placeholder = ""
+    placeholder = "一念入医海，几页觅真知..."
     # max number of results length
     maxResultLength = 10
     # snippet length of the result
@@ -419,9 +425,9 @@ mainSections = ["posts"]
     # whether to use the absolute URL based on the baseURL in search index
     absoluteURL = false
     [params.search.algolia]
-      index = ""
-      appID = ""
-      searchKey = ""
+      index = "acuherb"
+      appID = "ERTFAVWBRS"
+      searchKey = "f56a68d5a60b407c96b2c69e949ad836"
     [params.search.fuse]
       # FixIt 0.2.17 | NEW https://fusejs.io/api/options.html
       isCaseSensitive = false
@@ -430,14 +436,14 @@ mainSections = ["posts"]
       location = 0
       threshold = 0.3
       distance = 100
-      ignoreLocation = false
+      ignoreLocation = true
       useExtendedSearch = false
       ignoreFieldNorm = false
 
   # FixIt 0.3.16 | NEW Custom Search Engine (CSE)
   [params.cse]
     # Search Engine: ["google", "bing"]
-    engine = ""
+    engine = "bing"
     # Search results page URL (layout: search)
     resultsPage = "/search/"
     # Google: https://programmablesearchengine.google.com/
@@ -470,12 +476,12 @@ mainSections = ["posts"]
       # subtitle name
       name = "针通经络，草养气血。"
       # whether to use typeit animation for subtitle name
-      typeit = true
+      typeit = false
 
   # FixIt 0.2.18 | NEW Breadcrumb config
   [params.breadcrumb]
     enable = true
-    sticky = false
+    sticky = true
     showHome = false
     # FixIt 0.3.13 | NEW
     separator = "/"
@@ -514,13 +520,13 @@ mainSections = ["posts"]
       animate = true
       icon = "fa-solid fa-heartbeat"
       pre = ""
-      value = "2025-1-18T16:15:22+08:00" # e.g. "2021-12-18T16:15:22+08:00"
+      value = "2025-01-01T01:01:01+08:00" # e.g. "2021-12-18T16:15:22+08:00"
     # FixIt 0.2.17 | NEW footer lines order, optional values: ["first", 0, 1, 2, 3, 4, 5, "last"]
     [params.footer.order]
       powered = 4
       copyright = 3
-      statistics = 2
-      visitor = 1
+      statistics = 1
+      visitor = 2
       beian = 5
 
   # FixIt 0.3.0 | NEW Archives page config (all pages of posts type)
@@ -566,7 +572,7 @@ mainSections = ["posts"]
 
   # FixIt 0.2.17 | NEW TagCloud config for tags page
   [params.tagcloud]
-    enable = false
+    enable = true
     min = 14 # Minimum font size in px
     max = 32 # Maximum font size in px
     peakCount = 10 # Maximum count of posts per tag
@@ -580,13 +586,13 @@ mainSections = ["posts"]
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = "124768092@qq.com"
       # URL of avatar shown in home page
-      avatarURL = "http://img.xingtan.one/i/2025/04/29/68105eede4422.webp"
+      avatarURL = "/images/avatar.png"
       # FixIt 0.2.17 | NEW identifier of avatar menu link
-      avatarMenu = ""
+      avatarMenu = "/about/"
       # title shown in home page (HTML format is supported)
       title = "AcuHerb"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "探寻千年智慧，传承阴阳五行的平衡，修身养性，顺应天人之道。以草木为伴，以针灸为援，身心调和，未病先防。中医不仅是治病，更是生活的艺术，是与自然合一的智慧之道。"
+      subtitle = "探寻千年智慧，传承阴阳五行的平衡，修身养性，顺应天人之道。"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -688,7 +694,7 @@ mainSections = ["posts"]
     Credly = ""
     Bluesky = ""
     Phone = ""
-    Email = "14650990@qq.com"
+    Email = "acu_herb@qq.com"
     RSS = true
     # custom social links like the following
     # [params.social.twitter]
@@ -768,9 +774,9 @@ mainSections = ["posts"]
   # FixIt 0.3.10 | NEW Busuanzi count
   [params.busuanzi]
     # whether to enable busuanzi count
-    enable = false
+    enable = true
     # busuanzi count core script source. Default is https://vercount.one/js
-    source = "https://vercount.one/js"
+    source = "https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
     # whether to show the site views
     siteViews = true
     # whether to show the page views
@@ -795,7 +801,7 @@ mainSections = ["posts"]
 
   # Analytics config
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
       id = ""
@@ -811,10 +817,10 @@ mainSections = ["posts"]
       id = ""
     # FixIt 0.3.16 | NEW Umami Analytics
     [params.analytics.umami]
-      data_website_id = ""
-      src = ""
-      data_host_url = ""
-      data_domains = ""
+      data_website_id = "c976a406-e2f5-4f13-9df9-8af92c62453d"
+      src = "https://us.umami.is/script.js"
+      data_host_url = "https://us.umami.is"
+      data_domains = "https://acuherb.xyz"
     # FixIt 0.3.16 | NEW Plausible Analytics
     [params.analytics.plausible]
       data_domain = ""
@@ -859,7 +865,7 @@ mainSections = ["posts"]
   # FixIt 0.2.14 | NEW GitHub banner in the top-right or top-left corner
   [params.githubCorner]
     enable = false
-    permalink = "https://github.com/hugo-fixit/FixIt"
+    permalink = "https://github.com/acuherb/acuherb.github.io"
     title = "View source on GitHub"
     position = "right" # ["left", "right"]
 
@@ -956,35 +962,46 @@ mainSections = ["posts"]
     fullText = true
     # Site Challenge for Follow: https://follow.is/
     [params.feed.follow]
-      feedId = ""
-      userId = ""
+      feedId = "150502341826627584"
+      userId = "ZnkTaajoold86nK1rOZmQsDmDM1cgXMP"
   
   # FixIt 0.3.17 | NEW Image config
   [params.image]
     # cache remote images for better optimisations
-    cacheRemote = false
+    cacheRemote = true
     # Image resizing and optimisation
-    optimise = false
+    optimise = true
 
   # FixIt 0.3.12 | NEW Custom partials config
   # Custom partials must be stored in the /layouts/partials/ directory.
   # Depends on open custom blocks https://fixit.lruihao.cn/references/blocks/
   [params.customPartials]
-    head = []
-    menuDesktop = []
-    menuMobile = []
-    profile = []
-    aside = []
+    head = ["custom/page-style"]
+    menuDesktop = ["inject/translate-menu-desktop.html",]
+    menuMobile = ["inject/translate-menu-mobile.html",]
+    profile = ["custom/profile"]
+    aside = ["custom/aside"]
     comment = []
     footer = []
-    widgets = []
-    assets = []
+    widgets = ["custom/wechat-box"]
+    assets = ["custom/use-assets", "inject/cmpt-translate.html"]
     postTocBefore = []
     postTocAfter = []
     postContentBefore = []
     postContentAfter = []
     postFooterBefore = []
-    postFooterAfter = []
+    postFooterAfter = ["custom/post-footer-after"]
+
+  [params.autoTranslate]
+    enable = true
+    service = 'client.edge'
+    languages = ["chinese_traditional", "english"]
+    ignoreID = []
+    ignoreClass = []
+    ignoreTag = []
+    detectLocalLanguage = false
+    cdn = ""
+    enterprise = false
 
   # FixIt 0.2.15 | NEW Developer options
   # Select the scope named `public_repo` to generate personal access token,
@@ -1011,7 +1028,7 @@ mainSections = ["posts"]
     # FixIt 0.2.18 | CHANGED whether to enable lightgallery
     # set to true, images in the content will be shown as the gallery if the image has a title, e.g. ![alt](src "title")
     # set to "force", images in the content will be forced to shown as the gallery regardless of the image has a title or not, e.g. ![alt](src)
-    lightgallery = false
+    lightgallery = true
     # whether to enable the ruby extended syntax
     ruby = true
     # whether to enable the fraction extended syntax
@@ -1021,15 +1038,15 @@ mainSections = ["posts"]
     # license info (HTML format is supported)
     license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>'
     # whether to show link to Raw Markdown content of the post
-    linkToMarkdown = true
+    linkToMarkdown = false
     # FixIt 0.3.0 | NEW whether to show link to view source code of the post
-    linkToSource = true
+    linkToSource = false
     # FixIt 0.3.0 | NEW whether to show link to edit the post
-    linkToEdit = true
+    linkToEdit = false
     # FixIt 0.3.0 | NEW whether to show link to report issue for the post
-    linkToReport = true
+    linkToReport = false
     # FixIt 0.3.20 | NEW whether to show link to view the post in VSCode
-    linkToVscode = true
+    linkToVscode = false
     # FixIt 0.3.10 | CHANGED Page style ["narrow", "normal", "wide", ...]
     pageStyle = "normal"
     # FixIt 0.2.17 | CHANGED Auto Bookmark Support
@@ -1040,11 +1057,11 @@ mainSections = ["posts"]
     # FixIt 0.2.17 | NEW whether to enable readingTime
     readingTime = true
     # FixIt 0.2.17 | NEW end of post flag
-    endFlag = ""
+    endFlag = "-----「 字已尽，意未尽，盼君再临。 」-----"
     # FixIt 0.2.18 | NEW whether to enable instant.page
-    instantPage = false
+    instantPage = true
     # FixIt 0.3.0 | NEW whether to enable collection list at the sidebar
-    collectionList = false
+    collectionList = true
     # FixIt 0.3.0 | NEW whether to enable collection navigation at the end of the post
     collectionNavigation = false
 
@@ -1095,17 +1112,37 @@ mainSections = ["posts"]
     # FixIt 0.2.16 | CHANGED KaTeX mathematical formulas (https://katex.org)
     [params.page.math]
       enable = true
-      # default inline delimiter is $ ... $ and \( ... \)
-      inlineLeftDelimiter = ""
-      inlineRightDelimiter = ""
-      # default block delimiter is $$ ... $$, \[ ... \], \begin{equation} ... \end{equation} and some other functions
-      blockLeftDelimiter = ""
-      blockRightDelimiter = ""
-      # KaTeX extension copy_tex
-      copyTex = true
-      # KaTeX extension mhchem
-      mhchem = true
-    # Code wrapper config
+      # mathematical formulas rendering engines, optional values: ["katex", "mathjax"]
+      type = "katex"
+      # KaTeX server-side rendering (https://katex.org)
+      # KaTeX partial config: https://gohugo.io/functions/transform/tomath/#options
+      [params.page.math.katex]
+        # KaTeX extension copy-tex
+        copyTex = true
+        throwOnError = false
+        errorColor = "#ff4949"
+        # custom macros map
+        # syntax: <macro> = <definition>
+        [params.page.math.katex.macros]
+          # "\\f" = "#1f(#2)"   # usage: $\f{a}{b}$
+      # MathJax server-side rendering (https://www.mathjax.org)
+      # MathJax config: https://docs.mathjax.org/en/latest/options/index.html
+      [params.page.math.mathjax]
+        cdn = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+        [params.page.math.mathjax.packages]
+          # "[+]" = ['configmacros']
+        # custom macros map
+        # syntax: <macro> = <definition>
+        [params.page.math.mathjax.macros]
+          # "bold" = ["{\\bf #1}", 1]   # usage: $\bold{math}$
+        [params.page.math.mathjax.loader]
+          load = ["ui/safe"]
+          [params.page.math.mathjax.loader.paths]
+            # custom = "https://cdn.jsdelivr.net/gh/sonoisa/XyJax-v3@3.0.1/build/"
+          # more loader config e.g source, dependencies, provides etc.
+        [params.page.math.mathjax.options]
+          enableMenu = true
+          # more options e.g. skipHtmlTags, ignoreHtmlClass etc.
     [params.page.code]
       # FixIt 0.3.9 | NEW whether to enable the code wrapper
       enable = true
@@ -1139,15 +1176,15 @@ mainSections = ["posts"]
       position = ["footer"]
     # FixIt 0.2.17 | NEW Donate (Sponsor) settings
     [params.page.reward]
-      enable = false
-      animation = false
+      enable = true
+      animation = true
       # position relative to post footer, optional values: ["before", "after"]
-      position = "after"
-      # comment = "Buy me a coffee"
+      position = "before"
+      comment = "一草一木皆为情，一赏一语皆感恩"
       # FixIt 0.2.18 | NEW display mode of QR code images, optional values: ["static", "fixed"], default: `static`
-      mode = "static"
+      mode = "fixed"
       [params.page.reward.ways]
-        # wechatpay = "/images/wechatpay.png"
+         wechatpay = "/images/wechatpay.png"
         # alipay = "/images/alipay.png"
         # paypal = "/images/paypal.png"
         # bitcoin = "/images/bitcoin.png"
@@ -1157,7 +1194,7 @@ mainSections = ["posts"]
       Twitter = true
       Facebook = true
       Linkedin = false
-      Whatsapp = false
+      Whatsapp = true
       Pinterest = false
       Tumblr = false
       HackerNews = false
@@ -1170,9 +1207,9 @@ mainSections = ["posts"]
       Pocket = false
       Flipboard = false
       Weibo = true
-      Myspace = false
-      Blogger = false
-      Baidu = false
+      Myspace = true
+      Blogger = true
+      Baidu = true
       Odnoklassniki = false
       Evernote = false
       Skype = false
@@ -1292,16 +1329,16 @@ mainSections = ["posts"]
         darkTheme = "github-dark"
       # FixIt 0.2.13 | NEW Twikoo comment config (https://twikoo.js.org/)
       [params.page.comment.twikoo]
-        enable = false
+        enable = true
         envId = "https://twikoo-vigdraw.netlify.app/.netlify/functions/twikoo"
         region = "ap-shanghai"
         path = "window.location.pathname"
-        visitor = true
+        visitor = false
         commentCount = true
         # FixIt 0.2.17 | CHANGED enable lightgallery support
-        lightgallery = false
+        lightgallery = true
         # FixIt 0.2.17 | NEW enable Katex support
-        katex = false
+        katex = true
       # FixIt 0.2.14 | NEW Giscus comments config
       [params.page.comment.giscus]
         enable = false
@@ -1323,12 +1360,14 @@ mainSections = ["posts"]
     # Third-party library config
     [params.page.library]
       [params.page.library.css]
+            custom = "/css/_custom.scss"
         # someCSS = "some.css"
         # located in "assets/"
         # Or
         # someCSS = "https://cdn.example.com/some.css"
       [params.page.library.js]
 	    flyfish = "/js/flyfish.js"
+            custom = "/js/custom.js"
         # someJavascript = "some.js"
         # located in "assets/"
         # Or
@@ -1339,6 +1378,6 @@ mainSections = ["posts"]
       images = []
       # Publisher info
       [params.page.seo.publisher]
-        name = ""
-        logoUrl = ""
+        name = "AcuHerb"
+        logoUrl = "https://img.xingtan.one/i/2025/04/29/68105eede4422.webp"
 

@@ -1,0 +1,16 @@
+{
+  "name": "acuherb-search",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "algolia": "atomic-algolia"
+  },
+  "author": "AcuHerb",
+  "license": "ISC",
+  "dependencies": {
+    "algoliasearch": "^5.27.0",
+    "atomic-algolia": "^0.3.19"
+  },
+  "description": "acuherb hugo blog"
+}

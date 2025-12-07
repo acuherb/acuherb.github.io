@@ -11,6 +11,7 @@
       text-indent: var(--article-text-indent);
     }
   }
+
   &[data-page-style='MMT'] {
     --article-font-family: 'MMT', '沐目体', sans-serif;
     --article-font-size: 1.2em;
@@ -27,7 +28,13 @@
       }
     }
   }
+
   &[data-page-style='LXGW WenKai'] {
     --article-font-family: 'LXGW WenKai', sans-serif;
   }
+}
+
+/* 统一标题字体 */
+.header-title {
+  font-family: var(--article-font-family) !important;
 }

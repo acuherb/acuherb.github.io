@@ -3,7 +3,8 @@
   "baseUrl": ".",
   "paths": {
    "*": [
-    "..\\themes\\FixIt\\assets\\*"
+    "..\\..\\..\\Users\\Administrator\\AppData\\Local\\hugo_cache\\modules\\filecache\\modules\\pkg\\mod\\github.com\\hugo-fixit\\!fix!it@v0.4.0-alpha.2\\assets\\*",
+    "..\\..\\..\\Users\\Administrator\\AppData\\Local\\hugo_cache\\modules\\filecache\\modules\\pkg\\mod\\github.com\\hugo-fixit\\cmpt-translate@v1.10.1\\assets\\*"
    ]
   }
  }
