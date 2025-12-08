@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>五脏所伤 - 标签 - 针草堂</title>
-    <link>https://acuherb.xyz/tags/%E4%BA%94%E8%84%8F%E6%89%80%E4%BC%A4/</link>
+    <link>http://localhost:1313/tags/%E4%BA%94%E8%84%8F%E6%89%80%E4%BC%A4/</link>
     <description>以针通经络，以草养气血</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -13,13 +13,13 @@
     <managingEditor>124768092@qq.com (AcuHerb)</managingEditor>
     <webMaster>124768092@qq.com (AcuHerb)</webMaster>
     <lastBuildDate>Wed, 30 Jul 2025 18:26:29 +0800</lastBuildDate>
-    <atom:link href="https://acuherb.xyz/tags/%E4%BA%94%E8%84%8F%E6%89%80%E4%BC%A4/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E4%BA%94%E8%84%8F%E6%89%80%E4%BC%A4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>本神第八：法民</title>
-      <link>https://acuherb.xyz/posts/lingshu-08/</link>
+      <link>http://localhost:1313/posts/lingshu-08/</link>
       <pubDate>Tue, 29 Jul 2025 10:15:22 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
-      <guid>https://acuherb.xyz/posts/lingshu-08/</guid>
-      <category domain="https://acuherb.xyz/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
+      <guid>http://localhost:1313/posts/lingshu-08/</guid>
+      <category domain="http://localhost:1313/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
       <description>本篇论述了人之精、神、魂、魄、心、意、志、思、智、虑等精神活动的产生过程，以及养生与健康的关系；并具体指出了因七情耗伤，而使精神活动发生变动，所形成的不同的病理征象。因为本篇着重强调了必须要在详细了解患者精神活动状况的基础上，才可以进行针刺这一治疗原则，所以篇名叫做&amp;quot;本神&amp;quot;。</description>
     </item>
   </channel>

@@ -275,5 +275,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: https://acuherb.xyz/posts/lingshu-78/  
+> URL: http://localhost:1313/posts/lingshu-78/  
 

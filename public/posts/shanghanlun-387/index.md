@@ -87,5 +87,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: https://acuherb.xyz/posts/shanghanlun-387/  
+> URL: http://localhost:1313/posts/shanghanlun-387/  
 

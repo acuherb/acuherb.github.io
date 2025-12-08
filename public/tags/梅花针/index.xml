@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>梅花针 - 标签 - 针草堂</title>
-    <link>https://acuherb.xyz/tags/%E6%A2%85%E8%8A%B1%E9%92%88/</link>
+    <link>http://localhost:1313/tags/%E6%A2%85%E8%8A%B1%E9%92%88/</link>
     <description>以针通经络，以草养气血</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -13,13 +13,13 @@
     <managingEditor>124768092@qq.com (AcuHerb)</managingEditor>
     <webMaster>124768092@qq.com (AcuHerb)</webMaster>
     <lastBuildDate>Sun, 20 Jul 2025 15:00:53 +0800</lastBuildDate>
-    <atom:link href="https://acuherb.xyz/tags/%E6%A2%85%E8%8A%B1%E9%92%88/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%A2%85%E8%8A%B1%E9%92%88/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>针灸治症：梅花针、头部与脑瘤治症</title>
-      <link>https://acuherb.xyz/posts/zhenjiu-6-1/</link>
+      <link>http://localhost:1313/posts/zhenjiu-6-1/</link>
       <pubDate>Sun, 20 Jul 2025 08:00:00 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
-      <guid>https://acuherb.xyz/posts/zhenjiu-6-1/</guid>
-      <category domain="https://acuherb.xyz/categories/%E9%92%88%E7%81%B8%E7%AC%94%E8%AE%B0/">针灸笔记</category>
+      <guid>http://localhost:1313/posts/zhenjiu-6-1/</guid>
+      <category domain="http://localhost:1313/categories/%E9%92%88%E7%81%B8%E7%AC%94%E8%AE%B0/">针灸笔记</category>
       <description>本文总结了针灸在梅花针应用、头痛分类治疗及脑瘤诊断与治疗中的关键点，强调辨经取穴、穴位诊断与导引法的重要性，并指出梅花针适用于皮肤病和麻痹症等浅表病症。</description>
     </item>
   </channel>

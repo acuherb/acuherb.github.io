@@ -1270,5 +1270,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: https://acuherb.xyz/posts/jingui-06/  
+> URL: http://localhost:1313/posts/jingui-06/  
 

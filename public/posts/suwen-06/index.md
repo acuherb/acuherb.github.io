@@ -84,5 +84,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: https://acuherb.xyz/posts/suwen-06/  
+> URL: http://localhost:1313/posts/suwen-06/  
 

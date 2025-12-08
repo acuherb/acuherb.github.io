@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>乳癌 - 标签 - 针草堂</title>
-    <link>https://acuherb.xyz/tags/%E4%B9%B3%E7%99%8C/</link>
+    <link>http://localhost:1313/tags/%E4%B9%B3%E7%99%8C/</link>
     <description>以针通经络，以草养气血</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -13,13 +13,13 @@
     <managingEditor>124768092@qq.com (AcuHerb)</managingEditor>
     <webMaster>124768092@qq.com (AcuHerb)</webMaster>
     <lastBuildDate>Sun, 20 Jul 2025 18:47:21 +0800</lastBuildDate>
-    <atom:link href="https://acuherb.xyz/tags/%E4%B9%B3%E7%99%8C/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E4%B9%B3%E7%99%8C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>针灸治症：乳癌分期治疗与肺积水灸法</title>
-      <link>https://acuherb.xyz/posts/zhenjiu-6-6/</link>
+      <link>http://localhost:1313/posts/zhenjiu-6-6/</link>
       <pubDate>Sun, 20 Jul 2025 10:15:00 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
-      <guid>https://acuherb.xyz/posts/zhenjiu-6-6/</guid>
-      <category domain="https://acuherb.xyz/categories/%E9%92%88%E7%81%B8%E7%AC%94%E8%AE%B0/">针灸笔记</category>
+      <guid>http://localhost:1313/posts/zhenjiu-6-6/</guid>
+      <category domain="http://localhost:1313/categories/%E9%92%88%E7%81%B8%E7%AC%94%E8%AE%B0/">针灸笔记</category>
       <description>本文系统阐述了针灸分期治疗乳癌（初期隔姜灸化瘀、中期循经针刺导滞、晚期硫磺灸排腐）与肺积水重症灸法（结胸灸峻下逐水）的完整方案，强调乳癌&amp;quot;心-肺-肠&amp;quot;整体调治理念（强心通便为根治关键），并批判西医手术的局限性，凸显中医&amp;quot;阳化气&amp;quot;治癌特色与灸法在肿瘤重症中的核心价值。</description>
     </item>
   </channel>

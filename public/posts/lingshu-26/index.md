@@ -207,5 +207,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: https://acuherb.xyz/posts/lingshu-26/  
+> URL: http://localhost:1313/posts/lingshu-26/  
 

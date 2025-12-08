@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>五脏六腑 - 标签 - 针草堂</title>
-    <link>https://acuherb.xyz/tags/%E4%BA%94%E8%84%8F%E5%85%AD%E8%85%91/</link>
+    <link>http://localhost:1313/tags/%E4%BA%94%E8%84%8F%E5%85%AD%E8%85%91/</link>
     <description>以针通经络，以草养气血</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -13,29 +13,29 @@
     <managingEditor>124768092@qq.com (AcuHerb)</managingEditor>
     <webMaster>124768092@qq.com (AcuHerb)</webMaster>
     <lastBuildDate>Tue, 07 Oct 2025 11:18:06 +0800</lastBuildDate>
-    <atom:link href="https://acuherb.xyz/tags/%E4%BA%94%E8%84%8F%E5%85%AD%E8%85%91/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E4%BA%94%E8%84%8F%E5%85%AD%E8%85%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>九针论第七十八</title>
-      <link>https://acuherb.xyz/posts/lingshu-78/</link>
+      <link>http://localhost:1313/posts/lingshu-78/</link>
       <pubDate>Tue, 07 Oct 2025 11:11:11 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
-      <guid>https://acuherb.xyz/posts/lingshu-78/</guid>
-      <category domain="https://acuherb.xyz/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
+      <guid>http://localhost:1313/posts/lingshu-78/</guid>
+      <category domain="http://localhost:1313/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
       <description>九针，指九种针具。文中主要论述了九针的起源、命名、形状、用途及禁忌等内容， 故篇名为&amp;quot;九针论&amp;quot;。</description>
     </item>
     <item>
       <title>本藏第四十七</title>
-      <link>https://acuherb.xyz/posts/lingshu-47/</link>
+      <link>http://localhost:1313/posts/lingshu-47/</link>
       <pubDate>Sat, 06 Sep 2025 17:41:22 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
-      <guid>https://acuherb.xyz/posts/lingshu-47/</guid>
-      <category domain="https://acuherb.xyz/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
+      <guid>http://localhost:1313/posts/lingshu-47/</guid>
+      <category domain="http://localhost:1313/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
       <description>本，即根本。本脏，以脏腑为根本的意思。因文中论述精、神、血、气、魂、魄都藏于五脏，水谷津液则在六腑中传化，脏腑功能正常人体才正常，疾病的发生也是以脏腑功能失常为其根本，故称为&amp;quot;本脏&amp;quot;。</description>
     </item>
     <item>
       <title>示从容论篇第七十六</title>
-      <link>https://acuherb.xyz/posts/%E7%B4%A0%E9%97%AE76%E7%A4%BA%E4%BB%8E%E5%AE%B9%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%B8%83%E5%8D%81%E5%85%AD/</link>
+      <link>http://localhost:1313/posts/%E7%B4%A0%E9%97%AE76%E7%A4%BA%E4%BB%8E%E5%AE%B9%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%B8%83%E5%8D%81%E5%85%AD/</link>
       <pubDate>Wed, 16 Apr 2025 20:14:22 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
-      <guid>https://acuherb.xyz/posts/%E7%B4%A0%E9%97%AE76%E7%A4%BA%E4%BB%8E%E5%AE%B9%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%B8%83%E5%8D%81%E5%85%AD/</guid>
-      <category domain="https://acuherb.xyz/categories/%E7%B4%A0%E9%97%AE/">素问</category>
+      <guid>http://localhost:1313/posts/%E7%B4%A0%E9%97%AE76%E7%A4%BA%E4%BB%8E%E5%AE%B9%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%B8%83%E5%8D%81%E5%85%AD/</guid>
+      <category domain="http://localhost:1313/categories/%E7%B4%A0%E9%97%AE/">素问</category>
       <description>黄帝教导雷公医术需融会贯通、精准辨证，强调&amp;quot;比类从容&amp;quot;的诊断方法，并通过误诊案例揭示脏腑病机的复杂性。</description>
     </item>
   </channel>

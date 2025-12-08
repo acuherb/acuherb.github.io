@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>营气生成 - 标签 - 针草堂</title>
-    <link>https://acuherb.xyz/tags/%E8%90%A5%E6%B0%94%E7%94%9F%E6%88%90/</link>
+    <link>http://localhost:1313/tags/%E8%90%A5%E6%B0%94%E7%94%9F%E6%88%90/</link>
     <description>以针通经络，以草养气血</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -13,13 +13,13 @@
     <managingEditor>124768092@qq.com (AcuHerb)</managingEditor>
     <webMaster>124768092@qq.com (AcuHerb)</webMaster>
     <lastBuildDate>Wed, 06 Aug 2025 18:17:46 +0800</lastBuildDate>
-    <atom:link href="https://acuherb.xyz/tags/%E8%90%A5%E6%B0%94%E7%94%9F%E6%88%90/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E8%90%A5%E6%B0%94%E7%94%9F%E6%88%90/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>营气第十六</title>
-      <link>https://acuherb.xyz/posts/lingshu-16/</link>
+      <link>http://localhost:1313/posts/lingshu-16/</link>
       <pubDate>Wed, 06 Aug 2025 17:10:22 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
-      <guid>https://acuherb.xyz/posts/lingshu-16/</guid>
-      <category domain="https://acuherb.xyz/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
+      <guid>http://localhost:1313/posts/lingshu-16/</guid>
+      <category domain="http://localhost:1313/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
       <description>文中主要介绍了营气的生成过程和运行特点，故名&amp;quot;营气&amp;quot;。</description>
     </item>
   </channel>

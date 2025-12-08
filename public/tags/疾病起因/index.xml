@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>疾病起因 - 标签 - 针草堂</title>
-    <link>https://acuherb.xyz/tags/%E7%96%BE%E7%97%85%E8%B5%B7%E5%9B%A0/</link>
+    <link>http://localhost:1313/tags/%E7%96%BE%E7%97%85%E8%B5%B7%E5%9B%A0/</link>
     <description>以针通经络，以草养气血</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -13,13 +13,13 @@
     <managingEditor>124768092@qq.com (AcuHerb)</managingEditor>
     <webMaster>124768092@qq.com (AcuHerb)</webMaster>
     <lastBuildDate>Mon, 18 Aug 2025 17:09:28 +0800</lastBuildDate>
-    <atom:link href="https://acuherb.xyz/tags/%E7%96%BE%E7%97%85%E8%B5%B7%E5%9B%A0/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E7%96%BE%E7%97%85%E8%B5%B7%E5%9B%A0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>口问第二十八</title>
-      <link>https://acuherb.xyz/posts/lingshu-28/</link>
+      <link>http://localhost:1313/posts/lingshu-28/</link>
       <pubDate>Mon, 18 Aug 2025 16:22:22 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
-      <guid>https://acuherb.xyz/posts/lingshu-28/</guid>
-      <category domain="https://acuherb.xyz/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
+      <guid>http://localhost:1313/posts/lingshu-28/</guid>
+      <category domain="http://localhost:1313/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
       <description>因篇中介绍的病证大都是日常生活中常见的一些一过性的、无痛苦的症状或者行为等，在一般的医书中很少提及，是岐伯向其师提问，由其老师口述回答的，并不在书本之中，故名&amp;quot;口问&amp;quot;。</description>
     </item>
   </channel>

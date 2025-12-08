@@ -31,5 +31,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: https://acuherb.xyz/posts/11-jishibai/  
+> URL: http://localhost:1313/posts/11-jishibai/  
 
