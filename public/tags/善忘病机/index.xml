@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>善忘病机 - 标签 - 针草堂</title><link>https://acuherb.xyz/tags/%E5%96%84%E5%BF%98%E7%97%85%E6%9C%BA/</link><description>以针通经络，以草养气血</description><follow_challenge><feedId>150502341826627584</feedId><userId>ZnkTaajoold86nK1rOZmQsDmDM1cgXMP</userId></follow_challenge><generator>Hugo 0.152.2 &amp; FixIt v0.4.0-alpha.2</generator><language>zh-cn</language><managingEditor>124768092@qq.com (AcuHerb)</managingEditor><webMaster>124768092@qq.com (AcuHerb)</webMaster><lastBuildDate>Fri, 10 Oct 2025 13:08:41 +0800</lastBuildDate><atom:link href="https://acuherb.xyz/tags/%E5%96%84%E5%BF%98%E7%97%85%E6%9C%BA/index.xml" rel="self" type="application/rss+xml"/><item><title>大惑论第八十</title><link>https://acuherb.xyz/posts/lingshu-80/</link><pubDate>Thu, 09 Oct 2025 17:45:11 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author><guid>https://acuherb.xyz/posts/lingshu-80/</guid><category domain="https://acuherb.xyz/categories/%E7%81%B5%E6%9E%A2/">灵枢</category><description>惑，迷乱眩晕的意思；大，形容其严重。文中主要论述了登高时发生精神迷惑、头目眩晕的道理，故篇名为&amp;quot;大惑论&amp;quot;。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>善忘病机 - 标签 - 针草堂</title>
+    <link>https://acuherb.xyz/tags/%E5%96%84%E5%BF%98%E7%97%85%E6%9C%BA/</link>
+    <description>以针通经络，以草养气血</description>
+    <follow_challenge>
+      <feedId>150502341826627584</feedId>
+      <userId>ZnkTaajoold86nK1rOZmQsDmDM1cgXMP</userId>
+    </follow_challenge>
+    <generator>Hugo 0.152.2 &amp; FixIt v0.4.0-alpha.2</generator>
+    <language>zh-cn</language>
+    <managingEditor>124768092@qq.com (AcuHerb)</managingEditor>
+    <webMaster>124768092@qq.com (AcuHerb)</webMaster>
+    <lastBuildDate>Fri, 10 Oct 2025 13:08:41 +0800</lastBuildDate>
+    <atom:link href="https://acuherb.xyz/tags/%E5%96%84%E5%BF%98%E7%97%85%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>大惑论第八十</title>
+      <link>https://acuherb.xyz/posts/lingshu-80/</link>
+      <pubDate>Thu, 09 Oct 2025 17:45:11 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
+      <guid>https://acuherb.xyz/posts/lingshu-80/</guid>
+      <category domain="https://acuherb.xyz/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
+      <description>惑，迷乱眩晕的意思；大，形容其严重。文中主要论述了登高时发生精神迷惑、头目眩晕的道理，故篇名为&amp;quot;大惑论&amp;quot;。</description>
+    </item>
+  </channel>
+</rss>
