@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>邪正相争 - 标签 - 针草堂</title>
-    <link>http://localhost:1313/tags/%E9%82%AA%E6%AD%A3%E7%9B%B8%E4%BA%89/</link>
+    <link>https://acuherb.xyz/tags/%E9%82%AA%E6%AD%A3%E7%9B%B8%E4%BA%89/</link>
     <description>以针通经络，以草养气血</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -10,16 +10,16 @@
     </follow_challenge>
     <generator>Hugo 0.152.2 &amp; FixIt v0.4.0-alpha.2</generator>
     <language>zh-cn</language>
-    <managingEditor>124768092@qq.com (AcuHerb)</managingEditor>
-    <webMaster>124768092@qq.com (AcuHerb)</webMaster>
+    <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
+    <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
     <lastBuildDate>Sat, 26 Jul 2025 17:25:03 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E9%82%AA%E6%AD%A3%E7%9B%B8%E4%BA%89/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://acuherb.xyz/tags/%E9%82%AA%E6%AD%A3%E7%9B%B8%E4%BA%89/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>小针解第三：法人</title>
-      <link>http://localhost:1313/posts/lingshu-03/</link>
-      <pubDate>Thu, 24 Jul 2025 12:12:22 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
-      <guid>http://localhost:1313/posts/lingshu-03/</guid>
-      <category domain="http://localhost:1313/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
+      <link>https://acuherb.xyz/posts/lingshu-03/</link>
+      <pubDate>Thu, 24 Jul 2025 12:12:22 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
+      <guid>https://acuherb.xyz/posts/lingshu-03/</guid>
+      <category domain="https://acuherb.xyz/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
       <description>本篇是将《灵枢·九针十二原》中有关讨论运用小针(微针)问题的内容，按其原文顺序，择要加以解释，并作进一步的注解和补充说明，所以篇名为&amp;quot;小针解&amp;quot;。</description>
     </item>
   </channel>

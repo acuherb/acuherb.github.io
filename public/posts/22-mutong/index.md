@@ -45,5 +45,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: http://localhost:1313/posts/22-mutong/  
+> URL: https://acuherb.xyz/posts/22-mutong/  
 

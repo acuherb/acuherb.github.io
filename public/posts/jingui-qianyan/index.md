@@ -18,5 +18,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: http://localhost:1313/posts/jingui-qianyan/  
+> URL: https://acuherb.xyz/posts/jingui-qianyan/  
 

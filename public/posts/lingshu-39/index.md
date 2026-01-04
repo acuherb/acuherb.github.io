@@ -71,5 +71,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: http://localhost:1313/posts/lingshu-39/  
+> URL: https://acuherb.xyz/posts/lingshu-39/  
 

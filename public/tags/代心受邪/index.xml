@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>代心受邪 - 标签 - 针草堂</title>
-    <link>http://localhost:1313/tags/%E4%BB%A3%E5%BF%83%E5%8F%97%E9%82%AA/</link>
+    <link>https://acuherb.xyz/tags/%E4%BB%A3%E5%BF%83%E5%8F%97%E9%82%AA/</link>
     <description>以针通经络，以草养气血</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -10,16 +10,16 @@
     </follow_challenge>
     <generator>Hugo 0.152.2 &amp; FixIt v0.4.0-alpha.2</generator>
     <language>zh-cn</language>
-    <managingEditor>124768092@qq.com (AcuHerb)</managingEditor>
-    <webMaster>124768092@qq.com (AcuHerb)</webMaster>
+    <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
+    <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
     <lastBuildDate>Sun, 20 Jul 2025 15:30:42 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E4%BB%A3%E5%BF%83%E5%8F%97%E9%82%AA/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://acuherb.xyz/tags/%E4%BB%A3%E5%BF%83%E5%8F%97%E9%82%AA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>手厥阴心包经</title>
-      <link>http://localhost:1313/posts/zhenjiu-4-11/</link>
-      <pubDate>Wed, 16 Jul 2025 10:20:00 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
-      <guid>http://localhost:1313/posts/zhenjiu-4-11/</guid>
-      <category domain="http://localhost:1313/categories/%E9%92%88%E7%81%B8%E7%AC%94%E8%AE%B0/">针灸笔记</category>
+      <link>https://acuherb.xyz/posts/zhenjiu-4-11/</link>
+      <pubDate>Wed, 16 Jul 2025 10:20:00 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
+      <guid>https://acuherb.xyz/posts/zhenjiu-4-11/</guid>
+      <category domain="https://acuherb.xyz/categories/%E9%92%88%E7%81%B8%E7%AC%94%E8%AE%B0/">针灸笔记</category>
       <description>心包经属火，代心受邪，主气血戌时流注（7-9点），关键穴如内关（双向调胃心胸）、郄门（镇痛）、劳宫（退烧），治症涵盖心脏、乳腺、急痛及对称疗法（如足跟痛针大陵），需结合节气选母穴（夏至木穴/冬至金穴），与三焦经表里相应。</description>
     </item>
   </channel>

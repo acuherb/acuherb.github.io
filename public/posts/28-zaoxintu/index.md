@@ -49,5 +49,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: http://localhost:1313/posts/28-zaoxintu/  
+> URL: https://acuherb.xyz/posts/28-zaoxintu/  
 

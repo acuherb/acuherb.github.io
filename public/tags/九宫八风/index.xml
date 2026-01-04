@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>九宫八风 - 标签 - 针草堂</title>
-    <link>http://localhost:1313/tags/%E4%B9%9D%E5%AE%AB%E5%85%AB%E9%A3%8E/</link>
+    <link>https://acuherb.xyz/tags/%E4%B9%9D%E5%AE%AB%E5%85%AB%E9%A3%8E/</link>
     <description>以针通经络，以草养气血</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -10,24 +10,24 @@
     </follow_challenge>
     <generator>Hugo 0.152.2 &amp; FixIt v0.4.0-alpha.2</generator>
     <language>zh-cn</language>
-    <managingEditor>124768092@qq.com (AcuHerb)</managingEditor>
-    <webMaster>124768092@qq.com (AcuHerb)</webMaster>
+    <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
+    <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
     <lastBuildDate>Wed, 08 Oct 2025 12:03:42 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E4%B9%9D%E5%AE%AB%E5%85%AB%E9%A3%8E/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://acuherb.xyz/tags/%E4%B9%9D%E5%AE%AB%E5%85%AB%E9%A3%8E/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>岁露论第七十九</title>
-      <link>http://localhost:1313/posts/lingshu-79/</link>
-      <pubDate>Wed, 08 Oct 2025 11:30:11 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
-      <guid>http://localhost:1313/posts/lingshu-79/</guid>
-      <category domain="http://localhost:1313/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
+      <link>https://acuherb.xyz/posts/lingshu-79/</link>
+      <pubDate>Wed, 08 Oct 2025 11:30:11 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
+      <guid>https://acuherb.xyz/posts/lingshu-79/</guid>
+      <category domain="https://acuherb.xyz/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
       <description>岁露，是指一年之内风雨的情况。本篇主要论讨了天文气象变化对人体生理、病理所产生的影响，故篇名蔓&amp;quot;岁露论&amp;quot;。</description>
     </item>
     <item>
       <title>九宫八风第七十七</title>
-      <link>http://localhost:1313/posts/lingshu-77/</link>
-      <pubDate>Mon, 06 Oct 2025 10:10:11 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
-      <guid>http://localhost:1313/posts/lingshu-77/</guid>
-      <category domain="http://localhost:1313/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
+      <link>https://acuherb.xyz/posts/lingshu-77/</link>
+      <pubDate>Mon, 06 Oct 2025 10:10:11 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
+      <guid>https://acuherb.xyz/posts/lingshu-77/</guid>
+      <category domain="https://acuherb.xyz/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
       <description>九宫，指四方、四隅、中央九个方位；八风，指八方之风。本篇根据九宫的方位，讨论了八方气候变化的情况及对人体的影响，并提出回避风邪预防疾病的重要性，故篇名为&amp;quot;九宫八风&amp;quot;。</description>
     </item>
   </channel>

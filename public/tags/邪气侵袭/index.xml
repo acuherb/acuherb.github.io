@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>邪气侵袭 - 标签 - 针草堂</title>
-    <link>http://localhost:1313/tags/%E9%82%AA%E6%B0%94%E4%BE%B5%E8%A2%AD/</link>
+    <link>https://acuherb.xyz/tags/%E9%82%AA%E6%B0%94%E4%BE%B5%E8%A2%AD/</link>
     <description>以针通经络，以草养气血</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -10,16 +10,16 @@
     </follow_challenge>
     <generator>Hugo 0.152.2 &amp; FixIt v0.4.0-alpha.2</generator>
     <language>zh-cn</language>
-    <managingEditor>124768092@qq.com (AcuHerb)</managingEditor>
-    <webMaster>124768092@qq.com (AcuHerb)</webMaster>
+    <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
+    <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
     <lastBuildDate>Sat, 26 Jul 2025 17:24:26 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E9%82%AA%E6%B0%94%E4%BE%B5%E8%A2%AD/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://acuherb.xyz/tags/%E9%82%AA%E6%B0%94%E4%BE%B5%E8%A2%AD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>邪气藏府病形第四：法时</title>
-      <link>http://localhost:1313/posts/lingshu-04/</link>
-      <pubDate>Fri, 25 Jul 2025 13:33:22 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
-      <guid>http://localhost:1313/posts/lingshu-04/</guid>
-      <category domain="http://localhost:1313/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
+      <link>https://acuherb.xyz/posts/lingshu-04/</link>
+      <pubDate>Fri, 25 Jul 2025 13:33:22 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
+      <guid>https://acuherb.xyz/posts/lingshu-04/</guid>
+      <category domain="https://acuherb.xyz/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
       <description>本篇详细讨论了不同邪气侵袭人体时所伤及的不同部位以及中阴中阳的区别，列举了邪气中人的不同原因，阐述了察色、诊脉和察尺肤等在诊断上的意义及重要性。因本篇重点论述了邪气中人的原因以及五脏六腑为邪气所伤时出现的病形，故称为&amp;quot;邪气脏腑病形&amp;quot;。</description>
     </item>
   </channel>
