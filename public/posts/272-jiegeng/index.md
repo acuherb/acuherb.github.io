@@ -70,5 +70,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: http://localhost:1313/posts/272-jiegeng/  
+> URL: https://acuherb.xyz/posts/272-jiegeng/  
 

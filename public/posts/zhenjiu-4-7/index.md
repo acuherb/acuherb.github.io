@@ -69,5 +69,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: http://localhost:1313/posts/zhenjiu-4-7/  
+> URL: https://acuherb.xyz/posts/zhenjiu-4-7/  
 

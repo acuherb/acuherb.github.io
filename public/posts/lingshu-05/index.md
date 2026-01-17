@@ -115,5 +115,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: http://localhost:1313/posts/lingshu-05/  
+> URL: https://acuherb.xyz/posts/lingshu-05/  
 

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>气血调整 - 标签 - 针草堂</title>
-    <link>http://localhost:1313/tags/%E6%B0%94%E8%A1%80%E8%B0%83%E6%95%B4/</link>
+    <link>https://acuherb.xyz/tags/%E6%B0%94%E8%A1%80%E8%B0%83%E6%95%B4/</link>
     <description>以针通经络，以草养气血</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
       <userId>ZnkTaajoold86nK1rOZmQsDmDM1cgXMP</userId>
     </follow_challenge>
-    <generator>Hugo 0.152.2 &amp; FixIt v0.4.0-alpha.2</generator>
+    <generator>Hugo 0.152.2 &amp; FixIt v0.4.1</generator>
     <language>zh-cn</language>
-    <managingEditor>124768092@qq.com (AcuHerb)</managingEditor>
-    <webMaster>124768092@qq.com (AcuHerb)</webMaster>
-    <lastBuildDate>Thu, 28 Aug 2025 09:52:41 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%B0%94%E8%A1%80%E8%B0%83%E6%95%B4/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
+    <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
+    <lastBuildDate>Thu, 28 Aug 2025 09:52:40 +0800</lastBuildDate>
+    <atom:link href="https://acuherb.xyz/tags/%E6%B0%94%E8%A1%80%E8%B0%83%E6%95%B4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>逆顺肥瘦第三十八</title>
-      <link>http://localhost:1313/posts/lingshu-38/</link>
-      <pubDate>Thu, 28 Aug 2025 09:14:22 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
-      <guid>http://localhost:1313/posts/lingshu-38/</guid>
-      <category domain="http://localhost:1313/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
+      <link>https://acuherb.xyz/posts/lingshu-38/</link>
+      <pubDate>Thu, 28 Aug 2025 09:14:22 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
+      <guid>https://acuherb.xyz/posts/lingshu-38/</guid>
+      <category domain="https://acuherb.xyz/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
       <description>逆顺，指经脉循行走向及气血的上下运行。肥瘦，指形体的肥壮与瘦小。由于本篇重点讨论了经脉的走向规律、气血滑涩以及形体的肥瘦壮幼，并以此作为施治的依据，故以&amp;quot;逆顺肥瘦&amp;quot;名篇。</description>
     </item>
   </channel>

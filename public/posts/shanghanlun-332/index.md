@@ -133,5 +133,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: http://localhost:1313/posts/shanghanlun-332/  
+> URL: https://acuherb.xyz/posts/shanghanlun-332/  
 

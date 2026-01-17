@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>足太阴脾经 - 标签 - 针草堂</title>
-    <link>http://localhost:1313/tags/%E8%B6%B3%E5%A4%AA%E9%98%B4%E8%84%BE%E7%BB%8F/</link>
+    <link>https://acuherb.xyz/tags/%E8%B6%B3%E5%A4%AA%E9%98%B4%E8%84%BE%E7%BB%8F/</link>
     <description>以针通经络，以草养气血</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
       <userId>ZnkTaajoold86nK1rOZmQsDmDM1cgXMP</userId>
     </follow_challenge>
-    <generator>Hugo 0.152.2 &amp; FixIt v0.4.0-alpha.2</generator>
+    <generator>Hugo 0.152.2 &amp; FixIt v0.4.1</generator>
     <language>zh-cn</language>
-    <managingEditor>124768092@qq.com (AcuHerb)</managingEditor>
-    <webMaster>124768092@qq.com (AcuHerb)</webMaster>
+    <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
+    <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
     <lastBuildDate>Sun, 20 Jul 2025 15:29:24 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E8%B6%B3%E5%A4%AA%E9%98%B4%E8%84%BE%E7%BB%8F/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://acuherb.xyz/tags/%E8%B6%B3%E5%A4%AA%E9%98%B4%E8%84%BE%E7%BB%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>足太阴脾经</title>
-      <link>http://localhost:1313/posts/zhenjiu-4-6/</link>
-      <pubDate>Sun, 13 Jul 2025 13:30:00 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
-      <guid>http://localhost:1313/posts/zhenjiu-4-6/</guid>
-      <category domain="http://localhost:1313/categories/%E9%92%88%E7%81%B8%E7%AC%94%E8%AE%B0/">针灸笔记</category>
+      <link>https://acuherb.xyz/posts/zhenjiu-4-6/</link>
+      <pubDate>Sun, 13 Jul 2025 13:30:00 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
+      <guid>https://acuherb.xyz/posts/zhenjiu-4-6/</guid>
+      <category domain="https://acuherb.xyz/categories/%E9%92%88%E7%81%B8%E7%AC%94%E8%AE%B0/">针灸笔记</category>
       <description>本文详细阐述了脾经的生理功能、病理表现及临床应用，重点介绍了隐白、三阴交、公孙等关键穴位的定位与主治，强调脾经在调理消化、妇科及水湿代谢中的核心作用，并结合中风预兆、寄生虫诊断等实例，展现了中医&amp;quot;强土治水&amp;quot;的整体治疗思路。</description>
     </item>
   </channel>

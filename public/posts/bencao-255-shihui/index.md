@@ -34,5 +34,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: http://localhost:1313/posts/bencao-255-shihui/  
+> URL: https://acuherb.xyz/posts/bencao-255-shihui/  
 

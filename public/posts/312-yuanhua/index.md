@@ -69,5 +69,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: http://localhost:1313/posts/312-yuanhua/  
+> URL: https://acuherb.xyz/posts/312-yuanhua/  
 

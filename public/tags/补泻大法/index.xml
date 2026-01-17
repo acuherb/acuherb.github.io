@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>补泻大法 - 标签 - 针草堂</title>
-    <link>http://localhost:1313/tags/%E8%A1%A5%E6%B3%BB%E5%A4%A7%E6%B3%95/</link>
+    <link>https://acuherb.xyz/tags/%E8%A1%A5%E6%B3%BB%E5%A4%A7%E6%B3%95/</link>
     <description>以针通经络，以草养气血</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
       <userId>ZnkTaajoold86nK1rOZmQsDmDM1cgXMP</userId>
     </follow_challenge>
-    <generator>Hugo 0.152.2 &amp; FixIt v0.4.0-alpha.2</generator>
+    <generator>Hugo 0.152.2 &amp; FixIt v0.4.1</generator>
     <language>zh-cn</language>
-    <managingEditor>124768092@qq.com (AcuHerb)</managingEditor>
-    <webMaster>124768092@qq.com (AcuHerb)</webMaster>
-    <lastBuildDate>Sat, 26 Jul 2025 17:13:37 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E8%A1%A5%E6%B3%BB%E5%A4%A7%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
+    <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
+    <lastBuildDate>Sat, 26 Jul 2025 17:13:36 +0800</lastBuildDate>
+    <atom:link href="https://acuherb.xyz/tags/%E8%A1%A5%E6%B3%BB%E5%A4%A7%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>九针十二原第一：法天</title>
-      <link>http://localhost:1313/posts/lingshu-01/</link>
-      <pubDate>Tue, 22 Jul 2025 10:14:22 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
-      <guid>http://localhost:1313/posts/lingshu-01/</guid>
-      <category domain="http://localhost:1313/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
+      <link>https://acuherb.xyz/posts/lingshu-01/</link>
+      <pubDate>Tue, 22 Jul 2025 10:14:22 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
+      <guid>https://acuherb.xyz/posts/lingshu-01/</guid>
+      <category domain="https://acuherb.xyz/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
       <description>九针，是指古代针刺治疗所用的九种不同形状的针具；十二原，是指脏腑真气输注于体表的处所，也是治疗脏腑疾患的十二个要穴。本篇详细明确地介绍了九针的名称、形状以及不同的用途；介绍了十二原穴的名称及其各自所对应的脏腑，并说明了五脏六腑有病，可以分别取用相应的十二原穴来进行治疗的道理。所以本篇名为&amp;quot;九针十二原&amp;quot;。</description>
     </item>
   </channel>

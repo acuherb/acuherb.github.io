@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>五味所伤 - 标签 - 针草堂</title>
-    <link>http://localhost:1313/tags/%E4%BA%94%E5%91%B3%E6%89%80%E4%BC%A4/</link>
+    <link>https://acuherb.xyz/tags/%E4%BA%94%E5%91%B3%E6%89%80%E4%BC%A4/</link>
     <description>以针通经络，以草养气血</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
       <userId>ZnkTaajoold86nK1rOZmQsDmDM1cgXMP</userId>
     </follow_challenge>
-    <generator>Hugo 0.152.2 &amp; FixIt v0.4.0-alpha.2</generator>
+    <generator>Hugo 0.152.2 &amp; FixIt v0.4.1</generator>
     <language>zh-cn</language>
-    <managingEditor>124768092@qq.com (AcuHerb)</managingEditor>
-    <webMaster>124768092@qq.com (AcuHerb)</webMaster>
+    <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
+    <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
     <lastBuildDate>Sun, 03 Aug 2025 15:00:56 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E4%BA%94%E5%91%B3%E6%89%80%E4%BC%A4/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://acuherb.xyz/tags/%E4%BA%94%E5%91%B3%E6%89%80%E4%BC%A4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>生气通天论篇第三</title>
-      <link>http://localhost:1313/posts/suwen-03/</link>
-      <pubDate>Fri, 03 Jan 2025 20:14:22 +0800</pubDate><author>124768092@qq.com (AcuHerb)</author>
-      <guid>http://localhost:1313/posts/suwen-03/</guid>
-      <category domain="http://localhost:1313/categories/%E7%B4%A0%E9%97%AE/">素问</category>
+      <link>https://acuherb.xyz/posts/suwen-03/</link>
+      <pubDate>Fri, 03 Jan 2025 20:14:22 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
+      <guid>https://acuherb.xyz/posts/suwen-03/</guid>
+      <category domain="https://acuherb.xyz/categories/%E7%B4%A0%E9%97%AE/">素问</category>
       <description>生命源自天地之气，人体的气与天地相通，五脏六腑、经脉相互协调。顺应天地法则、调和精神与阴阳，能保持健康与长寿；反之，生活不规律、情志不稳，阳气失调，则易生病。保持阴阳平衡，避免过度饮食、劳累和不良环境，是防病保健的关键。</description>
     </item>
   </channel>
