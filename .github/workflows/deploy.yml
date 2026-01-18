@@ -3,82 +3,62 @@ name: Hugo build and deploy
 on:
   push:
     branches: [ main ]
-  pull_request:
   workflow_dispatch:
 
-# 设置权限
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# 并发控制
 concurrency:
   group: "pages-${{ github.ref }}"
   cancel-in-progress: false
 
 env:
-  HUGO_VERSION: "0.152.2"  # FixIt主题推荐版本
+  # 使用与你本地完全相同的版本
+  HUGO_VERSION: "0.152.2"
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive  # 重要！确保主题被拉取
+          submodules: recursive
           fetch-depth: 0
 
-      - name: Setup Hugo
+      - name: Setup Hugo (exact version)
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: ${{ env.HUGO_VERSION }}
-          extended: true  # FixIt需要extended版本
+          extended: true
 
-      - name: Check for package.json
-        id: check_package
+      - name: Debug info
         run: |
-          if [ -f "package.json" ]; then
-            echo "package_exists=true" >> $GITHUB_OUTPUT
-          else
-            echo "package_exists=false" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Setup Node.js (if needed)
-        if: steps.check_package.outputs.package_exists == 'true'
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-
-      - name: Install Node.js dependencies (if needed)
-        if: steps.check_package.outputs.package_exists == 'true'
-        run: |
-          # 如果有package.json但没有package-lock.json，使用npm install
-          if [ -f "package-lock.json" ]; then
-            echo "Using npm ci (package-lock.json exists)"
-            npm ci
-          else
-            echo "Using npm install (no package-lock.json)"
-            npm install
-          fi
-
-      - name: Hugo build
-        run: |
-          # 添加详细日志以便调试
-          echo "Building with Hugo version:"
+          echo "=== Debug Information ==="
+          echo "Hugo version:"
           hugo version
-          echo "Starting Hugo build..."
-          hugo --gc --minify --logLevel info
-          echo "Build completed!"
+          echo "Current directory:"
+          pwd
+          ls -la
+          echo "Theme directory:"
+          ls -la themes/
+
+      - name: Build with Hugo (verbose)
+        run: |
+          # 尝试不同的构建命令
+          echo "Building site..."
+          hugo --verbose
+          
+          # 如果失败，尝试不带permalink
+          # hugo --verbose --disableKinds=term,taxonomy
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: './public'
 
-  # Deployment job
   deploy:
     environment:
       name: github-pages
