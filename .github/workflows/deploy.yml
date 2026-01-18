@@ -3,7 +3,6 @@ name: Hugo build and deploy
 on:
   push:
     branches: [ main ]
-    # 移除paths限制，或简化配置
   pull_request:
   workflow_dispatch:
 
@@ -19,7 +18,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  HUGO_VERSION: "0.120.4"  # 明确指定版本
+  HUGO_VERSION: "0.120.4"  # FixIt主题推荐版本
 
 jobs:
   # Build job
@@ -38,18 +37,41 @@ jobs:
           hugo-version: ${{ env.HUGO_VERSION }}
           extended: true  # FixIt需要extended版本
 
-      - name: Setup Node.js
+      - name: Check for package.json
+        id: check_package
+        run: |
+          if [ -f "package.json" ]; then
+            echo "package_exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "package_exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Setup Node.js (if needed)
+        if: steps.check_package.outputs.package_exists == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: '18'
 
-      - name: Install Node.js dependencies
+      - name: Install Node.js dependencies (if needed)
+        if: steps.check_package.outputs.package_exists == 'true'
         run: |
-          npm ci  # 安装package.json中的依赖
+          # 如果有package.json但没有package-lock.json，使用npm install
+          if [ -f "package-lock.json" ]; then
+            echo "Using npm ci (package-lock.json exists)"
+            npm ci
+          else
+            echo "Using npm install (no package-lock.json)"
+            npm install
+          fi
 
       - name: Hugo build
         run: |
+          # 添加详细日志以便调试
+          echo "Building with Hugo version:"
+          hugo version
+          echo "Starting Hugo build..."
           hugo --gc --minify --logLevel info
+          echo "Build completed!"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
