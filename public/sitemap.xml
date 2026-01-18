@@ -2,31 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://acuherb.xyz/categories/</loc>
-    <lastmod>2026-01-17T17:38:29+08:00</lastmod>
+    <lastmod>2026-01-18T15:26:50+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://acuherb.xyz/collections/</loc>
-    <lastmod>2026-01-17T17:38:29+08:00</lastmod>
+    <lastmod>2026-01-18T15:26:50+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://acuherb.xyz/posts/</loc>
-    <lastmod>2026-01-17T17:38:29+08:00</lastmod>
+    <lastmod>2026-01-18T15:26:50+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://acuherb.xyz/tags/</loc>
-    <lastmod>2026-01-17T17:38:29+08:00</lastmod>
+    <lastmod>2026-01-18T15:26:50+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://acuherb.xyz/collections/%E9%BB%84%E5%B8%9D%E5%A4%96%E7%BB%8F/</loc>
-    <lastmod>2026-01-17T17:38:29+08:00</lastmod>
+    <lastmod>2026-01-18T15:26:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://acuherb.xyz/tags/%E4%BC%A4%E5%AF%92%E5%BC%82%E5%90%8C/</loc>
+    <lastmod>2026-01-18T15:26:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://acuherb.xyz/posts/waijing-69/</loc>
+    <lastmod>2026-01-18T15:26:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://acuherb.xyz/categories/%E5%A4%96%E7%BB%8F/</loc>
+    <lastmod>2026-01-18T15:26:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://acuherb.xyz/</loc>
+    <lastmod>2026-01-18T15:26:50+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -39,18 +63,6 @@
   <url>
     <loc>https://acuherb.xyz/posts/waijing-68/</loc>
     <lastmod>2026-01-17T17:38:21+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://acuherb.xyz/categories/%E5%A4%96%E7%BB%8F/</loc>
-    <lastmod>2026-01-17T17:38:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://acuherb.xyz/</loc>
-    <lastmod>2026-01-17T17:38:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
