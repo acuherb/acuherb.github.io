@@ -18,7 +18,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  HUGO_VERSION: "0.120.4"  # FixIt主题推荐版本
+  HUGO_VERSION: "0.152.2"  # FixIt主题推荐版本
 
 jobs:
   # Build job
