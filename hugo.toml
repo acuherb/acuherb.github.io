@@ -74,7 +74,7 @@ name = "归档"
 url = "/archives/"
 # title will be shown when you hover on this menu link
 title = "所有文章"
-weight = 1
+weight = 2
 
 # FixIt 0.2.14 | NEW add user-defined content to menu items
 [menus.main.params]
@@ -111,7 +111,7 @@ post = ""
 name = "导读"
 url = ""
 title = "经典著作学习导航"
-weight = 2.5
+weight = 1
 
 [menus.main.params]
 icon = "fa-solid fa-book-open"
