@@ -102,6 +102,77 @@ weight = 2
 [menus.main.params]
 icon = "fa-solid fa-folder-tree"
 
+# 按学习顺序的分类导航
+[[menus.main]]
+identifier = "study-order"
+parent = "categories"
+pre = ""
+post = ""
+name = "针灸大成"
+url = "/categories/针灸大成/"
+title = "针灸学习资料"
+weight = 1
+
+[[menus.main]]
+identifier = "herbal-study"
+parent = "categories"
+pre = ""
+post = ""
+name = "神农本草经"
+url = "/categories/神农本草经/"
+title = "本草学习资料"
+weight = 2
+
+[[menus.main]]
+identifier = "suwen-study"
+parent = "categories"
+pre = ""
+post = ""
+name = "黄帝内经素问"
+url = "/categories/黄帝内经素问/"
+title = "素问学习资料"
+weight = 3
+
+[[menus.main]]
+identifier = "lingshu-study"
+parent = "categories"
+pre = ""
+post = ""
+name = "黄帝内经灵枢"
+url = "/categories/黄帝内经灵枢/"
+title = "灵枢学习资料"
+weight = 4
+
+[[menus.main]]
+identifier = "waijing-study"
+parent = "categories"
+pre = ""
+post = ""
+name = "黄帝外经"
+url = "/categories/黄帝外经/"
+title = "外经学习资料"
+weight = 5
+
+[[menus.main]]
+identifier = "shanghanlun-study"
+parent = "categories"
+pre = ""
+post = ""
+name = "伤寒论"
+url = "/categories/伤寒论/"
+title = "伤寒学习资料"
+weight = 6
+
+[[menus.main]]
+identifier = "jinkui-study"
+parent = "categories"
+pre = ""
+post = ""
+name = "金匮要略"
+url = "/categories/金匮要略/"
+title = "金匮学习资料"
+weight = 7
+
 [[menus.main]]
 identifier = "tags"
 parent = ""
