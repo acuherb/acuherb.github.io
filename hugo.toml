@@ -1715,7 +1715,7 @@ lazyLoad = true
 # Third-party library config
 
 [params.page.library.css]
-custom =
+custom = "assets\css\_custom.scss"
 # someCSS = "some.css"
 # located in "assets/"
 # Or
