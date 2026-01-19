@@ -102,10 +102,24 @@ weight = 2
 [menus.main.params]
 icon = "fa-solid fa-folder-tree"
 
+# 按学习顺序的经典导读菜单
+[[menus.main]]
+identifier = "guideread"
+parent = ""
+pre = ""
+post = ""
+name = "导读"
+url = ""
+title = "经典著作学习导航"
+weight = 2.5
+
+[menus.main.params]
+icon = "fa-solid fa-book-open"
+
 # 按学习顺序的分类导航
 [[menus.main]]
 identifier = "study-order"
-parent = "categories"
+parent = "guideread"
 pre = ""
 post = ""
 name = "针灸大成"
