@@ -136,5 +136,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: http://localhost:1313/posts/jinguiyian-12/  
+> URL: https://acuherb.xyz/posts/jinguiyian-12/  
 

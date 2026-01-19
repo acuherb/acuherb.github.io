@@ -39,5 +39,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: http://localhost:1313/posts/21-yujin/  
+> URL: https://acuherb.xyz/posts/21-yujin/  
 

@@ -55,5 +55,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: http://localhost:1313/posts/waijing-60/  
+> URL: https://acuherb.xyz/posts/waijing-60/  
 

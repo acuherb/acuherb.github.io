@@ -32,5 +32,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: http://localhost:1313/posts/1-qingyan/  
+> URL: https://acuherb.xyz/posts/1-qingyan/  
 

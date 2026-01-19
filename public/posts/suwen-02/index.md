@@ -125,5 +125,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: http://localhost:1313/posts/suwen-02/  
+> URL: https://acuherb.xyz/posts/suwen-02/  
 

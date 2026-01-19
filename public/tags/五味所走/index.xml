@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>五味所走 - 标签 - 针草堂</title>
-    <link>http://localhost:1313/tags/%E4%BA%94%E5%91%B3%E6%89%80%E8%B5%B0/</link>
+    <link>https://acuherb.xyz/tags/%E4%BA%94%E5%91%B3%E6%89%80%E8%B5%B0/</link>
     <description>以针通经络，以草养气血</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -13,13 +13,13 @@
     <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
     <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
     <lastBuildDate>Mon, 22 Sep 2025 11:51:20 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E4%BA%94%E5%91%B3%E6%89%80%E8%B5%B0/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://acuherb.xyz/tags/%E4%BA%94%E5%91%B3%E6%89%80%E8%B5%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>五味论第六十三</title>
-      <link>http://localhost:1313/posts/lingshu-63/</link>
+      <link>https://acuherb.xyz/posts/lingshu-63/</link>
       <pubDate>Mon, 22 Sep 2025 11:30:11 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
-      <guid>http://localhost:1313/posts/lingshu-63/</guid>
-      <category domain="http://localhost:1313/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
+      <guid>https://acuherb.xyz/posts/lingshu-63/</guid>
+      <category domain="https://acuherb.xyz/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
       <description>本篇主要论述了五味各有所走，五味偏嗜、太过所出现的病理变化，以及因此引起的各种病证，故篇名&amp;quot;五味&amp;quot;。</description>
     </item>
   </channel>

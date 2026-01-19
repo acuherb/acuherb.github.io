@@ -496,5 +496,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: http://localhost:1313/posts/jingui-huoluan/  
+> URL: https://acuherb.xyz/posts/jingui-huoluan/  
 

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>脾肾关系 - 标签 - 针草堂</title>
-    <link>http://localhost:1313/tags/%E8%84%BE%E8%82%BE%E5%85%B3%E7%B3%BB/</link>
+    <link>https://acuherb.xyz/tags/%E8%84%BE%E8%82%BE%E5%85%B3%E7%B3%BB/</link>
     <description>以针通经络，以草养气血</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -13,13 +13,13 @@
     <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
     <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
     <lastBuildDate>Fri, 26 Dec 2025 15:34:08 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E8%84%BE%E8%82%BE%E5%85%B3%E7%B3%BB/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://acuherb.xyz/tags/%E8%84%BE%E8%82%BE%E5%85%B3%E7%B3%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>脾土篇第二十八</title>
-      <link>http://localhost:1313/posts/waijing-28/</link>
+      <link>https://acuherb.xyz/posts/waijing-28/</link>
       <pubDate>Mon, 08 Dec 2025 14:22:22 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
-      <guid>http://localhost:1313/posts/waijing-28/</guid>
-      <category domain="http://localhost:1313/categories/%E5%A4%96%E7%BB%8F/">外经</category>
+      <guid>https://acuherb.xyz/posts/waijing-28/</guid>
+      <category domain="https://acuherb.xyz/categories/%E5%A4%96%E7%BB%8F/">外经</category>
       <description>文章通过少师与岐伯的对话，深入阐述了脾土与各种“火”的关系，特别是&lt;strong&gt;命门之火&lt;/strong&gt;对脾胃生理功能的决定性作用，并论述了“焦土”的病理传变及治法。</description>
     </item>
   </channel>
