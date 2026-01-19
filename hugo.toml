@@ -129,7 +129,7 @@ weight = 1
 
 [[menus.main]]
 identifier = "herbal-study"
-parent = "categories"
+parent = "guideread"
 pre = ""
 post = ""
 name = "神农本草经"
@@ -139,7 +139,7 @@ weight = 2
 
 [[menus.main]]
 identifier = "suwen-study"
-parent = "categories"
+parent = "guideread"
 pre = ""
 post = ""
 name = "黄帝内经素问"
@@ -149,7 +149,7 @@ weight = 3
 
 [[menus.main]]
 identifier = "lingshu-study"
-parent = "categories"
+parent = "guideread"
 pre = ""
 post = ""
 name = "黄帝内经灵枢"
@@ -159,7 +159,7 @@ weight = 4
 
 [[menus.main]]
 identifier = "waijing-study"
-parent = "categories"
+parent = "guideread"
 pre = ""
 post = ""
 name = "黄帝外经"
@@ -169,7 +169,7 @@ weight = 5
 
 [[menus.main]]
 identifier = "shanghanlun-study"
-parent = "categories"
+parent = "guideread"
 pre = ""
 post = ""
 name = "伤寒论"
@@ -179,7 +179,7 @@ weight = 6
 
 [[menus.main]]
 identifier = "jinkui-study"
-parent = "categories"
+parent = "guideread"
 pre = ""
 post = ""
 name = "金匮要略"
