@@ -38,5 +38,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: https://acuherb.xyz/friends/  
+> URL: http://localhost:1313/friends/  
 

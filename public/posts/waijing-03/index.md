@@ -103,5 +103,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: https://acuherb.xyz/posts/waijing-03/  
+> URL: http://localhost:1313/posts/waijing-03/  
 

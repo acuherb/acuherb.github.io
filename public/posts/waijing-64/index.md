@@ -107,5 +107,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: https://acuherb.xyz/posts/waijing-64/  
+> URL: http://localhost:1313/posts/waijing-64/  
 

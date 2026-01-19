@@ -68,5 +68,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: https://acuherb.xyz/posts/shanghanlun-308/  
+> URL: http://localhost:1313/posts/shanghanlun-308/  
 

@@ -32,5 +32,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: https://acuherb.xyz/posts/%E6%9C%AC%E8%8D%89-103.%E4%BA%94%E5%8A%A0%E7%9A%AE/  
+> URL: http://localhost:1313/posts/%E6%9C%AC%E8%8D%89-103.%E4%BA%94%E5%8A%A0%E7%9A%AE/  
 

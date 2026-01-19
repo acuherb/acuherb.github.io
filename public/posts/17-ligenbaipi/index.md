@@ -33,5 +33,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: https://acuherb.xyz/posts/17-ligenbaipi/  
+> URL: http://localhost:1313/posts/17-ligenbaipi/  
 

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>小肠火 - 标签 - 针草堂</title>
-    <link>https://acuherb.xyz/tags/%E5%B0%8F%E8%82%A0%E7%81%AB/</link>
+    <link>http://localhost:1313/tags/%E5%B0%8F%E8%82%A0%E7%81%AB/</link>
     <description>以针通经络，以草养气血</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -13,13 +13,13 @@
     <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
     <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
     <lastBuildDate>Thu, 01 Jan 2026 12:29:32 +0800</lastBuildDate>
-    <atom:link href="https://acuherb.xyz/tags/%E5%B0%8F%E8%82%A0%E7%81%AB/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%B0%8F%E8%82%A0%E7%81%AB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>小肠火篇第三十五</title>
-      <link>https://acuherb.xyz/posts/waijing-35/</link>
+      <link>http://localhost:1313/posts/waijing-35/</link>
       <pubDate>Mon, 15 Dec 2025 15:26:52 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
-      <guid>https://acuherb.xyz/posts/waijing-35/</guid>
-      <category domain="https://acuherb.xyz/categories/%E5%A4%96%E7%BB%8F/">外经</category>
+      <guid>http://localhost:1313/posts/waijing-35/</guid>
+      <category domain="http://localhost:1313/categories/%E5%A4%96%E7%BB%8F/">外经</category>
       <description>文章通过少师与岐伯的对话，深入辨析了小肠的&lt;strong&gt;水火属性&lt;/strong&gt;，阐述了其**“代心行事”&lt;strong&gt;及&lt;/strong&gt;“分清化浊”&lt;strong&gt;的功能，并重点揭示了小肠功能发挥必须依赖&lt;/strong&gt;“肾中真水”**的深层机理。</description>
     </item>
   </channel>

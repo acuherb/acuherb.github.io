@@ -189,5 +189,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz)  
-> URL: https://acuherb.xyz/posts/lingshu-74/  
+> URL: http://localhost:1313/posts/lingshu-74/  
 

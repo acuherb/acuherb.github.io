@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>病机特征 - 标签 - 针草堂</title>
-    <link>https://acuherb.xyz/tags/%E7%97%85%E6%9C%BA%E7%89%B9%E5%BE%81/</link>
+    <link>http://localhost:1313/tags/%E7%97%85%E6%9C%BA%E7%89%B9%E5%BE%81/</link>
     <description>以针通经络，以草养气血</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -13,13 +13,13 @@
     <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
     <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
     <lastBuildDate>Sun, 07 Sep 2025 13:04:28 +0800</lastBuildDate>
-    <atom:link href="https://acuherb.xyz/tags/%E7%97%85%E6%9C%BA%E7%89%B9%E5%BE%81/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E7%97%85%E6%9C%BA%E7%89%B9%E5%BE%81/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>禁服第四十八</title>
-      <link>https://acuherb.xyz/posts/lingshu-48/</link>
+      <link>http://localhost:1313/posts/lingshu-48/</link>
       <pubDate>Sun, 07 Sep 2025 11:55:22 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
-      <guid>https://acuherb.xyz/posts/lingshu-48/</guid>
-      <category domain="https://acuherb.xyz/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
+      <guid>http://localhost:1313/posts/lingshu-48/</guid>
+      <category domain="http://localhost:1313/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
       <description>禁，禁诫；服，服从。因文中主要阐述针灸治疗疾病的高深原理，以及在具体运用中遵循和禁忌的内容，故称为&amp;quot;禁服&amp;quot;。</description>
     </item>
   </channel>
