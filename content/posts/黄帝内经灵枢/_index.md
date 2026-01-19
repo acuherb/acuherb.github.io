@@ -1,4 +1,4 @@
 ﻿---
-title: "灵枢经"
+title: "黄帝内经灵枢"
 draft: false
 ---

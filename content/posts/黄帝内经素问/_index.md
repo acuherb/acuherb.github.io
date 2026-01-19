@@ -1,4 +1,4 @@
 ﻿---
-title: "黄帝素问"
+title: "黄帝内经素问"
 draft: false
 ---

@@ -1,4 +1,4 @@
 ﻿---
-title: "伤寒金匮"
+title: "金匮要略"
 draft: false
 ---
