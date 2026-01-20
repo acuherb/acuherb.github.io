@@ -684,7 +684,7 @@ typeit = false
 # FixIt 0.2.12 | NEW Header subtitle config
 [params.header.subtitle]
 # subtitle name
-name = "针通经络，草养气血。"
+name = "观以明理，颐以养正。"
 # whether to use typeit animation for subtitle name
 typeit = false
 
