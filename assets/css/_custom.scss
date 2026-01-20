@@ -671,3 +671,7 @@ a[href*="twikoo.js.org"] {
     font-size: 0 !important;
 }
 
+.tk-content img, .tk-preview-container img {
+    display: inline;
+    vertical-align: bottom !important;
+}

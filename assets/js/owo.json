@@ -1,0 +1,24 @@
+{
+    "Blobcat": {
+      "type": "image",
+      "container": [
+        { "icon": "<img src=\"https://emojis.slackmojis.com/emojis/images/1643515456/14767/meow_adorable.png?1643515456\">", "text": "meow_adorable" },
+        { "icon": "<img src=\"https://emojis.slackmojis.com/emojis/images/1643515237/12549/meow_angel.png?1643515237\">", "text": "meow_angel" }
+      ]
+    },
+    "颜文字": {
+      "type": "emoticon",
+      "container": [
+        { "icon": "OωO", "text": "Author: DIYgod" },
+        { "icon": "|´・ω・)ノ", "text": "Hi" },
+        { "icon": "ヾ(≧∇≦*)ゝ", "text": "开心" }
+      ]
+    },
+    "Emoji": {
+      "type": "emoji",
+      "container": [
+        { "icon": "😀", "text": "" },
+        { "icon": "😅", "text": "" }
+      ]
+    }
+  }

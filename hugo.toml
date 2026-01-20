@@ -11,7 +11,7 @@
 # -------------------------------------------------------------------------------------
 
 # website title
-title = "针草堂"
+title = "观颐斋"
 # Hostname (and path) to the root
 baseURL = "https://acuherb.xyz"
 # theme list
@@ -536,7 +536,7 @@ collection = "collections"
 # FixIt 0.2.15 | CHANGED FixIt theme version
 version = "0.4.0" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
 # site description
-description = "以针通经络，以草养气血"
+description = "观以明理，颐以养正"
 # site keywords
 keywords = ["针灸", "内经", "本草经", "伤寒", "金匮"]
 # site default theme ["light", "dark", "auto"]
@@ -811,7 +811,7 @@ avatarMenu = "/about/"
 # title shown in home page (HTML format is supported)
 title = "AcuHerb"
 # subtitle shown in home page (HTML format is supported)
-subtitle = "探寻千年智慧，传承阴阳五行的平衡，修身养性，顺应天人之道。"
+subtitle = "入经典之门，行颐养之路"
 # whether to use typeit animation for subtitle
 typeit = true
 # whether to show social links
