@@ -1,4 +1,2 @@
 @import url('https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkai/dist/LXGWWenKai-Regular/result.css');
-
-/* 定义全局字体族 */
-$global-font-family: 'LXGW WenKai', 'Microsoft YaHei', sans-serif;
+$global-font-family: 'LXGW WenKai', $global-font-family;
