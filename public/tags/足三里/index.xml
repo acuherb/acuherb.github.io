@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>足三里 - 标签 - 观颐斋</title>
-    <link>http://localhost:64289/tags/%E8%B6%B3%E4%B8%89%E9%87%8C/</link>
+    <link>http://localhost:62317/tags/%E8%B6%B3%E4%B8%89%E9%87%8C/</link>
     <description>观以明理，颐以养正</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -13,13 +13,13 @@
     <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
     <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
     <lastBuildDate>Mon, 19 Jan 2026 19:02:17 +0800</lastBuildDate>
-    <atom:link href="http://localhost:64289/tags/%E8%B6%B3%E4%B8%89%E9%87%8C/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:62317/tags/%E8%B6%B3%E4%B8%89%E9%87%8C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>足阳明胃经</title>
-      <link>http://localhost:64289/posts/zhenjiu-4-5/</link>
+      <link>http://localhost:62317/posts/zhenjiu-4-5/</link>
       <pubDate>Sun, 13 Jul 2025 09:30:00 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
-      <guid>http://localhost:64289/posts/zhenjiu-4-5/</guid>
-      <category domain="http://localhost:64289/categories/%E9%92%88%E7%81%B8%E7%AC%94%E8%AE%B0/">针灸笔记</category>
+      <guid>http://localhost:62317/posts/zhenjiu-4-5/</guid>
+      <category domain="http://localhost:62317/categories/%E9%92%88%E7%81%B8%E7%AC%94%E8%AE%B0/">针灸笔记</category>
       <description>本文系统介绍了足阳明胃经的循行特点、功能及关键穴位，重点解析了头面部、胸腹部和下肢穴位的定位与临床应用，并阐述了胃气的重要性及特殊针法，强调胃经在调理胃肠、乳腺及急救病症中的作用，体现了针灸整体治疗的理念。</description>
     </item>
   </channel>

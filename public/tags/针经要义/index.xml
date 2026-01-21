@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>针经要义 - 标签 - 观颐斋</title>
-    <link>http://localhost:64289/tags/%E9%92%88%E7%BB%8F%E8%A6%81%E4%B9%89/</link>
+    <link>http://localhost:62317/tags/%E9%92%88%E7%BB%8F%E8%A6%81%E4%B9%89/</link>
     <description>观以明理，颐以养正</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -13,13 +13,13 @@
     <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
     <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
     <lastBuildDate>Mon, 19 Jan 2026 19:02:17 +0800</lastBuildDate>
-    <atom:link href="http://localhost:64289/tags/%E9%92%88%E7%BB%8F%E8%A6%81%E4%B9%89/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:62317/tags/%E9%92%88%E7%BB%8F%E8%A6%81%E4%B9%89/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>九针十二原第一：法天</title>
-      <link>http://localhost:64289/posts/lingshu-01/</link>
+      <link>http://localhost:62317/posts/lingshu-01/</link>
       <pubDate>Tue, 22 Jul 2025 10:14:22 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
-      <guid>http://localhost:64289/posts/lingshu-01/</guid>
-      <category domain="http://localhost:64289/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
+      <guid>http://localhost:62317/posts/lingshu-01/</guid>
+      <category domain="http://localhost:62317/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
       <description>九针，是指古代针刺治疗所用的九种不同形状的针具；十二原，是指脏腑真气输注于体表的处所，也是治疗脏腑疾患的十二个要穴。本篇详细明确地介绍了九针的名称、形状以及不同的用途；介绍了十二原穴的名称及其各自所对应的脏腑，并说明了五脏六腑有病，可以分别取用相应的十二原穴来进行治疗的道理。所以本篇名为&amp;quot;九针十二原&amp;quot;。</description>
     </item>
   </channel>

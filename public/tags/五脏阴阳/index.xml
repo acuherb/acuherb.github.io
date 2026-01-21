@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>五脏阴阳 - 标签 - 观颐斋</title>
-    <link>http://localhost:64289/tags/%E4%BA%94%E8%84%8F%E9%98%B4%E9%98%B3/</link>
+    <link>http://localhost:62317/tags/%E4%BA%94%E8%84%8F%E9%98%B4%E9%98%B3/</link>
     <description>观以明理，颐以养正</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -13,13 +13,13 @@
     <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
     <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
     <lastBuildDate>Mon, 19 Jan 2026 19:02:17 +0800</lastBuildDate>
-    <atom:link href="http://localhost:64289/tags/%E4%BA%94%E8%84%8F%E9%98%B4%E9%98%B3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:62317/tags/%E4%BA%94%E8%84%8F%E9%98%B4%E9%98%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>阴阳系日月第四十一</title>
-      <link>http://localhost:64289/posts/lingshu-41/</link>
+      <link>http://localhost:62317/posts/lingshu-41/</link>
       <pubDate>Sun, 31 Aug 2025 14:25:22 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
-      <guid>http://localhost:64289/posts/lingshu-41/</guid>
-      <category domain="http://localhost:64289/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
+      <guid>http://localhost:62317/posts/lingshu-41/</guid>
+      <category domain="http://localhost:62317/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
       <description>阴阳，指自然界的阴阳，人身上下所分的阴阳和经脉的阴阳。篇中将自然界的阴阳、人身的阴阳与日月相联系，以说明人体同自然界的关系，并据此提出针刺方面的注意事项，所以称为&amp;quot;阴阳系日月&amp;quot;。</description>
     </item>
   </channel>

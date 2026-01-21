@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>阴阳失调 - 标签 - 观颐斋</title>
-    <link>http://localhost:64289/tags/%E9%98%B4%E9%98%B3%E5%A4%B1%E8%B0%83/</link>
+    <link>http://localhost:62317/tags/%E9%98%B4%E9%98%B3%E5%A4%B1%E8%B0%83/</link>
     <description>观以明理，颐以养正</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -13,13 +13,13 @@
     <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
     <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
     <lastBuildDate>Mon, 19 Jan 2026 19:05:58 +0800</lastBuildDate>
-    <atom:link href="http://localhost:64289/tags/%E9%98%B4%E9%98%B3%E5%A4%B1%E8%B0%83/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:62317/tags/%E9%98%B4%E9%98%B3%E5%A4%B1%E8%B0%83/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>脉解篇第四十九</title>
-      <link>http://localhost:64289/posts/%E7%B4%A0%E9%97%AE49%E8%84%89%E8%A7%A3%E7%AF%87%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%B9%9D/</link>
+      <link>http://localhost:62317/posts/%E7%B4%A0%E9%97%AE49%E8%84%89%E8%A7%A3%E7%AF%87%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%B9%9D/</link>
       <pubDate>Wed, 19 Mar 2025 20:14:22 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
-      <guid>http://localhost:64289/posts/%E7%B4%A0%E9%97%AE49%E8%84%89%E8%A7%A3%E7%AF%87%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%B9%9D/</guid>
-      <category domain="http://localhost:64289/categories/%E7%B4%A0%E9%97%AE/">素问</category>
+      <guid>http://localhost:62317/posts/%E7%B4%A0%E9%97%AE49%E8%84%89%E8%A7%A3%E7%AF%87%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%B9%9D/</guid>
+      <category domain="http://localhost:62317/categories/%E7%B4%A0%E9%97%AE/">素问</category>
       <description>本文阐述了足太阳、少阳、阳明、太阴、少阴、厥阴六经在不同月份因阴阳失衡所导致的各种病症及其病理机制，强调阴阳失调是疾病产生的根本原因。</description>
     </item>
   </channel>

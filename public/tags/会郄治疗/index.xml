@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>会郄治疗 - 标签 - 观颐斋</title>
-    <link>http://localhost:64289/tags/%E4%BC%9A%E9%83%84%E6%B2%BB%E7%96%97/</link>
+    <link>http://localhost:62317/tags/%E4%BC%9A%E9%83%84%E6%B2%BB%E7%96%97/</link>
     <description>观以明理，颐以养正</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -13,13 +13,13 @@
     <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
     <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
     <lastBuildDate>Mon, 19 Jan 2026 19:02:17 +0800</lastBuildDate>
-    <atom:link href="http://localhost:64289/tags/%E4%BC%9A%E9%83%84%E6%B2%BB%E7%96%97/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:62317/tags/%E4%BC%9A%E9%83%84%E6%B2%BB%E7%96%97/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>针灸治疗法</title>
-      <link>http://localhost:64289/posts/zhenjiu-5-4/</link>
+      <link>http://localhost:62317/posts/zhenjiu-5-4/</link>
       <pubDate>Sat, 19 Jul 2025 10:10:00 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
-      <guid>http://localhost:64289/posts/zhenjiu-5-4/</guid>
-      <category domain="http://localhost:64289/categories/%E9%92%88%E7%81%B8%E7%AC%94%E8%AE%B0/">针灸笔记</category>
+      <guid>http://localhost:62317/posts/zhenjiu-5-4/</guid>
+      <category domain="http://localhost:62317/categories/%E9%92%88%E7%81%B8%E7%AC%94%E8%AE%B0/">针灸笔记</category>
       <description>本文系统总结了五种针灸治疗法的核心理论、操作要点及临床应用，包括五俞穴治疗法、原络治疗法、俞募治疗法、会郄治疗法和九针疗法，并对比了各方法的适应症、补泻特点和禁忌，强调根据病位和病情选择合适治法，同时指出毫针和三棱针可解决多数临床问题。</description>
     </item>
   </channel>

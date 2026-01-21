@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>营卫交重 - 标签 - 观颐斋</title>
-    <link>http://localhost:64289/tags/%E8%90%A5%E5%8D%AB%E4%BA%A4%E9%87%8D/</link>
+    <link>http://localhost:62317/tags/%E8%90%A5%E5%8D%AB%E4%BA%A4%E9%87%8D/</link>
     <description>观以明理，颐以养正</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -13,13 +13,13 @@
     <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
     <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
     <lastBuildDate>Mon, 19 Jan 2026 18:56:20 +0800</lastBuildDate>
-    <atom:link href="http://localhost:64289/tags/%E8%90%A5%E5%8D%AB%E4%BA%A4%E9%87%8D/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:62317/tags/%E8%90%A5%E5%8D%AB%E4%BA%A4%E9%87%8D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>营卫交重篇第六十一</title>
-      <link>http://localhost:64289/posts/waijing-61/</link>
+      <link>http://localhost:62317/posts/waijing-61/</link>
       <pubDate>Sat, 10 Jan 2026 15:05:52 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
-      <guid>http://localhost:64289/posts/waijing-61/</guid>
-      <category domain="http://localhost:64289/categories/%E5%A4%96%E7%BB%8F/">外经</category>
+      <guid>http://localhost:62317/posts/waijing-61/</guid>
+      <category domain="http://localhost:62317/categories/%E5%A4%96%E7%BB%8F/">外经</category>
       <description>文章通过雷公与岐伯的对话，纠正了“重卫轻营”（重阳轻阴）的错误观念，详细阐述了营卫二气的起源、运行轨迹以及营气在十二经脉中的具体流注顺序。</description>
     </item>
   </channel>

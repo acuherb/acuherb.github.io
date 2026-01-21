@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>中医刺法 - 标签 - 观颐斋</title>
-    <link>http://localhost:64289/tags/%E4%B8%AD%E5%8C%BB%E5%88%BA%E6%B3%95/</link>
+    <link>http://localhost:62317/tags/%E4%B8%AD%E5%8C%BB%E5%88%BA%E6%B3%95/</link>
     <description>观以明理，颐以养正</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -13,13 +13,13 @@
     <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
     <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
     <lastBuildDate>Mon, 19 Jan 2026 19:05:58 +0800</lastBuildDate>
-    <atom:link href="http://localhost:64289/tags/%E4%B8%AD%E5%8C%BB%E5%88%BA%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:62317/tags/%E4%B8%AD%E5%8C%BB%E5%88%BA%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>缪刺论篇第六十三</title>
-      <link>http://localhost:64289/posts/%E7%B4%A0%E9%97%AE63%E7%BC%AA%E5%88%BA%E8%AE%BA%E7%AF%87%E7%AC%AC%E5%85%AD%E5%8D%81%E4%B8%89/</link>
+      <link>http://localhost:62317/posts/%E7%B4%A0%E9%97%AE63%E7%BC%AA%E5%88%BA%E8%AE%BA%E7%AF%87%E7%AC%AC%E5%85%AD%E5%8D%81%E4%B8%89/</link>
       <pubDate>Thu, 03 Apr 2025 20:14:22 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
-      <guid>http://localhost:64289/posts/%E7%B4%A0%E9%97%AE63%E7%BC%AA%E5%88%BA%E8%AE%BA%E7%AF%87%E7%AC%AC%E5%85%AD%E5%8D%81%E4%B8%89/</guid>
-      <category domain="http://localhost:64289/categories/%E7%B4%A0%E9%97%AE/">素问</category>
+      <guid>http://localhost:62317/posts/%E7%B4%A0%E9%97%AE63%E7%BC%AA%E5%88%BA%E8%AE%BA%E7%AF%87%E7%AC%AC%E5%85%AD%E5%8D%81%E4%B8%89/</guid>
+      <category domain="http://localhost:62317/categories/%E7%B4%A0%E9%97%AE/">素问</category>
       <description>本文系统阐述了缪刺法的原理与应用，详细介绍了针对不同经络病变的缪刺取穴方法，并强调了左病右治、右病左治的基本原则及其与巨刺法的区别。</description>
     </item>
   </channel>

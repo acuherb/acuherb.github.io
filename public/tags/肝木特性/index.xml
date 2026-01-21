@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>肝木特性 - 标签 - 观颐斋</title>
-    <link>http://localhost:64289/tags/%E8%82%9D%E6%9C%A8%E7%89%B9%E6%80%A7/</link>
+    <link>http://localhost:62317/tags/%E8%82%9D%E6%9C%A8%E7%89%B9%E6%80%A7/</link>
     <description>观以明理，颐以养正</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -13,13 +13,13 @@
     <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
     <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
     <lastBuildDate>Mon, 19 Jan 2026 18:56:20 +0800</lastBuildDate>
-    <atom:link href="http://localhost:64289/tags/%E8%82%9D%E6%9C%A8%E7%89%B9%E6%80%A7/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:62317/tags/%E8%82%9D%E6%9C%A8%E7%89%B9%E6%80%A7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>肝木篇第二十五</title>
-      <link>http://localhost:64289/posts/waijing-25/</link>
+      <link>http://localhost:62317/posts/waijing-25/</link>
       <pubDate>Fri, 05 Dec 2025 16:32:22 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
-      <guid>http://localhost:64289/posts/waijing-25/</guid>
-      <category domain="http://localhost:64289/categories/%E5%A4%96%E7%BB%8F/">外经</category>
+      <guid>http://localhost:62317/posts/waijing-25/</guid>
+      <category domain="http://localhost:62317/categories/%E5%A4%96%E7%BB%8F/">外经</category>
       <description>文章通过少师与岐伯的对话，深入探讨了肝（木）的生理病理特性，特别是**“肝郁”**（木郁）的成因、传变规律以及治疗原则，修正了单纯“补肾养肝”的局限性。</description>
     </item>
   </channel>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>疾病传变 - 标签 - 观颐斋</title>
-    <link>http://localhost:64289/tags/%E7%96%BE%E7%97%85%E4%BC%A0%E5%8F%98/</link>
+    <link>http://localhost:62317/tags/%E7%96%BE%E7%97%85%E4%BC%A0%E5%8F%98/</link>
     <description>观以明理，颐以养正</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -13,13 +13,13 @@
     <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
     <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
     <lastBuildDate>Mon, 19 Jan 2026 19:05:58 +0800</lastBuildDate>
-    <atom:link href="http://localhost:64289/tags/%E7%96%BE%E7%97%85%E4%BC%A0%E5%8F%98/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:62317/tags/%E7%96%BE%E7%97%85%E4%BC%A0%E5%8F%98/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>标本病传论篇第六十五</title>
-      <link>http://localhost:64289/posts/%E7%B4%A0%E9%97%AE65%E6%A0%87%E6%9C%AC%E7%97%85%E4%BC%A0%E8%AE%BA%E7%AF%87%E7%AC%AC%E5%85%AD%E5%8D%81%E4%BA%94/</link>
+      <link>http://localhost:62317/posts/%E7%B4%A0%E9%97%AE65%E6%A0%87%E6%9C%AC%E7%97%85%E4%BC%A0%E8%AE%BA%E7%AF%87%E7%AC%AC%E5%85%AD%E5%8D%81%E4%BA%94/</link>
       <pubDate>Sat, 05 Apr 2025 20:14:22 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
-      <guid>http://localhost:64289/posts/%E7%B4%A0%E9%97%AE65%E6%A0%87%E6%9C%AC%E7%97%85%E4%BC%A0%E8%AE%BA%E7%AF%87%E7%AC%AC%E5%85%AD%E5%8D%81%E4%BA%94/</guid>
-      <category domain="http://localhost:64289/categories/%E7%B4%A0%E9%97%AE/">素问</category>
+      <guid>http://localhost:62317/posts/%E7%B4%A0%E9%97%AE65%E6%A0%87%E6%9C%AC%E7%97%85%E4%BC%A0%E8%AE%BA%E7%AF%87%E7%AC%AC%E5%85%AD%E5%8D%81%E4%BA%94/</guid>
+      <category domain="http://localhost:62317/categories/%E7%B4%A0%E9%97%AE/">素问</category>
       <description>本文阐述了疾病的标本关系及针刺治疗的顺逆原则，强调治病需分主次、辨阴阳，并根据病情轻重、传变规律及四时变化制定治法，否则可能加重病情甚至导致死亡。</description>
     </item>
   </channel>

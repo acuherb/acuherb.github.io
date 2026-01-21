@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>顺逆预后 - 标签 - 观颐斋</title>
-    <link>http://localhost:64289/tags/%E9%A1%BA%E9%80%86%E9%A2%84%E5%90%8E/</link>
+    <link>http://localhost:62317/tags/%E9%A1%BA%E9%80%86%E9%A2%84%E5%90%8E/</link>
     <description>观以明理，颐以养正</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -13,13 +13,13 @@
     <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
     <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
     <lastBuildDate>Mon, 19 Jan 2026 19:05:58 +0800</lastBuildDate>
-    <atom:link href="http://localhost:64289/tags/%E9%A1%BA%E9%80%86%E9%A2%84%E5%90%8E/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:62317/tags/%E9%A1%BA%E9%80%86%E9%A2%84%E5%90%8E/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>通评虚实论篇第二十八</title>
-      <link>http://localhost:64289/posts/%E7%B4%A0%E9%97%AE28%E9%80%9A%E8%AF%84%E8%99%9A%E5%AE%9E%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%85%AB/</link>
+      <link>http://localhost:62317/posts/%E7%B4%A0%E9%97%AE28%E9%80%9A%E8%AF%84%E8%99%9A%E5%AE%9E%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%85%AB/</link>
       <pubDate>Wed, 26 Feb 2025 20:14:22 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
-      <guid>http://localhost:64289/posts/%E7%B4%A0%E9%97%AE28%E9%80%9A%E8%AF%84%E8%99%9A%E5%AE%9E%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%85%AB/</guid>
-      <category domain="http://localhost:64289/categories/%E7%B4%A0%E9%97%AE/">素问</category>
+      <guid>http://localhost:62317/posts/%E7%B4%A0%E9%97%AE28%E9%80%9A%E8%AF%84%E8%99%9A%E5%AE%9E%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%85%AB/</guid>
+      <category domain="http://localhost:62317/categories/%E7%B4%A0%E9%97%AE/">素问</category>
       <description>黄帝与岐伯系统论述了虚实病机的脉症鉴别与治疗原则，重点阐释了通过寸口脉与尺脉的盛衰变化判断病情顺逆，强调四时脉象特征与预后的关系，并详细介绍了针对不同虚实病证的针灸取穴法则和操作要领，体现了&amp;quot;脉症合参、因时施治&amp;quot;的中医诊疗思想。</description>
     </item>
   </channel>

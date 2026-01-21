@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>五过 - 标签 - 观颐斋</title>
-    <link>http://localhost:64289/tags/%E4%BA%94%E8%BF%87/</link>
+    <link>http://localhost:62317/tags/%E4%BA%94%E8%BF%87/</link>
     <description>观以明理，颐以养正</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -13,13 +13,13 @@
     <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
     <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
     <lastBuildDate>Mon, 19 Jan 2026 19:02:17 +0800</lastBuildDate>
-    <atom:link href="http://localhost:64289/tags/%E4%BA%94%E8%BF%87/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:62317/tags/%E4%BA%94%E8%BF%87/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>五禁第六十一</title>
-      <link>http://localhost:64289/posts/lingshu-61/</link>
+      <link>http://localhost:62317/posts/lingshu-61/</link>
       <pubDate>Sat, 20 Sep 2025 12:20:11 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
-      <guid>http://localhost:64289/posts/lingshu-61/</guid>
-      <category domain="http://localhost:64289/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
+      <guid>http://localhost:62317/posts/lingshu-61/</guid>
+      <category domain="http://localhost:62317/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
       <description>本篇主要以阐述针刺的宜忌为中心，包括五禁、五夺、五过、五逆等法，其内容以五禁为首，故篇名&amp;quot;五禁&amp;quot;。</description>
     </item>
   </channel>

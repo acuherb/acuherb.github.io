@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>月相刺法 - 标签 - 观颐斋</title>
-    <link>http://localhost:64289/tags/%E6%9C%88%E7%9B%B8%E5%88%BA%E6%B3%95/</link>
+    <link>http://localhost:62317/tags/%E6%9C%88%E7%9B%B8%E5%88%BA%E6%B3%95/</link>
     <description>观以明理，颐以养正</description>
     <follow_challenge>
       <feedId>150502341826627584</feedId>
@@ -13,13 +13,13 @@
     <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
     <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
     <lastBuildDate>Mon, 19 Jan 2026 19:05:58 +0800</lastBuildDate>
-    <atom:link href="http://localhost:64289/tags/%E6%9C%88%E7%9B%B8%E5%88%BA%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:62317/tags/%E6%9C%88%E7%9B%B8%E5%88%BA%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>刺腰痛篇第四十一</title>
-      <link>http://localhost:64289/posts/%E7%B4%A0%E9%97%AE41%E5%88%BA%E8%85%B0%E7%97%9B%E7%AF%87%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%B8%80/</link>
+      <link>http://localhost:62317/posts/%E7%B4%A0%E9%97%AE41%E5%88%BA%E8%85%B0%E7%97%9B%E7%AF%87%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%B8%80/</link>
       <pubDate>Tue, 11 Mar 2025 20:14:22 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
-      <guid>http://localhost:64289/posts/%E7%B4%A0%E9%97%AE41%E5%88%BA%E8%85%B0%E7%97%9B%E7%AF%87%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%B8%80/</guid>
-      <category domain="http://localhost:64289/categories/%E7%B4%A0%E9%97%AE/">素问</category>
+      <guid>http://localhost:62317/posts/%E7%B4%A0%E9%97%AE41%E5%88%BA%E8%85%B0%E7%97%9B%E7%AF%87%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%B8%80/</guid>
+      <category domain="http://localhost:62317/categories/%E7%B4%A0%E9%97%AE/">素问</category>
       <description>系统论述十二经脉及奇经八脉引起的各类腰痛症状及其针刺疗法，详细阐述不同经络腰痛的辨证要点和取穴原则，强调&amp;quot;随月盈亏调刺数&amp;quot;和&amp;quot;左病取右&amp;quot;的治疗法则。</description>
     </item>
   </channel>
