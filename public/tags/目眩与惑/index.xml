@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>目眩与惑 - 标签 - 观颐斋</title>
+    <link>http://localhost:64289/tags/%E7%9B%AE%E7%9C%A9%E4%B8%8E%E6%83%91/</link>
+    <description>观以明理，颐以养正</description>
+    <follow_challenge>
+      <feedId>150502341826627584</feedId>
+      <userId>ZnkTaajoold86nK1rOZmQsDmDM1cgXMP</userId>
+    </follow_challenge>
+    <generator>Hugo 0.152.2 &amp; FixIt v0.4.1</generator>
+    <language>zh-cn</language>
+    <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
+    <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
+    <lastBuildDate>Mon, 19 Jan 2026 19:02:17 +0800</lastBuildDate>
+    <atom:link href="http://localhost:64289/tags/%E7%9B%AE%E7%9C%A9%E4%B8%8E%E6%83%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>大惑论第八十</title>
+      <link>http://localhost:64289/posts/lingshu-80/</link>
+      <pubDate>Thu, 09 Oct 2025 17:45:11 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
+      <guid>http://localhost:64289/posts/lingshu-80/</guid>
+      <category domain="http://localhost:64289/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
+      <description>惑，迷乱眩晕的意思；大，形容其严重。文中主要论述了登高时发生精神迷惑、头目眩晕的道理，故篇名为&amp;quot;大惑论&amp;quot;。</description>
+    </item>
+  </channel>
+</rss>

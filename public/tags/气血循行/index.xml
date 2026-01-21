@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>气血循行 - 标签 - 观颐斋</title>
+    <link>http://localhost:64289/tags/%E6%B0%94%E8%A1%80%E5%BE%AA%E8%A1%8C/</link>
+    <description>观以明理，颐以养正</description>
+    <follow_challenge>
+      <feedId>150502341826627584</feedId>
+      <userId>ZnkTaajoold86nK1rOZmQsDmDM1cgXMP</userId>
+    </follow_challenge>
+    <generator>Hugo 0.152.2 &amp; FixIt v0.4.1</generator>
+    <language>zh-cn</language>
+    <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
+    <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
+    <lastBuildDate>Mon, 19 Jan 2026 19:02:17 +0800</lastBuildDate>
+    <atom:link href="http://localhost:64289/tags/%E6%B0%94%E8%A1%80%E5%BE%AA%E8%A1%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>脉度第十七</title>
+      <link>http://localhost:64289/posts/lingshu-17/</link>
+      <pubDate>Thu, 07 Aug 2025 16:22:22 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
+      <guid>http://localhost:64289/posts/lingshu-17/</guid>
+      <category domain="http://localhost:64289/categories/%E7%81%B5%E6%9E%A2/">灵枢</category>
+      <description>脉度是指脉的长度，文中说明了二十八脉的长度和测量的方法，以及二十八脉对应的生理、病理情况和治疗方法，故篇名&amp;quot;脉度&amp;quot;。</description>
+    </item>
+  </channel>
+</rss>

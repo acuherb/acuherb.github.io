@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>阴火克金 - 标签 - 观颐斋</title>
+    <link>http://localhost:64289/tags/%E9%98%B4%E7%81%AB%E5%85%8B%E9%87%91/</link>
+    <description>观以明理，颐以养正</description>
+    <follow_challenge>
+      <feedId>150502341826627584</feedId>
+      <userId>ZnkTaajoold86nK1rOZmQsDmDM1cgXMP</userId>
+    </follow_challenge>
+    <generator>Hugo 0.152.2 &amp; FixIt v0.4.1</generator>
+    <language>zh-cn</language>
+    <managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor>
+    <webMaster>acuherb@foxmail.com (AcuHerb)</webMaster>
+    <lastBuildDate>Mon, 19 Jan 2026 18:56:20 +0800</lastBuildDate>
+    <atom:link href="http://localhost:64289/tags/%E9%98%B4%E7%81%AB%E5%85%8B%E9%87%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>包络火篇第三十</title>
+      <link>http://localhost:64289/posts/waijing-30/</link>
+      <pubDate>Wed, 10 Dec 2025 11:15:22 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author>
+      <guid>http://localhost:64289/posts/waijing-30/</guid>
+      <category domain="http://localhost:64289/categories/%E5%A4%96%E7%BB%8F/">外经</category>
+      <description>文章通过少师与岐伯（及岐天师）的对话，辨析了&lt;strong&gt;心包火（包络火）&lt;strong&gt;与&lt;/strong&gt;心火&lt;/strong&gt;的区别，阐述了其特殊的病理危害及“泻肝补肾”的治疗策略。</description>
+    </item>
+  </channel>
+</rss>
