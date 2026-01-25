@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.min.css",
-	"sourceRoot": "/home/runner/work/acuherb/acuherb",
+	"sourceRoot": "/home/runner/work/acuherb-blog/acuherb-blog",
 	"sources": [
 		"/tmp/hugo_cache_runner/modules/filecache/modules/pkg/mod/github.com/hugo-fixit/!fix!it@v0.4.2/assets/css/style.scss",
 		"../../../../../tmp/hugo_cache_runner/modules/filecache/modules/pkg/mod/github.com/hugo-fixit/!fix!it@v0.4.2/assets/css/_variables.scss",

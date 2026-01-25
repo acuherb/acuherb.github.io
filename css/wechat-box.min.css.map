@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "wechat-box.min.css",
-	"sourceRoot": "/home/runner/work/acuherb/acuherb",
+	"sourceRoot": "/home/runner/work/acuherb-blog/acuherb-blog",
 	"sources": [
 		"assets/css/_custom/wechat-box.scss"
 	],
