@@ -7,6 +7,6 @@
 
 ---
 
-> 作者: [AcuHerb](https://firework.acuherb.xyz/)  
+> 作者: [AcuHerb](https://acuherb.xyz/)  
 > URL: https://acuherb.xyz/posts/%E6%9C%AC%E8%8D%89-310.%E7%89%9B%E6%89%81/  
 

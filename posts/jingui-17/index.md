@@ -3088,6 +3088,6 @@
 
 ---
 
-> 作者: [AcuHerb](https://firework.acuherb.xyz/)  
+> 作者: [AcuHerb](https://acuherb.xyz/)  
 > URL: https://acuherb.xyz/posts/jingui-17/  
 

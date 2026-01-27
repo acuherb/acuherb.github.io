@@ -116,6 +116,6 @@
 
 ---
 
-> 作者: [AcuHerb](https://firework.acuherb.xyz/)  
+> 作者: [AcuHerb](https://acuherb.xyz/)  
 > URL: https://acuherb.xyz/posts/%E7%B4%A0%E9%97%AE30%E9%98%B3%E6%98%8E%E8%84%89%E8%A7%A3%E7%AF%87%E7%AC%AC%E4%B8%89%E5%8D%81/  
 
