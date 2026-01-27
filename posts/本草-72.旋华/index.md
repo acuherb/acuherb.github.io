@@ -36,6 +36,6 @@
 
 ---
 
-> 作者: [AcuHerb](https://acuherb.xyz)  
+> 作者: [AcuHerb](https://firework.acuherb.xyz/)  
 > URL: https://acuherb.xyz/posts/%E6%9C%AC%E8%8D%89-72.%E6%97%8B%E5%8D%8E/  
 

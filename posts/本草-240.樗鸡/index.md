@@ -8,6 +8,6 @@
 
 ---
 
-> 作者: [AcuHerb](https://acuherb.xyz)  
+> 作者: [AcuHerb](https://firework.acuherb.xyz/)  
 > URL: https://acuherb.xyz/posts/%E6%9C%AC%E8%8D%89-240.%E6%A8%97%E9%B8%A1/  
 

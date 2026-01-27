@@ -180,6 +180,6 @@ B -->|否| D[攻里-桃核承气汤]
 
 ---
 
-> 作者: [AcuHerb](https://acuherb.xyz)  
+> 作者: [AcuHerb](https://firework.acuherb.xyz/)  
 > URL: https://acuherb.xyz/posts/shanghanlun-119/  
 
