@@ -54,5 +54,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/%E6%9C%AC%E8%8D%89-28.%E5%85%85%E8%94%9A%E5%AD%90/  
+> URL: https://acuherb.xyz/posts/%E6%9C%AC%E8%8D%89-28.%E5%85%85%E8%94%9A%E5%AD%90/  
 

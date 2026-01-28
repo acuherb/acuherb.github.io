@@ -43,5 +43,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/9-shidan/  
+> URL: https://acuherb.xyz/posts/9-shidan/  
 

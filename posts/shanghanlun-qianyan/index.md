@@ -37,5 +37,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/shanghanlun-qianyan/  
+> URL: https://acuherb.xyz/posts/shanghanlun-qianyan/  
 

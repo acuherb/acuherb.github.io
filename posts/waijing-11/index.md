@@ -132,5 +132,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/waijing-11/  
+> URL: https://acuherb.xyz/posts/waijing-11/  
 

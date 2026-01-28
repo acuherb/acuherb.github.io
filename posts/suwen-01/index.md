@@ -135,5 +135,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/suwen-01/  
+> URL: https://acuherb.xyz/posts/suwen-01/  
 

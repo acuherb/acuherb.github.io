@@ -34,5 +34,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/bencao-255-shihui/  
+> URL: https://acuherb.xyz/posts/bencao-255-shihui/  
 

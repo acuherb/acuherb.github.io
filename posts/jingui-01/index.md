@@ -1117,5 +1117,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/jingui-01/  
+> URL: https://acuherb.xyz/posts/jingui-01/  
 

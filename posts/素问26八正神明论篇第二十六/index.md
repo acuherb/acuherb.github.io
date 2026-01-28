@@ -123,5 +123,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/%E7%B4%A0%E9%97%AE26%E5%85%AB%E6%AD%A3%E7%A5%9E%E6%98%8E%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%85%AD/  
+> URL: https://acuherb.xyz/posts/%E7%B4%A0%E9%97%AE26%E5%85%AB%E6%AD%A3%E7%A5%9E%E6%98%8E%E8%AE%BA%E7%AF%87%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%85%AD/  
 

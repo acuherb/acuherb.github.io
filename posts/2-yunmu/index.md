@@ -59,5 +59,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/2-yunmu/  
+> URL: https://acuherb.xyz/posts/2-yunmu/  
 

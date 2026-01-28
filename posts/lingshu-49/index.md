@@ -246,5 +246,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/lingshu-49/  
+> URL: https://acuherb.xyz/posts/lingshu-49/  
 

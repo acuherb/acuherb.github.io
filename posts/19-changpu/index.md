@@ -81,5 +81,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/19-changpu/  
+> URL: https://acuherb.xyz/posts/19-changpu/  
 

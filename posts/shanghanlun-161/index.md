@@ -122,5 +122,5 @@ graph LR
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/shanghanlun-161/  
+> URL: https://acuherb.xyz/posts/shanghanlun-161/  
 

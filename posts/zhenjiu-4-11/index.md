@@ -100,5 +100,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/zhenjiu-4-11/  
+> URL: https://acuherb.xyz/posts/zhenjiu-4-11/  
 

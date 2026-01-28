@@ -77,5 +77,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/316-liuhua/  
+> URL: https://acuherb.xyz/posts/316-liuhua/  
 

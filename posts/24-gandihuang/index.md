@@ -78,5 +78,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/24-gandihuang/  
+> URL: https://acuherb.xyz/posts/24-gandihuang/  
 

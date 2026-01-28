@@ -39,5 +39,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/21-yujin/  
+> URL: https://acuherb.xyz/posts/21-yujin/  
 

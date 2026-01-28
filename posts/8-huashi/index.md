@@ -56,5 +56,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/8-huashi/  
+> URL: https://acuherb.xyz/posts/8-huashi/  
 

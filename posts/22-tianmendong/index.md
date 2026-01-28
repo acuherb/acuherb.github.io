@@ -65,5 +65,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/22-tianmendong/  
+> URL: https://acuherb.xyz/posts/22-tianmendong/  
 

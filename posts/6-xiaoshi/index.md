@@ -46,5 +46,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/6-xiaoshi/  
+> URL: https://acuherb.xyz/posts/6-xiaoshi/  
 

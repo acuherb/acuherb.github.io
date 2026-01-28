@@ -67,5 +67,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/15-zishiying/  
+> URL: https://acuherb.xyz/posts/15-zishiying/  
 

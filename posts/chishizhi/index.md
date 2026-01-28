@@ -71,5 +71,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/chishizhi/  
+> URL: https://acuherb.xyz/posts/chishizhi/  
 

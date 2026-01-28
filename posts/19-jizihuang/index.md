@@ -31,5 +31,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/19-jizihuang/  
+> URL: https://acuherb.xyz/posts/19-jizihuang/  
 

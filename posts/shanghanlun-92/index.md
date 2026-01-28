@@ -46,5 +46,5 @@ graph TD
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/shanghanlun-92/  
+> URL: https://acuherb.xyz/posts/shanghanlun-92/  
 

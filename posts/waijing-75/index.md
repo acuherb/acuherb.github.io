@@ -97,5 +97,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/waijing-75/  
+> URL: https://acuherb.xyz/posts/waijing-75/  
 

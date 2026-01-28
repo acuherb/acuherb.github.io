@@ -9,5 +9,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/bencao-254-shuisu/  
+> URL: https://acuherb.xyz/posts/bencao-254-shuisu/  
 

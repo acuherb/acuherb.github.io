@@ -86,5 +86,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://firework.acuherb.xyz/posts/12-yuyuliang/  
+> URL: https://acuherb.xyz/posts/12-yuyuliang/  
 
