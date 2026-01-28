@@ -85,5 +85,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/lingshu-03/  
+> URL: https://firework.acuherb.xyz/posts/lingshu-03/  
 

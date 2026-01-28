@@ -82,5 +82,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/waijing-52/  
+> URL: https://firework.acuherb.xyz/posts/waijing-52/  
 

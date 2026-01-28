@@ -39,5 +39,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/friends/  
+> URL: https://firework.acuherb.xyz/friends/  
 

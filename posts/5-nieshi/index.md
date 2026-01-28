@@ -53,5 +53,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/5-nieshi/  
+> URL: https://firework.acuherb.xyz/posts/5-nieshi/  
 

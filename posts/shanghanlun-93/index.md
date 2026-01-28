@@ -53,5 +53,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/shanghanlun-93/  
+> URL: https://firework.acuherb.xyz/posts/shanghanlun-93/  
 

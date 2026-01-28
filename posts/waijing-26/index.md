@@ -151,5 +151,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/waijing-26/  
+> URL: https://firework.acuherb.xyz/posts/waijing-26/  
 

@@ -100,5 +100,5 @@ graph TB
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/shanghanlun-157/  
+> URL: https://firework.acuherb.xyz/posts/shanghanlun-157/  
 

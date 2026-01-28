@@ -71,5 +71,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/about/  
+> URL: https://firework.acuherb.xyz/about/  
 

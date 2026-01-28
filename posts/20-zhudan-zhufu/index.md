@@ -22,5 +22,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/20-zhudan-zhufu/  
+> URL: https://firework.acuherb.xyz/posts/20-zhudan-zhufu/  
 

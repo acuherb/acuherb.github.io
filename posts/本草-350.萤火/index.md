@@ -7,5 +7,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/%E6%9C%AC%E8%8D%89-350.%E8%90%A4%E7%81%AB/  
+> URL: https://firework.acuherb.xyz/posts/%E6%9C%AC%E8%8D%89-350.%E8%90%A4%E7%81%AB/  
 

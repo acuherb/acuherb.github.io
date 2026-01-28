@@ -169,5 +169,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/jinguiyian-8/  
+> URL: https://firework.acuherb.xyz/posts/jinguiyian-8/  
 

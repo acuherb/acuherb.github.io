@@ -77,5 +77,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/zhenjiu-3-2/  
+> URL: https://firework.acuherb.xyz/posts/zhenjiu-3-2/  
 

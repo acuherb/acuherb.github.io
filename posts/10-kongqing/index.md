@@ -39,5 +39,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/10-kongqing/  
+> URL: https://firework.acuherb.xyz/posts/10-kongqing/  
 

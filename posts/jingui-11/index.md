@@ -1104,5 +1104,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/jingui-11/  
+> URL: https://firework.acuherb.xyz/posts/jingui-11/  
 

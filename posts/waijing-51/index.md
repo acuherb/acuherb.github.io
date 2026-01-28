@@ -78,5 +78,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/waijing-51/  
+> URL: https://firework.acuherb.xyz/posts/waijing-51/  
 

@@ -133,5 +133,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/shanghanlun-189/  
+> URL: https://firework.acuherb.xyz/posts/shanghanlun-189/  
 

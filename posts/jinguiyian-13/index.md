@@ -150,5 +150,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/jinguiyian-13/  
+> URL: https://firework.acuherb.xyz/posts/jinguiyian-13/  
 

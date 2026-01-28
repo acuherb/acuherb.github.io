@@ -130,5 +130,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/zhenjiu-4-13/  
+> URL: https://firework.acuherb.xyz/posts/zhenjiu-4-13/  
 

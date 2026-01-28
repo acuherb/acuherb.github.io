@@ -328,5 +328,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/lingshu-04/  
+> URL: https://firework.acuherb.xyz/posts/lingshu-04/  
 

@@ -52,5 +52,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/287-daji/  
+> URL: https://firework.acuherb.xyz/posts/287-daji/  
 

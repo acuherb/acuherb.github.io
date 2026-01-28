@@ -333,5 +333,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/jingui-08/  
+> URL: https://firework.acuherb.xyz/posts/jingui-08/  
 

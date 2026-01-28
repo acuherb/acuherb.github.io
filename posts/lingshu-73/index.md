@@ -113,5 +113,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/lingshu-73/  
+> URL: https://firework.acuherb.xyz/posts/lingshu-73/  
 

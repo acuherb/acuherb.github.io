@@ -70,5 +70,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/272-jiegeng/  
+> URL: https://firework.acuherb.xyz/posts/272-jiegeng/  
 

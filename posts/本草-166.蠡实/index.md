@@ -25,5 +25,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/%E6%9C%AC%E8%8D%89-166.%E8%A0%A1%E5%AE%9E/  
+> URL: https://firework.acuherb.xyz/posts/%E6%9C%AC%E8%8D%89-166.%E8%A0%A1%E5%AE%9E/  
 

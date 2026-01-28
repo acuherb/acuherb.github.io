@@ -91,5 +91,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/zhenjiu-6-2/  
+> URL: https://firework.acuherb.xyz/posts/zhenjiu-6-2/  
 

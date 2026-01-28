@@ -291,5 +291,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/%E7%B4%A0%E9%97%AE67%E4%BA%94%E8%BF%90%E8%A1%8C%E5%A4%A7%E8%AE%BA%E7%AF%87%E7%AC%AC%E5%85%AD%E5%8D%81%E4%B8%83/  
+> URL: https://firework.acuherb.xyz/posts/%E7%B4%A0%E9%97%AE67%E4%BA%94%E8%BF%90%E8%A1%8C%E5%A4%A7%E8%AE%BA%E7%AF%87%E7%AC%AC%E5%85%AD%E5%8D%81%E4%B8%83/  
 

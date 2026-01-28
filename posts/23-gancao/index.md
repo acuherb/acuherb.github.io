@@ -112,5 +112,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/23-gancao/  
+> URL: https://firework.acuherb.xyz/posts/23-gancao/  
 

@@ -50,5 +50,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/275-xuanfuhua/  
+> URL: https://firework.acuherb.xyz/posts/275-xuanfuhua/  
 

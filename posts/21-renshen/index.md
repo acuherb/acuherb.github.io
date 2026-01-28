@@ -75,5 +75,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/21-renshen/  
+> URL: https://firework.acuherb.xyz/posts/21-renshen/  
 

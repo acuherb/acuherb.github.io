@@ -9,5 +9,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/17-baiqing/  
+> URL: https://firework.acuherb.xyz/posts/17-baiqing/  
 

@@ -658,5 +658,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/jingui-20/  
+> URL: https://firework.acuherb.xyz/posts/jingui-20/  
 
