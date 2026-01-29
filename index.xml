@@ -1,4 +1,328 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>观颐斋</title><link>https://acuherb.xyz/</link><description>观以明理，颐以养正</description><follow_challenge><feedId>150502341826627584</feedId><userId>ZnkTaajoold86nK1rOZmQsDmDM1cgXMP</userId></follow_challenge><generator>Hugo 0.155.0 &amp; FixIt v0.4.2</generator><language>zh-cn</language><managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor><webMaster>acuherb@foxmail.com (AcuHerb)</webMaster><lastBuildDate>Mon, 26 Jan 2026 16:58:52 +0800</lastBuildDate><atom:link href="https://acuherb.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>寒热舒肝篇第八十一</title><link>https://acuherb.xyz/posts/waijing-81/</link><pubDate>Mon, 26 Jan 2026 16:22:52 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author><guid>https://acuherb.xyz/posts/waijing-81/</guid><category domain="https://acuherb.xyz/categories/%E5%A4%96%E7%BB%8F/">外经</category><description>&lt;p&gt;雷公问曰：病有寒热，皆成于外邪乎？&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>观颐斋</title><link>https://acuherb.xyz/</link><description>观以明理，颐以养正</description><follow_challenge><feedId>150502341826627584</feedId><userId>ZnkTaajoold86nK1rOZmQsDmDM1cgXMP</userId></follow_challenge><generator>Hugo 0.155.0 &amp; FixIt v0.4.2</generator><language>zh-cn</language><managingEditor>acuherb@foxmail.com (AcuHerb)</managingEditor><webMaster>acuherb@foxmail.com (AcuHerb)</webMaster><lastBuildDate>Thu, 29 Jan 2026 17:39:00 +0800</lastBuildDate><atom:link href="https://acuherb.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>针灸常用口诀汇总</title><link>https://acuherb.xyz/posts/zhenjiu-7/</link><pubDate>Thu, 29 Jan 2026 17:39:00 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author><guid>https://acuherb.xyz/posts/zhenjiu-7/</guid><category domain="https://acuherb.xyz/categories/%E9%92%88%E7%81%B8%E7%AC%94%E8%AE%B0/">针灸笔记</category><description>&lt;h3 class="heading-element" id="经络揗行路线"&gt;&lt;span&gt;经络揗行路线&lt;/span&gt;
+ &lt;a href="#%e7%bb%8f%e7%bb%9c%e6%8f%97%e8%a1%8c%e8%b7%af%e7%ba%bf" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;&lt;h4 class="heading-element" id="简单口诀"&gt;&lt;span&gt;简单口诀：&lt;/span&gt;
+ &lt;a href="#%e7%ae%80%e5%8d%95%e5%8f%a3%e8%af%80" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;肺大胃脾心小肠，胱肾包焦胆肝藏&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 class="heading-element" id="带天干口诀"&gt;&lt;span&gt;带天干口诀：&lt;/span&gt;
+ &lt;a href="#%e5%b8%a6%e5%a4%a9%e5%b9%b2%e5%8f%a3%e8%af%80" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;肺寅大卯胃辰宫，脾巳心午小未中，&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;申胱酉肾心包戌，亥焦子胆丑肝通。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3 class="heading-element" id="十四经特定穴总表"&gt;&lt;span&gt;十四经特定穴总表&lt;/span&gt;
+ &lt;a href="#%e5%8d%81%e5%9b%9b%e7%bb%8f%e7%89%b9%e5%ae%9a%e7%a9%b4%e6%80%bb%e8%a1%a8" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: left"&gt;经脉&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;井穴&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;荥穴&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;输穴&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;经穴&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;合穴&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;原穴&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;络穴&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;背俞穴&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;募穴&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;郄穴&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;下合穴&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;手太阴肺经&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;少商&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;鱼际&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;太渊&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;经渠&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;尺泽&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;太渊&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;列缺&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;肺俞&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;中府&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;孔最&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;手阳明大肠经&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;商阳&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;二间&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;三间&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;阳溪&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;曲池&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;合谷&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;偏历&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;大肠俞&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;天枢&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;温溜&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;上巨虚&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;足阳明胃经&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;厉兑&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;内庭&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;陷谷&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;解溪&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;足三里&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;冲阳&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;丰隆&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;胃俞&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;中脘&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;梁丘&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;足三里&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;足太阴脾经&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;隐白&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;大都&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;太白&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;商丘&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;阴陵泉&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;太白&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;公孙&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;脾俞&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;章门&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;地机&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;手少阴心经&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;少冲&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;少府&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;神门&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;灵道&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;少海&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;神门&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;通里&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;心俞&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;巨阙&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;阴郄&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;手太阳小肠经&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;少泽&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;前谷&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;后溪&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;阳谷&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;小海&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;腕骨&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;支正&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;小肠俞&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;关元&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;养老&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;下巨虚&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;足太阳膀胱经&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;至阴&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;足通谷&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;束骨&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;昆仑&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;委中&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;京骨&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;飞扬&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;膀胱俞&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;中极&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;金门&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;委中&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;足少阴肾经&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;涌泉&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;然谷&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;太溪&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;复溜&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;阴谷&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;太溪&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;大钟&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;肾俞&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;京门&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;水泉&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;手厥阴心包经&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;中冲&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;劳宫&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;大陵&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;间使&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;曲泽&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;大陵&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;内关&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;厥阴俞&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;膻中&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;郄门&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;手少阳三焦经&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;关冲&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;液门&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;中渚&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;支沟&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;天井&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;阳池&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;外关&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;三焦俞&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;石门&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;会宗&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;委阳&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;足少阳胆经&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;足窍阴&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;侠溪&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;足临泣&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;阳辅&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;阳陵泉&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;丘墟&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;光明&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;胆俞&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;日月&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;外丘&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;阳陵泉&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;&lt;strong&gt;足厥阴肝经&lt;/strong&gt;&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;大敦&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;行间&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;太冲&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;中封&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;曲泉&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;太冲&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;蠡沟&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;肝俞&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;期门&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;中都&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;—&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;奇经八脉郄穴补充&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;阴维脉&lt;/strong&gt;：筑宾&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;阳维脉&lt;/strong&gt;：阳交&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;阴跷脉&lt;/strong&gt;：交信&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;阳跷脉&lt;/strong&gt;：跗阳&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 class="heading-element" id="特定穴歌诀"&gt;&lt;span&gt;特定穴歌诀&lt;/span&gt;
+ &lt;a href="#%e7%89%b9%e5%ae%9a%e7%a9%b4%e6%ad%8c%e8%af%80" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;&lt;h4 class="heading-element" id="五腧穴歌井荥输经合歌"&gt;&lt;span&gt;五腧穴歌（井荥输经合歌）&lt;/span&gt;
+ &lt;a href="#%e4%ba%94%e8%85%a7%e7%a9%b4%e6%ad%8c%e4%ba%95%e8%8d%a5%e8%be%93%e7%bb%8f%e5%90%88%e6%ad%8c" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;少商鱼际与太渊，经渠尺泽肺相连，
+商阳二三间合谷，阳溪曲池大肠牵。
+隐白大都太白脾，商丘阴陵泉要知，
+厉兑内庭陷谷胃，冲阳解溪三里随。
+少冲少府属于心，神门灵道少海寻，
+少泽前谷后溪腕，阳谷小海小肠经。
+涌泉然谷与太溪，复溜阴谷肾所宜，
+至阴通谷束京骨，昆仑委中膀胱知。
+中冲劳宫心包络，大陵间使传曲泽，
+关冲液门中渚焦，阳池支沟天井索。
+大敦行间太冲看，中封曲泉属于肝，
+窍阴侠溪临泣胆，丘墟阳辅阳陵泉。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 class="heading-element" id="十二原穴歌"&gt;&lt;span&gt;十二原穴歌&lt;/span&gt;
+ &lt;a href="#%e5%8d%81%e4%ba%8c%e5%8e%9f%e7%a9%b4%e6%ad%8c" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;阴经原穴以输代，
+阳经原穴在输外。
+肺原太渊大合谷，
+脾经太白胃冲阳。
+心原神门小腕骨，
+肾原太溪胱京骨，
+心包大陵焦阳池，
+肝原太冲胆丘墟。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 class="heading-element" id="十五络穴歌"&gt;&lt;span&gt;十五络穴歌&lt;/span&gt;
+ &lt;a href="#%e5%8d%81%e4%ba%94%e7%bb%9c%e7%a9%b4%e6%ad%8c" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;肺络列缺偏大肠，
+胃络丰隆脾公孙，
+心络通里小支正，
+膀胱飞扬肾大钟，
+心包内关焦外关，
+肝络蠡沟胆光明。
+任脉鸠尾督长强，
+脾之大络为大包。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 class="heading-element" id="十二背俞穴歌"&gt;&lt;span&gt;十二背俞穴歌&lt;/span&gt;
+ &lt;a href="#%e5%8d%81%e4%ba%8c%e8%83%8c%e4%bf%9e%e7%a9%b4%e6%ad%8c" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h4&gt;&lt;h5 class="heading-element" id="背俞穴"&gt;&lt;span&gt;背俞穴&lt;/span&gt;
+ &lt;a href="#%e8%83%8c%e4%bf%9e%e7%a9%b4" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h5&gt;&lt;blockquote&gt;
+&lt;p&gt;三椎肺俞厥阴四，
+心五肝九十胆俞，
+十一脾俞十二胃，
+十三三焦椎旁居，
+肾俞却与命门平，
+十四椎外穴是真，
+大肠十六小十八，
+膀胱俞与十九平。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h5 class="heading-element" id="1-21椎所有穴位对照铜人记忆"&gt;&lt;span&gt;1-21椎所有穴位（对照铜人记忆）&lt;/span&gt;
+ &lt;a href="#1-21%e6%a4%8e%e6%89%80%e6%9c%89%e7%a9%b4%e4%bd%8d%e5%af%b9%e7%85%a7%e9%93%9c%e4%ba%ba%e8%ae%b0%e5%bf%86" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h5&gt;&lt;blockquote&gt;
+&lt;p&gt;大风肺厥心督膈，中间奇穴是消渴，肝胆脾胃三焦肾，气大关小胱中白。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 class="heading-element" id="十二募穴歌"&gt;&lt;span&gt;十二募穴歌&lt;/span&gt;
+ &lt;a href="#%e5%8d%81%e4%ba%8c%e5%8b%9f%e7%a9%b4%e6%ad%8c" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;天枢大肠肺中府，
+关元小肠巨阙心，
+中极膀胱京门肾，
+胆日月肝期门寻，
+脾募章门胃中脘，
+气化三焦石门针，
+心包募穴何处取？
+胸前膻中觅浅深。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 class="heading-element" id="十六郄穴歌"&gt;&lt;span&gt;十六郄穴歌&lt;/span&gt;
+ &lt;a href="#%e5%8d%81%e5%85%ad%e9%83%84%e7%a9%b4%e6%ad%8c" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;肺经孔最大温溜，
+胃经梁丘脾地机；
+心经阴郄小养老，
+膀胱金门肾水泉；
+心包郄门焦宗列，
+胆经外丘肝中都；
+阳跷跗阳阴交信，
+阳维阳交阴筑宾。&lt;/p&gt;
+&lt;/blockquote&gt;</description></item><item><title>寒热舒肝篇第八十一</title><link>https://acuherb.xyz/posts/waijing-81/</link><pubDate>Mon, 26 Jan 2026 16:22:52 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author><guid>https://acuherb.xyz/posts/waijing-81/</guid><category domain="https://acuherb.xyz/categories/%E5%A4%96%E7%BB%8F/">外经</category><description>&lt;p&gt;雷公问曰：病有寒热，皆成于外邪乎？&lt;/p&gt;
 &lt;p&gt;岐伯曰：寒热不尽由于外邪也。&lt;/p&gt;
 &lt;p&gt;雷公曰：斯何故欤？&lt;/p&gt;
 &lt;p&gt;岐伯曰：其故在肝。肝喜疏泄，不喜闭藏。肝气郁而不宣，则胆气亦随之而郁，胆木气郁，何以生心火乎？故心之气亦郁也。心气郁则火不遂，其炎上之性，何以生脾胃之土乎？土无火养，则土为寒土，无发生之气矣。肺金无土气之生，则其金不刚，安有清肃之气乎？木寡于畏，反克脾胃之土，土欲发舒而不能，土木相刑，彼此相
@@ -1376,118 +1700,4 @@
 &lt;li&gt;&lt;strong&gt;原则&lt;/strong&gt;：新病可泻，久病宜补；阳亢泻气补血，阴盛泻血补气。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;转化&lt;/strong&gt;：&lt;strong&gt;气能生血，其效速；血能生气，其功迟。&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;急救&lt;/strong&gt;：&lt;strong&gt;大出血（急症）时，必须重用补气&lt;/strong&gt;（无形生有形），以防气脱并速生血；病情平稳（缓症）后，方可滋阴养血（有形生无形）以涵养正气。&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>春温似疫篇第七十二</title><link>https://acuherb.xyz/posts/waijing-72/</link><pubDate>Wed, 21 Jan 2026 11:05:52 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author><guid>https://acuherb.xyz/posts/waijing-72/</guid><category domain="https://acuherb.xyz/categories/%E5%A4%96%E7%BB%8F/">外经</category><description>&lt;p&gt;风后问于岐伯曰：春日之疫，非感风邪成之乎？&lt;/p&gt;
-&lt;p&gt;岐伯曰：疫非独风也。春日之疫，非风而何？&lt;/p&gt;
-&lt;p&gt;风后曰：然则春温即春疫乎？&lt;/p&gt;
-&lt;p&gt;岐伯曰：春疫非春温也。春温有方，而春疫无方也。&lt;/p&gt;
-&lt;p&gt;风后曰：春疫无方，何其疾之一似春温也？&lt;/p&gt;
-&lt;p&gt;岐伯曰：春温有方，而时气乱之，则有方者变而无方，故与疫气正相同也。&lt;/p&gt;
-&lt;p&gt;风后曰：同中有异乎？&lt;/p&gt;
-&lt;p&gt;岐伯曰：疫气热中藏杀，时气热中藏生。&lt;/p&gt;
-&lt;p&gt;风后曰：热中藏生，何多死亡乎？&lt;/p&gt;
-&lt;p&gt;岐伯曰：时气者，不正之气也。脏腑闻正气而阴阳和，闻邪气而阴阳乱。不正之气即邪气也，故闻之而辄病，转相传染也。&lt;/p&gt;
-&lt;p&gt;风后曰：闻邪气而不病者，又何故欤？&lt;/p&gt;
-&lt;p&gt;岐伯曰：脏腑自和，邪不得而乱之也。春温传染，亦脏腑之虚也。&lt;/p&gt;
-&lt;p&gt;风后曰：脏腑实而邪远，脏腑空而邪中，不洵然乎？&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;风后请问岐伯说：春天的疫气，不是感染了风邪吗？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;岐伯说：疫气不单是风气。春天的疫气，不是风气又是什么？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;风后问：然而，春天的温气就是春疫吗？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;岐伯说：春疫不是春温。春温有方位，春疫没有方位。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;风后问：春疫没有方位，为什么它的疾病像春温一样呢？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;岐伯说：春温有方位，但是时令的气会干扰它，有方位也会变得没有方位了，因此与疫气正好相同。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;风后问：相同之中存在着差异吗？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;岐伯说：疫气在温热中隐藏着杀机，时令之气温热中隐藏有生机。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;风后问：温热中隐藏有生机，为什么病人多数会死亡呢？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;岐伯说：时气，是四时不正之气。脏腑感受到正气，阴阳就会调和；感染了邪气，阴阳就会紊乱。不正之气就是邪气，因此感染了邪气就会很快得病，转而互相传染。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;风后问：感染了邪气但是不发病的，又是什么原因呢？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;岐伯说：脏腑自然调和，邪气不能扰乱它。春天的温疫传染，也是由于脏腑空虚的原因。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;风后说：脏腑充实邪气就会远离，脏腑空虚邪气就会感染，这不是理所当然吗？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;陈士铎说：春温像疫症，不能说春温就是疫病，分辨得明确。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 class="heading-element" id="一-春温与春疫的区别"&gt;&lt;span&gt;一、 春温与春疫的区别&lt;/span&gt;
- &lt;a href="#%e4%b8%80-%e6%98%a5%e6%b8%a9%e4%b8%8e%e6%98%a5%e7%96%ab%e7%9a%84%e5%8c%ba%e5%88%ab" class="heading-mark"&gt;
- &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
- &lt;/a&gt;
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;定性&lt;/strong&gt;：
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;春温&lt;/strong&gt;：“&lt;strong&gt;有方&lt;/strong&gt;”（有固定的法度、规律或治法）。热气之中藏有“&lt;strong&gt;生&lt;/strong&gt;”机（因春主生发）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;春疫&lt;/strong&gt;：“&lt;strong&gt;无方&lt;/strong&gt;”（无固定规律，变化莫测）。热气之中藏有“&lt;strong&gt;杀&lt;/strong&gt;”机（暴戾肃杀之气）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;关系&lt;/strong&gt;：虽然春日之疫与风邪有关，但春温并不等于春疫。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 class="heading-element" id="二-为何春温似疫混淆的原因"&gt;&lt;span&gt;二、 为何春温“似”疫？（混淆的原因）&lt;/span&gt;
- &lt;a href="#%e4%ba%8c-%e4%b8%ba%e4%bd%95%e6%98%a5%e6%b8%a9%e4%bc%bc%e7%96%ab%e6%b7%b7%e6%b7%86%e7%9a%84%e5%8e%9f%e5%9b%a0" class="heading-mark"&gt;
- &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
- &lt;/a&gt;
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;现象&lt;/strong&gt;：春温本该有规律，但有时表现得非常像瘟疫（无规律、传染快）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;原因&lt;/strong&gt;：“&lt;strong&gt;时气乱之&lt;/strong&gt;”。
-&lt;ul&gt;
-&lt;li&gt;当季节性的气候（时气）不正、错乱时，原本有规律的春温就会变得“无方”（失去规律）。&lt;/li&gt;
-&lt;li&gt;因此，表现形式上与瘟疫的正气（邪气）非常相似。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 class="heading-element" id="三-致死与传染的机理"&gt;&lt;span&gt;三、 致死与传染的机理&lt;/span&gt;
- &lt;a href="#%e4%b8%89-%e8%87%b4%e6%ad%bb%e4%b8%8e%e4%bc%a0%e6%9f%93%e7%9a%84%e6%9c%ba%e7%90%86" class="heading-mark"&gt;
- &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
- &lt;/a&gt;
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;疑问&lt;/strong&gt;：既然春温热中藏“生”，为何还会导致大量死亡？&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;岐伯解释&lt;/strong&gt;：
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;不正即邪&lt;/strong&gt;：时气虽然带有春天的生机，但如果它变得错乱（不正之气），那就是&lt;strong&gt;邪气&lt;/strong&gt;。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;阴阳扰乱&lt;/strong&gt;：脏腑遇到正气则阴阳调和，遇到邪气则阴阳错乱。错乱即病，且会“&lt;strong&gt;转相传染&lt;/strong&gt;”。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 class="heading-element" id="四-免疫与易感正气存内"&gt;&lt;span&gt;四、 免疫与易感（正气存内）&lt;/span&gt;
- &lt;a href="#%e5%9b%9b-%e5%85%8d%e7%96%ab%e4%b8%8e%e6%98%93%e6%84%9f%e6%ad%a3%e6%b0%94%e5%ad%98%e5%86%85" class="heading-mark"&gt;
- &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
- &lt;/a&gt;
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;核心问题&lt;/strong&gt;：为何同样接触邪气，有人病，有人不病？&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;根本原因&lt;/strong&gt;：&lt;strong&gt;脏腑的虚实&lt;/strong&gt;。
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;不病者&lt;/strong&gt;：“&lt;strong&gt;脏腑自和&lt;/strong&gt;”（脏腑实而邪远）。内部气机调和，邪气无法扰乱。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;病者&lt;/strong&gt;：“&lt;strong&gt;脏腑之虚&lt;/strong&gt;”（脏腑空而邪中）。内部空虚，容易被外邪侵入并传染。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;简练总结：&lt;/strong&gt;
-此篇旨在厘清春季热病的性质。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;辨异&lt;/strong&gt;：&lt;strong&gt;春温&lt;/strong&gt;有规律且藏生机，&lt;strong&gt;春疫&lt;/strong&gt;无规律且藏杀机。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;同化&lt;/strong&gt;：当气候错乱时，春温会表现出类似瘟疫的特征。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;核心&lt;/strong&gt;：无论春温还是春疫，是否发病及传染，根本取决于人体&lt;strong&gt;脏腑的虚实&lt;/strong&gt;。脏腑和（实）则不病，脏腑虚（空）则受染。&lt;/li&gt;
 &lt;/ol&gt;</description></item></channel></rss>
