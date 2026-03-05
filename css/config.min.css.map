@@ -3,14 +3,14 @@
 	"file": "config.min.css",
 	"sourceRoot": "/home/runner/work/acuherb-blog/acuherb-blog",
 	"sources": [
-		"/tmp/hugo_cache_runner/modules/filecache/modules/pkg/mod/github.com/hugo-fixit/!fix!it@v0.4.3/assets/css/config.template.scss",
-		"../../../../../tmp/hugo_cache_runner/modules/filecache/modules/pkg/mod/github.com/hugo-fixit/!fix!it@v0.4.3/assets/css/_variables.scss",
-		"../../../../../tmp/hugo_cache_runner/modules/filecache/modules/pkg/mod/github.com/hugo-fixit/!fix!it@v0.4.3/assets/css/_maps/_index.scss",
-		"../../../../../tmp/hugo_cache_runner/modules/filecache/modules/pkg/mod/github.com/hugo-fixit/!fix!it@v0.4.3/assets/css/_maps/_admonition.scss",
-		"../../../../../tmp/hugo_cache_runner/modules/filecache/modules/pkg/mod/github.com/hugo-fixit/!fix!it@v0.4.3/assets/css/_maps/_alert.scss",
-		"../../../../../tmp/hugo_cache_runner/modules/filecache/modules/pkg/mod/github.com/hugo-fixit/!fix!it@v0.4.3/assets/css/_maps/_code-type.scss",
-		"../../../../../tmp/hugo_cache_runner/modules/filecache/modules/pkg/mod/github.com/hugo-fixit/!fix!it@v0.4.3/assets/css/_maps/_colors.scss",
-		"../../../../../tmp/hugo_cache_runner/modules/filecache/modules/pkg/mod/github.com/hugo-fixit/!fix!it@v0.4.3/assets/css/_maps/_utilities.scss"
+		"_vendor/github.com/hugo-fixit/FixIt/assets/css/config.template.scss",
+		"_vendor/github.com/hugo-fixit/FixIt/assets/css/_variables.scss",
+		"_vendor/github.com/hugo-fixit/FixIt/assets/css/_maps/_index.scss",
+		"_vendor/github.com/hugo-fixit/FixIt/assets/css/_maps/_admonition.scss",
+		"_vendor/github.com/hugo-fixit/FixIt/assets/css/_maps/_alert.scss",
+		"_vendor/github.com/hugo-fixit/FixIt/assets/css/_maps/_code-type.scss",
+		"_vendor/github.com/hugo-fixit/FixIt/assets/css/_maps/_colors.scss",
+		"_vendor/github.com/hugo-fixit/FixIt/assets/css/_maps/_utilities.scss"
 	],
 	"sourcesContent": [
 		"@charset \"utf-8\";\n\n@import \"_variables\";\n$base: \"/\" !default;\n\n:root {\n  #{$rootPrefix}base: \"#{$base}\";\n  #{$rootPrefix}logo-img: url(\"/images/fixit.min.svg\");\n  #{$rootPrefix}loading-img: url(\"/images/loading.min.svg\");\n}\n",
