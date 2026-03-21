@@ -140,58 +140,115 @@
 
 ## 五、总结：倪海厦流鼻血辨证心法完整流程图
 
+```mermaid
 flowchart TD
-    A[开始：遇鼻衄患者] --> B{第一步：问年龄}
-    
-    B --> C[14岁以下儿童]
-    C --> D[优先考虑生理性“衄解”<br>观察，勿塞鼻<br>（尤其感冒发烧时）]
-    
-    B --> E[14岁及以上]
-    E --> F{第二步：是否为育龄女性？}
-    
-    F -->|是| G{鼻血是否与月经周期同步？}
-    G -->|是| H[诊断：妇女逆经]
-    H --> I{辨寒热}
-    I --> J[寒凝型<br>温经散寒<br>温经汤+肉桂等]
-    I --> K[血热型<br>凉血下行<br>郁金、桂枝汤加郁金]
-    
-    G -->|否| L[进入常规辨证]
-    F -->|否| L
-    
-    J --> M[后续综合诊断]
-    K --> M
-    L --> M
-    
-    M --> N{第三步：辨寒热（核心）}
-    
-    N -->|热证线索| O[喜冷饮、手足热<br>小便黄、便秘、脉数有力]
-    O --> P{伴何症？}
-    P -->|高烧、大汗、大渴| Q[阳明经热<br>白虎汤]
-    P -->|便秘、腹胀、潮热| R[阳明腑热<br>承气汤类]
-    P -->|易怒、口苦、目赤| S[肝经郁热<br>泻心汤冷服]
-    P -->|午后潮热、盗汗、舌红少苔| T[阴虚火旺<br>滋阴降火]
-    
-    N -->|寒证线索| U[喜热饮/不渴、手足冷<br>小便清、便溏、脉无力]
-    U --> V[上身热、口干但下身冷、舌淡胖<br>阳虚上浮<br>四逆汤类]
-    
-    Q --> W[第四步：综合诊断与调护]
-    R --> W
-    S --> W
-    T --> W
-    V --> W
-    
-    subgraph W [第四步：综合诊断与调护]
-        X[望眼目：眼白“晕黄”<br>→ 肝肾热未清，需继续清肝凉血]
-        Y[察禁忌：“衄家”“亡血家”等<br>绝对禁用发汗药]
+    START([遇鼻衄患者]) --> STEP1[第一步：问年龄]
+
+    STEP1 --> AGE_CHILD{年龄 < 14岁？}
+    AGE_CHILD -->|是| PHYSIO[生理性衄解]
+    PHYSIO --> PHYSIO_DESC[“纯阳之体，得衄而解”<br>感冒发烧时，热从鼻窍而泄]
+    PHYSIO_DESC --> PHYSIO_ACTION[处理：让血自然流出<br>绝对不可塞鼻]
+    PHYSIO_ACTION --> DONE1([观察即可，无需用药])
+
+    AGE_CHILD -->|否，≥14岁| STEP2[第二步：问性别与月经]
+
+    STEP2 --> GENDER{是否为育龄女性？}
+    GENDER -->|是| MENSTRUAL{鼻血是否与月经周期同步？}
+    MENSTRUAL -->|是| NI_JING[诊断：妇女逆经<br>（奶水逆行）]
+    MENSTRUAL -->|否| ENTER_COMMON
+    GENDER -->|否| ENTER_COMMON
+
+    ENTER_COMMON[进入常规辨证] --> STEP3
+
+    subgraph NI_JING_BRANCH [逆经辨证分支]
+        NI_JING --> NI_JING_COLD_HOT{辨寒热}
+        NI_JING_COLD_HOT -->|寒证线索| NI_JING_COLD[寒凝型]
+        NI_JING_COLD --> NI_JING_COLD_TX[特征：经期鼻衄<br>手足冷、小腹冷痛、舌淡]
+        NI_JING_COLD_TX --> NI_JING_COLD_RX[治法：温经散寒<br>温经汤、肉桂]
+        NI_JING_COLD_RX --> JOIN_COMMON
+
+        NI_JING_COLD_HOT -->|热证线索| NI_JING_HOT[血热型]
+        NI_JING_HOT --> NI_JING_HOT_TX[特征：经期鼻衄<br>急躁、口苦、胸胁胀痛、舌红]
+        NI_JING_HOT_TX --> NI_JING_HOT_RX[治法：凉血下行<br>单味郁金、桂枝汤加郁金]
+        NI_JING_HOT_RX --> JOIN_COMMON
     end
-    
-    W --> Z[第五步：最终处理<br>排除肿瘤等器质性疾病]
-    
-    %% 针灸急救作为独立应急步骤
-    AA[针灸急救<br>急性出血时立即执行<br>天府、侠白、合谷]
-    AA -.-> A
-    AA -.-> E
-    AA -.-> M
+
+    JOIN_COMMON[汇聚至综合辨证] --> STEP3
+
+    STEP3[第三步：辨寒热<br>（核心环节）] --> COLD_HOT{寒热辨证}
+
+    COLD_HOT -->|热证线索| HEAT_SIGNS[喜冷饮、手足热<br>小便黄、便秘、脉数有力]
+    COLD_HOT -->|寒证线索| COLD_SIGNS[喜热饮或不渴、手足冷<br>小便清长、便溏、脉无力]
+
+    HEAT_SIGNS --> HEAT_SUBTYPE{细分证型}
+    HEAT_SUBTYPE -->|高烧、大汗、大渴| TYPE1[阳明经热]
+    HEAT_SUBTYPE -->|便秘、腹胀、潮热| TYPE2[阳明腑热]
+    HEAT_SUBTYPE -->|易怒、口苦、目赤| TYPE3[肝经郁热<br>心火亢盛]
+    HEAT_SUBTYPE -->|午后潮热、盗汗<br>舌红少苔、脉细数| TYPE4[阴虚火旺]
+
+    TYPE1 --> FORMULA1[方药：白虎汤]
+    TYPE2 --> FORMULA2[方药：承气汤类]
+    TYPE3 --> FORMULA3[方药：三黄泻心汤<br>（必须冷服）]
+    TYPE4 --> FORMULA4[方药：滋阴降火<br>六味地黄丸加减]
+
+    COLD_SIGNS --> COLD_SUBTYPE{细分证型}
+    COLD_SUBTYPE -->|上身热、口干<br>下身冷、舌淡胖| TYPE5[里阳虚，虚阳上浮<br>（上热下寒）]
+    COLD_SUBTYPE -->|面色萎黄、神疲乏力<br>食欲不振、皮下瘀青| TYPE6[脾不统血<br>（气不摄血）]
+
+    TYPE5 --> FORMULA5[方药：四逆汤、白通汤<br>回阳救逆]
+    TYPE6 --> FORMULA6[方药：归脾汤、黄土汤]
+
+    FORMULA1 --> DIAG_SUMMARY
+    FORMULA2 --> DIAG_SUMMARY
+    FORMULA3 --> DIAG_SUMMARY
+    FORMULA4 --> DIAG_SUMMARY
+    FORMULA5 --> DIAG_SUMMARY
+    FORMULA6 --> DIAG_SUMMARY
+    NI_JING_COLD_RX --> DIAG_SUMMARY
+    NI_JING_HOT_RX --> DIAG_SUMMARY
+
+    subgraph DIAG_SUMMARY [第四步：综合诊断与调护]
+        direction LR
+        EYE[望眼目：眼白“晕黄”<br>→ 肝肾热未清，需继续清肝凉血]
+        TABOO[察禁忌：“衄家”“亡血家”等<br>→ 绝对禁用发汗药]
+        WARNING[⚠️ 危重症识别]
+        WARNING --> WARNING1[肝阴实：伴黄疸、腹水<br>→ 肝癌、肝硬化可能]
+        WARNING --> WARNING2[阴阳离决：面色惨白、气息微弱<br>→ 急须回阳救逆]
+    end
+
+    DIAG_SUMMARY --> STEP5
+
+    STEP5[第五步：最终处理] --> MODERN[排除恶性肿瘤等器质性疾病]
+    MODERN --> END([辨证论治，随证治之])
+
+    %% 针灸急救独立于主流程，可随时介入
+    ACU[⚡ 针灸急救<br>急性出血时立即执行]
+    ACU --> ACU1[天府、侠白穴<br>左病右治，右病左治]
+    ACU --> ACU2[合谷穴<br>面口合谷收]
+    ACU --> ACU3[上星穴（米粒灸）<br>慢性鼻病出血]
+    ACU --> ACU4[照海穴<br>妇女逆经，引血下行]
+
+    ACU -.-> START
+    ACU -.-> STEP3
+    ACU -.-> STEP5
+
+    %% 样式定义
+    classDef physiological fill:#e1f5e1,stroke:#2e7d32,stroke-width:2px
+    classDef heat fill:#ffebee,stroke:#c62828,stroke-width:2px
+    classDef cold fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
+    classDef nijing fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+    classDef emergency fill:#ffccbc,stroke:#bf360c,stroke-width:2px,font-weight:bold
+    classDef warning fill:#ffcdd2,stroke:#b71c1c,stroke-width:2px
+    classDef diagnosis fill:#e8eaf6,stroke:#283593,stroke-width:2px
+
+    class PHYSIO,PHYSIO_DESC,PHYSIO_ACTION physiological
+    class HEAT_SIGNS,TYPE1,TYPE2,TYPE3,TYPE4,FORMULA1,FORMULA2,FORMULA3,FORMULA4 heat
+    class COLD_SIGNS,TYPE5,TYPE6,FORMULA5,FORMULA6 cold
+    class NI_JING,NI_JING_COLD,NI_JING_HOT,NI_JING_COLD_TX,NI_JING_HOT_TX,NI_JING_COLD_RX,NI_JING_HOT_RX nijing
+    class ACU,ACU1,ACU2,ACU3,ACU4 emergency
+    class WARNING,WARNING1,WARNING2 warning
+    class EYE,TABOO diagnosis
+```
 
 ---
 
