@@ -361,8 +361,6 @@ if (typeof module !== 'undefined' && module.exports) {
     customCss: {
       'article': 'width:100% !important; max-width:100% !important; padding:0; margin:0;',
       '.breadcrumb, .breadcrumb-item': 'display: none !important;',
-      'header, footer, aside, .sidebar, .toc': 'display: none !important;',
-      '.post-pagination, .post-nav, .comments': 'display: none !important;'
     },
     hideSelector: '',
     delay: 500,
