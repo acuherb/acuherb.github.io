@@ -1,9 +1,9 @@
 /**
- * Mermaid 图表下载功能 - 修复版
+ * Mermaid 图表下载功能 - 仅 SVG 矢量图
  */
 
 (function() {
-  console.log('Mermaid 下载功能加载中...');
+  console.log('Mermaid SVG 下载功能加载中...');
   
   // 添加样式
   function addCustomStyles() {
@@ -45,38 +45,44 @@
   // 下载为 SVG 矢量图
   function downloadAsSVG(svgElement) {
     try {
-      // 克隆 SVG
+      // 克隆 SVG，避免影响原图
       const clonedSvg = svgElement.cloneNode(true);
       
-      // 获取尺寸
+      // 获取原始尺寸
       const width = svgElement.clientWidth || svgElement.getBBox().width;
       const height = svgElement.clientHeight || svgElement.getBBox().height;
       
-      // 设置 viewBox
+      // 设置 viewBox 确保缩放正确
       clonedSvg.setAttribute('viewBox', `0 0 ${width} ${height}`);
       clonedSvg.setAttribute('width', width);
       clonedSvg.setAttribute('height', height);
       
-      // 添加白色背景
+      // 添加白色背景（确保导出后背景为白色）
       const bgRect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
       bgRect.setAttribute('width', '100%');
       bgRect.setAttribute('height', '100%');
       bgRect.setAttribute('fill', '#ffffff');
       clonedSvg.insertBefore(bgRect, clonedSvg.firstChild);
       
-      // 序列化并下载
+      // 序列化 SVG
       const serializer = new XMLSerializer();
       let svgString = serializer.serializeToString(clonedSvg);
+      
+      // 添加 XML 声明
       svgString = '<?xml version="1.0" encoding="UTF-8"?>\n' + svgString;
       
+      // 创建 Blob 并下载
       const blob = new Blob([svgString], { type: 'image/svg+xml' });
       const url = URL.createObjectURL(blob);
       const link = document.createElement('a');
-      link.download = `mermaid-${Date.now()}.svg`;
+      const timestamp = new Date().toISOString().slice(0, 19).replace(/:/g, '-');
+      link.download = `mermaid-${timestamp}.svg`;
       link.href = url;
       link.click();
       
+      // 清理
       setTimeout(() => URL.revokeObjectURL(url), 100);
+      
       return true;
     } catch (error) {
       console.error('SVG 下载失败:', error);
@@ -84,84 +90,7 @@
     }
   }
   
-  // 下载为 PNG（修复版）
-  async function downloadAsPNG(svgElement) {
-    try {
-      // 获取 SVG 的实际尺寸
-      const width = svgElement.clientWidth;
-      const height = svgElement.clientHeight;
-      
-      if (!width || !height) {
-        console.error('无法获取 SVG 尺寸');
-        return false;
-      }
-      
-      // 使用 3 倍分辨率
-      const scale = 3;
-      const canvasWidth = width * scale;
-      const canvasHeight = height * scale;
-      
-      // 克隆 SVG
-      const clonedSvg = svgElement.cloneNode(true);
-      
-      // 设置尺寸
-      clonedSvg.setAttribute('width', canvasWidth);
-      clonedSvg.setAttribute('height', canvasHeight);
-      clonedSvg.setAttribute('viewBox', `0 0 ${width} ${height}`);
-      
-      // 添加白色背景
-      const bgRect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
-      bgRect.setAttribute('width', '100%');
-      bgRect.setAttribute('height', '100%');
-      bgRect.setAttribute('fill', '#ffffff');
-      clonedSvg.insertBefore(bgRect, clonedSvg.firstChild);
-      
-      // 转换为字符串
-      const serializer = new XMLSerializer();
-      const svgString = serializer.serializeToString(clonedSvg);
-      
-      // 创建图片
-      const img = new Image();
-      const svgBlob = new Blob([svgString], { type: 'image/svg+xml;charset=utf-8' });
-      const url = URL.createObjectURL(svgBlob);
-      
-      // 等待图片加载
-      await new Promise((resolve, reject) => {
-        img.onload = resolve;
-        img.onerror = reject;
-        img.src = url;
-      });
-      
-      // 创建 canvas 并绘制
-      const canvas = document.createElement('canvas');
-      canvas.width = canvasWidth;
-      canvas.height = canvasHeight;
-      const ctx = canvas.getContext('2d');
-      
-      // 填充白色背景
-      ctx.fillStyle = '#ffffff';
-      ctx.fillRect(0, 0, canvasWidth, canvasHeight);
-      
-      // 绘制图片
-      ctx.drawImage(img, 0, 0, canvasWidth, canvasHeight);
-      
-      // 下载 PNG
-      const link = document.createElement('a');
-      link.download = `mermaid-${Date.now()}.png`;
-      link.href = canvas.toDataURL('image/png');
-      link.click();
-      
-      // 清理
-      URL.revokeObjectURL(url);
-      return true;
-      
-    } catch (error) {
-      console.error('PNG 下载失败:', error);
-      return false;
-    }
-  }
-  
-  // 添加按钮
+  // 添加下载按钮
   function addDownloadButton(container, svg) {
     const codeBlock = container.closest('.highlight');
     if (!codeBlock) return;
@@ -193,77 +122,37 @@
     const downloadBtn = document.createElement('button');
     downloadBtn.className = 'mermaid-download-btn';
     downloadBtn.innerHTML = '📸';
-    downloadBtn.title = '下载图表';
+    downloadBtn.title = '下载 SVG 矢量图';
+    downloadBtn.setAttribute('aria-label', '下载为 SVG 矢量图');
     
-    // 创建下拉菜单
-    const menu = document.createElement('div');
-    menu.style.cssText = `
-      position: absolute;
-      top: 100%;
-      right: 0;
-      background: #fff;
-      border: 1px solid #ddd;
-      border-radius: 6px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-      display: none;
-      z-index: 1000;
-      min-width: 130px;
-    `;
-    
-    // SVG 选项
-    const svgOption = document.createElement('div');
-    svgOption.innerHTML = '📄 SVG 矢量图';
-    svgOption.style.cssText = 'padding: 8px 12px; cursor: pointer; font-size: 13px;';
-    svgOption.onmouseenter = () => svgOption.style.background = '#f5f5f5';
-    svgOption.onmouseleave = () => svgOption.style.background = '';
-    svgOption.onclick = async (e) => {
+    downloadBtn.onclick = async (e) => {
+      e.preventDefault();
       e.stopPropagation();
-      menu.style.display = 'none';
+      
+      // 显示加载状态
+      const originalText = downloadBtn.innerHTML;
       downloadBtn.innerHTML = '⏳';
+      downloadBtn.disabled = true;
+      
       const success = downloadAsSVG(svg);
-      downloadBtn.innerHTML = success ? '📄' : '❌';
-      setTimeout(() => { downloadBtn.innerHTML = '📸'; }, 1500);
+      
+      // 恢复按钮
+      if (success) {
+        downloadBtn.innerHTML = '✓';
+        setTimeout(() => {
+          downloadBtn.innerHTML = originalText;
+          downloadBtn.disabled = false;
+        }, 1000);
+      } else {
+        downloadBtn.innerHTML = '❌';
+        setTimeout(() => {
+          downloadBtn.innerHTML = originalText;
+          downloadBtn.disabled = false;
+        }, 1500);
+      }
     };
     
-    // PNG 选项
-    const pngOption = document.createElement('div');
-    pngOption.innerHTML = '🖼️ PNG 高清图';
-    pngOption.style.cssText = 'padding: 8px 12px; cursor: pointer; font-size: 13px; border-top: 1px solid #eee;';
-    pngOption.onmouseenter = () => pngOption.style.background = '#f5f5f5';
-    pngOption.onmouseleave = () => pngOption.style.background = '';
-    pngOption.onclick = async (e) => {
-      e.stopPropagation();
-      menu.style.display = 'none';
-      downloadBtn.innerHTML = '⏳';
-      const success = await downloadAsPNG(svg);
-      downloadBtn.innerHTML = success ? '🖼️' : '❌';
-      setTimeout(() => { downloadBtn.innerHTML = '📸'; }, 1500);
-    };
-    
-    menu.appendChild(svgOption);
-    menu.appendChild(pngOption);
-    
-    // 包装器
-    const wrapper = document.createElement('div');
-    wrapper.style.cssText = 'position: relative; display: inline-block;';
-    wrapper.appendChild(downloadBtn);
-    wrapper.appendChild(menu);
-    
-    downloadBtn.onclick = (e) => {
-      e.stopPropagation();
-      const isVisible = menu.style.display === 'block';
-      document.querySelectorAll('.mermaid-download-menu').forEach(m => {
-        if (m !== menu) m.style.display = 'none';
-      });
-      menu.style.display = isVisible ? 'none' : 'block';
-    };
-    
-    buttonGroup.appendChild(wrapper);
-    
-    // 点击其他地方关闭菜单
-    document.addEventListener('click', () => {
-      menu.style.display = 'none';
-    });
+    buttonGroup.appendChild(downloadBtn);
   }
   
   // 初始化
@@ -271,6 +160,7 @@
     addCustomStyles();
     
     const mermaidElements = document.querySelectorAll('.mermaid');
+    console.log(`找到 ${mermaidElements.length} 个 Mermaid 图表`);
     
     mermaidElements.forEach((element) => {
       if (element.hasAttribute('data-download-btn')) return;
