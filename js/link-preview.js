@@ -359,27 +359,10 @@ if (typeof module !== 'undefined' && module.exports) {
     selector: 'a[href^="/posts/"]',
     previewSelector: 'body',
     customCss: {
-      // 基础样式
       'article': 'width:100% !important; max-width:100% !important; padding:0; margin:0;',
-      
-      // 隐藏面包屑
       '.breadcrumb, .breadcrumb-item': 'display: none !important;',
-      
-      // 隐藏页眉页脚
       'header, footer': 'display: none !important;',
-      
-      // 隐藏文章底部多余内容
-      '.post-pagination, .post-nav, .navigation, .post-footer-meta, .post-copyright, .post-reward': 'display: none !important;',
-      
-      // 可选：根据需要决定是否隐藏这些
-      // 如果分类页面的侧边栏不影响，就不要隐藏
-      '.sidebar, .toc, .widget': 'display: none !important;',
-      
-      // 可选：评论区域
-      '.comments': 'display: none !important;',
-      
-      // 确保分类页面的主要内容正常显示
-      '.category-list, .term-list, .taxonomy-list': 'display: block !important;'
+      '.post-pagination, .post-nav, .post-footer-meta, .post-copyright, .post-reward': 'display: none !important;'
     },
     hideSelector: '',
     delay: 500,
