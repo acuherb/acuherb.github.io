@@ -304,9 +304,13 @@ if (typeof module !== 'undefined' && module.exports) {
     previewSelector: 'body',
     customCss: {
       'article': 'width:100% !important; max-width:100% !important; padding:0; margin:0;',
-      '.post-pagination, .post-nav, .navigation, .post-footer-meta, .post-copyright, .post-reward': 'display: none !important;'
+      // 正确隐藏面包屑
+      '.breadcrumb, .breadcrumb-item': 'display: none !important;',
+      // 其他需要隐藏的元素
+      'header, footer, aside, .sidebar, .toc': 'display: none !important;',
+      '.post-pagination, .post-nav, .comments': 'display: none !important;'
     },
-    hideSelector: 'header, footer, aside, .sidebar, .toc, .comments',
+    hideSelector: '',
     delay: 500,
     hideDelay: 500,
     width: 450,
