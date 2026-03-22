@@ -266,12 +266,68 @@ class LinkPreview {
         this.container.querySelector('.lp-title').innerText = title;
         this.container.querySelector('.lp-content').innerHTML = content ? content.innerHTML : '未找到指定内容';
         this.container.querySelector('.lp-time').innerText = `${loadTime}s`;
+        
+        // ========== 新增：渲染动态内容 ==========
+        this.renderDynamicContent();
       }
     } catch (err) {
       if (this.container) {
         this.container.querySelector('.lp-content').innerHTML = '加载失败: ' + err.message;
       }
     }
+  }
+
+  // 新增方法：渲染动态内容（Mermaid、数学公式等）
+  renderDynamicContent() {
+    if (!this.container) return;
+    
+    // 延迟一点确保 DOM 完全插入
+    setTimeout(() => {
+      const contentArea = this.container.querySelector('.lp-content');
+      if (!contentArea) return;
+      
+      // 1. 渲染 Mermaid 图表
+      if (typeof mermaid !== 'undefined') {
+        try {
+          const mermaidElements = contentArea.querySelectorAll('.mermaid');
+          if (mermaidElements.length > 0) {
+            // 为每个 mermaid 元素生成唯一 ID
+            mermaidElements.forEach((el, index) => {
+              if (!el.getAttribute('data-processed')) {
+                el.setAttribute('id', `mermaid-preview-${Date.now()}-${index}`);
+              }
+            });
+            // 重新初始化 mermaid
+            mermaid.init(undefined, mermaidElements);
+          }
+        } catch (e) {
+          console.warn('Mermaid 渲染失败:', e);
+        }
+      }
+      
+      // 2. 渲染数学公式（KaTeX）
+      if (typeof renderMathInElement !== 'undefined') {
+        try {
+          renderMathInElement(contentArea, {
+            delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+            ]
+          });
+        } catch (e) {
+          console.warn('KaTeX 渲染失败:', e);
+        }
+      }
+      
+      // 3. 触发自定义事件，供其他插件使用
+      const event = new CustomEvent('linkPreviewLoaded', { 
+        detail: { container: this.container, contentArea: contentArea } 
+      });
+      document.dispatchEvent(event);
+      
+    }, 100);
   }
 
   hidePreview() {
@@ -311,7 +367,7 @@ if (typeof module !== 'undefined' && module.exports) {
     hideSelector: '',
     delay: 500,
     hideDelay: 500,
-    width: 550,   // 宽度
-    height: 450   // 高度
+    width: 550,
+    height: 450
   });
 })();
