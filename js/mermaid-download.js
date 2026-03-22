@@ -1,11 +1,11 @@
 /**
- * Mermaid 图表下载功能 - 下载原始 SVG 矢量图
+ * Mermaid 图表下载功能 - 修复版
  */
 
 (function() {
-  console.log('Mermaid SVG 下载功能加载中...');
+  console.log('Mermaid 下载功能加载中...');
   
-  // 添加自定义样式
+  // 添加样式
   function addCustomStyles() {
     if (document.getElementById('mermaid-download-styles')) return;
     
@@ -43,51 +43,40 @@
   }
   
   // 下载为 SVG 矢量图
-  async function downloadAsSVG(svgElement, container) {
+  function downloadAsSVG(svgElement) {
     try {
-      // 克隆 SVG，避免影响原图
+      // 克隆 SVG
       const clonedSvg = svgElement.cloneNode(true);
       
-      // 获取原始 SVG 的尺寸
+      // 获取尺寸
       const width = svgElement.clientWidth || svgElement.getBBox().width;
       const height = svgElement.clientHeight || svgElement.getBBox().height;
       
-      // 设置 viewBox 确保缩放正确
+      // 设置 viewBox
       clonedSvg.setAttribute('viewBox', `0 0 ${width} ${height}`);
       clonedSvg.setAttribute('width', width);
       clonedSvg.setAttribute('height', height);
       
-      // 获取背景色
-      const isDarkMode = document.documentElement.getAttribute('data-theme') === 'dark' ||
-                        document.body.getAttribute('data-theme') === 'dark';
-      const bgColor = isDarkMode ? '#1a1a1a' : '#ffffff';
-      
-      // 添加背景矩形
+      // 添加白色背景
       const bgRect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
       bgRect.setAttribute('width', '100%');
       bgRect.setAttribute('height', '100%');
-      bgRect.setAttribute('fill', bgColor);
+      bgRect.setAttribute('fill', '#ffffff');
       clonedSvg.insertBefore(bgRect, clonedSvg.firstChild);
       
-      // 序列化 SVG
+      // 序列化并下载
       const serializer = new XMLSerializer();
       let svgString = serializer.serializeToString(clonedSvg);
-      
-      // 添加 XML 声明
       svgString = '<?xml version="1.0" encoding="UTF-8"?>\n' + svgString;
       
-      // 创建 Blob 并下载
       const blob = new Blob([svgString], { type: 'image/svg+xml' });
       const url = URL.createObjectURL(blob);
       const link = document.createElement('a');
-      const timestamp = new Date().toISOString().slice(0, 19).replace(/:/g, '-');
-      link.download = `mermaid-diagram-${timestamp}.svg`;
+      link.download = `mermaid-${Date.now()}.svg`;
       link.href = url;
       link.click();
       
-      // 清理
       setTimeout(() => URL.revokeObjectURL(url), 100);
-      
       return true;
     } catch (error) {
       console.error('SVG 下载失败:', error);
@@ -95,88 +84,93 @@
     }
   }
   
-  // 下载为高清 PNG（备用方案）
-  async function downloadAsPNG(svgElement, container) {
+  // 下载为 PNG（修复版）
+  async function downloadAsPNG(svgElement) {
     try {
-      // 获取 SVG 尺寸
-      const bbox = svgElement.getBBox();
-      const width = bbox.width;
-      const height = bbox.height;
+      // 获取 SVG 的实际尺寸
+      const width = svgElement.clientWidth;
+      const height = svgElement.clientHeight;
       
-      // 使用 4 倍分辨率
-      const scale = 4;
+      if (!width || !height) {
+        console.error('无法获取 SVG 尺寸');
+        return false;
+      }
+      
+      // 使用 3 倍分辨率
+      const scale = 3;
       const canvasWidth = width * scale;
       const canvasHeight = height * scale;
       
       // 克隆 SVG
       const clonedSvg = svgElement.cloneNode(true);
       
-      // 获取背景色
-      const isDarkMode = document.documentElement.getAttribute('data-theme') === 'dark' ||
-                        document.body.getAttribute('data-theme') === 'dark';
-      const bgColor = isDarkMode ? '#1a1a1a' : '#ffffff';
+      // 设置尺寸
+      clonedSvg.setAttribute('width', canvasWidth);
+      clonedSvg.setAttribute('height', canvasHeight);
+      clonedSvg.setAttribute('viewBox', `0 0 ${width} ${height}`);
       
-      // 添加背景
+      // 添加白色背景
       const bgRect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
       bgRect.setAttribute('width', '100%');
       bgRect.setAttribute('height', '100%');
-      bgRect.setAttribute('fill', bgColor);
+      bgRect.setAttribute('fill', '#ffffff');
       clonedSvg.insertBefore(bgRect, clonedSvg.firstChild);
       
-      // 设置尺寸
-      clonedSvg.setAttribute('viewBox', `0 0 ${width} ${height}`);
-      clonedSvg.setAttribute('width', canvasWidth);
-      clonedSvg.setAttribute('height', canvasHeight);
+      // 转换为字符串
+      const serializer = new XMLSerializer();
+      const svgString = serializer.serializeToString(clonedSvg);
       
-      // 转换为 PNG
-      const svgString = new XMLSerializer().serializeToString(clonedSvg);
+      // 创建图片
+      const img = new Image();
       const svgBlob = new Blob([svgString], { type: 'image/svg+xml;charset=utf-8' });
       const url = URL.createObjectURL(svgBlob);
       
+      // 等待图片加载
+      await new Promise((resolve, reject) => {
+        img.onload = resolve;
+        img.onerror = reject;
+        img.src = url;
+      });
+      
+      // 创建 canvas 并绘制
       const canvas = document.createElement('canvas');
       canvas.width = canvasWidth;
       canvas.height = canvasHeight;
       const ctx = canvas.getContext('2d');
       
-      await new Promise((resolve, reject) => {
-        const img = new Image();
-        img.onload = () => {
-          ctx.drawImage(img, 0, 0, canvasWidth, canvasHeight);
-          URL.revokeObjectURL(url);
-          resolve();
-        };
-        img.onerror = reject;
-        img.src = url;
-      });
+      // 填充白色背景
+      ctx.fillStyle = '#ffffff';
+      ctx.fillRect(0, 0, canvasWidth, canvasHeight);
+      
+      // 绘制图片
+      ctx.drawImage(img, 0, 0, canvasWidth, canvasHeight);
       
       // 下载 PNG
       const link = document.createElement('a');
-      const timestamp = new Date().toISOString().slice(0, 19).replace(/:/g, '-');
-      link.download = `mermaid-diagram-${timestamp}.png`;
+      link.download = `mermaid-${Date.now()}.png`;
       link.href = canvas.toDataURL('image/png');
       link.click();
       
+      // 清理
+      URL.revokeObjectURL(url);
       return true;
+      
     } catch (error) {
       console.error('PNG 下载失败:', error);
       return false;
     }
   }
   
-  // 添加下载按钮（提供两种格式选择）
+  // 添加按钮
   function addDownloadButton(container, svg) {
-    // 查找代码块头部
     const codeBlock = container.closest('.highlight');
-    let targetHeader = null;
+    if (!codeBlock) return;
     
-    if (codeBlock) {
-      targetHeader = codeBlock.querySelector('.code-header');
-    }
-    
+    const targetHeader = codeBlock.querySelector('.code-header');
     if (!targetHeader) return;
     if (targetHeader.querySelector('.mermaid-download-btn')) return;
     
-    // 创建按钮组容器
+    // 创建按钮组
     let buttonGroup = targetHeader.querySelector('.mermaid-button-group');
     if (!buttonGroup) {
       buttonGroup = document.createElement('div');
@@ -188,7 +182,6 @@
         margin-left: auto;
       `;
       
-      // 移动复制按钮到组内
       const copyBtn = targetHeader.querySelector('.copy-code-button');
       if (copyBtn) {
         copyBtn.parentNode.insertBefore(buttonGroup, copyBtn);
@@ -196,16 +189,11 @@
       }
     }
     
-    // 创建下载菜单容器
-    const downloadWrapper = document.createElement('div');
-    downloadWrapper.style.cssText = 'position: relative; display: inline-block;';
-    
-    // 创建主下载按钮
+    // 创建下载按钮
     const downloadBtn = document.createElement('button');
     downloadBtn.className = 'mermaid-download-btn';
     downloadBtn.innerHTML = '📸';
     downloadBtn.title = '下载图表';
-    downloadBtn.setAttribute('aria-label', '下载图表');
     
     // 创建下拉菜单
     const menu = document.createElement('div');
@@ -213,83 +201,69 @@
       position: absolute;
       top: 100%;
       right: 0;
-      background: var(--card-bg, #fff);
-      border: 1px solid var(--border-color, #ddd);
+      background: #fff;
+      border: 1px solid #ddd;
       border-radius: 6px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.15);
       display: none;
       z-index: 1000;
-      min-width: 120px;
-      overflow: hidden;
+      min-width: 130px;
     `;
     
     // SVG 选项
     const svgOption = document.createElement('div');
     svgOption.innerHTML = '📄 SVG 矢量图';
-    svgOption.style.cssText = `
-      padding: 8px 12px;
-      cursor: pointer;
-      transition: background 0.2s;
-      font-size: 13px;
-    `;
-    svgOption.onmouseenter = () => svgOption.style.background = 'rgba(0,0,0,0.05)';
+    svgOption.style.cssText = 'padding: 8px 12px; cursor: pointer; font-size: 13px;';
+    svgOption.onmouseenter = () => svgOption.style.background = '#f5f5f5';
     svgOption.onmouseleave = () => svgOption.style.background = '';
     svgOption.onclick = async (e) => {
       e.stopPropagation();
       menu.style.display = 'none';
       downloadBtn.innerHTML = '⏳';
-      downloadBtn.disabled = true;
-      const success = await downloadAsSVG(svg, container);
+      const success = downloadAsSVG(svg);
       downloadBtn.innerHTML = success ? '📄' : '❌';
-      downloadBtn.disabled = false;
-      setTimeout(() => { if (downloadBtn.innerHTML !== '📸') downloadBtn.innerHTML = '📸'; }, 2000);
+      setTimeout(() => { downloadBtn.innerHTML = '📸'; }, 1500);
     };
     
     // PNG 选项
     const pngOption = document.createElement('div');
     pngOption.innerHTML = '🖼️ PNG 高清图';
-    pngOption.style.cssText = `
-      padding: 8px 12px;
-      cursor: pointer;
-      transition: background 0.2s;
-      font-size: 13px;
-      border-top: 1px solid var(--border-color, #ddd);
-    `;
-    pngOption.onmouseenter = () => pngOption.style.background = 'rgba(0,0,0,0.05)';
+    pngOption.style.cssText = 'padding: 8px 12px; cursor: pointer; font-size: 13px; border-top: 1px solid #eee;';
+    pngOption.onmouseenter = () => pngOption.style.background = '#f5f5f5';
     pngOption.onmouseleave = () => pngOption.style.background = '';
     pngOption.onclick = async (e) => {
       e.stopPropagation();
       menu.style.display = 'none';
       downloadBtn.innerHTML = '⏳';
-      downloadBtn.disabled = true;
-      const success = await downloadAsPNG(svg, container);
+      const success = await downloadAsPNG(svg);
       downloadBtn.innerHTML = success ? '🖼️' : '❌';
-      downloadBtn.disabled = false;
-      setTimeout(() => { if (downloadBtn.innerHTML !== '📸') downloadBtn.innerHTML = '📸'; }, 2000);
+      setTimeout(() => { downloadBtn.innerHTML = '📸'; }, 1500);
     };
     
     menu.appendChild(svgOption);
     menu.appendChild(pngOption);
-    downloadWrapper.appendChild(downloadBtn);
-    downloadWrapper.appendChild(menu);
     
-    // 点击主按钮显示/隐藏菜单
+    // 包装器
+    const wrapper = document.createElement('div');
+    wrapper.style.cssText = 'position: relative; display: inline-block;';
+    wrapper.appendChild(downloadBtn);
+    wrapper.appendChild(menu);
+    
     downloadBtn.onclick = (e) => {
-      e.preventDefault();
       e.stopPropagation();
       const isVisible = menu.style.display === 'block';
-      // 关闭所有其他菜单
-      document.querySelectorAll('.mermaid-download-menu').forEach(m => m.style.display = 'none');
+      document.querySelectorAll('.mermaid-download-menu').forEach(m => {
+        if (m !== menu) m.style.display = 'none';
+      });
       menu.style.display = isVisible ? 'none' : 'block';
     };
+    
+    buttonGroup.appendChild(wrapper);
     
     // 点击其他地方关闭菜单
     document.addEventListener('click', () => {
       menu.style.display = 'none';
     });
-    
-    // 添加到按钮组
-    buttonGroup.appendChild(downloadWrapper);
   }
   
   // 初始化
@@ -297,7 +271,6 @@
     addCustomStyles();
     
     const mermaidElements = document.querySelectorAll('.mermaid');
-    console.log(`找到 ${mermaidElements.length} 个 Mermaid 图表`);
     
     mermaidElements.forEach((element) => {
       if (element.hasAttribute('data-download-btn')) return;
