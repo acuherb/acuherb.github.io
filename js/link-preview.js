@@ -304,16 +304,14 @@ if (typeof module !== 'undefined' && module.exports) {
     previewSelector: 'body',
     customCss: {
       'article': 'width:100% !important; max-width:100% !important; padding:0; margin:0;',
-      // 正确隐藏面包屑
       '.breadcrumb, .breadcrumb-item': 'display: none !important;',
-      // 其他需要隐藏的元素
       'header, footer, aside, .sidebar, .toc': 'display: none !important;',
       '.post-pagination, .post-nav, .comments': 'display: none !important;'
     },
     hideSelector: '',
     delay: 500,
     hideDelay: 500,
-    width: 450,
-    height: 350
+    width: 550,   // 宽度
+    height: 450   // 高度
   });
 })();
