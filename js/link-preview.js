@@ -373,10 +373,10 @@ if (typeof module !== 'undefined' && module.exports) {
       
       // 可选：根据需要决定是否隐藏这些
       // 如果分类页面的侧边栏不影响，就不要隐藏
-      // '.sidebar, .toc, .widget': 'display: none !important;',
+      '.sidebar, .toc, .widget': 'display: none !important;',
       
       // 可选：评论区域
-      // '.comments': 'display: none !important;',
+      '.comments': 'display: none !important;',
       
       // 确保分类页面的主要内容正常显示
       '.category-list, .term-list, .taxonomy-list': 'display: block !important;'
@@ -385,6 +385,6 @@ if (typeof module !== 'undefined' && module.exports) {
     delay: 500,
     hideDelay: 500,
     width: 550,
-    height: 450
+    height: 500
   });
 })();
