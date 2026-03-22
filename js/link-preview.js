@@ -304,12 +304,12 @@ if (typeof module !== 'undefined' && module.exports) {
     previewSelector: 'body',
     customCss: {
       'article': 'width:100% !important; max-width:100% !important; padding:0; margin:0;',
-      '.breadcrumb-container':'width:100% !important;top:0 !important; ',
+      '.post-pagination, .post-nav, .navigation, .post-footer-meta, .post-copyright, .post-reward': 'display: none !important;'
     },
-    hideSelector: 'header,aside,footer',
+    hideSelector: 'header, footer, aside, .sidebar, .toc, .comments',
     delay: 500,
     hideDelay: 500,
-    width: 360,
-    height: 280
+    width: 450,
+    height: 350
   });
 })();
