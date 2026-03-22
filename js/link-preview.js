@@ -301,17 +301,15 @@ if (typeof module !== 'undefined' && module.exports) {
 (() => {
   window.linkPreview = new LinkPreview({
     selector: 'a[href^="/posts/"]',
-    previewSelector: '.post-content',  // 只取文章内容区域
+    previewSelector: 'body',
     customCss: {
-      // 清理内部样式
-      'img': 'max-width: 100%; height: auto;',
-      'pre': 'max-width: 100%; overflow-x: auto;',
-      'table': 'display: block; overflow-x: auto;',
+      'article': 'width:100% !important; max-width:100% !important; padding:0; margin:0;',
+      '.breadcrumb-container':'width:100% !important;top:0 !important; ',
     },
-    hideSelector: '',  // 已经精确选择，不需要隐藏
+    hideSelector: 'header,aside,footer',
     delay: 500,
     hideDelay: 500,
-    width: 420,
-    height: 320
+    width: 360,
+    height: 280
   });
 })();
