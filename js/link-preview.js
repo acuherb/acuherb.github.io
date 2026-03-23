@@ -366,7 +366,7 @@ if (typeof module !== 'undefined' && module.exports) {
     },
     hideSelector: '',
     delay: 500,
-    hideDelay: 100,
+    hideDelay: 50,
     width: 550,
     height: 500
   });
