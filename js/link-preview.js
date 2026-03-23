@@ -365,7 +365,7 @@ if (typeof module !== 'undefined' && module.exports) {
       '.post-pagination, .post-nav, .comments': 'display: none !important;'
     },
     hideSelector: '',
-    delay: 500,
+    delay: 700,
     hideDelay: 50,
     width: 550,
     height: 500
