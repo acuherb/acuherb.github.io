@@ -141,7 +141,7 @@
 ## 五、总结：倪海厦流鼻血辨证心法完整流程图
 
 ```mermaid
-flowchart TD
+flowchart LR
     START([鼻衄患者]) --> ACU[针灸急救<br>天府、侠白、合谷、上星、照海]
 
     ACU --> CLASSIFY{分类判断}
