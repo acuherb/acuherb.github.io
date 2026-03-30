@@ -96,23 +96,39 @@
       </div>
     `;
 
-    // 将原始 pre 移动到 diagram-wrapper 中
+    // 将原始 pre 移动到 container，并隐藏原始代码块（用于复制/下载）
     const diagramWrapper = container.querySelector('.mermaid-diagram-wrapper');
     originalPre.parentNode.insertBefore(container, originalPre);
-    diagramWrapper.appendChild(originalPre);
-    originalPre.style.display = 'block';
+    originalPre.style.display = 'none';
 
-    // 等待 Mermaid 渲染完成（MutationObserver 监听 SVG 出现）
     let panZoomInstance = null;
-    const svgObserver = new MutationObserver((mutations, obs) => {
-      const svg = diagramWrapper.querySelector('svg');
-      if (svg) {
-        fixSvgDisplay(svg);
-        initPanZoom(container, svg);
-        obs.disconnect();
+
+    function renderDiagram() {
+      if (typeof mermaid === 'undefined') {
+        console.warn('Mermaid 未就绪，无法渲染');
+        return;
       }
-    });
-    svgObserver.observe(diagramWrapper, { childList: true, subtree: true });
+
+      const diagramCode = decodeURIComponent(container.dataset.mermaidCode);
+      const diagramId = `mermaid-${Date.now()}-${Math.random().toString(36).slice(2)}`;
+      try {
+        mermaid.render(diagramId, diagramCode, (svgCode) => {
+          diagramWrapper.innerHTML = svgCode;
+          const svg = diagramWrapper.querySelector('svg');
+          if (svg) {
+            fixSvgDisplay(svg);
+            initPanZoom(container, svg);
+          }
+        }, diagramWrapper);
+      } catch (err) {
+        console.error('Mermaid 渲染失败：', err);
+        diagramWrapper.innerHTML = `<pre class="mermaid-error">渲染失败: ${escapeHtml(err.message || err)}</pre>`;
+      }
+    }
+
+    // 给 container 挂载重新渲染函数，方便暗黑/亮色切换时统一刷新
+    container.reRender = renderDiagram;
+    renderDiagram();
 
     // 初始化 panzoom
     function initPanZoom(cont, svg) {
@@ -127,6 +143,7 @@
           maxZoom: 5,
           zoomScaleSensitivity: 0.2
         });
+        panZoomInstance.isInitialized = true;
         // 绑定缩放按钮
         const zoomIn = cont.querySelector('.zoom-in-btn');
         const zoomOut = cont.querySelector('.zoom-out-btn');
@@ -157,6 +174,12 @@
         codeView.style.display = 'none';
         diagramBtns.style.display = 'flex';
         codeBtns.style.display = 'none';
+
+        const svg = diagramWrapper.querySelector('svg');
+        if (svg && (!panZoomInstance || !panZoomInstance.isInitialized)) {
+          initPanZoom(container, svg);
+        }
+
         setTimeout(() => fitPanZoom(), 50);
       } else {
         diagramView.style.display = 'none';
@@ -226,9 +249,21 @@
     async function downloadPNG(cont) {
       const svg = cont.querySelector('svg');
       if (!svg) { alert('未找到图表'); return; }
-      const viewBox = svg.getAttribute('viewBox');
-      if (!viewBox) { alert('无法获取尺寸'); return; }
-      const [x, y, width, height] = viewBox.split(' ').map(Number);
+      let viewBox = svg.getAttribute('viewBox');
+      let x, y, width, height;
+      if (viewBox) {
+        [x, y, width, height] = viewBox.split(' ').map(Number);
+      } else {
+        const bbox = svg.getBBox();
+        x = bbox.x;
+        y = bbox.y;
+        width = bbox.width;
+        height = bbox.height;
+      }
+      if (!isFinite(width) || !isFinite(height) || width <= 0 || height <= 0) {
+        alert('无法获取有效尺寸');
+        return;
+      }
       const targetWidth = 1600;
       const scale = targetWidth / width;
       const targetHeight = height * scale;
@@ -328,8 +363,9 @@
     if (window.matchMedia) {
       window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
         initMermaidTheme();
-        // 重新渲染所有图表（简单方法：重新加载页面或触发重绘）
-        // 此处为简化，仅重新初始化主题，不重新渲染图表（用户可刷新页面）
+        document.querySelectorAll('.mermaid-enhanced-container').forEach(c => {
+          if (c.reRender) c.reRender();
+        });
       });
     }
     // 增强现有的 mermaid 块
