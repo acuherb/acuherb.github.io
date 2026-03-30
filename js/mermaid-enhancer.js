@@ -18,9 +18,9 @@
     const style = document.createElement('style');
     style.id = 'mermaid-enhancer-style';
     style.textContent = `
-      .mermaid-enhanced-container { border: 1px solid #ccc; padding: 8px; margin: 10px 0; background: #fff; }
+      .mermaid-enhanced-container { border: 1px solid #ccc; padding: 8px; margin: 10px 0; background: #fff; position: relative; }
       .mermaid-enhanced-container.dark { background: #0f172a; border-color: #334155; }
-      .mermaid-toolbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; gap: 8px; }
+      .mermaid-toolbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; gap: 8px; position: relative; z-index: 10; }
       .mermaid-toolbar .toolbar-left .view-toggle .toggle-btn { margin-right: 4px; }
       .mermaid-toolbar .toggle-btn.active { font-weight: bold; }
       .download-dropdown { position: relative; display: inline-block; }
@@ -29,6 +29,7 @@
       .download-dropdown .dropdown-content a { display: block; padding: 6px 10px; text-decoration: none; color: #333; }
       .download-dropdown .dropdown-content a:hover { background: #f3f4f6; }
       .mermaid-source-code { white-space: pre-wrap; word-break: break-word; max-height: 400px; overflow: auto; }
+      .mermaid-diagram-wrapper { position: relative; }
     `;
     document.head.appendChild(style);
   }
@@ -137,6 +138,7 @@
           diagramWrapper.innerHTML = svgCode;
           const svg = diagramWrapper.querySelector('svg');
           if (svg) {
+            svg.style.display = 'block';  // 确保 SVG 可见
             fixSvgDisplay(svg);
             initPanZoom(container, svg);
           }
@@ -157,7 +159,7 @@
       if (typeof svgPanZoom !== 'undefined') {
         panZoomInstance = svgPanZoom(svg, {
           panEnabled: true,
-          controlIconsEnabled: true,
+          controlIconsEnabled: false,  // 禁用默认控制图标，避免挡住工具栏
           fit: true,
           center: true,
           minZoom: 0.3,
