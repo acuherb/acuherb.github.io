@@ -142,112 +142,70 @@
 
 ```mermaid
 flowchart TD
-    START([遇鼻衄患者]) --> STEP1[第一步：问年龄]
+    START([鼻衄患者]) --> ACU[针灸急救<br>天府、侠白、合谷、上星、照海]
 
-    STEP1 --> AGE_CHILD{年龄 < 14岁？}
-    AGE_CHILD -->|是| PHYSIO[生理性衄解]
-    PHYSIO --> PHYSIO_DESC[“纯阳之体，得衄而解”<br>感冒发烧时，热从鼻窍而泄]
-    PHYSIO_DESC --> PHYSIO_ACTION[处理：让血自然流出<br>绝对不可塞鼻]
-    PHYSIO_ACTION --> DONE1([观察即可，无需用药])
+    ACU --> CLASSIFY{分类判断}
 
-    AGE_CHILD -->|否，≥14岁| STEP2[第二步：问性别与月经]
+    %% 生理性鼻衄分支
+    CLASSIFY -->|14岁以下儿童<br>感冒发烧时| PHYSIO[生理性鼻衄]
+    PHYSIO --> PHYSIO_ACTION[“得衄而解”<br>让血自然流出，不可塞鼻]
+    PHYSIO_ACTION --> PHYSIO_DONE([观察即可，无需用药])
 
-    STEP2 --> GENDER{是否为育龄女性？}
-    GENDER -->|是| MENSTRUAL{鼻血是否与月经周期同步？}
-    MENSTRUAL -->|是| NI_JING[诊断：妇女逆经<br>（奶水逆行）]
-    MENSTRUAL -->|否| ENTER_COMMON
-    GENDER -->|否| ENTER_COMMON
+    %% 麻黄汤证衄解
+    CLASSIFY -->|太阳伤寒<br>体质强壮| MAHUANG[麻黄汤证衄解]
+    MAHUANG --> MAHUANG_ACTION[服药后衄血<br>头痛身痛发热随之消失]
+    MAHUANG_ACTION --> MAHUANG_DONE([衄后病愈，无需再服药])
 
-    ENTER_COMMON[进入常规辨证] --> STEP3
+    %% 病理性鼻衄
+    CLASSIFY -->|其他情况| PATHO[病理性鼻衄<br>需要辨证治疗]
 
-    subgraph NI_JING_BRANCH [逆经辨证分支]
-        NI_JING --> NI_JING_COLD_HOT{辨寒热}
-        NI_JING_COLD_HOT -->|寒证线索| NI_JING_COLD[寒凝型]
-        NI_JING_COLD --> NI_JING_COLD_TX[特征：经期鼻衄<br>手足冷、小腹冷痛、舌淡]
-        NI_JING_COLD_TX --> NI_JING_COLD_RX[治法：温经散寒<br>温经汤、肉桂]
-        NI_JING_COLD_RX --> JOIN_COMMON
+    PATHO --> FIRST{首辨寒热}
 
-        NI_JING_COLD_HOT -->|热证线索| NI_JING_HOT[血热型]
-        NI_JING_HOT --> NI_JING_HOT_TX[特征：经期鼻衄<br>急躁、口苦、胸胁胀痛、舌红]
-        NI_JING_HOT_TX --> NI_JING_HOT_RX[治法：凉血下行<br>单味郁金、桂枝汤加郁金]
-        NI_JING_HOT_RX --> JOIN_COMMON
+    %% 热证分支
+    FIRST -->|热证| HEAT_SIGNS[喜冷饮、手足热<br>小便黄、便秘、脉数]
+    HEAT_SIGNS --> HEAT_TYPE{细分热证}
+    HEAT_TYPE -->|高烧大汗大渴<br>脉洪大| H1[阳明经热<br>白虎汤]
+    HEAT_TYPE -->|便秘腹胀潮热<br>苔黄厚| H2[阳明腑热<br>承气汤类]
+    HEAT_TYPE -->|易怒口苦目赤<br>心烦失眠舌尖红| H3[肝经郁热/心火亢盛<br>三黄泻心汤（冷服）]
+    HEAT_TYPE -->|夜间盗汗午后潮热<br>舌红少苔脉细数| H4[阴虚火旺<br>六味地黄丸加减]
+
+    %% 寒证分支
+    FIRST -->|寒证| COLD_SIGNS[喜热饮或不渴<br>手足冷、小便清长<br>便溏、脉无力]
+    COLD_SIGNS --> COLD_TYPE{细分寒证}
+    COLD_TYPE -->|上身热口干<br>下身冷、舌淡胖| C1[里阳虚，虚阳上浮<br>四逆汤、白通汤]
+    COLD_TYPE -->|面色萎黄神疲乏力<br>食欲不振、皮下瘀青| C2[脾不统血<br>归脾汤、黄土汤]
+
+    %% 妇女逆经（特殊分支）
+    PATHO --> WOMAN{育龄女性<br>鼻血与月经同步？}
+    WOMAN -->|是| NI_JING[妇女逆经]
+    NI_JING --> NI_HOT_COLD{辨寒热}
+    NI_HOT_COLD -->|寒证| NI_COLD[手脚冷、小腹冷痛、舌淡<br>温经散寒：温经汤、肉桂]
+    NI_HOT_COLD -->|热证| NI_HOT[急躁口苦、胸胁胀痛、舌红<br>凉血下行：郁金、桂枝汤加郁金]
+
+    %% 危重症识别（独立警示）
+    PATHO --> WARNING{危重症识别}
+    WARNING -->|伴黄疸、腹水、蜘蛛痣| WARN1[肝阴实<br>肝癌、肝硬化可能]
+    WARNING -->|面色惨白、气息微弱<br>但头汗出| WARN2[阴阳离决<br>大剂回阳救逆]
+
+    %% 诊断要点汇总
+    H1 --> DIAG
+    H2 --> DIAG
+    H3 --> DIAG
+    H4 --> DIAG
+    C1 --> DIAG
+    C2 --> DIAG
+    NI_COLD --> DIAG
+    NI_HOT --> DIAG
+    WARN1 --> DIAG
+    WARN2 --> DIAG
+
+    subgraph DIAG [诊断要点]
+        EYE[望眼目：眼白晕黄<br>→ 肝肾热未清，衄未止]
+        PULSE[脉诊：实热脉洪数<br>虚寒脉沉迟细微无力]
+        TABOO[禁忌：衄家、亡血家<br>→ 绝对禁用发汗药]
     end
 
-    JOIN_COMMON[汇聚至综合辨证] --> STEP3
-
-    STEP3[第三步：辨寒热<br>（核心环节）] --> COLD_HOT{寒热辨证}
-
-    COLD_HOT -->|热证线索| HEAT_SIGNS[喜冷饮、手足热<br>小便黄、便秘、脉数有力]
-    COLD_HOT -->|寒证线索| COLD_SIGNS[喜热饮或不渴、手足冷<br>小便清长、便溏、脉无力]
-
-    HEAT_SIGNS --> HEAT_SUBTYPE{细分证型}
-    HEAT_SUBTYPE -->|高烧、大汗、大渴| TYPE1[阳明经热]
-    HEAT_SUBTYPE -->|便秘、腹胀、潮热| TYPE2[阳明腑热]
-    HEAT_SUBTYPE -->|易怒、口苦、目赤| TYPE3[肝经郁热<br>心火亢盛]
-    HEAT_SUBTYPE -->|午后潮热、盗汗<br>舌红少苔、脉细数| TYPE4[阴虚火旺]
-
-    TYPE1 --> FORMULA1[方药：白虎汤]
-    TYPE2 --> FORMULA2[方药：承气汤类]
-    TYPE3 --> FORMULA3[方药：三黄泻心汤<br>（必须冷服）]
-    TYPE4 --> FORMULA4[方药：滋阴降火<br>六味地黄丸加减]
-
-    COLD_SIGNS --> COLD_SUBTYPE{细分证型}
-    COLD_SUBTYPE -->|上身热、口干<br>下身冷、舌淡胖| TYPE5[里阳虚，虚阳上浮<br>（上热下寒）]
-    COLD_SUBTYPE -->|面色萎黄、神疲乏力<br>食欲不振、皮下瘀青| TYPE6[脾不统血<br>（气不摄血）]
-
-    TYPE5 --> FORMULA5[方药：四逆汤、白通汤<br>回阳救逆]
-    TYPE6 --> FORMULA6[方药：归脾汤、黄土汤]
-
-    FORMULA1 --> DIAG_SUMMARY
-    FORMULA2 --> DIAG_SUMMARY
-    FORMULA3 --> DIAG_SUMMARY
-    FORMULA4 --> DIAG_SUMMARY
-    FORMULA5 --> DIAG_SUMMARY
-    FORMULA6 --> DIAG_SUMMARY
-    NI_JING_COLD_RX --> DIAG_SUMMARY
-    NI_JING_HOT_RX --> DIAG_SUMMARY
-
-    subgraph DIAG_SUMMARY [第四步：综合诊断与调护]
-        direction LR
-        EYE[望眼目：眼白“晕黄”<br>→ 肝肾热未清，需继续清肝凉血]
-        TABOO[察禁忌：“衄家”“亡血家”等<br>→ 绝对禁用发汗药]
-        WARNING[⚠️ 危重症识别]
-        WARNING --> WARNING1[肝阴实：伴黄疸、腹水<br>→ 肝癌、肝硬化可能]
-        WARNING --> WARNING2[阴阳离决：面色惨白、气息微弱<br>→ 急须回阳救逆]
-    end
-
-    DIAG_SUMMARY --> STEP5
-
-    STEP5[第五步：最终处理] --> MODERN[排除恶性肿瘤等器质性疾病]
-    MODERN --> END([辨证论治，随证治之])
-
-    %% 针灸急救独立于主流程，可随时介入
-    ACU[⚡ 针灸急救<br>急性出血时立即执行]
-    ACU --> ACU1[天府、侠白穴<br>左病右治，右病左治]
-    ACU --> ACU2[合谷穴<br>面口合谷收]
-    ACU --> ACU3[上星穴（米粒灸）<br>慢性鼻病出血]
-    ACU --> ACU4[照海穴<br>妇女逆经，引血下行]
-
-    ACU -.-> START
-    ACU -.-> STEP3
-    ACU -.-> STEP5
-
-    %% 样式定义
-    classDef physiological fill:#e1f5e1,stroke:#2e7d32,stroke-width:2px
-    classDef heat fill:#ffebee,stroke:#c62828,stroke-width:2px
-    classDef cold fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
-    classDef nijing fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
-    classDef emergency fill:#ffccbc,stroke:#bf360c,stroke-width:2px,font-weight:bold
-    classDef warning fill:#ffcdd2,stroke:#b71c1c,stroke-width:2px
-    classDef diagnosis fill:#e8eaf6,stroke:#283593,stroke-width:2px
-
-    class PHYSIO,PHYSIO_DESC,PHYSIO_ACTION physiological
-    class HEAT_SIGNS,TYPE1,TYPE2,TYPE3,TYPE4,FORMULA1,FORMULA2,FORMULA3,FORMULA4 heat
-    class COLD_SIGNS,TYPE5,TYPE6,FORMULA5,FORMULA6 cold
-    class NI_JING,NI_JING_COLD,NI_JING_HOT,NI_JING_COLD_TX,NI_JING_HOT_TX,NI_JING_COLD_RX,NI_JING_HOT_RX nijing
-    class ACU,ACU1,ACU2,ACU3,ACU4 emergency
-    class WARNING,WARNING1,WARNING2 warning
-    class EYE,TABOO diagnosis
+    DIAG --> END([随证治之])
 ```
 
 ---
