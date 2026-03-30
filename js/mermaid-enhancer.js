@@ -12,6 +12,27 @@
   // 深色模式检测
   const isDarkMode = () => window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 
+  // 注入基础样式
+  function injectMermaidStyles() {
+    if (document.getElementById('mermaid-enhancer-style')) return;
+    const style = document.createElement('style');
+    style.id = 'mermaid-enhancer-style';
+    style.textContent = `
+      .mermaid-enhanced-container { border: 1px solid #ccc; padding: 8px; margin: 10px 0; background: #fff; }
+      .mermaid-enhanced-container.dark { background: #0f172a; border-color: #334155; }
+      .mermaid-toolbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; gap: 8px; }
+      .mermaid-toolbar .toolbar-left .view-toggle .toggle-btn { margin-right: 4px; }
+      .mermaid-toolbar .toggle-btn.active { font-weight: bold; }
+      .download-dropdown { position: relative; display: inline-block; }
+      .download-dropdown .dropdown-content { display: none; position: absolute; right: 0; top: 100%; background: #fff; border: 1px solid #ccc; z-index: 1000; min-width: 120px; box-shadow: 0 2px 8px rgba(0,0,0,.15); }
+      .download-dropdown.open .dropdown-content { display: block; }
+      .download-dropdown .dropdown-content a { display: block; padding: 6px 10px; text-decoration: none; color: #333; }
+      .download-dropdown .dropdown-content a:hover { background: #f3f4f6; }
+      .mermaid-source-code { white-space: pre-wrap; word-break: break-word; max-height: 400px; overflow: auto; }
+    `;
+    document.head.appendChild(style);
+  }
+
   // 初始化 Mermaid 主题
   function initMermaidTheme() {
     if (typeof mermaid === 'undefined') return;
@@ -135,13 +156,16 @@
       if (panZoomInstance && panZoomInstance.destroy) panZoomInstance.destroy();
       if (typeof svgPanZoom !== 'undefined') {
         panZoomInstance = svgPanZoom(svg, {
-          zoomEnabled: true,
-          controlIconsEnabled: false,
+          panEnabled: true,
+          controlIconsEnabled: true,
           fit: true,
           center: true,
           minZoom: 0.3,
           maxZoom: 5,
-          zoomScaleSensitivity: 0.2
+          zoomScaleSensitivity: 0.2,
+          dblClickZoomEnabled: true,
+          zoomEnabled: true,
+          preventMouseEventsDefault: true
         });
         panZoomInstance.isInitialized = true;
         // 绑定缩放按钮
@@ -219,12 +243,24 @@
       }
     });
 
-    // 下载功能
+    // 下载功能 + 下拉菜单交互
+    const downloadBtn = container.querySelector('.download-btn');
+    const downloadDropdown = container.querySelector('.download-dropdown');
     const downloadLinks = container.querySelectorAll('.dropdown-content a');
+
+    if (downloadBtn) {
+      downloadBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        downloadDropdown.classList.toggle('open');
+      });
+      document.addEventListener('click', () => downloadDropdown.classList.remove('open'));
+    }
+
     downloadLinks.forEach(link => {
       link.addEventListener('click', async (e) => {
         e.preventDefault();
         const type = link.dataset.download;
+        downloadDropdown.classList.remove('open');
         if (type === 'svg') downloadSVG(container);
         else if (type === 'png') downloadPNG(container);
         else if (type === 'code') downloadCode(container);
@@ -269,13 +305,24 @@
       const targetHeight = height * scale;
 
       const clone = svg.cloneNode(true);
+      clone.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
       clone.setAttribute('width', targetWidth);
       clone.setAttribute('height', targetHeight);
-      clone.setAttribute('viewBox', viewBox);
-      const style = document.createElement('style');
+      clone.setAttribute('viewBox', viewBox || `${x} ${y} ${width} ${height}`);
+
       const dark = isDarkMode();
-      style.textContent = `svg { background-color: ${dark ? '#0f172a' : 'white'}; }`;
+      // 强制嵌入字体样式，避免下载 png 时文字丢失
+      const computed = window.getComputedStyle(svg);
+      const fontFamily = computed.fontFamily || 'Arial, Helvetica, sans-serif';
+      const fontSize = computed.fontSize || '12px';
+      const fillColor = computed.color || '#000';
+      const style = document.createElement('style');
+      style.textContent = `
+        svg { background-color: ${dark ? '#0f172a' : 'white'}; }
+        text, tspan { font-family: ${fontFamily} !important; font-size: ${fontSize} !important; fill: ${fillColor} !important; }
+      `;
       clone.prepend(style);
+
       const svgStr = new XMLSerializer().serializeToString(clone);
       const blob = new Blob([svgStr], { type: 'image/svg+xml;charset=utf-8' });
       const url = URL.createObjectURL(blob);
@@ -358,6 +405,7 @@
 
   // 等待 Mermaid 和 svg-pan-zoom 加载后执行
   waitForMermaid(() => {
+    injectMermaidStyles();
     initMermaidTheme();
     // 监听深色模式变化
     if (window.matchMedia) {
