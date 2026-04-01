@@ -141,8 +141,8 @@
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
  &lt;/a&gt;
 &lt;/h2&gt;
-&lt;div class="markmap-container" id="markmap-1" style="min-height: 400px; height: auto; width: 100%;"&gt;
- &lt;pre class="markmap" style="white-space: pre-wrap; word-wrap: break-word;"&gt;
+&lt;div class="markmap-container" id="markmap-1" style="height: 70vh; width: 100%; border: 1px solid #eee;"&gt;
+ &lt;pre class="markmap" style="display: none;"&gt;
 # 中医问诊患者自述症状指南
 
 ## 一、患者应描述的核心症状类别
@@ -223,14 +223,26 @@
 &lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;script src="https://cdn.jsdelivr.net/npm/markmap-autoloader"&gt;&lt;/script&gt;
-&lt;style&gt;
- 
- .markmap-container svg {
- width: 100% !important;
- height: auto !important;
- }
-&lt;/style&gt;</description></item><item><title>倪海厦诊病十问的含义——病是问出来的</title><link>https://acuherb.xyz/posts/zhenbingshiwen/</link><pubDate>Mon, 09 Mar 2026 12:22:52 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author><guid>https://acuherb.xyz/posts/zhenbingshiwen/</guid><category domain="https://acuherb.xyz/categories/%E5%8C%BB%E8%AF%9D/">医话</category><description>&lt;p&gt;我们经方家的问诊非常重要，因此有必要为读者说明一下，如何找经方家看病。如果不知道方法将会变成鸡同鸭讲，病人说了半天我们也不知道你到底在说些什么？请读者记住用下列方式来回答问题。&lt;/p&gt;
+&lt;script src="https://cdn.jsdelivr.net/npm/markmap-view"&gt;&lt;/script&gt;
+&lt;script src="https://cdn.jsdelivr.net/npm/markmap-lib"&gt;&lt;/script&gt;
+&lt;script&gt;
+ (function() {
+ const container = document.getElementById('markmap-1');
+ const pre = container.querySelector('.markmap');
+ const content = pre.innerText;
+ const { Transformer } = window.markmap;
+ const { Markmap } = window.markmap;
+
+ const transformer = new Transformer();
+ const { root, features } = transformer.transform(content);
+ const mm = Markmap.create(container, {
+ duration: 0,
+ pan: true,
+ zoom: true,
+ fitToScreen: true, 
+ }, root);
+ })();
+&lt;/script&gt;</description></item><item><title>倪海厦诊病十问的含义——病是问出来的</title><link>https://acuherb.xyz/posts/zhenbingshiwen/</link><pubDate>Mon, 09 Mar 2026 12:22:52 +0800</pubDate><author>acuherb@foxmail.com (AcuHerb)</author><guid>https://acuherb.xyz/posts/zhenbingshiwen/</guid><category domain="https://acuherb.xyz/categories/%E5%8C%BB%E8%AF%9D/">医话</category><description>&lt;p&gt;我们经方家的问诊非常重要，因此有必要为读者说明一下，如何找经方家看病。如果不知道方法将会变成鸡同鸭讲，病人说了半天我们也不知道你到底在说些什么？请读者记住用下列方式来回答问题。&lt;/p&gt;
 &lt;h2 class="heading-element" id="1-问睡眠"&gt;&lt;span&gt;1. 问睡眠&lt;/span&gt;
  &lt;a href="#1-%e9%97%ae%e7%9d%a1%e7%9c%a0" class="heading-mark"&gt;
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
