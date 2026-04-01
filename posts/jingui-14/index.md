@@ -620,7 +620,7 @@ flowchart TD
 
 #### **二、病机解析**
 ```mermaid  
-flowchart LR  
+flowchart TD  
     A[暴泻下利] --> B[津液骤伤]  
     B --> C{机体反应}  
     C -->|阳复| D[口渴饮水]  
