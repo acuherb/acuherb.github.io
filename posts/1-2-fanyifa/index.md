@@ -86,5 +86,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/ssml-fanyifa/  
+> URL: https://acuherb.xyz/posts/1-2-fanyifa/  
 
