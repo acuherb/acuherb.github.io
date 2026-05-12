@@ -18,5 +18,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/49-shushi/  
+> URL: https://acuherb.xyz/posts/49-shishi/  
 
