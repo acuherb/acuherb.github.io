@@ -45,5 +45,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/51-juanbo/  
+> URL: https://acuherb.xyz/posts/51-juanbai/  
 
