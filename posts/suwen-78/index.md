@@ -128,5 +128,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/wuwen-78/  
+> URL: https://acuherb.xyz/posts/suwen-78/  
 
