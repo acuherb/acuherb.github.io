@@ -48,5 +48,5 @@
 ---
 
 > 作者: [AcuHerb](https://acuherb.xyz/)  
-> URL: https://acuherb.xyz/posts/353-xingrenhe/  
+> URL: https://acuherb.xyz/posts/353-xingheren/  
 
