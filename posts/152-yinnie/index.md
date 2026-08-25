@@ -1,0 +1,11 @@
+# 一五二、殷孽
+
+
+### 【本经原文】
+- 味辛温主烂伤瘀血泄利寒热鼠瘘症瘕结气，今少用。
+
+---
+
+> 作者: [Acuherb](https://acuherb.xyz/)  
+> URL: https://lruihao.cn/posts/152-yinnie/  
+

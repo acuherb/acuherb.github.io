@@ -1,0 +1,11 @@
+# 九十、屈草
+
+
+### 【本经原文】
+- 味苦，主胸胁下痛邪气腹间寒热，阴痹，久服轻身益气耐老。因方药无人用，今无人识者。
+
+---
+
+> 作者: [Acuherb](https://acuherb.xyz/)  
+> URL: https://lruihao.cn/posts/90-qucao/  
+
