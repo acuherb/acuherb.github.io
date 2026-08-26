@@ -1,6 +1,6 @@
 # [观颐斋](https://lruihao.cn/ "主页")
 
-> Hugo FixIt 作者，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。
+> 这里不仅是我研习中医经典的私人书斋，更是一处致力于 “观照经典以明医理，颐养身心以扶正气” 的清净之地。
 
 共计 1304 篇文章 by [Acuherb](https://acuherb.xyz/).
 
@@ -1232,8 +1232,8 @@
 - 05-16 [二、云母](https://lruihao.cn/posts/2-yunmu/ "2025-05-16 10:11:22")
 - 05-16 [一、丹砂](https://lruihao.cn/posts/1-dansha/ "2025-05-16 10:10:22")
 - 05-15 [药性总义](https://lruihao.cn/posts/0-2-yaoxingzongyi/ "2025-05-15 20:16:22")
+- 05-15 [为什么学神农本草经](https://lruihao.cn/posts/0-0-bencaojing/ "2025-05-15 20:15:22")
 - 05-15 [本草经前言](https://lruihao.cn/posts/0-1-qianyan/ "2025-05-15 20:15:22")
-- 05-15 [为什么学神农本草经](https://lruihao.cn/posts/0-0-bencaojing/ "2025-05-15 20:14:22")
 - 05-10 [一篇笔记总结人纪黄帝内经](https://lruihao.cn/posts/suwen-zongjierenjihuangdineijing/ "2025-05-10 20:14:22")
 - 05-05 [跟倪师学黄帝内经笔记之五：治病之术](https://lruihao.cn/posts/suwen-zhibingzhishu/ "2025-05-05 20:14:22")
 - 05-04 [跟倪师学黄帝内经笔记之四：病变之因](https://lruihao.cn/posts/suwen-zhibingzhiyin/ "2025-05-04 20:14:22")
