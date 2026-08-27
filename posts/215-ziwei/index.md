@@ -28,5 +28,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/215-ziwei/  
+> URL: https://acuherb.xyz/posts/215-ziwei/  
 

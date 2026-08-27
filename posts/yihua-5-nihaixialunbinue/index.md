@@ -220,5 +220,5 @@ flowchart LR
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/yihua-5-nihaixialunbinue/  
+> URL: https://acuherb.xyz/posts/yihua-5-nihaixialunbinue/  
 

@@ -51,5 +51,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/312-yuanhua/  
+> URL: https://acuherb.xyz/posts/312-yuanhua/  
 

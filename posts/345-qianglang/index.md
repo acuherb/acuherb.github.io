@@ -15,5 +15,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/345-qianglang/  
+> URL: https://acuherb.xyz/posts/345-qianglang/  
 

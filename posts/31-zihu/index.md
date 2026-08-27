@@ -86,5 +86,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/31-zihu/  
+> URL: https://acuherb.xyz/posts/31-zihu/  
 

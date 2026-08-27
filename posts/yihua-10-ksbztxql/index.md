@@ -154,5 +154,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/yihua-10-ksbztxql/  
+> URL: https://acuherb.xyz/posts/yihua-10-ksbztxql/  
 

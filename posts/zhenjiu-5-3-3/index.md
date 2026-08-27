@@ -76,5 +76,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/zhenjiu-5-3-3/  
+> URL: https://acuherb.xyz/posts/zhenjiu-5-3-3/  
 

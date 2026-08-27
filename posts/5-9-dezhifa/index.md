@@ -38,5 +38,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/5-9-dezhifa/  
+> URL: https://acuherb.xyz/posts/5-9-dezhifa/  
 

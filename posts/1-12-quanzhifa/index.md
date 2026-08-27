@@ -126,5 +126,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/1-12-quanzhifa/  
+> URL: https://acuherb.xyz/posts/1-12-quanzhifa/  
 

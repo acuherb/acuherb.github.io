@@ -71,5 +71,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/about/  
+> URL: https://acuherb.xyz/about/  
 

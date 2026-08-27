@@ -172,5 +172,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/jinguiyian-8/  
+> URL: https://acuherb.xyz/posts/jinguiyian-8/  
 

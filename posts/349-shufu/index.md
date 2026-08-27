@@ -19,5 +19,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/349-shufu/  
+> URL: https://acuherb.xyz/posts/349-shufu/  
 

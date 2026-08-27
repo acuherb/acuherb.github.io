@@ -50,5 +50,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/111-juyou/  
+> URL: https://acuherb.xyz/posts/111-juyou/  
 

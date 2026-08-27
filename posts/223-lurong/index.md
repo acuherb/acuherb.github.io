@@ -36,5 +36,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/223-lurong/  
+> URL: https://acuherb.xyz/posts/223-lurong/  
 

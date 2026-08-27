@@ -38,5 +38,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/132-dazao/  
+> URL: https://acuherb.xyz/posts/132-dazao/  
 

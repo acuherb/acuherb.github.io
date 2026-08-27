@@ -44,5 +44,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/298-baitouwen/  
+> URL: https://acuherb.xyz/posts/298-baitouwen/  
 

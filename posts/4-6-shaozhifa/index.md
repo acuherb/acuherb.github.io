@@ -57,5 +57,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/4-6-shaozhifa/  
+> URL: https://acuherb.xyz/posts/4-6-shaozhifa/  
 

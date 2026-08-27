@@ -34,5 +34,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/255-shihui/  
+> URL: https://acuherb.xyz/posts/255-shihui/  
 

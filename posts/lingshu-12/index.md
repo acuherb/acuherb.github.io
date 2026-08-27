@@ -116,5 +116,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/lingshu-12/  
+> URL: https://acuherb.xyz/posts/lingshu-12/  
 

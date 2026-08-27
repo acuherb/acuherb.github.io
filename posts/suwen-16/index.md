@@ -136,5 +136,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/suwen-16/  
+> URL: https://acuherb.xyz/posts/suwen-16/  
 

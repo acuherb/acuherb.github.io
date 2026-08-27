@@ -78,5 +78,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/waijing-62/  
+> URL: https://acuherb.xyz/posts/waijing-62/  
 

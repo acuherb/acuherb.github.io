@@ -46,5 +46,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/355-kuhu/  
+> URL: https://acuherb.xyz/posts/355-kuhu/  
 

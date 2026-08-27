@@ -96,5 +96,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/41-xixin/  
+> URL: https://acuherb.xyz/posts/41-xixin/  
 

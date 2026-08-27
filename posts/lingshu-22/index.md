@@ -141,5 +141,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/lingshu-22/  
+> URL: https://acuherb.xyz/posts/lingshu-22/  
 

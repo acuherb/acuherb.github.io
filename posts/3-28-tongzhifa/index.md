@@ -74,5 +74,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/3-28-tongzhifa/  
+> URL: https://acuherb.xyz/posts/3-28-tongzhifa/  
 

@@ -57,5 +57,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/68-danshen/  
+> URL: https://acuherb.xyz/posts/68-danshen/  
 

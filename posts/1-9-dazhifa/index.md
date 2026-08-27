@@ -116,5 +116,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/1-9-dazhifa/  
+> URL: https://acuherb.xyz/posts/1-9-dazhifa/  
 

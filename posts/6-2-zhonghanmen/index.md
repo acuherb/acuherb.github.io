@@ -98,5 +98,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/6-2-zhonghanmen/  
+> URL: https://acuherb.xyz/posts/6-2-zhonghanmen/  
 

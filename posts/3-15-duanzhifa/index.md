@@ -58,5 +58,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/3-15-duanzhifa/  
+> URL: https://acuherb.xyz/posts/3-15-duanzhifa/  
 

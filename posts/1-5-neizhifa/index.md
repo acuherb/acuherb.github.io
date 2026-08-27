@@ -86,5 +86,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/1-5-neizhifa/  
+> URL: https://acuherb.xyz/posts/1-5-neizhifa/  
 

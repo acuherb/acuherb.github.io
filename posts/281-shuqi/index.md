@@ -36,5 +36,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/281-shuqi/  
+> URL: https://acuherb.xyz/posts/281-shuqi/  
 

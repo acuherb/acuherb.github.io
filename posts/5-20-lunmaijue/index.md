@@ -56,5 +56,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/5-20-lunmaijue/  
+> URL: https://acuherb.xyz/posts/5-20-lunmaijue/  
 

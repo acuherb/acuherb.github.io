@@ -21,5 +21,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/141-baiguazi/  
+> URL: https://acuherb.xyz/posts/141-baiguazi/  
 

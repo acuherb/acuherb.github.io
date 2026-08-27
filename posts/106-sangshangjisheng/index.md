@@ -44,5 +44,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/106-sangshangjisheng/  
+> URL: https://acuherb.xyz/posts/106-sangshangjisheng/  
 

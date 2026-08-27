@@ -40,5 +40,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/196-mudan/  
+> URL: https://acuherb.xyz/posts/196-mudan/  
 

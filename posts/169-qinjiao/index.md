@@ -48,5 +48,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/169-qinjiao/  
+> URL: https://acuherb.xyz/posts/169-qinjiao/  
 

@@ -112,5 +112,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/23-gancao/  
+> URL: https://acuherb.xyz/posts/23-gancao/  
 

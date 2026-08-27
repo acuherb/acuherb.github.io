@@ -7,5 +7,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/230-tianshushi/  
+> URL: https://acuherb.xyz/posts/230-tianshushi/  
 

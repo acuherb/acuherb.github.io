@@ -443,5 +443,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/jingui-23/  
+> URL: https://acuherb.xyz/posts/jingui-23/  
 

@@ -7,5 +7,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/90-qucao/  
+> URL: https://acuherb.xyz/posts/90-qucao/  
 

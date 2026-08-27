@@ -77,5 +77,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/3-16-rizhifa/  
+> URL: https://acuherb.xyz/posts/3-16-rizhifa/  
 

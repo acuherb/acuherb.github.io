@@ -48,5 +48,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/6-13-kuangzhen/  
+> URL: https://acuherb.xyz/posts/6-13-kuangzhen/  
 

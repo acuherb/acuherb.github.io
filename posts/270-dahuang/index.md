@@ -73,5 +73,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/270-dahuang/  
+> URL: https://acuherb.xyz/posts/270-dahuang/  
 

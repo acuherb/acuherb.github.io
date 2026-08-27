@@ -31,5 +31,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/176-gouji/  
+> URL: https://acuherb.xyz/posts/176-gouji/  
 

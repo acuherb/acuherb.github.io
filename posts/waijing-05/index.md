@@ -83,5 +83,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/waijing-05/  
+> URL: https://acuherb.xyz/posts/waijing-05/  
 

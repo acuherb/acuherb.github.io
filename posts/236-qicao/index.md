@@ -13,5 +13,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/236-qicao/  
+> URL: https://acuherb.xyz/posts/236-qicao/  
 

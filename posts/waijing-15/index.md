@@ -132,5 +132,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/waijing-15/  
+> URL: https://acuherb.xyz/posts/waijing-15/  
 

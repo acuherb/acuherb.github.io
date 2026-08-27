@@ -73,5 +73,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/52-lanshi/  
+> URL: https://acuherb.xyz/posts/52-lanshi/  
 

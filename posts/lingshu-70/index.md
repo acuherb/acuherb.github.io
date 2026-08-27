@@ -75,5 +75,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/lingshu-70/  
+> URL: https://acuherb.xyz/posts/lingshu-70/  
 

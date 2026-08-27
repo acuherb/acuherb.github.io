@@ -9,5 +9,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/204-qiaogen/  
+> URL: https://acuherb.xyz/posts/204-qiaogen/  
 

@@ -56,5 +56,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/214-shanzhuyu/  
+> URL: https://acuherb.xyz/posts/214-shanzhuyu/  
 

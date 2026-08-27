@@ -15,5 +15,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/354-fubi/  
+> URL: https://acuherb.xyz/posts/354-fubi/  
 

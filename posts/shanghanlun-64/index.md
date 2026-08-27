@@ -92,5 +92,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/shanghanlun-64/  
+> URL: https://acuherb.xyz/posts/shanghanlun-64/  
 

@@ -195,5 +195,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/suwen-44/  
+> URL: https://acuherb.xyz/posts/suwen-44/  
 

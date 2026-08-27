@@ -33,5 +33,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/109-mulan/  
+> URL: https://acuherb.xyz/posts/109-mulan/  
 

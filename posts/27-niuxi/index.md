@@ -80,5 +80,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/27-niuxi/  
+> URL: https://acuherb.xyz/posts/27-niuxi/  
 

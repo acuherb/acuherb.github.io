@@ -42,5 +42,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/77-yinchen/  
+> URL: https://acuherb.xyz/posts/77-yinchen/  
 

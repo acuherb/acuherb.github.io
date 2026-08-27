@@ -37,5 +37,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/131-oushijing/  
+> URL: https://acuherb.xyz/posts/131-oushijing/  
 

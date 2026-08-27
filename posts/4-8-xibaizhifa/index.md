@@ -55,5 +55,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/4-8-xibaizhifa/  
+> URL: https://acuherb.xyz/posts/4-8-xibaizhifa/  
 

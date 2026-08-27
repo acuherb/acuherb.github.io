@@ -2553,5 +2553,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/suwen-zongjierenjihuangdineijing/  
+> URL: https://acuherb.xyz/posts/suwen-zongjierenjihuangdineijing/  
 

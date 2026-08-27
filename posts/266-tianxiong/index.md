@@ -36,5 +36,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/266-tianxiong/  
+> URL: https://acuherb.xyz/posts/266-tianxiong/  
 

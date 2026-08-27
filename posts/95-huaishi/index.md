@@ -40,5 +40,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/95-huaishi/  
+> URL: https://acuherb.xyz/posts/95-huaishi/  
 

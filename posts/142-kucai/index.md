@@ -33,5 +33,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/142-kucai/  
+> URL: https://acuherb.xyz/posts/142-kucai/  
 

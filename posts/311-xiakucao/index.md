@@ -39,5 +39,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/311-xiakucao/  
+> URL: https://acuherb.xyz/posts/311-xiakucao/  
 

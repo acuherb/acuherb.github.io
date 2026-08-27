@@ -17,5 +17,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/54-miwu/  
+> URL: https://acuherb.xyz/posts/54-miwu/  
 

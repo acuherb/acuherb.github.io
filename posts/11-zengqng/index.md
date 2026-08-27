@@ -20,5 +20,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/11-zengqng/  
+> URL: https://acuherb.xyz/posts/11-zengqng/  
 

@@ -75,5 +75,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/313-badou/  
+> URL: https://acuherb.xyz/posts/313-badou/  
 

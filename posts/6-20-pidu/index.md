@@ -55,5 +55,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/6-20-pidu/  
+> URL: https://acuherb.xyz/posts/6-20-pidu/  
 

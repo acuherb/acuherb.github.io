@@ -44,5 +44,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/101-bomu/  
+> URL: https://acuherb.xyz/posts/101-bomu/  
 

@@ -69,5 +69,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/5-36-zhihuidusuijiubuyufang/  
+> URL: https://acuherb.xyz/posts/5-36-zhihuidusuijiubuyufang/  
 

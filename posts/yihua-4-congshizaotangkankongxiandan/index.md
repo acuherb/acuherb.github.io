@@ -165,5 +165,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/yihua-4-congshizaotangkankongxiandan/  
+> URL: https://acuherb.xyz/posts/yihua-4-congshizaotangkankongxiandan/  
 

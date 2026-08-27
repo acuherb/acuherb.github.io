@@ -55,5 +55,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/14-baishiying/  
+> URL: https://acuherb.xyz/posts/14-baishiying/  
 

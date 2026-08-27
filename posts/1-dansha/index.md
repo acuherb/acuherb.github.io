@@ -84,5 +84,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/1-dansha/  
+> URL: https://acuherb.xyz/posts/1-dansha/  
 

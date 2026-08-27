@@ -14,5 +14,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/116-xiongzhi/  
+> URL: https://acuherb.xyz/posts/116-xiongzhi/  
 

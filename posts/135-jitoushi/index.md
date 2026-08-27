@@ -31,5 +31,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/135-jitoushi/  
+> URL: https://acuherb.xyz/posts/135-jitoushi/  
 

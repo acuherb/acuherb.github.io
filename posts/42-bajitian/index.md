@@ -56,5 +56,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/42-bajitian/  
+> URL: https://acuherb.xyz/posts/42-bajitian/  
 

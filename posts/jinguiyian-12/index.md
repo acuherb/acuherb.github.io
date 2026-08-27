@@ -139,5 +139,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/jinguiyian-12/  
+> URL: https://acuherb.xyz/posts/jinguiyian-12/  
 

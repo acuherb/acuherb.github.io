@@ -53,5 +53,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/28-chongweizi/  
+> URL: https://acuherb.xyz/posts/28-chongweizi/  
 

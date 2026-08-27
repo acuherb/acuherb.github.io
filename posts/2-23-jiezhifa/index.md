@@ -73,5 +73,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/2-23-jiezhifa/  
+> URL: https://acuherb.xyz/posts/2-23-jiezhifa/  
 

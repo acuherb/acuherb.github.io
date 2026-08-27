@@ -29,5 +29,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/331-weipi/  
+> URL: https://acuherb.xyz/posts/331-weipi/  
 

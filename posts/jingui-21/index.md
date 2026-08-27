@@ -663,5 +663,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/jingui-21/  
+> URL: https://acuherb.xyz/posts/jingui-21/  
 

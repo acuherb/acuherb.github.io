@@ -46,5 +46,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/170-baihe/  
+> URL: https://acuherb.xyz/posts/170-baihe/  
 

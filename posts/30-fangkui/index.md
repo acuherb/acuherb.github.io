@@ -13,5 +13,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/30-fangkui/  
+> URL: https://acuherb.xyz/posts/30-fangkui/  
 

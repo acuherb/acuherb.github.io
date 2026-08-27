@@ -90,5 +90,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/207-wuzhuyu/  
+> URL: https://acuherb.xyz/posts/207-wuzhuyu/  
 

@@ -9,5 +9,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/331-mizhi/  
+> URL: https://acuherb.xyz/posts/331-mizhi/  
 

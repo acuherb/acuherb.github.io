@@ -32,5 +32,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/50-chizhiheizhi/  
+> URL: https://acuherb.xyz/posts/50-chizhiheizhi/  
 

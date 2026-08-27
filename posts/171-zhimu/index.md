@@ -62,5 +62,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/171-zhimu/  
+> URL: https://acuherb.xyz/posts/171-zhimu/  
 

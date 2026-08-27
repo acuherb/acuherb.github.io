@@ -61,5 +61,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/147-shigao/  
+> URL: https://acuherb.xyz/posts/147-shigao/  
 

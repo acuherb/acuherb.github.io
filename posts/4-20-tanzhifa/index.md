@@ -106,5 +106,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/4-20-tanzhifa/  
+> URL: https://acuherb.xyz/posts/4-20-tanzhifa/  
 

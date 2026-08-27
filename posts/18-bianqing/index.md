@@ -20,5 +20,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/18-bianqing/  
+> URL: https://acuherb.xyz/posts/18-bianqing/  
 

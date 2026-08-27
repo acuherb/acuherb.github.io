@@ -296,5 +296,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/6-7-neishangmen/  
+> URL: https://acuherb.xyz/posts/6-7-neishangmen/  
 

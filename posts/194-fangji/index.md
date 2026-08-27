@@ -59,5 +59,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/194-fangji/  
+> URL: https://acuherb.xyz/posts/194-fangji/  
 

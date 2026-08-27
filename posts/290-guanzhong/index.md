@@ -36,5 +36,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/290-guanzhong/  
+> URL: https://acuherb.xyz/posts/290-guanzhong/  
 

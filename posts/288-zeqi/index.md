@@ -31,5 +31,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/288-zeqi/  
+> URL: https://acuherb.xyz/posts/288-zeqi/  
 

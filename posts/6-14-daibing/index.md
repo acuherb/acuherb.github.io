@@ -59,5 +59,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/6-14-daibing/  
+> URL: https://acuherb.xyz/posts/6-14-daibing/  
 

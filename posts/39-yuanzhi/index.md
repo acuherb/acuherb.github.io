@@ -62,5 +62,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/39-yuanzhi/  
+> URL: https://acuherb.xyz/posts/39-yuanzhi/  
 

@@ -159,5 +159,5 @@ B -->|轻证| C2(水停中焦→苓桂术甘汤证)
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/shanghanlun-167/  
+> URL: https://acuherb.xyz/posts/shanghanlun-167/  
 

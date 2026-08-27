@@ -28,5 +28,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/276-lilu/  
+> URL: https://acuherb.xyz/posts/276-lilu/  
 

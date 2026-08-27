@@ -43,5 +43,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/29-nvwei/  
+> URL: https://acuherb.xyz/posts/29-nvwei/  
 

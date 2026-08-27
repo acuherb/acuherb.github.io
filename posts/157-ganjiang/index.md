@@ -64,5 +64,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/157-ganjiang/  
+> URL: https://acuherb.xyz/posts/157-ganjiang/  
 

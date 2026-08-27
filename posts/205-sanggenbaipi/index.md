@@ -40,5 +40,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/205-sanggenbaipi/  
+> URL: https://acuherb.xyz/posts/205-sanggenbaipi/  
 

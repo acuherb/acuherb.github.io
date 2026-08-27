@@ -35,5 +35,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/13-moyao/  
+> URL: https://acuherb.xyz/posts/13-moyao/  
 

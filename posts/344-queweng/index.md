@@ -37,5 +37,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/344-queweng/  
+> URL: https://acuherb.xyz/posts/344-queweng/  
 

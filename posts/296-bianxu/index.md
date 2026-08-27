@@ -35,5 +35,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/296-bianxu/  
+> URL: https://acuherb.xyz/posts/296-bianxu/  
 

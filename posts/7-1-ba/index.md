@@ -50,5 +50,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/7-1-ba/  
+> URL: https://acuherb.xyz/posts/7-1-ba/  
 

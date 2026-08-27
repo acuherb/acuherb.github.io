@@ -7,5 +7,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/198-jixuecao/  
+> URL: https://acuherb.xyz/posts/198-jixuecao/  
 

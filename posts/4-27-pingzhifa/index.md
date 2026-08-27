@@ -46,5 +46,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/4-27-pingzhifa/  
+> URL: https://acuherb.xyz/posts/4-27-pingzhifa/  
 

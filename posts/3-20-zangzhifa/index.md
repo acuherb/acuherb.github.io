@@ -91,5 +91,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/3-20-zangzhifa/  
+> URL: https://acuherb.xyz/posts/3-20-zangzhifa/  
 

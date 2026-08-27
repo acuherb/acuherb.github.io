@@ -53,5 +53,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/150-yangqishi/  
+> URL: https://acuherb.xyz/posts/150-yangqishi/  
 

@@ -52,5 +52,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/94-songzhi/  
+> URL: https://acuherb.xyz/posts/94-songzhi/  
 

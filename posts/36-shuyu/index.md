@@ -53,5 +53,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/36-shuyu/  
+> URL: https://acuherb.xyz/posts/36-shuyu/  
 

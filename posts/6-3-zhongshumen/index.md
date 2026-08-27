@@ -129,5 +129,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/6-3-zhongshumen/  
+> URL: https://acuherb.xyz/posts/6-3-zhongshumen/  
 

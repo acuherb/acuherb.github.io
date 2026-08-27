@@ -32,5 +32,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/103-wujiapi/  
+> URL: https://acuherb.xyz/posts/103-wujiapi/  
 

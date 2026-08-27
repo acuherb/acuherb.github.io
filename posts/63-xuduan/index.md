@@ -53,5 +53,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/63-xuduan/  
+> URL: https://acuherb.xyz/posts/63-xuduan/  
 

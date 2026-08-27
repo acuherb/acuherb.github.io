@@ -134,5 +134,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/3-24-chuzhifa/  
+> URL: https://acuherb.xyz/posts/3-24-chuzhifa/  
 

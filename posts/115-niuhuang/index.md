@@ -32,5 +32,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/115-niuhuang/  
+> URL: https://acuherb.xyz/posts/115-niuhuang/  
 

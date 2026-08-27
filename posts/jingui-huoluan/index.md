@@ -514,5 +514,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/jingui-huoluan/  
+> URL: https://acuherb.xyz/posts/jingui-huoluan/  
 

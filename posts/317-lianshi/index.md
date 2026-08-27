@@ -36,5 +36,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/317-lianshi/  
+> URL: https://acuherb.xyz/posts/317-lianshi/  
 

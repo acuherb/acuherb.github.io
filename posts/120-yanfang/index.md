@@ -25,5 +25,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/120-yanfang/  
+> URL: https://acuherb.xyz/posts/120-yanfang/  
 

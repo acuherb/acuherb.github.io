@@ -38,5 +38,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/96-gouqi/  
+> URL: https://acuherb.xyz/posts/96-gouqi/  
 

@@ -93,5 +93,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/58-huangqi/  
+> URL: https://acuherb.xyz/posts/58-huangqi/  
 

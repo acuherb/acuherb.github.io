@@ -48,5 +48,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/7-zisu/  
+> URL: https://acuherb.xyz/posts/7-zisu/  
 

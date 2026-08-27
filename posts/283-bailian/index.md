@@ -26,5 +26,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/283-bailian/  
+> URL: https://acuherb.xyz/posts/283-bailian/  
 

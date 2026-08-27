@@ -20,5 +20,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/0-1-qianyan/  
+> URL: https://acuherb.xyz/posts/0-1-qianyan/  
 

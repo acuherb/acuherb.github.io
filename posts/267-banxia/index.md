@@ -83,5 +83,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/267-banxia/  
+> URL: https://acuherb.xyz/posts/267-banxia/  
 

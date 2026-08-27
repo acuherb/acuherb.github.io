@@ -352,5 +352,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/yihua-6-tiandirensancaishizhong/  
+> URL: https://acuherb.xyz/posts/yihua-6-tiandirensancaishizhong/  
 

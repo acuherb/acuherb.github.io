@@ -59,5 +59,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/6-19-wujue/  
+> URL: https://acuherb.xyz/posts/6-19-wujue/  
 

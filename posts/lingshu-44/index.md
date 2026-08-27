@@ -137,5 +137,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/lingshu-44/  
+> URL: https://acuherb.xyz/posts/lingshu-44/  
 

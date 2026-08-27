@@ -52,5 +52,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/232-lufengfang/  
+> URL: https://acuherb.xyz/posts/232-lufengfang/  
 

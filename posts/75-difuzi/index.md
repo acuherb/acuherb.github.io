@@ -39,5 +39,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/75-difuzi/  
+> URL: https://acuherb.xyz/posts/75-difuzi/  
 

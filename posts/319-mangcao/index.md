@@ -25,5 +25,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/319-mangcao/  
+> URL: https://acuherb.xyz/posts/319-mangcao/  
 

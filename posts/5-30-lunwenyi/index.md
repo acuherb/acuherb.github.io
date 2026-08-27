@@ -41,5 +41,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/5-30-lunwenyi/  
+> URL: https://acuherb.xyz/posts/5-30-lunwenyi/  
 

@@ -1075,5 +1075,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/0-2-yaoxingzongyi/  
+> URL: https://acuherb.xyz/posts/0-2-yaoxingzongyi/  
 

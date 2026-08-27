@@ -45,5 +45,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/286-baiji/  
+> URL: https://acuherb.xyz/posts/286-baiji/  
 

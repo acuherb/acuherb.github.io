@@ -50,5 +50,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/181-baijiang/  
+> URL: https://acuherb.xyz/posts/181-baijiang/  
 

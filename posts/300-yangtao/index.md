@@ -7,5 +7,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/300-yangtao/  
+> URL: https://acuherb.xyz/posts/300-yangtao/  
 

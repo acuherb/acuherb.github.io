@@ -7,5 +7,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/200-wangsun/  
+> URL: https://acuherb.xyz/posts/200-wangsun/  
 

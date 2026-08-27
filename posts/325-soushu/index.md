@@ -8,5 +8,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/325-soushu/  
+> URL: https://acuherb.xyz/posts/325-soushu/  
 

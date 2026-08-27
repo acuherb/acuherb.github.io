@@ -17,5 +17,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/123-mila/  
+> URL: https://acuherb.xyz/posts/123-mila/  
 

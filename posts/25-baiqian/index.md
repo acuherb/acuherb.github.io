@@ -33,5 +33,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/25-baiqian/  
+> URL: https://acuherb.xyz/posts/25-baiqian/  
 

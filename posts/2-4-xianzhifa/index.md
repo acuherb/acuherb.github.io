@@ -72,5 +72,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/2-4-xianzhifa/  
+> URL: https://acuherb.xyz/posts/2-4-xianzhifa/  
 

@@ -288,5 +288,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/6-6-zaozhenmen/  
+> URL: https://acuherb.xyz/posts/6-6-zaozhenmen/  
 

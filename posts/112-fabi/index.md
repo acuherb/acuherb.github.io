@@ -41,5 +41,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/112-fabi/  
+> URL: https://acuherb.xyz/posts/112-fabi/  
 

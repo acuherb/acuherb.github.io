@@ -9,5 +9,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/huaimu/  
+> URL: https://acuherb.xyz/posts/huaimu/  
 

@@ -30,5 +30,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/221-hehuan/  
+> URL: https://acuherb.xyz/posts/221-hehuan/  
 

@@ -36,5 +36,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/76-jingtian/  
+> URL: https://acuherb.xyz/posts/76-jingtian/  
 

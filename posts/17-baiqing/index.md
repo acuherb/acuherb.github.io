@@ -9,5 +9,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/17-baiqing/  
+> URL: https://acuherb.xyz/posts/17-baiqing/  
 

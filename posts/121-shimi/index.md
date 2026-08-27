@@ -52,5 +52,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/121-shimi/  
+> URL: https://acuherb.xyz/posts/121-shimi/  
 

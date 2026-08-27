@@ -118,5 +118,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/yihua-2-zhenbingshiwen/  
+> URL: https://acuherb.xyz/posts/yihua-2-zhenbingshiwen/  
 

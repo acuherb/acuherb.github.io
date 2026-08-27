@@ -53,5 +53,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/20-juhua/  
+> URL: https://acuherb.xyz/posts/20-juhua/  
 

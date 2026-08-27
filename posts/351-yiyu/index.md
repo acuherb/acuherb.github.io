@@ -19,5 +19,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/351-yiyu/  
+> URL: https://acuherb.xyz/posts/351-yiyu/  
 

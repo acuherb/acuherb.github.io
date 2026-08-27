@@ -198,5 +198,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/1-11-pianzhifa/  
+> URL: https://acuherb.xyz/posts/1-11-pianzhifa/  
 

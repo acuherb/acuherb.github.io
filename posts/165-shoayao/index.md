@@ -59,5 +59,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/165-shoayao/  
+> URL: https://acuherb.xyz/posts/165-shoayao/  
 

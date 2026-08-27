@@ -30,5 +30,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/244-feimeng/  
+> URL: https://acuherb.xyz/posts/244-feimeng/  
 

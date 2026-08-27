@@ -80,5 +80,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/suwen-yangshengzhifa/  
+> URL: https://acuherb.xyz/posts/suwen-yangshengzhifa/  
 

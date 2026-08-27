@@ -25,5 +25,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/166-lishi/  
+> URL: https://acuherb.xyz/posts/166-lishi/  
 

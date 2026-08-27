@@ -44,5 +44,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/259-daizhe/  
+> URL: https://acuherb.xyz/posts/259-daizhe/  
 

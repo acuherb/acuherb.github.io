@@ -53,5 +53,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/208-zhizi/  
+> URL: https://acuherb.xyz/posts/208-zhizi/  
 

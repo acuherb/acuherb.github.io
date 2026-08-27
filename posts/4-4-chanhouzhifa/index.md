@@ -113,5 +113,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/4-4-chanhouzhifa/  
+> URL: https://acuherb.xyz/posts/4-4-chanhouzhifa/  
 

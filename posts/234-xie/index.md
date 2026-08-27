@@ -30,5 +30,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/234-xie/  
+> URL: https://acuherb.xyz/posts/234-xie/  
 

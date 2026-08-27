@@ -9,5 +9,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/333-liuchumaotijia/  
+> URL: https://acuherb.xyz/posts/333-liuchumaotijia/  
 

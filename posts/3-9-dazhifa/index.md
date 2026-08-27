@@ -82,5 +82,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/3-9-dazhifa/  
+> URL: https://acuherb.xyz/posts/3-9-dazhifa/  
 

@@ -33,5 +33,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/16-jingmi/  
+> URL: https://acuherb.xyz/posts/16-jingmi/  
 

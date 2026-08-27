@@ -41,5 +41,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/294-shanglu/  
+> URL: https://acuherb.xyz/posts/294-shanglu/  
 

@@ -46,5 +46,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/5-10-shizhifa/  
+> URL: https://acuherb.xyz/posts/5-10-shizhifa/  
 

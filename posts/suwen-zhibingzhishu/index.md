@@ -912,5 +912,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/suwen-zhibingzhishu/  
+> URL: https://acuherb.xyz/posts/suwen-zhibingzhishu/  
 

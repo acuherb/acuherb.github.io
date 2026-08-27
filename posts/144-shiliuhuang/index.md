@@ -82,5 +82,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/144-shiliuhuang/  
+> URL: https://acuherb.xyz/posts/144-shiliuhuang/  
 

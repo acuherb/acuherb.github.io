@@ -57,5 +57,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/71-wuweizi/  
+> URL: https://acuherb.xyz/posts/71-wuweizi/  
 

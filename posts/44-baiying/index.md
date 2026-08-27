@@ -24,5 +24,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/44-baiying/  
+> URL: https://acuherb.xyz/posts/44-baiying/  
 

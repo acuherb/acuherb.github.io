@@ -29,5 +29,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/342-beizi/  
+> URL: https://acuherb.xyz/posts/342-beizi/  
 

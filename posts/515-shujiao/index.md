@@ -44,5 +44,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/515-shujiao/  
+> URL: https://acuherb.xyz/posts/515-shujiao/  
 

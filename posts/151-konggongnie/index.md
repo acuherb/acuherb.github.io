@@ -7,5 +7,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/151-konggongnie/  
+> URL: https://acuherb.xyz/posts/151-konggongnie/  
 

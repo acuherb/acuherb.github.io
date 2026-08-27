@@ -67,5 +67,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/15-zishiying/  
+> URL: https://acuherb.xyz/posts/15-zishiying/  
 

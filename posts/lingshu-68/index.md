@@ -64,5 +64,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/lingshu-68/  
+> URL: https://acuherb.xyz/posts/lingshu-68/  
 

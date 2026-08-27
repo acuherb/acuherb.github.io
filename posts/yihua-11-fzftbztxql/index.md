@@ -121,5 +121,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/yihua-11-fzftbztxql/  
+> URL: https://acuherb.xyz/posts/yihua-11-fzftbztxql/  
 

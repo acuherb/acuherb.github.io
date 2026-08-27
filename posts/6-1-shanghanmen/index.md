@@ -471,5 +471,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/6-1-shanghanmen/  
+> URL: https://acuherb.xyz/posts/6-1-shanghanmen/  
 

@@ -26,5 +26,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/82-shilongchu/  
+> URL: https://acuherb.xyz/posts/82-shilongchu/  
 

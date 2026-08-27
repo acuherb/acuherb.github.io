@@ -124,5 +124,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/1-8-suizhifa/  
+> URL: https://acuherb.xyz/posts/1-8-suizhifa/  
 

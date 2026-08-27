@@ -21,5 +21,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/346-lougu/  
+> URL: https://acuherb.xyz/posts/346-lougu/  
 

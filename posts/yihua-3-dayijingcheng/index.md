@@ -91,5 +91,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/yihua-3-dayijingcheng/  
+> URL: https://acuherb.xyz/posts/yihua-3-dayijingcheng/  
 

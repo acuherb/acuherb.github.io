@@ -7,5 +7,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/156-fuqing/  
+> URL: https://acuherb.xyz/posts/156-fuqing/  
 

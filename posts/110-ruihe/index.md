@@ -36,5 +36,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/110-ruihe/  
+> URL: https://acuherb.xyz/posts/110-ruihe/  
 

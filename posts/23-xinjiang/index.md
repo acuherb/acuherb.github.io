@@ -21,5 +21,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/23-xinjiang/  
+> URL: https://acuherb.xyz/posts/23-xinjiang/  
 

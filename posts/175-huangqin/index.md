@@ -63,5 +63,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/175-huangqin/  
+> URL: https://acuherb.xyz/posts/175-huangqin/  
 

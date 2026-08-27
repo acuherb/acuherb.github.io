@@ -28,5 +28,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/81-xuchangqing/  
+> URL: https://acuherb.xyz/posts/81-xuchangqing/  
 

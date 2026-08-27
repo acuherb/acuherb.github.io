@@ -181,5 +181,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/lingshu-64/  
+> URL: https://acuherb.xyz/posts/lingshu-64/  
 

@@ -79,5 +79,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/98-fuling/  
+> URL: https://acuherb.xyz/posts/98-fuling/  
 

@@ -69,5 +69,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/92-mugui/  
+> URL: https://acuherb.xyz/posts/92-mugui/  
 

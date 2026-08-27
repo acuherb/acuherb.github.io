@@ -29,5 +29,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/149-ningshuishi/  
+> URL: https://acuherb.xyz/posts/149-ningshuishi/  
 

@@ -70,5 +70,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/37-yiyiren/  
+> URL: https://acuherb.xyz/posts/37-yiyiren/  
 

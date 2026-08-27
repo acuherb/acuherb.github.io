@@ -60,5 +60,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/32-maimendong/  
+> URL: https://acuherb.xyz/posts/32-maimendong/  
 

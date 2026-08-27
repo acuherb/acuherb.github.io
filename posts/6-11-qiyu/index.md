@@ -43,5 +43,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/6-11-qiyu/  
+> URL: https://acuherb.xyz/posts/6-11-qiyu/  
 

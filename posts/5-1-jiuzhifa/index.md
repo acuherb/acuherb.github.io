@@ -65,5 +65,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/5-1-jiuzhifa/  
+> URL: https://acuherb.xyz/posts/5-1-jiuzhifa/  
 

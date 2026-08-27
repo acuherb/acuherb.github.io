@@ -42,5 +42,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/68-guhuo/  
+> URL: https://acuherb.xyz/posts/68-guhuo/  
 

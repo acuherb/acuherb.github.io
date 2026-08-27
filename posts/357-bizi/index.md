@@ -7,5 +7,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/357-bizi/  
+> URL: https://acuherb.xyz/posts/357-bizi/  
 

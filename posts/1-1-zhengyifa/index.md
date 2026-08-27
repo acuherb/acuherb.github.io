@@ -129,5 +129,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/1-1-zhengyifa/  
+> URL: https://acuherb.xyz/posts/1-1-zhengyifa/  
 

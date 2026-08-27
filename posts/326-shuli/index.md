@@ -21,5 +21,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/326-shuli/  
+> URL: https://acuherb.xyz/posts/326-shuli/  
 

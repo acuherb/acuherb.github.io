@@ -143,5 +143,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/264-fuzi/  
+> URL: https://acuherb.xyz/posts/264-fuzi/  
 

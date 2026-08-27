@@ -26,5 +26,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/237-wuzaiyugu/  
+> URL: https://acuherb.xyz/posts/237-wuzaiyugu/  
 

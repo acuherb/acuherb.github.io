@@ -66,5 +66,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/60-fangfeng/  
+> URL: https://acuherb.xyz/posts/60-fangfeng/  
 

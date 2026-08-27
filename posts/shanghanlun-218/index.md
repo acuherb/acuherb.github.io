@@ -73,5 +73,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/shanghanlun-218/  
+> URL: https://acuherb.xyz/posts/shanghanlun-218/  
 

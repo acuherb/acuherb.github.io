@@ -72,5 +72,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/0-1-xu/  
+> URL: https://acuherb.xyz/posts/0-1-xu/  
 

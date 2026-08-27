@@ -80,5 +80,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/yihua-12-jsjsbhpdglljybzjs/  
+> URL: https://acuherb.xyz/posts/yihua-12-jsjsbhpdglljybzjs/  
 

@@ -39,5 +39,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/friends/  
+> URL: https://acuherb.xyz/friends/  
 

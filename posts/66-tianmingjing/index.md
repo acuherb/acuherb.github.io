@@ -33,5 +33,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/66-tianmingjing/  
+> URL: https://acuherb.xyz/posts/66-tianmingjing/  
 

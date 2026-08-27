@@ -46,5 +46,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/168-xuanshen/  
+> URL: https://acuherb.xyz/posts/168-xuanshen/  
 

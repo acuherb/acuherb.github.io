@@ -6,5 +6,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/12-shuozhaixiye/  
+> URL: https://acuherb.xyz/posts/12-shuozhaixiye/  
 

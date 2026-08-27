@@ -47,5 +47,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/268-huzhang/  
+> URL: https://acuherb.xyz/posts/268-huzhang/  
 

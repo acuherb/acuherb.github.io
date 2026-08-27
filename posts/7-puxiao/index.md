@@ -77,5 +77,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/7-puxiao/  
+> URL: https://acuherb.xyz/posts/7-puxiao/  
 

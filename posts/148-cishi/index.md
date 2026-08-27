@@ -41,5 +41,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/148-cishi/  
+> URL: https://acuherb.xyz/posts/148-cishi/  
 

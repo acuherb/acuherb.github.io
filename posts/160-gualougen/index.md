@@ -50,5 +50,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/160-gualougen/  
+> URL: https://acuherb.xyz/posts/160-gualougen/  
 

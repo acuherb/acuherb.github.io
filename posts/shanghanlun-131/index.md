@@ -120,5 +120,5 @@ graph TD
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/shanghanlun-131/  
+> URL: https://acuherb.xyz/posts/shanghanlun-131/  
 

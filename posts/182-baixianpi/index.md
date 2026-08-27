@@ -44,5 +44,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/182-baixianpi/  
+> URL: https://acuherb.xyz/posts/182-baixianpi/  
 

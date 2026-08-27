@@ -199,5 +199,5 @@ flowchart LR
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/yihua-8-tyksbcnszydwylszz/  
+> URL: https://acuherb.xyz/posts/yihua-8-tyksbcnszydwylszz/  
 

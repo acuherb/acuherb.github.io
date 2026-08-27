@@ -22,5 +22,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/128-wenge/  
+> URL: https://acuherb.xyz/posts/128-wenge/  
 

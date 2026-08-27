@@ -115,5 +115,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/3-27-fenzhifa/  
+> URL: https://acuherb.xyz/posts/3-27-fenzhifa/  
 

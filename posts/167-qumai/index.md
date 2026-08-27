@@ -34,5 +34,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/167-qumai/  
+> URL: https://acuherb.xyz/posts/167-qumai/  
 

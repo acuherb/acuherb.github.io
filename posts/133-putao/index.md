@@ -38,5 +38,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/133-putao/  
+> URL: https://acuherb.xyz/posts/133-putao/  
 

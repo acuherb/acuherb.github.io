@@ -111,5 +111,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/shanghanlun-172/  
+> URL: https://acuherb.xyz/posts/shanghanlun-172/  
 

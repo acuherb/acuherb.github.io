@@ -37,5 +37,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/321-tomgye/  
+> URL: https://acuherb.xyz/posts/321-tomgye/  
 

@@ -117,5 +117,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/0-0-bencaojing/  
+> URL: https://acuherb.xyz/posts/0-0-bencaojing/  
 

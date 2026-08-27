@@ -59,5 +59,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/143-xionghuang/  
+> URL: https://acuherb.xyz/posts/143-xionghuang/  
 

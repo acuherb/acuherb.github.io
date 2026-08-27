@@ -88,5 +88,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/4-5-laozhifa/  
+> URL: https://acuherb.xyz/posts/4-5-laozhifa/  
 

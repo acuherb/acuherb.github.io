@@ -42,5 +42,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/206-zhuye/  
+> URL: https://acuherb.xyz/posts/206-zhuye/  
 

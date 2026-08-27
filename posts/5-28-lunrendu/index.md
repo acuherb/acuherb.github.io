@@ -72,5 +72,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/5-28-lunrendu/  
+> URL: https://acuherb.xyz/posts/5-28-lunrendu/  
 

@@ -86,5 +86,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/3-18-qizhifa/  
+> URL: https://acuherb.xyz/posts/3-18-qizhifa/  
 

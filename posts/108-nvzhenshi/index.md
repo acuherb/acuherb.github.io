@@ -25,5 +25,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/108-nvzhenshi/  
+> URL: https://acuherb.xyz/posts/108-nvzhenshi/  
 

@@ -84,5 +84,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/yihua-1-wenzhenzishu/  
+> URL: https://acuherb.xyz/posts/yihua-1-wenzhenzishu/  
 

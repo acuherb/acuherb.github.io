@@ -83,5 +83,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/93-jungui/  
+> URL: https://acuherb.xyz/posts/93-jungui/  
 

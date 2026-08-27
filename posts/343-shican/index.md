@@ -7,5 +7,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/343-shican/  
+> URL: https://acuherb.xyz/posts/343-shican/  
 

@@ -9,5 +9,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/254-shuisu/  
+> URL: https://acuherb.xyz/posts/254-shuisu/  
 

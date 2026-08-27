@@ -9,5 +9,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/328-luanhua/  
+> URL: https://acuherb.xyz/posts/328-luanhua/  
 

@@ -41,5 +41,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/274-caohao/  
+> URL: https://acuherb.xyz/posts/274-caohao/  
 

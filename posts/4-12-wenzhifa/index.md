@@ -49,5 +49,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/4-12-wenzhifa/  
+> URL: https://acuherb.xyz/posts/4-12-wenzhifa/  
 

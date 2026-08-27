@@ -41,5 +41,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/233-biejia/  
+> URL: https://acuherb.xyz/posts/233-biejia/  
 

@@ -7,5 +7,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/301-nvqing/  
+> URL: https://acuherb.xyz/posts/301-nvqing/  
 

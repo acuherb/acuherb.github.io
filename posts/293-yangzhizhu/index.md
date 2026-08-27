@@ -23,5 +23,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/293-yangzhizhu/  
+> URL: https://acuherb.xyz/posts/293-yangzhizhu/  
 

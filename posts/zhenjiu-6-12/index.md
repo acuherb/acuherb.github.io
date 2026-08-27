@@ -93,5 +93,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/zhenjiu-6-12/  
+> URL: https://acuherb.xyz/posts/zhenjiu-6-12/  
 

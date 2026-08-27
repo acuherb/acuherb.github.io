@@ -49,5 +49,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/216-zhuling/  
+> URL: https://acuherb.xyz/posts/216-zhuling/  
 

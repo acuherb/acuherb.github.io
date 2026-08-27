@@ -7,5 +7,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/226-mugouyinjin/  
+> URL: https://acuherb.xyz/posts/226-mugouyinjin/  
 

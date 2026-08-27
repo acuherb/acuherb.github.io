@@ -23,5 +23,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/202-juechuang/  
+> URL: https://acuherb.xyz/posts/202-juechuang/  
 

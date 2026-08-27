@@ -23,5 +23,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/279-shehan/  
+> URL: https://acuherb.xyz/posts/279-shehan/  
 

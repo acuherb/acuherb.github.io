@@ -92,5 +92,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/waijing-63/  
+> URL: https://acuherb.xyz/posts/waijing-63/  
 

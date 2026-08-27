@@ -163,5 +163,5 @@ flowchart LR
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/yihua-7-jfzlxzbztxylcyy/  
+> URL: https://acuherb.xyz/posts/yihua-7-jfzlxzbztxylcyy/  
 

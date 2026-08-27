@@ -90,5 +90,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/38-zexie/  
+> URL: https://acuherb.xyz/posts/38-zexie/  
 

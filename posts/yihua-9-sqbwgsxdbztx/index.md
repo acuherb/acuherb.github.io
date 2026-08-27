@@ -95,5 +95,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/yihua-9-sqbwgsxdbztx/  
+> URL: https://acuherb.xyz/posts/yihua-9-sqbwgsxdbztx/  
 

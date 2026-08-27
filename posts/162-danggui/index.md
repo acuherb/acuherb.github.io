@@ -61,5 +61,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/162-danggui/  
+> URL: https://acuherb.xyz/posts/162-danggui/  
 

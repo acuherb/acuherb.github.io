@@ -51,5 +51,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/4-1-fuzhifa/  
+> URL: https://acuherb.xyz/posts/4-1-fuzhifa/  
 

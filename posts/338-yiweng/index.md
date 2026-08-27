@@ -7,5 +7,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/338-yiweng/  
+> URL: https://acuherb.xyz/posts/338-yiweng/  
 

@@ -31,5 +31,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/212-qinpi/  
+> URL: https://acuherb.xyz/posts/212-qinpi/  
 

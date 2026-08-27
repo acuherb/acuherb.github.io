@@ -15,5 +15,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/45-baihao/  
+> URL: https://acuherb.xyz/posts/45-baihao/  
 

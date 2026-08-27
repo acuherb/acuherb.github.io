@@ -34,5 +34,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/257-qiandan/  
+> URL: https://acuherb.xyz/posts/257-qiandan/  
 

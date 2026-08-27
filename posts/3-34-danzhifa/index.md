@@ -61,5 +61,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/3-34-danzhifa/  
+> URL: https://acuherb.xyz/posts/3-34-danzhifa/  
 

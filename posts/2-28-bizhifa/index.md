@@ -88,5 +88,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/2-28-bizhifa/  
+> URL: https://acuherb.xyz/posts/2-28-bizhifa/  
 

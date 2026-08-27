@@ -37,5 +37,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/140-guadi/  
+> URL: https://acuherb.xyz/posts/140-guadi/  
 

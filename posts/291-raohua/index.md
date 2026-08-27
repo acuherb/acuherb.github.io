@@ -26,5 +26,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/291-raohua/  
+> URL: https://acuherb.xyz/posts/291-raohua/  
 

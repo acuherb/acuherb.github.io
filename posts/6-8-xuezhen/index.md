@@ -80,5 +80,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/6-8-xuezhen/  
+> URL: https://acuherb.xyz/posts/6-8-xuezhen/  
 

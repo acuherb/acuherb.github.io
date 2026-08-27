@@ -15,5 +15,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/253-congshi/  
+> URL: https://acuherb.xyz/posts/253-congshi/  
 

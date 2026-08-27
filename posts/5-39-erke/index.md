@@ -116,5 +116,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/5-39-erke/  
+> URL: https://acuherb.xyz/posts/5-39-erke/  
 

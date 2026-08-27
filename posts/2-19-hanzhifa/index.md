@@ -109,5 +109,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/2-19-hanzhifa/  
+> URL: https://acuherb.xyz/posts/2-19-hanzhifa/  
 

@@ -36,5 +36,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/5-34-douchuangshenfang/  
+> URL: https://acuherb.xyz/posts/5-34-douchuangshenfang/  
 

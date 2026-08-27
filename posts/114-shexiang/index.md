@@ -79,5 +79,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/114-shexiang/  
+> URL: https://acuherb.xyz/posts/114-shexiang/  
 

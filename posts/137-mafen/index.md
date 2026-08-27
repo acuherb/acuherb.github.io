@@ -63,5 +63,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/137-mafen/  
+> URL: https://acuherb.xyz/posts/137-mafen/  
 

@@ -24,5 +24,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/13-taiyiyuliang/  
+> URL: https://acuherb.xyz/posts/13-taiyiyuliang/  
 

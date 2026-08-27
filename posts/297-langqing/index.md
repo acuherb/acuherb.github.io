@@ -33,5 +33,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/297-langqing/  
+> URL: https://acuherb.xyz/posts/297-langqing/  
 

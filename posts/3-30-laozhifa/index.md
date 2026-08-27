@@ -45,5 +45,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/3-30-laozhifa/  
+> URL: https://acuherb.xyz/posts/3-30-laozhifa/  
 

@@ -24,5 +24,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/292-yazi/  
+> URL: https://acuherb.xyz/posts/292-yazi/  
 

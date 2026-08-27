@@ -33,5 +33,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/47-yanlvzi/  
+> URL: https://acuherb.xyz/posts/47-yanlvzi/  
 

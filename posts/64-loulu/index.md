@@ -38,5 +38,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/64-loulu/  
+> URL: https://acuherb.xyz/posts/64-loulu/  
 

@@ -51,5 +51,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/107-duzhong/  
+> URL: https://acuherb.xyz/posts/107-duzhong/  
 

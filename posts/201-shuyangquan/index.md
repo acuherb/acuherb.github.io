@@ -28,5 +28,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/201-shuyangquan/  
+> URL: https://acuherb.xyz/posts/201-shuyangquan/  
 

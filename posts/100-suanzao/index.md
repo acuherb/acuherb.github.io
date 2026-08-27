@@ -35,5 +35,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/100-suanzao/  
+> URL: https://acuherb.xyz/posts/100-suanzao/  
 

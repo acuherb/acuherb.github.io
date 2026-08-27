@@ -28,5 +28,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/339-wugong/  
+> URL: https://acuherb.xyz/posts/339-wugong/  
 

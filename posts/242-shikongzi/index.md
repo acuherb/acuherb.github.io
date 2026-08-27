@@ -28,5 +28,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/242-shikongzi/  
+> URL: https://acuherb.xyz/posts/242-shikongzi/  
 

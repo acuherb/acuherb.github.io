@@ -41,5 +41,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/185-gaoben/  
+> URL: https://acuherb.xyz/posts/185-gaoben/  
 

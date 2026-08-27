@@ -33,5 +33,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/14-ruxiang/  
+> URL: https://acuherb.xyz/posts/14-ruxiang/  
 

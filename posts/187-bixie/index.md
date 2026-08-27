@@ -39,5 +39,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/187-bixie/  
+> URL: https://acuherb.xyz/posts/187-bixie/  
 

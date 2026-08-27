@@ -14,5 +14,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/62-xiangpu/  
+> URL: https://acuherb.xyz/posts/62-xiangpu/  
 

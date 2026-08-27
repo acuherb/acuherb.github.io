@@ -67,5 +67,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/3-32-xizhifa/  
+> URL: https://acuherb.xyz/posts/3-32-xizhifa/  
 

@@ -55,5 +55,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/33-duhuo/  
+> URL: https://acuherb.xyz/posts/33-duhuo/  
 

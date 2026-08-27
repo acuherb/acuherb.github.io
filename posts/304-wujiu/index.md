@@ -7,5 +7,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/304-wujiu/  
+> URL: https://acuherb.xyz/posts/304-wujiu/  
 

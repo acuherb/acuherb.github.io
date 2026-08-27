@@ -172,5 +172,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/lingshu-35/  
+> URL: https://acuherb.xyz/posts/lingshu-35/  
 

@@ -25,5 +25,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/186-shiwei/  
+> URL: https://acuherb.xyz/posts/186-shiwei/  
 

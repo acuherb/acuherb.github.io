@@ -70,5 +70,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/2-11-yinzhifa/  
+> URL: https://acuherb.xyz/posts/2-11-yinzhifa/  
 

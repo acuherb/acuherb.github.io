@@ -100,5 +100,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/4-16-ruanzhifa/  
+> URL: https://acuherb.xyz/posts/4-16-ruanzhifa/  
 

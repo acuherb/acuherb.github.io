@@ -37,5 +37,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/180-zicao/  
+> URL: https://acuherb.xyz/posts/180-zicao/  
 

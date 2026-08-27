@@ -61,5 +61,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/4-2-pinzhifa/  
+> URL: https://acuherb.xyz/posts/4-2-pinzhifa/  
 

@@ -23,5 +23,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/320-leiwan/  
+> URL: https://acuherb.xyz/posts/320-leiwan/  
 

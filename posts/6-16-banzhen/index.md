@@ -46,5 +46,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/6-16-banzhen/  
+> URL: https://acuherb.xyz/posts/6-16-banzhen/  
 

@@ -37,5 +37,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/72-xuanhua/  
+> URL: https://acuherb.xyz/posts/72-xuanhua/  
 

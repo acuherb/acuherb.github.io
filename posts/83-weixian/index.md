@@ -28,5 +28,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/83-weixian/  
+> URL: https://acuherb.xyz/posts/83-weixian/  
 

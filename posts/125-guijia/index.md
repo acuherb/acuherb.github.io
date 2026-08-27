@@ -60,5 +60,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/125-guijia/  
+> URL: https://acuherb.xyz/posts/125-guijia/  
 

@@ -36,5 +36,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/184-zishen/  
+> URL: https://acuherb.xyz/posts/184-zishen/  
 

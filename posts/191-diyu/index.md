@@ -32,5 +32,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/191-diyu/  
+> URL: https://acuherb.xyz/posts/191-diyu/  
 

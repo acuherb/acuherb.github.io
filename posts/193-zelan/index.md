@@ -37,5 +37,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/193-zelan/  
+> URL: https://acuherb.xyz/posts/193-zelan/  
 

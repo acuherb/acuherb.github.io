@@ -66,5 +66,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/59-roucongrong/  
+> URL: https://acuherb.xyz/posts/59-roucongrong/  
 

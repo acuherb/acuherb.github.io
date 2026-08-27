@@ -75,5 +75,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/3-11-duozhifa/  
+> URL: https://acuherb.xyz/posts/3-11-duozhifa/  
 

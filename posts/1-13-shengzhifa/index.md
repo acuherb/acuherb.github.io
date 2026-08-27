@@ -122,5 +122,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/1-13-shengzhifa/  
+> URL: https://acuherb.xyz/posts/1-13-shengzhifa/  
 

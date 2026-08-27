@@ -54,5 +54,5 @@
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
-> URL: https://lruihao.cn/posts/4-24-chunxiazhifa/  
+> URL: https://acuherb.xyz/posts/4-24-chunxiazhifa/  
 
