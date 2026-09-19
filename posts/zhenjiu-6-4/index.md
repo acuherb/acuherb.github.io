@@ -98,7 +98,7 @@
 
 **注**：肺为娇脏，治肺需兼顾脾胃（培土生金），久病必灸膏肓！
 
-![针灸治症4](https://img.xingtan.one/i/2025/07/20/687c8caa0d3cc.webp)
+![针灸治症4](/images/zhenjiu/23-4.webp)
 
 ---
 

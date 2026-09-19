@@ -88,7 +88,8 @@
 
 **注**：中医治心脏病**无需手术**，辨证精准则效如桴鼓！
 
-![针灸治症5](https://img.xingtan.one/i/2025/07/20/687c8cc32dbe1.webp)
+![针灸治症5](/images/zhenjiu/23-5.webp)
+)
 
 ---
 
