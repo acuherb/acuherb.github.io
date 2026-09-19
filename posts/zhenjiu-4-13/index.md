@@ -122,10 +122,10 @@
 - **走向**：头侧→耳后→胁肋→下肢外侧→足4趾。
 - **主病**：偏头痛、眼疾、耳鸣、胁痛、胆结石、中风半身不遂。
 
-![足少阳胆经1](https://img.xingtan.one/i/2025/07/17/687886e2d90fd.webp)
-![足少阳胆经2](https://img.xingtan.one/i/2025/07/17/687886e564867.webp)
-![足少阳胆经3](https://img.xingtan.one/i/2025/07/17/687886e7e5a02.webp)
-![足少阳胆经4](https://img.xingtan.one/i/2025/07/17/687886e9726e9.webp)
+![足少阳胆经1](/images/zhenjiu/18-1.webp)
+![足少阳胆经2](/images/zhenjiu/18-2.webp)
+![足少阳胆经3](/images/zhenjiu/18-3.webp)
+![足少阳胆经4](/images/zhenjiu/18-4.webp)
 
 ---
 

@@ -75,10 +75,10 @@
 外关退烧生死桥，支沟便秘照海邀，  
 天井肘尖泻实好，耳门轮刺聋鸣调。  
 
-![手少阳三焦经1](https://img.xingtan.one/i/2025/07/16/687781a9bfad9.webp)
-![手少阳三焦经2](https://img.xingtan.one/i/2025/07/16/687781ac20e90.webp)
-![手少阳三焦经3](https://img.xingtan.one/i/2025/07/16/687781ae7ff4c.webp)
-![手少阳三焦经4](https://img.xingtan.one/i/2025/07/16/68778189717e3.webp)
+![手少阳三焦经1](/images/zhenjiu/17-1.webp)
+![手少阳三焦经2](/images/zhenjiu/17-2.webp)
+![手少阳三焦经3](/images/zhenjiu/17-3.webp)
+![手少阳三焦经4](/images/zhenjiu/17-4.webp)
 
 ---
 
