@@ -1,12 +1,5 @@
-# 一张图归纳伤寒论阳明篇
+# 一文归纳伤寒论阳明篇
 
-
-```markmap {height="800px"}
----
-title: 一张图归纳伤寒论阳明篇
-markmap:
-  colorFreezeLevel: 5
----
 
 ### 一、阳明病总纲与来路
 1. **阳明病分类**（第194条）
@@ -145,10 +138,9 @@ markmap:
 
 ### 八、核心思想
 - 本篇以“胃家实”为纲，系统构建了阳明燥热实证的辨证论治体系，尤其以三承气汤为核心，详辨燥屎形成与否、可攻与不可攻之指征，并严密设下禁忌，处处强调“存津液、保胃气”的治疗思想，同时涵盖阳明经表证、发黄、蓄血、脾约等兼变证的诊治。
-```
 
 ---
 
-> 作者: [Acuherb](https://acuherb.xyz/)  
+> 作者: [Acuherb](https://next.acuherb.xyz/)  
 > URL: https://acuherb.xyz/posts/shanghanlun-0-2/  
 

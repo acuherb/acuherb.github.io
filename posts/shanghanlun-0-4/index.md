@@ -1,12 +1,5 @@
-# 一张图归纳伤寒论太阴篇
+# 一文归纳伤寒论太阴篇
 
-
-```markmap {height="800px"}
----
-title: 一张图归纳伤寒论太阴篇
-markmap:
-  colorFreezeLevel: 10
----
 
 ### 一、太阴病总纲
 **提纲**（第287条）  
@@ -68,10 +61,9 @@ markmap:
 
 ### 七、核心思想
 - 太阴病篇以“腹满而吐，食不下，自利”为辨证核心，确立温中散寒的基础治法，为三阴病之首，体现脾胃后天之本的重要性。
-```
 
 ---
 
-> 作者: [Acuherb](https://acuherb.xyz/)  
+> 作者: [Acuherb](https://next.acuherb.xyz/)  
 > URL: https://acuherb.xyz/posts/shanghanlun-0-4/  
 

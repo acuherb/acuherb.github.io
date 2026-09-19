@@ -63,7 +63,7 @@
 
 > [!TIP]**百合地黄汤方**
 >
-> 百台七枚，擘 | 生地黄汁一升
+> 百合七枚，擘 | 生地黄汁一升
 >>
 > 上先煎百合如前法，内地黄汁，煎取一升五合，分温再服。中病，勿更服。大便当如漆。
 
@@ -878,6 +878,6 @@
 
 ---
 
-> 作者: [Acuherb](https://acuherb.xyz/)  
+> 作者: [Acuherb](https://next.acuherb.xyz/)  
 > URL: https://acuherb.xyz/posts/jingui-03/  
 

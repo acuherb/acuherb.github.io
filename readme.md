@@ -2,7 +2,7 @@
 
 > 这里不仅是我研习中医经典的私人书斋，更是一处致力于 “观照经典以明医理，颐养身心以扶正气” 的清净之地。
 
-共计 1304 篇文章 by [Acuherb](https://acuherb.xyz/).
+共计 1304 篇文章 by [Acuherb](https://next.acuherb.xyz/).
 
 ## 2026
 
@@ -86,14 +86,14 @@
 - 06-09 [静治法：论解火郁](https://acuherb.xyz/posts/4-22-jingzhifa/ "2026-06-09 13:32:52")
 - 06-08 [火治法：论阳明胃火 论治各经之火](https://acuherb.xyz/posts/4-21-huozhifa/ "2026-06-08 15:18:52")
 - 06-08 [痰治法：论治初起之痰 已病之痰 久病之痰 论老痰 顽痰](https://acuherb.xyz/posts/4-20-tanzhifa/ "2026-06-08 15:01:52")
-- 06-07 [一张图归纳伤寒论厥阴篇](https://acuherb.xyz/posts/shanghanlun-0-6/ "2026-06-07 16:35:22")
+- 06-07 [一文归纳伤寒论厥阴篇](https://acuherb.xyz/posts/shanghanlun-0-6/ "2026-06-07 16:35:22")
 - 06-07 [扬治法：论气沉血滞](https://acuherb.xyz/posts/4-19-yangzhifa/ "2026-06-07 16:13:52")
-- 06-07 [一张图归纳伤寒论少阴篇](https://acuherb.xyz/posts/shanghanlun-0-5/ "2026-06-07 15:24:22")
-- 06-07 [一张图归纳伤寒论太阴篇](https://acuherb.xyz/posts/shanghanlun-0-4/ "2026-06-07 14:36:22")
-- 06-07 [一张图归纳伤寒论少阳篇](https://acuherb.xyz/posts/shanghanlun-0-3/ "2026-06-07 13:21:22")
-- 06-07 [一张图归纳伤寒论阳明篇](https://acuherb.xyz/posts/shanghanlun-0-2/ "2026-06-07 11:11:22")
+- 06-07 [一文归纳伤寒论少阴篇](https://acuherb.xyz/posts/shanghanlun-0-5/ "2026-06-07 15:24:22")
+- 06-07 [一文归纳伤寒论太阴篇](https://acuherb.xyz/posts/shanghanlun-0-4/ "2026-06-07 14:36:22")
+- 06-07 [一文归纳伤寒论少阳篇](https://acuherb.xyz/posts/shanghanlun-0-3/ "2026-06-07 13:21:22")
+- 06-07 [一文归纳伤寒论阳明篇](https://acuherb.xyz/posts/shanghanlun-0-2/ "2026-06-07 11:11:22")
 - 06-07 [抑治法：论肺火心火胃火肝火肾水](https://acuherb.xyz/posts/4-18-yizhifa/ "2026-06-07 09:15:52")
-- 06-07 [一张图归纳伤寒论太阳篇](https://acuherb.xyz/posts/shanghanlun-0-1/ "2026-06-07 09:10:22")
+- 06-07 [一文归纳伤寒论太阳篇](https://acuherb.xyz/posts/shanghanlun-0-1/ "2026-06-07 09:10:22")
 - 06-06 [坚治法：论注夏](https://acuherb.xyz/posts/4-17-jianzhifa/ "2026-06-06 16:55:52")
 - 06-06 [软治法：论消痞块](https://acuherb.xyz/posts/4-16-ruanzhifa/ "2026-06-06 09:32:52")
 - 06-05 [散治法：论散郁](https://acuherb.xyz/posts/4-15-sanzhifa/ "2026-06-05 18:56:52")
@@ -455,7 +455,7 @@
 - 06-24 [痉湿暍病脉证治法第二](https://acuherb.xyz/posts/jingui-02/ "2025-06-24 13:55:24")
 - 06-24 [藏府经络先后病脉证第一](https://acuherb.xyz/posts/jingui-01/ "2025-06-24 10:55:24")
 - 06-24 [续伤寒篇：辨霍乱病脉证并治](https://acuherb.xyz/posts/jingui-huoluan/ "2025-06-24 10:30:24")
-- 06-24 [金匮上课前言](https://acuherb.xyz/posts/jingui-qianyan/ "2025-06-24 09:32:24")
+- 06-24 [金匮上课前言](https://acuherb.xyz/posts/jingui-qianyan/ "2025-06-24 09:33:24")
 - 06-23 [辨厥阴病脉证并治法：三九七](https://acuherb.xyz/posts/shanghanlun-397/ "2025-06-23 18:38:24")
 - 06-23 [辨厥阴病脉证并治法：三九六](https://acuherb.xyz/posts/shanghanlun-396/ "2025-06-23 17:58:24")
 - 06-23 [辨厥阴病脉证并治法：三九五](https://acuherb.xyz/posts/shanghanlun-395/ "2025-06-23 17:17:56")
@@ -1232,8 +1232,8 @@
 - 05-16 [二、云母](https://acuherb.xyz/posts/2-yunmu/ "2025-05-16 10:11:22")
 - 05-16 [一、丹砂](https://acuherb.xyz/posts/1-dansha/ "2025-05-16 10:10:22")
 - 05-15 [药性总义](https://acuherb.xyz/posts/0-2-yaoxingzongyi/ "2025-05-15 20:16:22")
-- 05-15 [为什么学神农本草经](https://acuherb.xyz/posts/0-0-bencaojing/ "2025-05-15 20:15:22")
 - 05-15 [本草经前言](https://acuherb.xyz/posts/0-1-qianyan/ "2025-05-15 20:15:22")
+- 05-15 [为什么学神农本草经](https://acuherb.xyz/posts/0-0-bencaojing/ "2025-05-15 20:14:22")
 - 05-10 [一篇笔记总结人纪黄帝内经](https://acuherb.xyz/posts/suwen-zongjierenjihuangdineijing/ "2025-05-10 20:14:22")
 - 05-05 [跟倪师学黄帝内经笔记之五：治病之术](https://acuherb.xyz/posts/suwen-zhibingzhishu/ "2025-05-05 20:14:22")
 - 05-04 [跟倪师学黄帝内经笔记之四：病变之因](https://acuherb.xyz/posts/suwen-zhibingzhiyin/ "2025-05-04 20:14:22")

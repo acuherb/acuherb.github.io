@@ -27,7 +27,7 @@
 
 ```markdown
 - nickname: 观颐斋
-  avatar: https://acuherb.xyz/images/avatar.png
+  avatar: https://acuherb.xyz/images/avatar.webp
   url: https://acuherb.xyz
   description: 观以明理，颐以养正。
 ```
@@ -38,6 +38,6 @@
 
 ---
 
-> 作者: [Acuherb](https://acuherb.xyz/)  
+> 作者: [Acuherb](https://next.acuherb.xyz/)  
 > URL: https://acuherb.xyz/friends/  
 

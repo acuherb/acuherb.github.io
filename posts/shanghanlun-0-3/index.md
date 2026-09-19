@@ -1,12 +1,5 @@
-# 一张图归纳伤寒论少阳篇
+# 一文归纳伤寒论少阳篇
 
-
-```markmap {height="800px"}
----
-title: 一张图归纳伤寒论少阳篇
-markmap:
-  colorFreezeLevel: 10
----
 
 ### 一、少阳病总纲
 - **提纲**（第277条）
@@ -69,10 +62,9 @@ markmap:
 
 ### 七、核心思想
 - 本篇以“口苦、咽干、目眩”为纲，确立少阳病半表半里、枢机不利的病机核心。治疗上严守“和解”大法，禁汗、吐、下，主以小柴胡汤，并示人须识别坏病、灵活随证治之。全篇虽精悍，却奠定了少阳病“和法”的基石。
-```
 
 ---
 
-> 作者: [Acuherb](https://acuherb.xyz/)  
+> 作者: [Acuherb](https://next.acuherb.xyz/)  
 > URL: https://acuherb.xyz/posts/shanghanlun-0-3/  
 

@@ -1,12 +1,5 @@
-# 一张图归纳伤寒论厥阴篇
+# 一文归纳伤寒论厥阴篇
 
-
-```markmap {height="800px"}
----
-title: 一张图归纳伤寒论厥阴篇
-markmap:
-  colorFreezeLevel: 10
----
 
 ### 一、厥阴病总纲与病机
 - **提纲**（第340条）
@@ -143,10 +136,9 @@ markmap:
 
 ### 七、核心思想
 - 本篇以厥热胜复为核心辨治思路，确立了寒温并用、攻补兼施的治疗大法，以乌梅丸治蛔厥、当归四逆汤治血虚寒厥、四逆辈救寒厥、白虎汤清热厥、白头翁汤疗热利，方药丰富，法度森严，充分体现了《伤寒论》在处理复杂证候时“观其脉证，随证治之”的辨证精髓。
-```
 
 ---
 
-> 作者: [Acuherb](https://acuherb.xyz/)  
+> 作者: [Acuherb](https://next.acuherb.xyz/)  
 > URL: https://acuherb.xyz/posts/shanghanlun-0-6/  
 
