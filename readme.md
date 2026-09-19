@@ -2,7 +2,7 @@
 
 > 这里不仅是我研习中医经典的私人书斋，更是一处致力于 “观照经典以明医理，颐养身心以扶正气” 的清净之地。
 
-共计 1304 篇文章 by [Acuherb](https://next.acuherb.xyz/).
+共计 1304 篇文章 by [Acuherb](https://acuherb.xyz/).
 
 ## 2026
 

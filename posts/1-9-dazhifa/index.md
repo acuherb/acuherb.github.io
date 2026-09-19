@@ -115,6 +115,6 @@
 
 ---
 
-> 作者: [Acuherb](https://next.acuherb.xyz/)  
+> 作者: [Acuherb](https://acuherb.xyz/)  
 > URL: https://acuherb.xyz/posts/1-9-dazhifa/  
 

@@ -1073,6 +1073,6 @@ H --> I[调整饮食+蔗糖缓急]
 
 ---
 
-> 作者: [Acuherb](https://next.acuherb.xyz/)  
+> 作者: [Acuherb](https://acuherb.xyz/)  
 > URL: https://acuherb.xyz/posts/jingui-05/  
 
