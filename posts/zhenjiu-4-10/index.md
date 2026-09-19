@@ -95,8 +95,8 @@
 - 针刺结合五行补泻（如复溜补虚，然谷泻实）。
 - 预防胜于治疗（如灸关元、中极固本）。
 
-![足少阴肾经1](https://img.xingtan.one/i/2025/07/16/687720fd250ca.webp)
-![足少阴肾经2](https://img.xingtan.one/i/2025/07/16/687720ffdc477.webp)
+![足少阴肾经1](/images/zhenjiu/15-1.webp)
+![足少阴肾经2](/images/zhenjiu/15-2.webp)
 
 ---
 

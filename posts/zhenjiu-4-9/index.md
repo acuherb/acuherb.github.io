@@ -492,11 +492,11 @@
 3. **禁忌**：  
    - 孕妇禁针（易流产），仅用灸法。  
 
-![足太阳膀胱经1](https://img.xingtan.one/i/2025/07/15/68760e8d1c11e.webp)
-![足太阳膀胱经2](https://img.xingtan.one/i/2025/07/15/68760e8eb487b.webp)
-![足太阳膀胱经3](https://img.xingtan.one/i/2025/07/15/68760e913e854.webp)
-![足太阳膀胱经4](https://img.xingtan.one/i/2025/07/15/68760e93d07a3.webp)
-![足太阳膀胱经5](https://img.xingtan.one/i/2025/07/15/68760e9652bc0.webp)
+![足太阳膀胱经1](/images/zhenjiu/14-1.webp)
+![足太阳膀胱经2](/images/zhenjiu/14-2.webp)
+![足太阳膀胱经3](/images/zhenjiu/14-3.webp)
+![足太阳膀胱经4](/images/zhenjiu/14-4.webp)
+![足太阳膀胱经5](/images/zhenjiu/14-5.webp)
 
 
 ---
