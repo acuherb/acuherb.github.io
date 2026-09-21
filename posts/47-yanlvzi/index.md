@@ -30,6 +30,8 @@
 ### 【禁忌】
 - 用之治扑打损伤效，罕有用于调理者。
 
+![奄闾子](/images/bencao/47.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
