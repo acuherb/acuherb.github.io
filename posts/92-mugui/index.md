@@ -66,6 +66,8 @@
 ### 【炮制】
 - 拣去杂质。刮去粗皮，刷去灰尘即得。
 
+![牡桂](/images/bencao/92.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

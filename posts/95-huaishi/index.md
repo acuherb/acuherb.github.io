@@ -37,6 +37,8 @@
 
 > 妇人乳房有硬块也可以用，阴疮湿痒，晕车晕船都可以用，可以内服。
 
+![槐实](/images/bencao/95.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

@@ -35,6 +35,8 @@
 ### 【禁忌】
 - 凡有外邪实热，脾虚有湿及肠滑者忌。
 
+![枸杞](/images/bencao/96.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
