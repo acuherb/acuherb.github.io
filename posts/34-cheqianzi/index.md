@@ -50,6 +50,8 @@
 
 > 车前叶就是车前子的叶子，我们用叶子的话和车前子的功能差不多，也是清凉去热。
 
+![车前子](/images/bencao/34.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

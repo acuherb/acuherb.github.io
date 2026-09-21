@@ -77,6 +77,8 @@
 
 > 这个药产在四川，唐荣川他最了解它。
 
+![牛膝](/images/bencao/27.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

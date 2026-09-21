@@ -40,6 +40,8 @@
 
 > 因为玉竹是甜味的，跟咸味是相克的，所以不喜咸。
 
+![女萎](/images/bencao/29.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

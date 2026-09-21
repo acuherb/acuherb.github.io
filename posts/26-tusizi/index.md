@@ -52,6 +52,8 @@
 ### 【倪注】
 - 现在已经是属于被管制中药，因为植物保护法。
 
+![菟丝子](/images/bencao/26.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

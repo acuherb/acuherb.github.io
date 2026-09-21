@@ -10,6 +10,8 @@
 ### 【甄权】
 - 主痃癖气块，膀胱宿水，血气瘤大如盆者，悉能消散。
 
+![防葵](/images/bencao/30.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

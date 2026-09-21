@@ -57,6 +57,8 @@
 ### 【炮制】
 - 拣去杂质，洗净晒干即得。
 
+![麦门冬](/images/bencao/32.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

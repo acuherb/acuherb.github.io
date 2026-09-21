@@ -67,6 +67,8 @@
 ### 【附录】
 - 苡仁根──主下三焦，能堕胎，治黄疸，卒心腹烦满，胸胁痛。
 
+![薏苡仁](/images/bencao/37.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
