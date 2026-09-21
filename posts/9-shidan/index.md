@@ -40,6 +40,8 @@
 ### 【炮制】
 - 拣去杂质即可。
 
+![石胆](/images/bencao/9.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

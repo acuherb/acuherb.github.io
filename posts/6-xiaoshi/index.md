@@ -43,6 +43,8 @@
 ### 【炮制】
 - 拣去杂质即可。
 
+![消石](/images/bencao/6.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

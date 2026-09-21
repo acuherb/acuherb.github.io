@@ -68,6 +68,8 @@
 
 > 用醋是为了增加收敛性。
 
+![五色石脂](/images/bencao/16.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

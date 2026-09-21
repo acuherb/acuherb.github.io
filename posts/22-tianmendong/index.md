@@ -62,6 +62,8 @@
 ### 【炮制】
 - 拣去杂质，洗净晒干即得。
 
+![天门冬](/images/bencao/22.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

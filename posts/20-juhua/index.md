@@ -50,6 +50,8 @@
 ### 【炮制】
 - 拣去杂质及梗叶，拍去灰尘即得。
 
+![菊花](/images/bencao/20.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

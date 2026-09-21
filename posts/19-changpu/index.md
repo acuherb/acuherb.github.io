@@ -78,6 +78,8 @@
 ### 【炮制】
 - 拣去杂质，刷去灰尘，洗净晒干，去灰尘即得。
 
+![昌蒲](/images/bencao/19.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

@@ -17,6 +17,8 @@
 ### 【炮制】
 - 拣去杂质即可。
 
+![曾青](/images/bencao/11.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

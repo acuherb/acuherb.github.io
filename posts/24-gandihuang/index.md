@@ -75,6 +75,8 @@
 ### 【王硕】
 - 曰男子多阴虚宜熟地，女子多血热宜生地。
 
+![干地黄](/images/bencao/24.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

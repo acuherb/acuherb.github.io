@@ -36,6 +36,8 @@
 ### 【炮制】
 - 拣去杂质即可。
 
+![空青](/images/bencao/10.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

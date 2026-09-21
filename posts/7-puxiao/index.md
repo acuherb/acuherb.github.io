@@ -74,6 +74,8 @@
 ### 【炮制】
 - 拣去杂质即可。
 
+![朴消](/images/bencao/7.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
