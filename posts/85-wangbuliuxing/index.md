@@ -42,6 +42,8 @@
 
 > 王不留行民间偏方用的很多，能够化乳汁，奶水太少可以用。
 
+![王不留行](/images/bencao/85.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

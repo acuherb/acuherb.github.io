@@ -25,6 +25,8 @@
 ### 【禁忌】
 - 治鬼之药多有毒。用之宜慎。
 
+![徐长卿](/images/bencao/81.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

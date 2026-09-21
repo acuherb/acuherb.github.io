@@ -26,6 +26,8 @@
 ### 【禁忌】
 - 寒利者禁忌。
 
+![云实](/images/bencao/84.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
