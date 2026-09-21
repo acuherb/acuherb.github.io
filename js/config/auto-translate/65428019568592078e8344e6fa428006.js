@@ -1,1 +1,1 @@
-window.ATConfig={"hugoLangCodes":["zh-CN"],"hugoLangMap":{"zh-CN":"/posts/yihua-1-wenzhenzishu/"}};
+window.ATConfig={"hugoLangCodes":["zh-CN"],"hugoLangMap":{"zh-CN":"/posts/1-%E4%B8%AD%E5%8C%BB%E9%97%AE%E8%AF%8A%E6%82%A3%E8%80%85%E8%87%AA%E8%BF%B0%E7%97%87%E7%8A%B6%E6%8C%87%E5%8D%97/"}};

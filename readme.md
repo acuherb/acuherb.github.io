@@ -206,7 +206,7 @@
 - 03-17 [从十枣汤看控涎丹：一味之换，方义迥异](https://acuherb.xyz/posts/yihua-4-congshizaotangkankongxiandan/ "2026-03-17 08:20:52")
 - 03-16 [大医精诚：从孙思邈到倪海厦的千年医魂](https://acuherb.xyz/posts/yihua-3-dayijingcheng/ "2026-03-16 13:50:52")
 - 03-09 [中医诊病十问的含义——病是问出来的](https://acuherb.xyz/posts/yihua-2-zhenbingshiwen/ "2026-03-09 12:22:52")
-- 03-08 [中医问诊患者自述症状指南](https://acuherb.xyz/posts/yihua-1-wenzhenzishu/ "2026-03-08 11:22:52")
+- 03-08 [中医问诊患者自述症状指南](https://acuherb.xyz/posts/1-%E4%B8%AD%E5%8C%BB%E9%97%AE%E8%AF%8A%E6%82%A3%E8%80%85%E8%87%AA%E8%BF%B0%E7%97%87%E7%8A%B6%E6%8C%87%E5%8D%97/ "2026-03-08 11:22:52")
 - 01-28 [针灸常用口诀汇总](https://acuherb.xyz/posts/zhenjiu-7/ "2026-01-28 17:39:00")
 - 01-26 [寒热舒肝篇第八十一](https://acuherb.xyz/posts/waijing-81/ "2026-01-26 16:22:52")
 - 01-25 [移寒篇第八十](https://acuherb.xyz/posts/waijing-80/ "2026-01-25 11:25:52")
