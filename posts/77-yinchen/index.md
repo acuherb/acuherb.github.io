@@ -39,6 +39,8 @@
 ### 【禁忌】
 - 蓄血发黄者忌用，伏卤砂忌火。
 
+![茵陈](/images/bencao/77.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

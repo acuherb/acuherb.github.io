@@ -42,6 +42,8 @@
 ### 【禁忌】
 - 多用于止血药中，其他方剂罕用。
 
+![卷柏](/images/bencao/51.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

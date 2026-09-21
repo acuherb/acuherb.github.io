@@ -27,6 +27,8 @@
 ### 【禁忌】
 - 里有寒，又兼下痢者禁用。
 
+![飞廉](/images/bencao/70.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

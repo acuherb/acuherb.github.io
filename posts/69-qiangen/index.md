@@ -44,6 +44,8 @@
 ### 【容川】
 - 色赤味苦，根长，故下行之力必重，专能降泄行血。
 
+![茜根](/images/bencao/69.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

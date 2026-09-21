@@ -39,6 +39,8 @@
 
 > 决明子也可以外涂，治疗虫蛇咬伤。
 
+![决明子](/images/bencao/67.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

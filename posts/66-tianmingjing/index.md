@@ -30,6 +30,8 @@
 ### 【禁忌】
 - 时珍曰有小毒，生汁吐人。
 
+![天名精](/images/bencao/66.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

@@ -23,6 +23,8 @@
 ### 【禁忌】
 - 使人呕恶，不宜多用。
 
+![杜若](/images/bencao/78.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

@@ -54,6 +54,8 @@
 
 > 如果没有经方的基础，只是用南派的方子，那是空有其表，没法治病的，辩证也会出问题。
 
+![丹参](/images/bencao/68.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

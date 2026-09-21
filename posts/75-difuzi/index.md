@@ -36,6 +36,8 @@
 
 > 用地肤子煮汤水洗眼睛，专治眼科的发炎，效果很好。
 
+![地肤子](/images/bencao/75.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

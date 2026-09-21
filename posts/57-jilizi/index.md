@@ -35,6 +35,8 @@
 
 > 上面是现在时方，眼睛长年失明的，你可以把蒺藜阴干捣散吃。
 
+![蒺藜子](/images/bencao/57.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
