@@ -80,7 +80,7 @@
 
 > 这个朱砂的炮制的方式，就是前面讲的水飞。
 
-![丹砂](/images/bencao/丹砂.webp)
+![丹砂](/images/bencao/1.webp)
 
 ---
 
