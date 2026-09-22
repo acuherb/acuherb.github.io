@@ -1071,7 +1071,7 @@
 - 05-22 [一六三、麻黄](https://acuherb.xyz/posts/163-mahuang/ "2025-05-22 10:23:22")
 - 05-22 [一六二、当归](https://acuherb.xyz/posts/162-danggui/ "2025-05-22 10:22:22")
 - 05-22 [一六一、苦参](https://acuherb.xyz/posts/161-kushen/ "2025-05-22 10:21:22")
-- 05-22 [一六〇、瓜篓根](https://acuherb.xyz/posts/160-gualougen/ "2025-05-22 10:20:22")
+- 05-22 [一六〇、栝楼根](https://acuherb.xyz/posts/160-gualougen/ "2025-05-22 10:20:22")
 - 05-22 [一五九、葛根](https://acuherb.xyz/posts/159-gergen/ "2025-05-22 10:19:22")
 - 05-22 [一五八、枲耳实](https://acuherb.xyz/posts/158-xiershi/ "2025-05-22 10:18:22")
 - 05-22 [一五七、干姜](https://acuherb.xyz/posts/157-ganjiang/ "2025-05-22 10:17:22")

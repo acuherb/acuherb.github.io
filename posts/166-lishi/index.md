@@ -22,6 +22,8 @@
 ### 【禁忌】
 - 不详。
 
+![蠡实](/images/bencao/166.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

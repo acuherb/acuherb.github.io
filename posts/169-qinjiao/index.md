@@ -45,6 +45,8 @@
 
 > 秦艽和续断。骨头折断用续断，筋折断用秦艽，左右偏瘫也用秦艽。
 
+![秦艽](/images/bencao/169.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

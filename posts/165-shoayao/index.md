@@ -56,6 +56,8 @@
 ### 【禁忌】
 - 凡中寒腹痛，中寒作泄，肠胃中觉冷，均忌，反藜芦恶芒硝，鳖甲，小蓟。
 
+![芍药](/images/bencao/165.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

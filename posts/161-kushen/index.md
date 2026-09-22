@@ -48,6 +48,8 @@
 
 > 禁忌就是寒症不适合用。
 
+![苦参](/images/bencao/161.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

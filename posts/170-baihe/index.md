@@ -43,6 +43,8 @@
 ### 【炮制】
 - 拣去杂质，筛去灰即得。
 
+![百合](/images/bencao/170.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

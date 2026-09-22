@@ -43,6 +43,8 @@
 
 > 禁忌就是虚寒症不能用。
 
+![玄参](/images/bencao/168.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

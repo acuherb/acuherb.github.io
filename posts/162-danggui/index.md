@@ -58,6 +58,8 @@
 
 > 下痢的人不要用。当归有油脂能够润肠通便，所以已经在下痢的话，就不要用了。
 
+![当归](/images/bencao/162.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

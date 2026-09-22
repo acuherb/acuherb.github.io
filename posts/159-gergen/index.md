@@ -80,6 +80,8 @@
 ### 【炮制】
 - 捡去杂质，劈成 0.6—1 厘米厚长条块，去灰屑即得。
 
+![葛根](/images/bencao/159.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
