@@ -42,6 +42,8 @@
 
 > 说小便短涩不宜，就是有炎症的，有热症的不宜，一般肿大有热症时候我们用攻坚的药。
 
+![覆盆子](/images/bencao/134.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

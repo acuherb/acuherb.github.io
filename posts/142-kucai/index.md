@@ -30,6 +30,8 @@
 ### 【禁忌】
 - 脾胃虚寒人不可食，不可共蜜食。
 
+![苦菜](/images/bencao/142.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

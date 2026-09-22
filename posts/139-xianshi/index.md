@@ -25,6 +25,8 @@
 
 产后下痢，赤白者：紫苋一握切煮汁，入粳米三合，煮粥食之。（《寿亲养老书》）
 
+![苋实](/images/bencao/139.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

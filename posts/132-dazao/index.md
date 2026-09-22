@@ -35,6 +35,8 @@
 ### 【容川】
 - 大枣禀火之赤色，亦入心以养血，肉黄，得火生土之性，故纯于补脾胃。
 
+![大枣](/images/bencao/132.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

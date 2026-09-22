@@ -79,6 +79,8 @@
 
 > 如何得到砒霜？雄黄加热后，变成黑色，就是砒霜。
 
+![硫磺](/images/bencao/144.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

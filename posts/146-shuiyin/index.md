@@ -43,6 +43,8 @@
 
 > 倪老师说他几乎没用过水银。
 
+![水银](/images/bencao/146.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
