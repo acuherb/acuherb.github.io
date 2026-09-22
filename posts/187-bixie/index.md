@@ -36,6 +36,8 @@
 ### 【禁忌】
 - 下焦有寒之人忌用。阴虚内热者禁服。
 
+![萆薢](/images/bencao/187.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

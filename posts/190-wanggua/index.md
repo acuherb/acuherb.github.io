@@ -31,6 +31,8 @@
 
 > 禁忌就是吃多了会吐会下痢，所以月经来了就不要吃了。
 
+![王瓜](/images/bencao/190.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

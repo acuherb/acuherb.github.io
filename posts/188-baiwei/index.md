@@ -33,6 +33,8 @@
 ### 【禁忌】
 - 恶大黄，大戟，山茱，姜枣。
 
+![白薇](/images/bencao/188.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

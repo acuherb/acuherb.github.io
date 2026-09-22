@@ -47,6 +47,8 @@
 ### 【禁忌】
 - 忌葱，性专下泄，无瘀者忌。
 
+![败酱](/images/bencao/181.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

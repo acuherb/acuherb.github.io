@@ -22,6 +22,8 @@
 ### 【禁忌】
 - 制丹砂矾石，得菖蒲滑石射干良。
 
+![石苇](/images/bencao/186.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

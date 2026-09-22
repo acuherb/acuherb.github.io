@@ -34,6 +34,8 @@
 ### 【禁忌】
 - 破血通积，大虚不宜。
 
+![泽兰](/images/bencao/193.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

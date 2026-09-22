@@ -53,6 +53,8 @@
 
 - 身上虚痒——浮萍末一钱，以黄芩一钱，用四物汤煎汤调下。
 
+![水萍](/images/bencao/189.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

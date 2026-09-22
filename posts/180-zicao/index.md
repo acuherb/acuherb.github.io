@@ -34,6 +34,8 @@
 ### 【禁忌】
 - 痘已出而红活及白陷，脾胃肠虚寒大便溏者忌服。
 
+![紫草](/images/bencao/180.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

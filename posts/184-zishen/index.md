@@ -33,6 +33,8 @@
 
 > 紫参是寒药，对症的是热症，寒症就别用了。
 
+![紫参](/images/bencao/184.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

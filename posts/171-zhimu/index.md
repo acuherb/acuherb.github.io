@@ -59,6 +59,8 @@
 
 > 禁忌就是虚寒症不要用，这是清凉解热的药。
 
+![知母](/images/bencao/171.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

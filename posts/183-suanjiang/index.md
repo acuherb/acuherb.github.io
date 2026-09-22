@@ -30,6 +30,8 @@
 ### 【禁忌】
 - 孕妇禁忌。
 
+![酸浆](/images/bencao/183.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

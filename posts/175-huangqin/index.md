@@ -60,6 +60,8 @@
 ### 【禁忌】
 - 过服损胃，血虚寒中者忌。
 
+![黄芩](/images/bencao/175.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

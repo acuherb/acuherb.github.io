@@ -20,6 +20,8 @@
 ### 【禁忌】
 - 宜大戟为使，畏茱萸蛇蜕皮。
 
+![石龙芮](/images/bencao/177.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

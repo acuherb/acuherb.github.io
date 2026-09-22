@@ -28,6 +28,8 @@
 ### 【禁忌】
 - 肾虚有热，小水不利或短涩黄赤，口苦舌干，均忌，恶香附败酱草
 
+![狗脊](/images/bencao/176.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

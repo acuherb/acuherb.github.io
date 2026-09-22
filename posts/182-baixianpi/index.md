@@ -41,6 +41,8 @@
 
 > 禁忌其实就是寒药不用于虚寒症，但一般黄疸也都是热症。
 
+![白鲜皮](/images/bencao/182.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

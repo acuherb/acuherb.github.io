@@ -38,6 +38,8 @@
 
 > 去头屑。可以白芷+藁本混在一起用，去头屑，这是经验方，大家可以试试。
 
+![鬼卿](/images/bencao/185.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
