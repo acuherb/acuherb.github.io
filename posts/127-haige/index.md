@@ -29,6 +29,8 @@
 ### 【禁忌】
 - 畏甘遂芫花，虽善消痰积血块，然脾胃虚寒者宜少用。
 
+![海蛤](/images/bencao/127.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

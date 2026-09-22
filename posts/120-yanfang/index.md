@@ -22,6 +22,8 @@
 ### 【禁忌】
 - 勿与犬肉猪肉牛肉等并煮，主腹泻。
 
+![雁肪](/images/bencao/120.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

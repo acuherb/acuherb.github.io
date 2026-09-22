@@ -48,6 +48,8 @@
 
 > 胎后吃杜仲女人的妊娠纹可以收的比较快，药怎么来的？以意得之。
 
+![杜仲](/images/bencao/107.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

@@ -50,6 +50,8 @@
 ### 【炮制】
 - 拣去杂质，刷去泥沙即得，煅龙骨即置铁锅中，煅透，即得。
 
+![龙骨](/images/bencao/113.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

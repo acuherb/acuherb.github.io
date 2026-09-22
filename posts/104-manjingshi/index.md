@@ -36,6 +36,8 @@
 
 > 唐容川说蔓荆子气很烈，味道很强，但很轻，很轻的药可以入头部，所以能散头风。‍
 
+![蔓荆实](/images/bencao/104.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

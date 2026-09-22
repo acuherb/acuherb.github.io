@@ -41,6 +41,8 @@
 ### 【禁忌】
 - 忌见火。
 
+![桑上寄生](/images/bencao/106.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

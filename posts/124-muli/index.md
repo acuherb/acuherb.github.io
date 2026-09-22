@@ -49,6 +49,8 @@
 ### 【禁忌】
 - 恶麻黄细辛吴萸伏磠砂，凡病虚而有寒者忌，肾虚无火，寒精自出者亦忌。
 
+![牡蛎](/images/bencao/124.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

@@ -38,6 +38,8 @@
 ### 【禁忌】
 - 发灰气味不佳，胃弱者勿服。
 
+![发髲](/images/bencao/112.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

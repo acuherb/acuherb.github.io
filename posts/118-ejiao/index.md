@@ -44,6 +44,8 @@
 ### 【禁忌】
 - 气味虽平和然其性黏腻，胃弱作呕吐，脾虚食不消者均忌。
 
+![阿胶](/images/bencao/118.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

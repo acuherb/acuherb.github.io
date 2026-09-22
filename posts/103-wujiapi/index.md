@@ -29,6 +29,8 @@
 ### 【禁忌】
 - 下部无寒湿邪而有火，及肝肾虚而有火，均忌。
 
+![五加皮](/images/bencao/103.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

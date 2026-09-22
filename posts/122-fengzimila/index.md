@@ -67,6 +67,8 @@
 
 > 这个方子就在讲麻风病，用的都是剧毒药。
 
+![蜂子](/images/bencao/122.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

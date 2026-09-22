@@ -47,6 +47,8 @@
 
 > 如何判断下焦有热？尺脉代表下焦，尺脉跳得快比较浮，就说明下焦有热。
 
+![白胶](/images/bencao/117.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

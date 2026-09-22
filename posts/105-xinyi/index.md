@@ -42,6 +42,8 @@
 ### 【炮制】
 - 拣去杂质及柄，去灰即得。
 
+![辛夷](/images/bencao/105.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

@@ -22,6 +22,8 @@
 ### 【禁忌】
 - 气味俱阴，老人当入保脾胃药及椒红温暖之剂，不然恐腹痛作泻。
 
+![女贞实](/images/bencao/108.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

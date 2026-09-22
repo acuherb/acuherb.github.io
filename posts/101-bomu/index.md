@@ -41,6 +41,8 @@
 ### 【禁忌】
 - 恶干漆，伏硫磺，阴阳两虚，脾胃薄弱者均忌。
 
+![檗木](/images/bencao/101.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

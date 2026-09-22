@@ -76,6 +76,8 @@
 
 > 上面的砒霜、雄黄、巴豆都是很凶的药了，用于治疗危重症的，后面讲经方再详细说。
 
+![麝香](/images/bencao/114.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

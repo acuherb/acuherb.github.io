@@ -49,6 +49,8 @@
 
 > 甘蔗榨汁是甘寒的可以泄大热，做成糖就变甘温了。
 
+![石蜜](/images/bencao/121.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

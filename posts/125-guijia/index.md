@@ -57,6 +57,8 @@
 
 > 龟肉也可以吃的。
 
+![龟甲](/images/bencao/125.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

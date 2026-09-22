@@ -11,6 +11,8 @@
 ### 【产地】
 - 熊身上之脂肪。今已经不用。
 
+![熊脂](/images/bencao/116.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

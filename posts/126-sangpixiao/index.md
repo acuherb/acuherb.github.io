@@ -44,6 +44,8 @@
 ### 【禁忌】
 - 凡膀胱有热，小便短数者忌之。
 
+![桑蜱蛸](/images/bencao/126.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
