@@ -35,6 +35,8 @@
 ### 【容川】
 - 射干微苦，利喉中之痰。
 
+![射干](/images/bencao/278.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

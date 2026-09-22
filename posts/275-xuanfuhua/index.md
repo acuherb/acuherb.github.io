@@ -47,6 +47,8 @@
 
 - 病人涉虚者，忌多服，冷利大肠，虚寒人禁用。
 
+![旋覆花](/images/bencao/275.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

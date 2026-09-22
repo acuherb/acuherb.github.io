@@ -67,6 +67,8 @@
 
 - 凡攻补下焦药中勿入。气逆上升，不得下降，及邪在下焦，均忌。
 
+![桔梗](/images/bencao/272.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

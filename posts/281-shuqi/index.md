@@ -33,6 +33,8 @@
 ### 【禁忌】
 - 凡真气虚者忌，忌葱菜及菘茗，得甘草吐疟痰，酒炒用良。
 
+![蜀漆](/images/bencao/281.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
