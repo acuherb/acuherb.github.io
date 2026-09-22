@@ -30,6 +30,8 @@
 ### 【禁忌】
 - 用皂荚菖蒲，无瘀血停留者忌，孕妇慎用。
 
+![蟅虫](/images/bencao/246.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
