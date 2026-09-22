@@ -33,6 +33,8 @@
 ### 【禁忌】
 - 热症之人忌用
 
+![天雄](/images/bencao/266.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

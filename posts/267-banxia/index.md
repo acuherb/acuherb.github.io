@@ -80,6 +80,8 @@
 
 > 回顾一下啥时候用半夏？脑部积水，咳嗽，肠胃恶心。
 
+![半夏](/images/bencao/267.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

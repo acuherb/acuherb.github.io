@@ -44,6 +44,8 @@
 
 > 天南星有毒，用防风可解。
 
+![虎掌](/images/bencao/268.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

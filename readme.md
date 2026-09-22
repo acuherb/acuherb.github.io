@@ -973,7 +973,7 @@
 - 05-26 [二六一、白垩](https://acuherb.xyz/posts/261-baie/ "2025-05-26 10:11:22")
 - 05-26 [二六〇、卤咸](https://acuherb.xyz/posts/260-luxian/ "2025-05-26 10:10:22")
 - 05-26 [二五九、代赭](https://acuherb.xyz/posts/259-daizhe/ "2025-05-26 10:09:22")
-- 05-26 [二五八、粉钖](https://acuherb.xyz/posts/258-fenyang/ "2025-05-26 10:08:22")
+- 05-26 [二五八、粉锡](https://acuherb.xyz/posts/258-fenxi/ "2025-05-26 10:08:22")
 - 05-26 [二五七、铅丹](https://acuherb.xyz/posts/257-qiandan/ "2025-05-26 10:07:22")
 - 05-26 [二五六、礜石](https://acuherb.xyz/posts/256-yushi/ "2025-05-26 10:06:22")
 - 05-26 [二五五、石灰](https://acuherb.xyz/posts/255-shihui/ "2025-05-26 10:05:22")

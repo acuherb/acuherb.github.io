@@ -36,6 +36,8 @@
 ### 【禁忌】
 - 详见附子。
 
+![乌头](/images/bencao/265.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
