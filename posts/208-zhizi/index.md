@@ -50,6 +50,8 @@
 ### 【禁忌】
 - 凡脾胃虚弱，血虚发热，心肺无邪热，小便闭由膀胱气虚，均忌。
 
+![栀子](/images/bencao/208.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

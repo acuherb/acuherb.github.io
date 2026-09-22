@@ -33,6 +33,8 @@
 
 > 这里提到鹿胎大补，可以生小孩，但很不人道，不鼓励用。
 
+![鹿茸](/images/bencao/223.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

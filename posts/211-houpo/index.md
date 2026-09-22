@@ -52,6 +52,8 @@
 ### 【禁忌】
 - 恶泽泻磁石寒水石，忌豆，性能耗气，凡脾胃虚者忌之，孕妇无故亦忌用。
 
+![厚朴](/images/bencao/211.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

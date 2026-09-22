@@ -20,6 +20,8 @@
 ### 【苏敬】
 - 疗血胀下气，治杖疮捣汁涂之。
 
+![爵床](/images/bencao/202.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

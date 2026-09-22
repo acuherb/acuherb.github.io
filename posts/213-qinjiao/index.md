@@ -28,6 +28,8 @@
 ### 【禁忌】
 - 用椒红，去目，恶栝楼防葵，畏雌黄，闭口者有毒勿用。参看蜀椒条。
 
+![秦椒](/images/bencao/213.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

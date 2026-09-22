@@ -25,6 +25,8 @@
 ### 【禁忌】
 - 多外用，少内服。
 
+![蜀羊泉](/images/bencao/201.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

@@ -23,6 +23,8 @@
 ### 【禁忌】
 - 呕家禁用。
 
+![松萝](/images/bencao/219.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

@@ -29,6 +29,8 @@
 ### 【禁忌】
 - 寒利者禁用。
 
+![卫矛](/images/bencao/220.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

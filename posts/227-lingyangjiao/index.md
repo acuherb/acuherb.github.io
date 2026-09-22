@@ -44,6 +44,8 @@
 ### 【禁忌】
 - 有寒利者禁忌。
 
+![羚羊角](/images/bencao/227.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

@@ -28,6 +28,8 @@
 ### 【禁忌】
 - 里寒之症不用。
 
+![秦皮](/images/bencao/212.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

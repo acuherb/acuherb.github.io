@@ -37,6 +37,8 @@
 ### 【禁忌】
 - 肺虚无火，因风寒而嗽者均忌。
 
+![桑根白皮](/images/bencao/205.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

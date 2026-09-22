@@ -27,6 +27,8 @@
 ### 【禁忌】
 - 无禁忌。
 
+![合欢](/images/bencao/221.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

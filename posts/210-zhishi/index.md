@@ -36,6 +36,8 @@
 ### 【容川】
 - 枳壳为木实，有木之质，木能疏土，故归脾胃，其味比厚朴轻，故理胃气。
 
+![枳实](/images/bencao/210.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

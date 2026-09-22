@@ -26,6 +26,8 @@
 ### 【禁忌】
 - 甘能作胀，凡中满气膈之证均忌。
 
+![龙眼](/images/bencao/218.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

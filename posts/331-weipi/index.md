@@ -26,6 +26,8 @@
 ### 【禁忌】
 - 禁生用。
 
+![猬皮](/images/bencao/231.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

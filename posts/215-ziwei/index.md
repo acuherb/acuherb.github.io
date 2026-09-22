@@ -25,6 +25,8 @@
 ### 【禁忌】
 - 花不可进鼻闻，伤脑，花上露入目昏蒙。
 
+![紫葳](/images/bencao/215.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
