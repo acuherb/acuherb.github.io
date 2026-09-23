@@ -23,6 +23,8 @@
 ### 【禁忌】
 - 不详。
 
+![石长生](/images/bencao/307.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

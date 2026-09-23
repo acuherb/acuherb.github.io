@@ -928,7 +928,7 @@
 - 05-27 [三〇六、蚤休](https://acuherb.xyz/posts/306-zaoxiu/ "2025-05-27 10:26:22")
 - 05-27 [三〇五、鹿藿](https://acuherb.xyz/posts/305-luhuo/ "2025-05-27 10:25:22")
 - 05-27 [三〇四、乌韭](https://acuherb.xyz/posts/304-wujiu/ "2025-05-27 10:24:22")
-- 05-27 [三〇三、蔺茹](https://acuherb.xyz/posts/303-linru/ "2025-05-27 10:23:22")
+- 05-27 [三〇三、䕡茹](https://acuherb.xyz/posts/303-lvru/ "2025-05-27 10:23:22")
 - 05-27 [三〇二、连翘](https://acuherb.xyz/posts/302-lianqiao/ "2025-05-27 10:22:22")
 - 05-27 [三〇一、女青](https://acuherb.xyz/posts/301-nvqing/ "2025-05-27 10:21:22")
 - 05-27 [三〇〇、羊桃](https://acuherb.xyz/posts/300-yangtao/ "2025-05-27 10:20:22")
