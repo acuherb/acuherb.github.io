@@ -39,6 +39,8 @@
 
 > 为啥甘遂不喜甘草？用甘遂就是用它的迅捷，甘草是甘味药，能缓之，所以不搭配。
 
+![甘遂](/images/bencao/282.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

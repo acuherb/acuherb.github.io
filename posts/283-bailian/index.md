@@ -23,6 +23,8 @@
 ### 【禁忌】
 - 反乌头。
 
+![白敛](/images/bencao/283.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

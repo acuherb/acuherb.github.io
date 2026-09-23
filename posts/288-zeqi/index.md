@@ -28,6 +28,8 @@
 
 > 泽漆会跟赤小豆配合起来用。
 
+![泽漆](/images/bencao/288.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

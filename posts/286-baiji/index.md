@@ -42,6 +42,8 @@
 
 > 如果痈疽已经溃烂，就不适合苦寒药了，要用桔梗排脓。
 
+![白及](/images/bencao/286.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

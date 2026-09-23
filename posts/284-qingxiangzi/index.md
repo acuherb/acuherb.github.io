@@ -23,6 +23,8 @@
 ### 【禁忌】
 - 虚寒之人，火衰目病者不宜。
 
+![青葙子](/images/bencao/284.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  

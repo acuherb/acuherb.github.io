@@ -23,6 +23,8 @@
 ### 【禁忌】
 - 同芫花。
 
+![荛花](/images/bencao/291.webp)
+
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
