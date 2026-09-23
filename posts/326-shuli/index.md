@@ -18,8 +18,6 @@
 ### 【孟铣】
 - 治口疳蛀齿，及疳虫蚀人脊骨者，煮浓汁灌之良。
 
-![溲疏](/images/bencao/325.webp)
-
 ---
 
 > 作者: [Acuherb](https://acuherb.xyz/)  
