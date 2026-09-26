@@ -2,13 +2,14 @@
 
 > 这里不仅是我研习中医经典的私人书斋，更是一处致力于 “观照经典以明医理，颐养身心以扶正气” 的清净之地。
 
-共计 1304 篇文章 by [Acuherb](https://acuherb.xyz/).
+共计 1305 篇文章 by [Acuherb](https://acuherb.xyz/).
 
 ## 2026
 
 <details open>
-<summary>共计 229 篇文章</summary>
+<summary>共计 230 篇文章</summary>
 
+- 09-26 [学习导读](https://acuherb.xyz/posts/study-guide/ "2026-09-26 10:15:00")
 - 07-08 [跋](https://acuherb.xyz/posts/7-1-ba/ "2026-07-08 15:11:52")
 - 07-08 [痈疽并无名疮毒](https://acuherb.xyz/posts/6-22-yongdoubingwumingchuangdu/ "2026-07-08 14:51:52")
 - 07-08 [汤火伤：火烧 汤池](https://acuherb.xyz/posts/6-22-tanghuoshang/ "2026-07-08 12:36:52")
