@@ -24,7 +24,10 @@ header.top{
   color:#f8efdc; text-align:center; padding:18px 14px 14px; border-bottom:4px solid #5f0f15;
 }
 header.top h1{font-size:1.5rem; letter-spacing:.35em; text-indent:.35em; font-weight:700}
-header.top .sub{font-size:.8rem; opacity:.85; letter-spacing:.18em; margin-top:4px; text-wrap:balance}
+header.top .sub{font-size:.8rem; opacity:.85; letter-spacing:.18em; margin-top:4px}
+@media (max-width: 500px){
+  header.top .sub{font-size:.72rem; letter-spacing:.1em}
+}
 #clockBar{display:flex; justify-content:center; gap:10px; flex-wrap:wrap; margin-top:10px; align-items:baseline}
 #clockBar .big{font-size:1.9rem; font-weight:700; font-family:"Times New Roman",serif; letter-spacing:.05em}
 #clockBar .sc{color:#f0c060; font-size:1.1rem; font-weight:700}
@@ -34,7 +37,6 @@ nav.tabs{
   position:sticky; top:0; z-index:50; box-shadow:0 2px 8px rgba(60,40,10,.12);
   justify-content:center;
 }
-/* 手机窄屏时改回左对齐，避免首个标签被截断 */
 @media (max-width: 500px){
   nav.tabs{ justify-content:flex-start; }
 }
@@ -466,7 +468,6 @@ function lingguiOpen(dayG, hStem, hBranch, opts){
   const div = yangDay ? 9 : 6;
   let rem = sum % div; if (rem === 0) rem = div;
 
-  /* 余数5 处理 */
   let effectiveRem = rem;
   let note = '';
   if (rem === 5){
@@ -642,7 +643,6 @@ function calcAll(d, opts){
   const dg = mod(dayG, 10), dz = mod(dayG, 12);
   const hb = hourBranchIdx(h);
   const hs = hourStem(dg, hb);
-  /* 月支 */
   let mb = 10;
   const JIE_L = [315,345,15,45,75,105,135,165,195,225,255];
   const nowMs = d.getTime();
@@ -651,14 +651,12 @@ function calcAll(d, opts){
   }
   const xhMs = solarTermTimeMs(y, 285), lcMs = solarTermTimeMs(y, 315);
   if (xhMs <= nowMs && nowMs < lcMs) mb = 11;
-  /* 年干支 */
   const lichunMs = solarTermTimeMs(y, 315);
   const yyGan = mod(y - 1984, 60);
   const yg = (nowMs >= lichunMs) ? mod(yyGan, 10) : mod(yyGan - 1, 10);
   const yz = (nowMs >= lichunMs) ? mod(yyGan, 12) : mod(yyGan - 1, 12);
   const mg = monthStem(yg, mb);
   const lunar = lunarInfo(y, mo, da);
-  /* 各法开穴 */
   const nj = najiaOpen(dg, hs, hb);
   const njHeRi = nj ? null : najiaHeRi(dg, hs, hb);
   const nz = NAZI[hb];
@@ -715,7 +713,6 @@ function getOpts(){
   };
 }
 
-/* Tab 切换 */
 document.querySelectorAll('nav.tabs button').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('nav.tabs button').forEach(b => b.classList.remove('active'));
@@ -729,7 +726,6 @@ document.querySelectorAll('nav.tabs button').forEach(btn => {
   });
 });
 
-/* 时钟 */
 function tick(){
   const now = new Date();
   $('clockTime').textContent = pad2(now.getHours()) + ':' + pad2(now.getMinutes()) + ':' + pad2(now.getSeconds());
@@ -744,7 +740,6 @@ function tick(){
 }
 setInterval(tick, 1000);
 
-/* 自动刷新（每分钟） */
 let autoTimer = null;
 function startAuto(){
   stopAuto();
@@ -752,7 +747,6 @@ function startAuto(){
 }
 function stopAuto(){ if (autoTimer){ clearInterval(autoTimer); autoTimer = null; } }
 
-/* 控件 */
 $('optFollow').addEventListener('change', e => {
   state.follow = e.target.checked;
   if (state.follow){ state.sel = new Date(); renderOpen(); }
@@ -789,7 +783,6 @@ function updateSexVisibility(){
   $('sexOptBox').classList.toggle('disabled', !genderMode);
 }
 
-/* 复制 & 打印 */
 $('btnPrint').addEventListener('click', () => window.print());
 $('btnCopy').addEventListener('click', async () => {
   if (!lastText){ renderOpen(); }
@@ -818,7 +811,6 @@ function showToast(msg){
   toastTimer = setTimeout(() => el.classList.remove('show'), 1800);
 }
 
-/* ---------- 结果文本构造（供复制用） ---------- */
 function buildResultText(c, opts){
   const lines = [];
   lines.push('中医时辰开穴 · 结果');
@@ -896,7 +888,6 @@ function buildResultText(c, opts){
   return lines.join('\n');
 }
 
-/* ---------- 即时开穴渲染 ---------- */
 function pointChip(pt, extra){
   return '<span class="point-chip" title="' + esc(pointLoc(pt.point)) + '"><b>' + esc(pt.point) + '</b>（' +
          esc(pt.meridian.replace('经','')) + (pt.type ? '·' + esc(pt.type) : '') + '）' + extra + '</span>';
@@ -919,10 +910,8 @@ function renderOpen(){
   $('dateInput').value = c.y + '-' + pad2(c.mo) + '-' + pad2(c.da);
   $('timeInput').value = pad2(c.h) + ':' + pad2(c.mi);
 
-  /* 保存复制文本 */
   lastText = buildResultText(c, opts);
 
-  /* 干支摘要 */
   const lunarTxt = c.lunar.lunarYear + '年 ' + c.lunar.monthName + ' ' + c.lunar.dayName;
   $('ganzhiSummary').innerHTML =
     '<h3>📜 当下干支 <span class="tag">' + esc(c.dayGanziName) + '日</span></h3>' +
@@ -938,7 +927,6 @@ function renderOpen(){
     (c.h >= 23 && opts.lateZiNextDay ? '<div class="note">现已入子时，按子时换日，日干支按<b>' + esc(c.dayGanziName) + '日</b>计算。</div>' : '') +
     (c.h >= 23 && !opts.lateZiNextDay ? '<div class="note">现已入子时，但「23:00后子时按次日干支」已关闭，仍按<b>' + esc(c.dayGanziName) + '日</b>计算。</div>' : '');
 
-  /* 汇总 */
   const pts = [];
   if (c.lg){
     pts.push({p: c.lg.gua[1], m: c.lg.gua[2], f: '灵龟八法·主穴', n: '九宫' + c.lg.gua[0] + '·余' + c.lg.effectiveRem});
@@ -967,7 +955,6 @@ function renderOpen(){
     ).join('') + '</ul>' : '<p class="small">本时辰各法均无开穴。</p>') +
     '<p class="note">穴位定位为教材标准取法；针刺请由专业医师操作，补泻遵辨证。</p>';
 
-  /* 纳甲卡片 */
   $('cardNajia').innerHTML =
     '<h3>子午流注·纳甲法 <span class="tag nj">按时开穴</span></h3>' +
     '<p class="calc-line">' + esc(c.dayGanziName) + '日 ' + esc(c.hourGanziName) + '时（五鼠遁：' + esc(GAN[c.dg]) + '日' + esc(ZHI[c.hb]) + '时起' + esc(GAN[mod(c.dg*2,10)]) + '子）</p>' +
@@ -981,7 +968,6 @@ function renderOpen(){
         : '<p class="small">本时辰无纳甲开穴（阳日阴时/阴日阳时不穴，合日亦无）。</p>')) +
     '<div class="note">阳日阳时开阳经穴、阴日阴时开阴经穴，经生经、穴生穴；返本还原，气纳三焦、血纳包络。</div>';
 
-  /* 纳子卡片 */
   const nz = c.nz;
   $('cardNazi').innerHTML =
     '<h3>子午流注·纳子法 <span class="tag nz">十二经流注</span></h3>' +
@@ -994,7 +980,6 @@ function renderOpen(){
     '</table>' +
     '<p class="note">纳子法按时辰取本经穴，虚补母、实泻子（需辨证虚实选用）。</p>';
 
-  /* 灵龟卡片 */
   $('cardLinggui').innerHTML =
     '<h3>灵龟八法 <span class="tag lg">奇经八脉</span></h3>' +
     '<p class="calc-line">' + esc(c.lg.step) + '</p>' +
@@ -1006,14 +991,12 @@ function renderOpen(){
     '<p class="small">九宫：' + [1,2,3,4,5,6,7,8,9].map(k => k + ':' + LG_GUA[k][1]).join('　') + '</p>' +
     '<div class="note">八法逐日/临时干支歌取基数，和数' + (c.lg.yangDay ? '阳日除九' : '阴日除六') + '，余数配九宫八卦开穴；主穴配穴相配（' + esc(c.lg.gua[1]) + '⇄' + esc(c.lg.peidui) + '）。</div>';
 
-  /* 飞腾卡片 */
   $('cardFeiteng').innerHTML =
     '<h3>飞腾八法 <span class="tag ft">按时干</span></h3>' +
     '<p class="calc-line">时干' + esc(GAN[c.hs]) + ' → ' + esc(c.ft[0]) + '卦 · ' + esc(c.ft[1]) + '</p>' +
     '<span class="point-chip" title="' + esc(pointLoc(c.ft[1])) + '"><b>' + esc(c.ft[1]) + '</b>（' + esc(LG_PEIDUI_MAI[c.ft[1]] || '') + '）</span>' +
     '<div class="note">飞腾八法以时干查卦取穴（壬甲→乾·公孙、乙癸→坤·申脉、丙→艮·内关、丁→兑·照海、戊→坎·临泣、己→离·列缺、庚→震·外关、辛→巽·后溪）。</div>';
 
-  /* 五门十变卡片 */
   const wmOther = c.wm.a === GAN[c.dg] ? c.wm.b : c.wm.a;
   $('cardWumen').innerHTML =
     '<h3>五门十变·合日互用 <span class="tag wm">夫妻穴</span></h3>' +
@@ -1022,7 +1005,6 @@ function renderOpen(){
     (c.nj ? '' : (c.njHeRi ? '本时辰已用合日之穴（见纳甲）。' : '本时辰合日亦无穴。')) + '</p>' +
     '<div class="note">五门：甲己化土、乙庚化金、丙辛化水、丁壬化木、戊癸化火。</div>';
 
-  /* 五运六气 mini */
   $('cardYunqiMini').innerHTML =
     '<h3>五运六气 <span class="tag">' + esc(c.yq.ganName + c.yq.zhiName) + '年</span></h3>' +
     '<p class="calc-line">岁运（中运）：<b>' + esc(c.yq.yun) + '运' + (c.yq.taiGuo ? '太过' : '不及') + '</b> · ' + esc(c.yq.cat) + '</p>' +
@@ -1030,7 +1012,6 @@ function renderOpen(){
     '<p class="small">当前：' + esc(c.yq.keQi[c.curStep]) + '（' + esc(ZHU_QI[c.curStep].from) + '—' + esc(ZHU_QI[c.curStep].to) + '）</p>' +
     '<div class="note">详见「五运六气」页。</div>';
 
-  /* 当日十二时辰总表 */
   const dt = dayTable(state.sel, opts);
   $('cardDayTable').innerHTML =
     '<h3>📋 ' + esc(c.dayGanziName) + '日十二时辰开穴总表 <span class="tag">提前安排下针</span></h3>' +
@@ -1047,7 +1028,6 @@ function renderOpen(){
     '<p class="note">灵龟八法显示主穴+配穴；纳甲含返本还原原穴（+穴）。<sup>*</sup>表示余5经寄宫调整。</p>';
 }
 
-/* ---------- 万年历 ---------- */
 function renderCalendar(){
   const now = new Date();
   const y = state.calY || now.getFullYear(), m = state.calM || now.getMonth();
@@ -1087,7 +1067,6 @@ function renderCalendar(){
 $('calPrev').addEventListener('click', () => { state.calM--; if (state.calM < 0){ state.calM = 11; state.calY--; } renderCalendar(); });
 $('calNext').addEventListener('click', () => { state.calM++; if (state.calM > 11){ state.calM = 0; state.calY++; } renderCalendar(); });
 
-/* ---------- 五运六气 ---------- */
 function renderYunqi(){
   const y = state.yqY || calcAll(new Date(), getOpts()).yunqiY;
   state.yqY = y;
@@ -1128,7 +1107,6 @@ $('yqPrev').addEventListener('click', () => { state.yqY--; renderYunqi(); });
 $('yqNext').addEventListener('click', () => { state.yqY++; renderYunqi(); });
 $('yqYear').addEventListener('change', e => { state.yqY = +e.target.value; renderYunqi(); });
 
-/* ---------- 五门十变页 ---------- */
 function renderWumen(){
   const c = calcAll(state.sel, getOpts());
   const wmOther = c.wm.a === GAN[c.dg] ? c.wm.b : c.wm.a;
@@ -1145,7 +1123,6 @@ function renderWumen(){
     '<div class="note">五门十变歌：甲己化土乙庚金，丙辛化水丁壬木，戊癸化火是根源。夫妻配穴互用（如甲日可取己日穴），是子午流注纳甲法「合日互用」的理论基础。</div>';
 }
 
-/* ---------- 说明页 ---------- */
 function renderAbout(){
   $('aboutContent').innerHTML =
     '<h3>📖 歌诀与算法说明</h3>' +
@@ -1168,7 +1145,6 @@ function renderAbout(){
     '<div class="note"><b>免责声明</b>：本工具仅供中医理论学习与研究参考，不构成医疗建议。针灸是医疗行为，须由具备资质的执业医师在辨证后操作。</div>';
 }
 
-/* ---------- 初始化 ---------- */
 updateSexVisibility();
 renderOpen();
 renderCalendar();
