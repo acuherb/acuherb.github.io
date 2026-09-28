@@ -1,1 +1,0 @@
-window.ATConfig={"hugoLangCodes":["zh-CN"],"hugoLangMap":{"zh-CN":"/posts/5-16-lunyinyang/"}};

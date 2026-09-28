@@ -1,1 +1,0 @@
-window.ATConfig={"hugoLangCodes":["zh-CN"],"hugoLangMap":{"zh-CN":"/posts/7-1-ba/"}};
