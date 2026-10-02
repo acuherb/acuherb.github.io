@@ -1,1 +1,0 @@
-"use strict";(()=>{document.addEventListener("DOMContentLoaded",()=>{window.config.cookieconsent&&window.cookieconsent&&window.cookieconsent.initialise(window.config.cookieconsent)},!1)})()
