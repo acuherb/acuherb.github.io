@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#665a52">
+  <title>道德经 · 阅读</title>
+  <script>
+    try {
+      if (localStorage.getItem('daodejing-theme') === 'smartisan-dark') {
+        document.documentElement.dataset.theme = 'dark';
+        document.querySelector('meta[name="theme-color"]').content = '#1b1f26';
+      }
+      if (localStorage.getItem('daodejing-locale') === 'en') {
+        document.documentElement.lang = 'en';
+      }
+    } catch {
+      // Storage may be unavailable for local files.
+    }
+  </script>
+  <style>
+    :root {
+      color-scheme: light;
+      --topbar-height: 62px;
+      --ink: #3e2f22;
+      --muted: #8f7b67;
+      --accent: #a16d36;
+      --paper: #fefcf6;
+      --sidebar: #faf6f0;
+      --topbar: #665a52;
+      --reader-size: 21px;
+      font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+      color: var(--ink);
+      background: #efe6d6;
+      font-synthesis: none;
+      text-rendering: optimizeLegibility;
+    }
+    :root[data-theme="dark"] {
+      color-scheme: dark;
+      --ink: #edf0f3;
+      --muted: #9ba2ad;
+      --accent: #d6a56f;
+      --paper: #171b21;
+      --sidebar: #161a20;
+      --topbar: #1b1f26;
+      background: #101318;
+    }
+    * { box-sizing: border-box; }
+    [hidden] { display: none !important; }
+    body { min-width: 320px; min-height: 100vh; min-height: 100dvh; margin: 0; }
+    button { font: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+    .topbar {
+      position: sticky; top: 0; z-index: 4; min-height: 62px; padding: 10px 16px;
+      display: flex; align-items: center; justify-content: space-between; gap: 12px;
+      color: #fbf6ef; background: var(--topbar); box-shadow: 0 8px 24px #1a120c29;
+    }
+    .brand { display: flex; align-items: center; gap: 12px; font-weight: 700; white-space: nowrap; }
+    .mark {
+      width: 36px; height: 36px; display: grid; place-items: center; border-radius: 50%;
+      color: #665a52; background: #f5ead8; font-family: serif; font-size: 25px;
+    }
+    .actions { display: flex; align-items: center; gap: 6px; }
+    .control {
+      min-height: 34px; padding: 0 11px; border: 1px solid #ffffff2a; border-radius: 7px;
+      color: inherit; background: #ffffff12;
+    }
+    .control:hover, .control.active { background: #ffffff2c; }
+    .skip-link {
+      position: fixed; top: 8px; left: 8px; z-index: 10; padding: 10px 14px;
+      transform: translateY(-160%); border-radius: 6px; color: #fff;
+      background: var(--accent); transition: transform .2s ease;
+    }
+    .skip-link:focus { transform: translateY(0); }
+    .mobile-only { display: none; }
+    .mobile-tools-panel { position: fixed; top: var(--topbar-height); right: 8px; z-index: 5; padding: 10px; display: flex; flex-wrap: wrap; gap: 6px; background: var(--topbar); border-radius: 8px; box-shadow: 0 8px 24px #0003; }
+    .sidebar {
+      position: fixed; top: var(--topbar-height); bottom: 0; left: 0; z-index: 3; width: 290px;
+      overflow: auto; background: var(--sidebar); border-right: 1px solid #00000012;
+    }
+    .chapter {
+      width: 100%; min-height: 56px; padding: 8px 16px; display: flex; align-items: center;
+      gap: 12px; text-align: left; color: var(--ink); background: transparent;
+      border: 0; border-bottom: 1px solid #7d4e200d;
+    }
+    .chapter:hover, .chapter.selected { background: #8a6c4512; }
+    .chapter-number {
+      width: 26px; height: 26px; display: grid; place-items: center; flex: 0 0 auto;
+      border-radius: 50%; color: var(--muted); background: #00000008; font-size: 12px;
+    }
+    .chapter.selected .chapter-number { color: var(--accent); background: #a16d3622; }
+    .chapter-copy { min-width: 0; display: grid; gap: 3px; }
+    .chapter-name { font-weight: 600; }
+    .chapter-preview {
+      overflow: hidden; color: var(--muted); font-size: 12px; white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    main { margin-left: 290px; padding: 42px 24px 64px; }
+    .sheet {
+      width: min(100%, 760px); min-height: 70vh; margin: 0 auto; padding: clamp(26px, 6vw, 64px);
+      border: 1px solid #7d4e2017; border-radius: 3px; background: var(--paper);
+      box-shadow: 0 24px 50px #59412220;
+    }
+    h1 { margin: 0 0 34px; color: var(--accent); text-align: center; font-family: serif; font-size: 28px; }
+    .section { margin: 0 0 32px; }
+    .label {
+      margin-bottom: 14px; padding-bottom: 9px; border-bottom: 1px solid #a16d3633;
+      color: var(--accent); font-size: 13px; letter-spacing: .12em;
+    }
+    .prose { font-size: var(--reader-size); line-height: 2; overflow-wrap: anywhere; }
+    .prose p { margin: 0 0 12px; }
+    .translation { color: var(--muted); font-size: calc(var(--reader-size) * .82); line-height: 1.85; }
+    .translation p { white-space: pre-line; }
+    .pager { display: flex; justify-content: space-between; gap: 12px; margin-top: 36px; }
+    .pager .control {
+      max-width: 48%; overflow: hidden; color: var(--accent); background: transparent;
+      border-color: #a16d3640; text-overflow: ellipsis; white-space: nowrap;
+    }
+    .pager .control:disabled { opacity: .45; cursor: default; }
+    .source { margin-top: 28px; color: var(--muted); text-align: center; font-size: 12px; }
+    .source a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+    .back-to-top {
+      position: fixed; right: 20px; bottom: 20px; z-index: 2;
+      color: var(--ink); background: var(--paper); border-color: #a16d3640;
+      box-shadow: 0 3px 14px #0002;
+    }
+    .back-to-top[hidden] { display: none; }
+    .backdrop { display: none; }
+    @media print {
+      .topbar, .sidebar, .pager, .backdrop, .mobile-tools-panel, .back-to-top, .skip-link { display: none !important; }
+      main { margin: 0; padding: 0; }
+      .sheet { width: 100%; min-height: 0; padding: 0; border: 0; box-shadow: none; }
+      .source a { text-decoration: none; }
+      .source a::after { content: " (" attr(href) ")"; font-size: 10px; }
+      body, :root { color: #000; background: #fff; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
+    }
+    @media (max-width: 760px) {
+      :root { --topbar-height: 56px; }
+      .topbar { min-height: var(--topbar-height); padding: 8px 10px; }
+      .brand { gap: 8px; }
+      .mark { width: 32px; height: 32px; }
+      .control { min-height: 32px; padding: 0 9px; }
+      .desktop-control { display: none; }
+      .mobile-only { display: inline-flex; }
+      .sidebar {
+        top: 56px; width: min(84vw, 320px); transform: translateX(-105%);
+        transition: transform .25s ease;
+      }
+      .sidebar.open { transform: translateX(0); }
+      .backdrop {
+        position: fixed; inset: 56px 0 0; z-index: 2; display: block;
+        background: #0008; opacity: 0; pointer-events: none; transition: opacity .2s;
+      }
+      .backdrop.visible { opacity: 1; pointer-events: auto; }
+      main { margin-left: 0; padding: 18px 10px 36px; }
+      .sheet { min-height: calc(100vh - 92px); min-height: calc(100dvh - 92px); padding: 30px 22px; }
+      h1 { margin-bottom: 28px; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" id="skipLink" href="#mainContent">跳到主内容</a>
+  <header class="topbar" id="topbar">
+    <div class="brand">
+      <button class="control mobile-only" id="menuButton" type="button" aria-controls="sidebar" aria-expanded="false">目录</button>
+      <span class="mark" aria-hidden="true">☯</span>
+      <span id="brandTitle">道德经</span>
+    </div>
+    <div class="actions">
+      <button class="control desktop-control" id="zhButton" type="button">中文</button>
+      <button class="control desktop-control" id="enButton" type="button">English</button>
+      <button class="control desktop-control" id="smaller" type="button" aria-label="缩小字号">A−</button>
+      <button class="control desktop-control" id="larger" type="button" aria-label="放大字号">A+</button>
+      <button class="control mobile-only" id="toolsButton" type="button" aria-controls="mobileToolsPanel" aria-expanded="false">更多</button>
+      <button class="control" id="themeButton" type="button" aria-label="切换到深色主题">☾</button>
+    </div>
+  </header>
+  <div class="mobile-tools-panel" id="mobileToolsPanel" hidden>
+    <button class="control" id="mobileSmaller" type="button" aria-label="缩小字号">A−</button>
+    <button class="control" id="mobileLarger" type="button" aria-label="放大字号">A+</button>
+    <button class="control" id="mobileZh" type="button">中文</button>
+    <button class="control" id="mobileEn" type="button">English</button>
+  </div>
+  <div class="backdrop" id="backdrop"></div>
+  <aside class="sidebar" id="sidebar" aria-label="道德经章节导航"></aside>
+  <main id="mainContent" tabindex="-1">
+    <article class="sheet">
+      <h1 id="chapterTitle" tabindex="-1">第一章</h1>
+      <section class="section">
+        <div class="label" id="originalLabel">原文</div>
+        <div class="prose" id="originalText"></div>
+      </section>
+      <section class="section">
+        <div class="label" id="translationLabel">译文</div>
+        <div class="prose translation" id="translationText"></div>
+      </section>
+      <nav class="pager" aria-label="章节切换">
+        <button class="control" id="previous" type="button"></button>
+        <button class="control" id="next" type="button"></button>
+      </nav>
+      <footer class="source">
+        <span id="sourceText"></span>
+        <a id="chapterSource" target="_blank" rel="noreferrer"></a>
+      </footer>
+    </article>
+  </main>
+  <button class="control back-to-top" id="backToTop" type="button" aria-label="返回顶部" hidden>↑</button>
+  <script>
+    const chapters = [{"id":1,"chapter":"第一章","title":"第1章","original":"道可道也①，非恒道也②。名可名也③，非恒名也。无名④，万物之始也；有名⑤，万物之母也⑥。故恒无欲也⑦，以观其眇⑧；恒有欲也，以观其所徼⑨。两者同出，异名同谓⑩。玄之又玄⑾，众眇之门⑿。","translation":"“道”如果可以用言语来表述，那它就是常“道”(“道”是可以用言语来表述的，它并非一般的“道”)；“名”如果可以用文辞去命名，那它就是常“名”(“名”也是可以说明的，它并非普通的“名”)。“无”可以用来表述天地浑沌未开之际的状况；而“有”，则是宇宙万物产生之本原的命名。因此，要常从“无”中去观察领悟“道”的奥妙；要常从“有”中去观察体会“道”的端倪。无与有这两者，来源相同而名称相异，都可以称之为玄妙、深远。它不是一般的玄妙、深奥，而是玄妙又玄妙、深远又深远，是宇宙天地万物之奥妙的总门(从“有名”的奥妙到达无形的奥妙，“道”是洞悉一切奥妙变化的门径)。","sourceUrl":"https://daodejing.org/1.html","english":"The tao that can be told\nis not the eternal Tao\nThe name that can be named\nis not the eternal Name.\nThe unnamable is the eternally real.\nNaming is the origin\nof all particular things.\nFree from desire, you realize the mystery.\nCaught in desire, you see only the manifestations.\nYet mystery and manifestations\narise from the same source.\nThis source is called darkness.\nDarkness within darkness.\nThe gateway to all understanding."},{"id":2,"chapter":"第二章","title":"第2章","original":"天下皆知美之为美，恶已①；皆知善，斯不善矣②。有无之相生也③，难易之相成也，长短之相刑也④，高下之相盈也⑤，音声之相和也⑥，先后之相随，恒也。是以圣人居无为之事⑦，行不言之教，万物作而弗始也⑧，为而弗志也⑨，成功而弗居也。夫唯弗居，是以弗去。","translation":"天下人都知道美之所以为美，那是由于有丑陋的存在。都知道善之所以为善，那是因为有恶的存在。所以有和无互相转化，难和易互相形成，长和短互相显现，高和下互相充实，音与声互相谐和，前和后互相接随——这是永恒的。因此圣人用无为的观点对待世事，用不言的方式施行教化：听任万物自然兴起而不为其创始，有所施为，但不加自己的倾向，功成业就而不自居。正由于不居功，就无所谓失去。","sourceUrl":"https://daodejing.org/2.html","english":"When people see some things as beautiful,\nother things become ugly.\nWhen people see some things as good,\nother things become bad.\nBeing and non-being create each other.\nDifficult and easy support each other.\nLong and short define each other.\nHigh and low depend on each other.\nBefore and after follow each other.\nTherefore the Master\nacts without doing anything\nand teaches without saying anything.\nThings arise and she lets them come;\nthings disappear and she lets them go.\nShe has but doesn't possess,\nacts but doesn't expect.\nWhen her work is done, she forgets it.\nThat is why it lasts forever."},{"id":3,"chapter":"第三章","title":"第3章","original":"不上贤①，使民不争；不贵难得之货②，使民不为盗③；不见可欲④，使民不乱。是以圣人之治也，虚其心⑤，实其腹，弱其志⑥，强其骨，恒使民无知、无欲也。使夫知不敢⑦、弗为而已⑧，则无不治矣⑨。","translation":"不推崇有才德的人，导使老百姓不互相争夺；不珍爱难得的财物，导使老百姓不去偷窃；不显耀足以引起贪心的事物，导使民心不被迷乱。因此，圣人的治理原则是：排空百姓的心机，填饱百姓的肚腹，减弱百姓的竞争意图，增强百姓的筋骨体魄，经常使老百姓没有智巧，没有欲望。致使那些有才智的人也不敢妄为造事。圣人按照“无为”的原则去做，办事顺应自然，那么，天才就不会不太平了。","sourceUrl":"https://daodejing.org/3.html","english":"If you overesteem great men,\npeople become powerless.\nIf you overvalue possessions,\npeople begin to steal.\nThe Master leads\nby emptying people's minds\nand filling their cores,\nby weakening their ambition\nand toughening their resolve.\nHe helps people lose everything\nthey know, everything they desire,\nand creates confusion\nin those who think that they know.\nPractice not-doing,\nand everything will fall into place."},{"id":4,"chapter":"第四章","title":"第4章","original":"道冲①，而用之有弗盈也②。渊呵③！似万物之宗④。锉其兑⑤，解其纷⑥，和其光⑦，同其尘⑧。湛呵⑨！似或存⑩。吾不知其谁之子，象帝之先⑾。","translation":"大“道”空虚开形，但它的作用又是无穷无尽。深远啊！它好象万物的祖宗。消磨它的锋锐，消除它的纷扰，调和它的光辉，混同于尘垢。隐没不见啊，又好象实际存在。我不知道它是谁的后代，似乎是天帝的祖先。","sourceUrl":"https://daodejing.org/4.html","english":"The Tao is like a well:\nused but never used up.\nIt is like the eternal void:\nfilled with infinite possibilities.\nIt is hidden but always present.\nI don't know who gave birth to it.\nIt is older than God."},{"id":5,"chapter":"第五章","title":"第5章","original":"天地不仁，以万物为刍狗①；圣人不仁，以百姓为刍狗。天地之间，其犹橐龠乎②？虚而不屈③，动而俞出④。多闻数穷⑤，不若守于中⑥。","translation":"天地是无所谓仁慈的，它没有仁爱，对待万事万物就像对待刍狗一样，任凭万物自生自灭。圣人也是没有仁受的，也同样像刍狗那样对待百姓，任凭人们自作自息。天地之间，岂不像个风箱一样吗？它空虚而不枯竭，越鼓动风就越多，生生不息。政令繁多反而更加使人困惑，更行不通，不如保持虚静。","sourceUrl":"https://daodejing.org/5.html","english":"The Tao doesn't take sides;\nit gives birth to both good and evil.\nThe Master doesn't take sides;\nshe welcomes both saints and sinners.\nThe Tao is like a bellows:\nit is empty yet infinitely capable.\nThe more you use it, the more it produces;\nthe more you talk of it, the less you understand.\nHold on to the center."},{"id":6,"chapter":"第六章","title":"第6章","original":"谷神不死①，是谓玄牝②。玄牝之门③，是谓天地之根。绵绵呵④！其若存⑤！用之不堇⑥。","translation":"生养天地万物的道（谷神）是永恒长存的，这叫做玄妙的母性。玄妙母体的生育之产门，这就是天地的根本。连绵不绝啊！它就是这样不断的永存，作用是无穷无尽的。","sourceUrl":"https://daodejing.org/6.html","english":"The Tao is called the Great Mother:\nempty yet inexhaustible,\nit gives birth to infinite worlds.\nIt is always present within you.\nYou can use it any way you want."},{"id":7,"chapter":"第七章","title":"第7章","original":"天长，地久①。天地之所以能长且久者，以其不自生也②，故能长生。是以圣人后其身而身先③，外其身而身存④，非以其无私邪⑤？故能成其私。","translation":"天长地久，天地所以能长久存在，是因为它们不为了自己的生存而自然地运行着，所以能够长久生存。因此，有道的圣人遇事谦退无争，反而能在众人之中领先；将自己置于度外，反而能保全自身生存。这不正是因为他无私吗？所以能成就他的自身。","sourceUrl":"https://daodejing.org/7.html","english":"The Tao is infinite, eternal.\nWhy is it eternal?\nIt was never born;\nthus it can never die.\nWhy is it infinite?\nIt has no desires for itself;\nthus it is present for all beings.\nThe Master stays behind;\nthat is why she is ahead.\nShe is detached from all things;\nthat is why she is one with them.\nBecause she has let go of herself,\nshe is perfectly fulfilled."},{"id":8,"chapter":"第八章","title":"第8章","original":"上善若水①。水善利万物而不争，处众人之所恶②，故几于道③。居，善地；心，善渊④；与，善仁⑤；言，善信；政，善治⑥；事，善能；动，善时⑦。夫唯不争，故无尤⑧。","translation":"最善的人好像水一样。水善于滋润万物而不与万物相争，停留在众人都不喜欢的地方，所以最接近于“道”。最善的人，居处最善于选择地方，心胸善于保持沉静而深不可测，待人善于真诚、友爱和无私，说话善于格守信用，为政善于精简处理，能把国家治理好，处事能够善于发挥所长，行动善于把握时机。最善的人所作所为正因为有不争的美德，所以没有过失，也就没有怨咎。","sourceUrl":"https://daodejing.org/8.html","english":"The supreme good is like water,\nwhich nourishes all things without trying to.\nIt is content with the low places that people disdain.\nThus it is like the Tao.\nIn dwelling, live close to the ground.\nIn thinking, keep to the simple.\nIn conflict, be fair and generous.\nIn governing, don't try to control.\nIn work, do what you enjoy.\nIn family life, be completely present.\nWhen you are content to be simply yourself\nand don't compare or compete,\neverybody will respect you."},{"id":9,"chapter":"第九章","title":"第9章","original":"持而盈之①，不如其已②；揣而锐之③，不可长保④。金玉满堂，莫之能守；富贵而骄，自遗其咎⑤。功成身退⑥，天之道也⑦。","translation":"执持盈满，不如适时停止；显露锋芒，锐势难以保持长久。金玉满堂，无法守藏；如果富贵到了骄横的程度，那是自己留下了祸根。一件事情做的圆满了，就要含藏收敛，这是符合自然规律的道理。","sourceUrl":"https://daodejing.org/9.html","english":"Fill your bowl to the brim\nand it will spill.\nKeep sharpening your knife\nand it will blunt.\nChase after money and security\nand your heart will never unclench.\nCare about people's approval\nand you will be their prisoner.\nDo your work, then step back.\nThe only path to serenity."},{"id":10,"chapter":"第十章","title":"第10章","original":"载营魄抱一①，能无离乎？专气致柔②，能如婴儿乎③？涤除玄鉴④，能无疵乎？爱民治国，能无为乎⑤？天门开阖⑥，能为雌乎⑦？明白四达，能无知乎⑧？生之畜之⑨，生而不有，为而不恃，长而不宰，是谓玄德⑩。","translation":"精神和形体合一，能不分离吗？聚结精气以致柔和温顺，能像婴儿的无欲状态吗？清除杂念而深入观察心 灵，能没有瑕疵吗？爱民治国能遵行自然无为的规律吗？感官与外界的对立变化相接触，能宁静吧？明白四达，能不用心机吗？让万事万物生长繁殖，产生万物、养育万物而不占为己有，作万物之长而不主宰他们，这就叫做“玄德”。","sourceUrl":"https://daodejing.org/10.html","english":"Can you coax your mind from its wandering\nand keep to the original oneness?\nCan you let your body become\nsupple as a newborn child's?\nCan you cleanse your inner vision\nuntil you see nothing but the light?\nCan you love people and lead them\nwithout imposing your will?\nCan you deal with the most vital matters\nby letting events take their course?\nCan you step back from you own mind\nand thus understand all things? Giving birth and nourishing,\nhaving without possessing,\nacting with no expectations,\nleading and not trying to control:\nthis is the supreme virtue."},{"id":11,"chapter":"第十一章","title":"第11章","original":"三十辐①共一毂②，当其无，有车之用③。埏埴以为器④，当其无，有器之用。凿户牖以为室⑤，当其无，有室之用。故有之以为利，无之以为用⑥。","translation":"三十根辐条汇集到一根毂中的孔洞当中，有了车毂中空的地方，才有车的作用。揉和陶土做成器皿，有了器具中空的地方，才有器皿的作用。开凿门窗建造房屋，有了门窗四壁内的空虚部分，才有房屋的作用。所以，“有”给人便利，“无”发挥了它的作用。","sourceUrl":"https://daodejing.org/11.html","english":"We join spokes together in a wheel,\nbut it is the center hole\nthat makes the wagon move.\nWe shape clay into a pot,\nbut it is the emptiness inside\nthat holds whatever we want.\nWe hammer wood for a house,\nbut it is the inner space\nthat makes it livable.\nWe work with being,\nbut non-being is what we use."},{"id":12,"chapter":"第十二章","title":"第12章","original":"五色①令人目盲②；五音③令人耳聋④；五味⑤令人口爽⑥；驰骋⑦畋猎⑧，令人心发狂⑨；难得之货，令人行妨⑩；是以圣人为腹不为目⑾，故去彼取此⑿。","translation":"缤纷的色彩，使人眼花缭乱；嘈杂的音调，使人听觉失灵；丰盛的食物，使人舌不知味；纵情狩猎，使人心情放荡发狂；稀有的物品，使人行为不轨。因此，圣人但求吃饱肚子而不追逐声色之娱，所以摒弃物欲的诱惑而保持安定知足的生活方式。","sourceUrl":"https://daodejing.org/12.html","english":"Colors blind the eye.\nSounds deafen the ear.\nFlavors numb the taste.\nThoughts weaken the mind.\nDesires wither the heart.\nThe Master observes the world\nbut trusts his inner vision.\nHe allows things to come and go.\nHis heart is open as the sky."},{"id":13,"chapter":"第十三章","title":"第13章","original":"宠辱若惊①，贵大患若身②。何谓宠辱若惊？宠为下③，得之若惊，失之若惊，是谓宠辱若惊。何谓贵大患若身？吾所以有大患者，为吾有身，及吾无身，吾有何患④？故贵以身为天下，若可寄天下；爱以身为天下，若可托天下⑤。","translation":"受到宠爱和受到侮辱都好像受到惊恐，把荣辱这样的大患看得与自身生命一样珍贵。什么叫做得宠和受辱都感到惊慌失措？得宠是卑下的，得到宠爱感到格外惊喜，失去宠爱则令人惊慌不安。这就叫做得宠和受辱都感到惊恐。什么叫做重视大患像重视自身生命一样？我之所以有大患，是因为我有身体；如果我没有身体，我还会有什么祸患呢？所以，珍贵自己的身体是为了治理天下，天下就可以托付他；爱惜自己的身体是为了治理天下，天下就可以依靠他了。","sourceUrl":"https://daodejing.org/13.html","english":"Success is as dangerous as failure.\nHope is as hollow as fear.\nWhat does it mean that success is a dangerous as failure?\nWhether you go up the ladder or down it,\nyour position is shaky.\nWhen you stand with your two feet on the ground,\nyou will always keep your balance.\nWhat does it mean that hope is as hollow as fear?\nHope and fear are both phantoms\nthat arise from thinking of the self.\nWhen we don't see the self as self,\nwhat do we have to fear? See the world as your self.\nHave faith in the way things are.\nLove the world as your self;\nthen you can care for all things."},{"id":14,"chapter":"第十四章","title":"第14章","original":"视而不见，名曰夷①；听之不闻，名曰希②；搏之不得，名曰微③。此三者不可致诘④，故混而为一⑤。其上不皦⑥，其下不昧⑦，绳绳兮⑧不可名，复归于无物⑨。是谓无状之状，无物之象，是谓惚恍⑩。迎之不见其首，随之不见其后。执古之道，以御今之有⑾。能知古始，是谓道纪⑿。","translation":"看它看不见，把它叫做“夷”；听它听不到，把它叫做“希”；摸它摸不到，把它叫做“微”。这三者的形状无从追究，它们原本就浑然而为一。它的上面既不显得光明亮堂；它的下面也不显得阴暗晦涩，无头无绪、延绵不绝却又不可称名，一切运动都又回复到无形无象的状态。这就是没有形状的形状，不见物体的形象，这就是“惚恍”。迎着它，看不见它的前头，跟着它，也看不见它的后头。把握着早已存在的“道”，来驾驭现实存在的具体事物。能认识、了解宇宙的初始，这就叫做认识“道”的规律。","sourceUrl":"https://daodejing.org/14.html","english":"Look, and it can't be seen.\nListen, and it can't be heard.\nReach, and it can't be grasped.\nAbove, it isn't bright.\nBelow, it isn't dark.\nSeamless, unnamable,\nit returns to the realm of nothing.\nForm that includes all forms,\nimage without an image,\nsubtle, beyond all conception.\nApproach it and there is no beginning;\nfollow it and there is no end.\nYou can't know it, but you can be it,\nat ease in your own life.\nJust realize where you come from:\nthis is the essence of wisdom."},{"id":15,"chapter":"第十五章","title":"第15章","original":"古之善为道者①，微妙玄通，深不可识。夫唯不可识，故强为之容②；豫兮③若冬涉川④；犹兮⑤若畏四邻⑥；俨兮⑦其若客⑧；涣兮其若凌释⑨；敦兮其若朴⑩；旷兮其若谷⑾；混兮其若浊⑿；孰能浊⒀以静之徐清？孰能安⒁以静之徐生？保此道者，不欲盈⒂。夫唯不盈，故能蔽而新成⒃。","translation":"古时候善于行道的人，微妙通达，深刻玄远，不是一般人可以理解的。正因为不能认识他，所以只能勉强地形容他说：他小心谨慎啊，好像冬天踩着水过河；他警觉戒备啊，好像防备着邻国的进攻；他恭敬郑重啊，好像要去赴宴做客；他行动洒脱啊，好像冰块缓缓消融；他纯朴厚道啊，好像没有经过加工的原料；他旷远豁达啊，好像深幽的山谷；他浑厚宽容，好像不清的浊水。谁能使浑浊安静下来，慢慢澄清？谁能使安静变动起来，慢慢显出生机？保持这个“道”的人不会自满。正因为他从不自满，所以能够去故更新。","sourceUrl":"https://daodejing.org/15.html","english":"The ancient Masters were profound and subtle.\nTheir wisdom was unfathomable.\nThere is no way to describe it;\nall we can describe is their appearance.\nThey were careful\nas someone crossing an iced-over stream.\nAlert as a warrior in enemy territory.\nCourteous as a guest.\nFluid as melting ice.\nShapable as a block of wood.\nReceptive as a valley.\nClear as a glass of water.\nDo you have the patience to wait\ntill your mud settles and the water is clear?\nCan you remain unmoving\ntill the right action arises by itself? The Master doesn't seek fulfillment.\nNot seeking, not expecting,\nshe is present, and can welcome all things."},{"id":16,"chapter":"第十六章","title":"第16章","original":"致虚极，守静笃①；万物并作②，吾以观复③。夫物芸芸④，各复归其根。归根⑤曰静，静曰⑥复命⑦。复命曰常⑧，知常曰明⑨。不知常，妄作凶。知常容⑩，容乃公，公乃全⑾，全乃天⑿，天乃道，道乃久，没身不殆。","translation":"尽力使心灵的虚寂达到极点，使生活清静坚守不变。万物都一齐蓬勃生长，我从而考察其往复的道理。那万物纷纷芸芸，各自返回它的本根。返回到它的本根就叫做清静，清静就叫做复归于生命。复归于生命就叫自然，认识了自然规律就叫做聪明，不认识自然规律的轻妄举止，往往会出乱子和灾凶。认识自然规律的人是无所不包的，无所不包就会坦然公正，公正就能周全，周全才能符合自然的“道”，符合自然的道才能长久，终身不会遭到危险。","sourceUrl":"https://daodejing.org/16.html","english":"Empty your mind of all thoughts.\nLet your heart be at peace.\nWatch the turmoil of beings,\nbut contemplate their return.\nEach separate being in the universe\nreturns to the common source.\nReturning to the source is serenity.\nIf you don't realize the source,\nyou stumble in confusion and sorrow.\nWhen you realize where you come from,\nyou naturally become tolerant,\ndisinterested, amused,\nkindhearted as a grandmother,\ndignified as a king.\nImmersed in the wonder of the Tao,\nyou can deal with whatever life brings you,\nand when death comes, you are ready."},{"id":17,"chapter":"第十七章","title":"第17章","original":"太上①，不知有之②；其次，亲而誉之；其次，畏之；其次，侮之。信不足焉，有不信焉。悠兮③，其贵言④。功成事遂，百姓皆谓“我自然”⑤。","translation":"最好的统治者，人民并不知道他的存在；其次的统治者，人民亲近他并且称赞他；再次的统治者，人民畏惧他；更次的统治者，人民轻蔑他。统治者的诚信不足，人民才不相信他，最好的统治者是多么悠闲。他很少发号施令，事情办成功了，老百姓说“我们本来就是这样的。”","sourceUrl":"https://daodejing.org/17.html","english":"When the Master governs, the people\nare hardly aware that he exists.\nNext best is a leader who is loved.\nNext, one who is feared.\nThe worst is one who is despised.\nIf you don't trust the people,\nyou make them untrustworthy.\nThe Master doesn't talk, he acts.\nWhen his work is done,\nthe people say, \"Amazing: we did it, all by ourselves!\""},{"id":18,"chapter":"第十八章","title":"第18章","original":"大道废①，有仁义；智慧出②，有大伪；六亲不和③，有孝慈④；国家昏乱，有忠臣。","translation":"大道被废弃了，才有提倡仁义的需要；聪明智巧的现象出现了，伪诈才盛行一时；家庭出现了纠纷，才能显示出孝与慈；国家陷于混乱，才能见出忠臣。","sourceUrl":"https://daodejing.org/18.html","english":"When the great Tao is forgotten,\ngoodness and piety appear.\nWhen the body's intelligence declines,\ncleverness and knowledge step forth.\nWhen there is no peace in the family,\nfilial piety begins.\nWhen the country falls into chaos,\npatriotism is born."},{"id":19,"chapter":"第十九章","title":"第19章","original":"绝圣弃智①，民利百倍；绝仁弃义，民复孝慈；绝巧弃利，盗贼无有。此三者②以为文③不足，故令有所属④；见素抱朴⑤，少私寡欲；绝学无忧⑥。","translation":"抛弃聪明智巧，人民可以得到百倍的好处；抛弃仁义，人民可以恢复孝慈的天性；抛弃巧诈和货利，盗贼也就没有了。圣智、仁义、巧利这三者全是巧饰，作为治理社会病态的法则是不够的，所以要使人们的思想认识有所归属，保持纯洁朴实的本性，减少私欲杂念，抛弃圣智礼法的浮文，才能免于忧患。","sourceUrl":"https://daodejing.org/19.html","english":"Throw away holiness and wisdom,\nand people will be a hundred times happier.\nThrow away morality and justice,\nand people will do the right thing.\nThrow away industry and profit,\nand there won't be any thieves.\nIf these three aren't enough,\njust stay at the center of the circle\nand let all things take their course."},{"id":20,"chapter":"第二十章","title":"第20章","original":"唯之与阿①，相去几何？美之与恶②，相去若何？人之所畏③，不可不畏。荒兮④，其未央哉⑤！众人熙熙⑥，如享太牢⑦，如春登台⑧。我⑨独泊兮⑩，其未兆⑾；沌沌兮⑿，如婴儿之未孩⒀；傫傫兮⒁，若无所归。众人皆有余⒂，而我独若遗⒃。我愚人之心也哉⒄！俗人昭昭⒅，我独昏昏⒆。俗人察察⒇，我独闷闷[21]。澹兮[22]，其若海；飂兮[23]，若无止。众人皆有以[24]，而我独顽且鄙[25]。我独异于人，而贵食母[26]。","translation":"应诺和呵斥，相距有多远？美好和丑恶，又相差多少？人们所畏惧的，不能不畏惧。这风气从远古以来就是如此，好像没有尽头的样子。众人都熙熙攘攘、兴高采烈，如同去参加盛大的宴席，如同春天里登台眺望美景。而我却独自淡泊宁静，无动于衷。混混沌沌啊，如同婴儿还不会发出嘻笑声。疲倦闲散啊，好像浪子还没有归宿。众人都有所剩余，而我却像什么也不足。我真是只有一颗愚人的心啊！众人光辉自炫，唯独我迷迷糊糊；众人都那么严厉苛刻，唯独我这样淳厚宽宏。恍惚啊，像大海汹涌；恍惚啊，像飘泊无处停留。世人都精明灵巧有本领，唯独我愚昧而笨拙。我唯独与人不同的，关键在于得到了“道”。","sourceUrl":"https://daodejing.org/20.html","english":"Stop thinking, and end your problems.\nWhat difference between yes and no?\nWhat difference between success and failure?\nMust you value what others value,\navoid what others avoid?\nHow ridiculous! Other people are excited,\nas though they were at a parade.\nI alone don't care,\nI alone am expressionless,\nlike an infant before it can smile.\nOther people have what they need;\nI alone possess nothing.\nI alone drift about,\nlike someone without a home.\nI am like an idiot, my mind is so empty.\nOther people are bright;\nI alone am dark.\nOther people are sharper;\nI alone am dull.\nOther people have a purpose;\nI alone don't know.\nI drift like a wave on the ocean,\nI blow as aimless as the wind.\nI am different from ordinary people.\nI drink from the Great Mother's breasts."},{"id":21,"chapter":"第二十一章","title":"第21章","original":"孔①德②之容③，惟道是从。道之为物，惟恍惟惚④。惚兮恍兮，其中有象⑤；恍兮惚兮，其中有物；窈兮冥兮⑥，其中有精⑦，其精甚真⑧，其中有信⑨，自今及古⑩，其名不去，以阅众甫⑾。吾何以知众甫之状哉？以此⑿。","translation":"大德的形态，是由道所决定的。“道”这个东西，没有清楚的固定实体。它是那样的恍恍惚惚啊，其中却有形象。它是那样的恍恍惚惚啊，其中却有实物。它是那样的深远暗昧啊，其中却有精质；这精质是最真实的，这精质是可以信验的。从当今上溯到古代，它的名字永远不能废除，依据它，才能观察万物的初始。我怎么才能知道万事万物开始的情况呢？是从“道”认识的。","sourceUrl":"https://daodejing.org/21.html","english":"The Master keeps her mind\nalways at one with the Tao;\nthat is what gives her her radiance.\nThe Tao is ungraspable.\nHow can her mind be at one with it?\nBecause she doesn't cling to ideas.\nThe Tao is dark and unfathomable.\nHow can it make her radiant?\nBecause she lets it.\nSince before time and space were,\nthe Tao is.\nIt is beyond is and is not.\nHow do I know this is true?\nI look inside myself and see."},{"id":22,"chapter":"第二十二章","title":"第22章","original":"曲则全，枉①则直，洼则盈，敝②则新，少则得，多则惑。是以圣人抱一③为天下式④。不自见⑤，故明⑥；不自是，故彰，不自伐⑦，故有功；不自矜，故长。夫唯不争，故天下莫能与之争。古之所谓\"曲则全\"者，岂虚言哉？诚全而归之。","translation":"委曲便会保全，屈枉便会直伸；低洼便会充盈，陈旧便会更新；少取便会获得，贪多便会迷惑。所以有道的人坚守这一原则作为天下事理的范式，不自我表扬，反能显明；不自以为是，反能是非彰明；不自己夸耀，反能得有功劳；不自我矜持，所以才能长久。正因为不与人争，所以遍天下没有人能与他争。古时所谓“委曲便会保全”的话，怎么会是空话呢？它实实在在能够达到。","sourceUrl":"https://daodejing.org/22.html","english":"If you want to become whole,\nlet yourself be partial.\nIf you want to become straight,\nlet yourself be crooked.\nIf you want to become full,\nlet yourself be empty.\nIf you want to be reborn,\nlet yourself die.\nIf you want to be given everything,\ngive everything up.\nThe Master, by residing in the Tao,\nsets an example for all beings.\nBecause he doesn't display himself,\npeople can see his light.\nBecause he has nothing to prove,\npeople can trust his words.\nBecause he doesn't know who he is,\npeople recognize themselves in him.\nBecause he has no goad in mind,\neverything he does succeeds.\nWhen the ancient Masters said,\n\"If you want to be given everything, give everything up,\"\nthey weren't using empty phrases.\nOnly in being lived by the Tao can you be truly yourself."},{"id":23,"chapter":"第二十三章","title":"第23章","original":"希言自然①。故飘风②不终朝，骤雨③不终日，孰为此者？天地。天地尚不能久，而况于人乎？故从事于道者同于道④；德者同于德；失者同于失⑤。同于道者，道亦乐得之；同于德者，德亦乐得之；同于失者，失亦乐得之。信不足焉，有不信焉！","translation":"不言政令不扰民是合乎于自然的。狂风刮不了一个早晨，暴雨下不了一整天。谁使它这样的呢？天地。天地的狂暴尚且不能长久，更何况是人呢？所以，从事于道的就同于道，从事于德的就同于德，从事于失的人就同于失。同于道的人，道也乐于得到他；同于德的人，德也乐于得到他；同于失的人，失也乐于得到他。统治者的诚信不足，就会有人不信任。","sourceUrl":"https://daodejing.org/23.html","english":"Express yourself completely,\nthen keep quiet.\nBe like the forces of nature:\nwhen it blows, there is only wind;\nwhen it rains, there is only rain;\nwhen the clouds pass, the sun shines through.\nIf you open yourself to the Tao,\nyou are at one with the Tao\nand you can embody it completely.\nIf you open yourself to insight,\nyou are at one with insight\nand you can use it completely.\nIf you open yourself to loss,\nyou are at one with loss\nand you can accept it completely.\nOpen yourself to the Tao,\nthen trust your natural responses;\nand everything will fall into place."},{"id":24,"chapter":"第二十四章","title":"第24章","original":"企①者不立，跨②者不行；自见者不明；自是者不彰；自伐者无功；自矜者不长。其在道也，曰余食赘形③。物或恶之，故有道者不处。","translation":"踮起脚跟想要站得高，反而站立不住；迈起大步想要前进得快，反而不能远行。自逞已见的反而得不到彰明；自以为是的反而得不到显昭；自我夸耀的建立不起功勋；自高自大的不能做众人之长。从道的角度看，以上这些急躁炫耀的行为，只能说是剩饭赘瘤。因为它们是令人厌恶的东西，所以有道的人决不这样做。","sourceUrl":"https://daodejing.org/24.html","english":"He who stands on tiptoe\ndoesn't stand firm.\nHe who rushes ahead\ndoesn't go far.\nHe who tries to shine\ndims his own light.\nHe who defines himself\ncan't know who he really is.\nHe who has power over others\ncan't empower himself.\nHe who clings to his work\nwill create nothing that endures.\nIf you want to accord with the Tao, just do your job, then let go."},{"id":25,"chapter":"第二十五章","title":"第25章","original":"有物混成①，先天地生。寂兮寥兮②，独立而不改③，周行而不殆④，可以为天地母⑤。吾不知其名，强字之曰：道⑥，强为之名曰：大⑦。大曰逝⑧，逝曰远，远曰反⑨。故道大，天大，地大，人亦大⑩。域中⑾有四大，而人居其一焉。人法地，地法天，天法道，道法自然⑿。","translation":"有一个东西混然而成，在天地形成以前就已经存在。听不到它的声音也看不见它的形体，寂静而空虚，不依靠任何外力而独立长存永不停息，循环运行而永不衰竭，可以作为万物的根本。我不知道它的名字，所以勉强把它叫做“道”，再勉强给它起个名字叫做“大”。它广大无边而运行不息，运行不息而伸展遥远，伸展遥远而又返回本原。所以说道大、天大、地大、人也大。宇宙间有四大，而人居其中之一。人取法地，地取法天，天取法“道”，而道纯任自然。","sourceUrl":"https://daodejing.org/25.html","english":"There was something formless and perfect\nbefore the universe was born.\nIt is serene.\nEmpty.\nSolitary.\nUnchanging.\nInfinite.\nEternally present.\nIt is the mother of the universe.\nFor lack of a better name,\nI call it the Tao.\nIt flows through all things,\ninside and outside, and returns\nto the origin of all things.\nThe Tao is great.\nThe universe is great.\nEarth is great.\nMan is great.\nThese are the four great powers.\nMan follows the earth.\nEarth follows the universe.\nThe universe follows the Tao.\nThe Tao follows only itself."},{"id":26,"chapter":"第二十六章","title":"第26章","original":"重为轻根，静为躁君①。是以君子②终日行不离辎重③，虽有荣观④，燕处⑤超然。奈何万乘之主⑥，而以身轻天下⑦？轻则失根⑧，躁则失君。","translation":"厚重是轻率的根本，静定是躁动的主宰。因此君子终日行走，不离开载装行李的车辆，虽然有美食胜景吸引着他，却能安然处之。为什么大国的君主，还要轻率躁动以治天下呢？轻率就会失去根本；急躁就会丧失主导。","sourceUrl":"https://daodejing.org/26.html","english":"The heavy is the root of the light.\nThe unmoved is the source of all movement.\nThus the Master travels all day\nwithout leaving home.\nHowever splendid the views,\nshe stays serenely in herself.\nWhy should the lord of the country\nflit about like a fool?\nIf you let yourself be blown to and fro,\nyou lose touch with your root.\nIf you let restlessness move you,\nyou lose touch with who you are."},{"id":27,"chapter":"第二十七章","title":"第27章","original":"善行，无辙迹①；善言②，无瑕谪③；善数④，不用筹策⑤；善闭，无关楗而不可开⑥；善结，无绳约而不可解⑦。是以圣人常善救人，故无弃人；常善救物，故无弃物。是谓袭明⑧。故善人者，不善人之师；不善人者，善人之资⑨。不贵其师，不爱其资，虽智大迷，是谓要妙⑩。","translation":"善于行走的，不会留下辙迹；善于言谈的，不会发生病疵；善于计数的，用不着竹码子；善于关闭的，不用栓梢而使人不能打开；善于捆缚的，不用绳索而使人不能解开。因此，圣人经常挽救人，所以没有被遗弃的人；经常善于物尽其用，所以没有被废弃的物品。这就叫做内藏着的聪明智慧。所以善人可以做为恶人们的老师，不善人可以作为善人的借鉴。不尊重自己的老师，不爱惜他的借鉴作用，虽然自以为聪明，其实是大大的糊涂。这就是精深微妙的道理。","sourceUrl":"https://daodejing.org/27.html","english":"A good traveler has no fixed plans\nand is not intent upon arriving.\nA good artist lets his intuition\nlead him wherever it wants.\nA good scientist has freed himself of concepts\nand keeps his mind open to what is.\nThus the Master is available to all people\nand doesn't reject anyone.\nHe is ready to use all situations\nand doesn't waste anything.\nThis is called embodying the light.\nWhat is a good man but a bad man's teacher?\nWhat is a bad man but a good man's job?\nIf you don't understand this, you will get lost,\nhowever intelligent you are.\nIt is the great secret."},{"id":28,"chapter":"第二十八章","title":"第28章","original":"知其雄①，守其雌②，为天下溪③。为天下溪，常德不离，复归于婴儿④。知其白，守其黑，为天下式⑤，为天下式，常德不忒⑥，复归于无极⑦。知其荣⑧，守其辱⑨，为天下谷⑩。为天下谷，常德乃足，复归于朴⑾。朴散则为器⑿，圣人用之，则为官长⒀，故大制不割⒁。","translation":"深知什么是雄强，却安守雌柔的地位，甘愿做天下的溪涧。甘愿作天下的溪涧，永恒的德性就不会离失，回复到婴儿般单纯的状态。深知什么是明亮，却安于暗昧的地位，甘愿做天下的模式。甘愿做天下的模式，永恒的德行不相差失，恢复到不可穷极的真理。深知什么是荣耀，却安守卑辱的地位，甘愿做天下的川谷。甘愿做天下的川谷，永恒的德性才得以充足，回复到自然本初的素朴纯真状态。朴素本初的东西经制作而成器物，有道的人沿用真朴，则为百官之长，所以完善的政治是不可分割的。","sourceUrl":"https://daodejing.org/28.html","english":"Know the male,\nyet keep to the female:\nreceive the world in your arms.\nIf you receive the world,\nthe Tao will never leave you\nand you will be like a little child.\nKnow the white,\nyet keep to the black:\nbe a pattern for the world.\nIf you are a pattern for the world,\nthe Tao will be strong inside you\nand there will be nothing you can't do.\nKnow the personal,\nyet keep to the impersonal:\naccept the world as it is.\nIf you accept the world,\nthe Tao will be luminous inside you\nand you will return to your primal self.\nThe world is formed from the void,\nlike utensils from a block of wood.\nThe Master knows the utensils,\nyet keeps to the block:\nthus she can use all things."},{"id":29,"chapter":"第二十九章","title":"第29章","original":"将欲取①天下而为②之，吾见其不得已③。天下神器④，不可为也，不可执也⑤。为者败之，执者失之。是以圣人无为⑥，故无败，故无失。夫⑦物⑧或行或随⑨；或觑或吹⑩；或强或羸⑾；或载或隳⑿。是以圣人去甚、去奢、去泰⒀。","translation":"想要治理天下，却又要用强制的办法，我看他不能够达到目的。天下的人民是神圣的，不能够违背他们的意愿和本性而加以强力统治，否则用强力统治天下，就一定会失败；强力把持天下，就一定会失去天下。因此，圣人不妄为，所以不会失败；不把持，所以不会被抛弃。世人秉性不一，有前行有后随，有轻嘘有急吹，有的刚强，有的赢弱；有的安居，有的危殆。因此，圣人要除去那种极端、奢侈的、过度的措施法度。","sourceUrl":"https://daodejing.org/29.html","english":"Do you want to improve the world?\nI don't think it can be done.\nThe world is sacred.\nIt can't be improved.\nIf you tamper with it, you'll ruin it.\nIf you treat it like an object, you'll lose it.\nThere is a time for being ahead,\na time for being behind;\na time for being in motion,\na time for being at rest;\na time for being vigorous,\na time for being exhausted;\na time for being safe,\na time for being in danger.\nThe Master sees things as they are,\nwithout trying to control them.\nShe lets them go their own way,\nand resides at the center of the circle."},{"id":30,"chapter":"第三十章","title":"第30章","original":"以道佐人主者，不以兵强天下，其事好还①。师之所处，荆棘生焉。大军之后，必有凶年②。善有果③而已，不敢④以取强⑤。果而勿矜，果而勿伐，果而勿骄，果而不得已，果而勿强。物壮⑥则老，是谓不道⑦，不道早已⑧。","translation":"依照“道”的原则辅佐君主的人，不以兵力逞强于天下。穷兵黩武这种事必然会得到报应。军队所到的地方，荆棘横生，大战之后，一定会出现荒年。善于用兵的人，只要达到用兵的目的也就可以了，并不以兵力强大而逞强好斗。达到目的了却不自我矜持，达到目的了也不去夸耀骄傲，达到目的了也不要自以为是，达到目的却出于不得已，达到目的却不逞强。事物过去强大就会走向衰朽，这就说明它不符合于“道”，不符合于“道”的，就会很快死亡。","sourceUrl":"https://daodejing.org/30.html","english":"Whoever relies on the Tao in governing men\ndoesn't try to force issues\nor defeat enemies by force of arms.\nFor every force there is a counterforce.\nViolence, even well intentioned,\nalways rebounds upon oneself.\nThe Master does his job\nand then stops.\nHe understands that the universe\nis forever out of control,\nand that trying to dominate events\ngoes against the current of the Tao.\nBecause he believes in himself,\nhe doesn't try to convince others.\nBecause he is content with himself,\nhe doesn't need others' approval.\nBecause he accepts himself,\nthe whole world accepts him."},{"id":31,"chapter":"第三十一章","title":"第31章","original":"夫兵者①，不祥之器，物或恶之②，故有道者不处。君子居则贵左③，用兵则贵右。兵者不祥之器，非君子之器，不得已而用之，恬淡④为上，胜而不美，而美之者，是乐杀人。夫乐杀人者，则不可得志于天下矣。吉事尚左，凶事尚右。偏将军居左，上将军居右。言以丧礼处之。杀人之众，以悲哀⑤莅之⑥，战胜以丧礼处之。","translation":"兵器啊，是不祥的东西，人们都厌恶它，所以有“道”的人不使用它。君子平时居处就以左边为贵而用兵打仗时就以右边为贵。兵器这个不祥的东西，不是君子所使用的东西，万不得已而使用它，最好淡然处之，胜利了也不要自鸣得意，如果自以为了不起，那就是喜欢杀人。凡是喜欢杀人的人，就不可能得志于天下。吉庆的事情以左边为上，凶丧的事情以右方为上，偏将军居于左边，上将军居于右边，这就是说要以丧礼仪式来处理用兵打仗的事情。战争中杀人众多，要用哀痛的心情参加，打了胜仗，也要以丧礼的仪式去对待战死的人。","sourceUrl":"https://daodejing.org/31.html","english":"Weapons are the tools of violence;\nall decent men detest them.\nWeapons are the tools of fear;\na decent man will avoid them\nexcept in the direst necessity\nand, if compelled, will use them\nonly with the utmost restraint.\nPeace is his highest value.\nIf the peace has been shattered,\nhow can he be content?\nHis enemies are not demons,\nbut human beings like himself.\nHe doesn't wish them personal harm.\nNor does he rejoice in victory.\nHow could he rejoice in victory\nand delight in the slaughter of men? He enters a battle gravely,\nwith sorrow and with great compassion,\nas if he were attending a funeral."},{"id":32,"chapter":"第三十二章","title":"第32章","original":"道常无名，朴①。虽小②，天下莫能臣③。侯王若能守之，万物将自宾④。天地相合，以降甘露，民莫之令而自均⑤。始制有名⑥，名亦既有，夫亦将知止，知止可以不殆⑦。譬道之在天下，犹川谷之于江海⑧。","translation":"“道”永远是无名而质朴的，它虽然很小不可见，天下没有谁能使它服从自己。侯王如果能够依照“道”的原则治理天下，百姓们将会自然地归从于它。天地间阴阳之气相合，就会降下甘露，人们不必指使它而会自然均匀。治理天下就要建立一种管理体制，制定各种制度确定各种名分，任命各级官长办事。名分既然有了，就要有所制约，适可而止，知道制约、适可而止，就没有什么危险了。“道”存在于天下，就像江海，一切河川溪水都归流于它，使万物自然宾服。","sourceUrl":"https://daodejing.org/32.html","english":"The Tao can't be perceived.\nSmaller than an electron,\nit contains uncountable galaxies.\nIf powerful men and women\ncould remain centered in the Tao,\nall things would be in harmony.\nThe world would become a paradise.\nAll people would be at peace,\nand the law would be written in their hearts.\nWhen you have names and forms,\nknow that they are provisional.\nWhen you have institutions,\nknow where their functions should end.\nKnowing when to stop,\nyou can avoid any danger.\nAll things end in the Tao\nas rivers flow into the sea."},{"id":33,"chapter":"第三十三章","title":"第33章","original":"知人者智，自知者明。胜人者有力，自胜者强①。知足者富，强行②者有志，不失其所者久，死而不亡③者寿。","translation":"能了解、认识别人叫做智慧，能认识、了解自己才算聪明。能战胜别人是有力的，能克制自己的弱点才算刚强。知道满足的人才是富有人。坚持力行、努力不懈的就是有志。不离失本分的人就能长久不衰，身虽死而“道”仍存的，才算真正的长寿。","sourceUrl":"https://daodejing.org/33.html","english":"Knowing others is intelligence;\nknowing yourself is true wisdom.\nMastering others is strength;\nmastering yourself is true power.\nIf you realize that you have enough,\nyou are truly rich.\nIf you stay in the center\nand embrace death with your whole heart,\nyou will endure forever."},{"id":34,"chapter":"第三十四章","title":"第34章","original":"大道汜兮①，其可左右。万物恃之以生而不辞②，功成而不有③。衣养④万物而不为主⑤，常无欲⑥，可名于小⑦；万物归焉而不为主，可名为大⑧。以其终不自为大，故能成其大。","translation":"大道广泛流行，左右上下无所不到。万物依赖它生长而不推辞，完成了功业，办妥了事业，而不占有名誉。它养育万物而不自以为主，可以称它为“小”，万物归附而不自以为主宰，可以称它为“大”。正因为他不自以为伟大，所以才能成就它的伟大、完成它的伟大。","sourceUrl":"https://daodejing.org/34.html","english":"The great Tao flows everywhere.\nAll things are born from it,\nyet it doesn't create them.\nIt pours itself into its work,\nyet it makes no claim.\nIt nourishes infinite worlds,\nyet it doesn't hold on to them.\nSince it is merged with all things\nand hidden in their hearts,\nit can be called humble.\nSince all things vanish into it\nand it alone endures,\nit can be called great.\nIt isn't aware of its greatness;\nthus it is truly great."},{"id":35,"chapter":"第三十五章","title":"第35章","original":"执大象①，天下往。往而不害，安平太②。乐与饵③，过客止，道之出口，淡乎其无味，视之不足见，听之不足闻，用之不足既④。","translation":"谁掌握了那伟大的“道”，普天下的人们便都来向他投靠，向往、投靠他而不互相妨害，于是大家就和平而安泰、宁静。音乐和美好的食物，使过路的人都为之停步，用言语来表述大道，是平淡而无味儿的，看它，看也看不见，听它，听也听不见，而它的作用，却是无穷无尽的，无限制的。","sourceUrl":"https://daodejing.org/35.html","english":"She who is centered in the Tao\ncan go where she wishes, without danger.\nShe perceives the universal harmony,\neven amid great pain,\nbecause she has found peace in her heart.\nMusic or the smell of good cooking\nmay make people stop and enjoy.\nBut words that point to the Tao\nseem monotonous and without flavor.\nWhen you look for it, there is nothing to see.\nWhen you listen for it, there is nothing to hear.\nWhen you use it, it is inexhaustible."},{"id":36,"chapter":"第三十六章","title":"第36章","original":"将欲歙之①，必固张之②；将欲弱之，必固强之；将欲废之，必固兴之；将欲取之③，必固与之④。是谓微明⑤，柔弱胜刚强。鱼不可脱于渊⑥，国之利器不可以示人⑦。","translation":"想要收敛它，必先扩张它，想要削弱它，必先加强它，想要废去它，必先抬举它，想要夺取它，必先给予它。这就叫做虽然微妙而又显明，柔弱战胜刚强。鱼的生存不可以脱离池渊，国家的刑法政教不可以向人炫耀，不能轻易用来吓唬人。","sourceUrl":"https://daodejing.org/36.html","english":"If you want to shrink something,\nyou must first allow it to expand.\nIf you want to get rid of something,\nyou must first allow it to flourish.\nIf you want to take something,\nyou must first allow it to be given.\nThis is called the subtle perception\nof the way things are.\nThe soft overcomes the hard.\nThe slow overcomes the fast.\nLet your workings remain a mystery.\nJust show people the results."},{"id":37,"chapter":"第三十七章","title":"第37章","original":"道常无为而无不为①。侯王若能守之②，万物将自化③。化而欲作④，吾将镇之以无名之朴⑤，镇之以无名之朴，夫将不欲⑥。不欲以静，天下将自定⑦。","translation":"道永远是顺任自然而无所作为的，却又没有什么事情不是它所作为的。侯王如果能按照“道”的原则为政治民，万事万物就会自我化育、自生自灭而得以充分发展。自生自长而产生贪欲时，我就要用“道”来镇住它。用“道”的真朴来镇服它，就不会产生贪欲之心了，万事万物没有贪欲之心了，天下便自然而然达到稳定、安宁。","sourceUrl":"https://daodejing.org/37.html","english":"The Tao never does anything,\nyet through it all things are done.\nIf powerful men and women\ncould center themselves in it,\nthe whole world would be transformed\nby itself, in its natural rhythms.\nPeople would be content\nwith their simple, everyday lives,\nin harmony, and free of desire.\nWhen there is no desire,\nall things are at peace."},{"id":38,"chapter":"第三十八章","title":"第38章","original":"上德不德①，是以有德；下德不失德②，是以无德③。上德无为而无以为④；下德无为而有以为⑤。上仁为之而无以为；上义为之而有以为。上礼为之而莫之应，则攘臂而扔之⑥。故失道而后德，失德而后仁，失仁而后义，失义而后礼。夫礼者，忠信之薄⑦，而乱之首⑧。前识者⑨，道之华⑩，而愚之始。是以大丈夫处其厚⑾，不居其薄⑿；处其实，不居其华。故去彼取此。","translation":"具备“上德”的人不表现为外在的有德，因此实际上是有“德”；具备“下德”的人表现为外在的不离失“道”，因此实际是没有“德”的。“上德”之人顺应自然无心作为，“下德”之人顺应自然而有心作为。上仁之人要有所作为却没有回应他，于是就扬着胳膊强引别人。所以，失去了“道”而后才有“德”，失去了“德”而后才有“仁”，失去了“仁”而后才有“义”，失去了义而后才有礼。“礼”这个东西，是忠信不足的产物，而且是祸乱的开端。所谓“先知”，不过是“道”的虚华，由此愚昧开始产生。所以大丈夫立身敦厚，不居于浇薄；存心朴实，不居于虚华。所以要舍弃浇薄虚华而采取朴实敦厚。","sourceUrl":"https://daodejing.org/38.html","english":"The Master doesn't try to be powerful;\nthus he is truly powerful.\nThe ordinary man keeps reaching for power;\nthus he never has enough.\nThe Master does nothing,\nyet he leaves nothing undone.\nThe ordinary man is always doing things,\nyet many more are left to be done.\nThe kind man does something,\nyet something remains undone.\nThe just man does something,\nand leaves many things to be done.\nThe moral man does something,\nand when no one responds\nhe rolls up his sleeves and uses force.\nWhen the Tao is lost, there is goodness.\nWhen goodness is lost, there is morality.\nWhen morality is lost, there is ritual.\nRitual is the husk of true faith,\nthe beginning of chaos.\nTherefore the Master concerns himself\nwith the depths and not the surface,\nwith the fruit and not the flower.\nHe has no will of his own.\nHe dwells in reality,\nand lets all illusions go."},{"id":39,"chapter":"第三十九章","title":"第39章","original":"昔之得一①者，天得一以清；地得一以宁；神得一以灵②；谷得一以盈，万物得一以生；侯王得一以为天一正③。其致之也④，谓⑤天无以清⑥，将恐裂；地无以宁，将恐废⑦；神无以灵，将恐歇⑧；谷无以盈，将恐竭⑨；万物无以生，将恐灭；侯王无以正⑩，将恐蹶⑾。故贵以贱为本，高以下为基。是以侯王自称⑿孤、寡、不谷⒀。此非以贱为本邪？非乎？故至誉无誉⒁。是故不欲琭琭如玉⒂，珞珞如石⒃。","translation":"往昔曾得到过道的：天得到道而清明；地得到道而宁静；神（人）得到道而英灵；河谷得到道而充盈；万物得到道而生长；侯王得到道而成为天下的首领。推而言之，天不得清明，恐怕要崩裂；地不得安宁，恐怕要震溃；人不能保持灵性，恐怕要灭绝；河谷不能保持流水，恐怕要干涸；万物不能保持生长，恐怕要消灭；侯王不能保持天下首领的地位，恐怕要倾覆。所以贵以贱为根本，高以下为基础，因此侯王们自称为“孤”、“寡”、“不谷”，这不就是以贱为根本吗？不是吗？所以最高的荣誉无须赞美称誉。不要求琭琭晶莹像宝玉，而宁愿珞珞坚硬像山石。","sourceUrl":"https://daodejing.org/39.html","english":"In harmony with the Tao,\nthe sky is clear and spacious,\nthe earth is solid and full,\nall creature flourish together,\ncontent with the way they are,\nendlessly repeating themselves,\nendlessly renewed.\nWhen man interferes with the Tao,\nthe sky becomes filthy,\nthe earth becomes depleted,\nthe equilibrium crumbles,\ncreatures become extinct.\nThe Master views the parts with compassion,\nbecause he understands the whole.\nHis constant practice is humility.\nHe doesn't glitter like a jewel\nbut lets himself be shaped by the Tao,\nas rugged and common as stone."},{"id":40,"chapter":"第四十章","title":"第40章","original":"反者道之动①，弱者②道之用。天下万物生于有③，有生于无④。","translation":"循环往复的运动变化，是道的运动，道的作用是微妙、柔弱的。天下的万物产生于看得见的有形质，有形质又产生于不可见的无形质。","sourceUrl":"https://daodejing.org/40.html","english":"Return is the movement of the Tao.\nYielding is the way of the Tao.\nAll things are born of being.\nBeing is born of non-being."},{"id":41,"chapter":"第四十一章","title":"第41章","original":"上士闻道，勤而行之；中士闻道，若存若亡；下士闻道，大笑之。不笑不足以为道。故建言①有之：明道若昧，进道若退，夷道若纇②。上德若谷；大白若辱③；广德若不足；建德若偷④；质真若渝⑤。大方无隅⑥；大器晚成；大音希声；大象无形；道隐无名。夫唯道，善贷且成⑦。","translation":"上士听了道的理论，努力去实行；中士听了道的理论，将信将疑；下士听了道的理论，哈哈大笑。不被嘲笑，那就不足以成其为道了。因此古时立言的人说过这样的话：光明的道好似暗昧；前进的道好似后退；平坦的道好似崎岖；崇高的德好似峡谷；广大的德好像不足；刚健的德好似怠惰；质朴而纯真好像混浊未开。最洁白的东西，反而含有污垢；最方正的东西，反而没有棱角；最大的声响，反而听来无声无息；最大的形象，反而没有形状。道幽隐而没有名称，无名无声。只有“道”，才能使万物善始善终。","sourceUrl":"https://daodejing.org/41.html","english":"When a superior man hears of the Tao,\nhe immediately begins to embody it.\nWhen an average man hears of the Tao,\nhe half believes it, half doubts it.\nWhen a foolish man hears of the Tao,\nhe laughs out loud.\nIf he didn't laugh,\nit wouldn't be the Tao.\nThus it is said:\nThe path into the light seems dark,\nthe path forward seems to go back,\nthe direct path seems long,\ntrue power seems weak,\ntrue purity seems tarnished,\ntrue steadfastness seems changeable,\ntrue clarity seems obscure,\nthe greatest art seems unsophisticated,\nthe greatest love seems indifferent,\nthe greatest wisdom seems childish.\nThe Tao is nowhere to be found.\nYet it nourishes and completes all things."},{"id":42,"chapter":"第四十二章","title":"第42章","original":"道生一①，一生二②，二生三③，三生万物。万物负阴而抱阳④，冲气以为和⑤。人之所恶，唯孤、寡、不谷⑥，而王公以为称。故物或损之而益，或益之而损。人之所教，我亦教之。强梁者不得其死，吾将以为教父⑦。","translation":"道是独一无二的，道本身包含阴阳二气，阴阳二气相交而形成一种适匀的状态，万物在这种状态中产生。万物背阴而向阳，并且在阴阳二气的互相激荡而成新的和谐体。人们最厌恶的就是“孤”、“寡”、“不谷”，但王公却用这些字来称呼自己。所以一切事物，如果减损它却反而得到增加；如果增加它却反而得到减损。别人这样教导我，我也这样去教导别人。强暴的人死无其所。我把这句话当作施教的宗旨。","sourceUrl":"https://daodejing.org/42.html","english":"The Tao gives birth to One.\nOne gives birth to Two.\nTwo gives birth to Three.\nThree gives birth to all things.\nAll things have their backs to the female\nand stand facing the male.\nWhen male and female combine,\nall things achieve harmony.\nOrdinary men hate solitude.\nBut the Master makes use of it,\nembracing his aloneness, realizing\nhe is one with the whole universe."},{"id":43,"chapter":"第四十三章","title":"第43章","original":"天下之至柔，驰骋①天下之至坚。无有入无间②，吾是以知无为之有益。不言之教，无为之益，天下希③及之。","translation":"天下最柔弱的东西，腾越穿行于最坚硬的东西中；无形的力量可以穿透没有间隙的东西。我因此认识到“无为”的益处。“不言”的教导，“无为”的益下，普天下少有能赶上它的了。","sourceUrl":"https://daodejing.org/43.html","english":"The gentlest thing in the world\novercomes the hardest thing in the world.\nThat which has no substance\nenters where there is no space.\nThis shows the value of non-action.\nTeaching without words,\nperforming without actions:\nthat is the Master's way."},{"id":44,"chapter":"第四十四章","title":"第44章","original":"名与身孰亲？身与货孰多①？得与亡孰病②？甚爱必大费③，多藏必厚亡④。故知足不辱⑤，知止不殆，可以长久。","translation":"声名和生命相比哪一样更为亲切？生命和货利比起来哪一样更为贵重？获取和丢失相比，哪一个更有害？过分的爱名利就必定要付出更多的代价；过于积敛财富，必定会遭致更为惨重的损失。所以说，懂得满足，就不会受到屈辱；懂得适可而止，就不会遇见危险；这样才可以保持住长久的平安。","sourceUrl":"https://daodejing.org/44.html","english":"Fame or integrity: which is more important?\nMoney or happiness: which is more valuable?\nSuccess or failure: which is more destructive? If you look to others for fulfillment,\nyou will never truly be fulfilled.\nIf your happiness depends on money,\nyou will never be happy with yourself.\nBe content with what you have;\nrejoice in the way things are.\nWhen you realize there is nothing lacking,\nthe whole world belongs to you."},{"id":45,"chapter":"第四十五章","title":"第45章","original":"大成①若缺，其用不弊。大盈若冲②，其用不穷。大直若屈③，大巧若拙，大辩若讷④。静胜躁，寒胜热⑤。清静为天下正⑥。","translation":"最完满的东西，好似有残缺一样，但它的作用永远不会衰竭；最充盈的东西，好似是空虚一样，但是它的作用是不会穷尽的。最正直的东西，好似有弯曲一样；最灵巧的东西，好似最笨拙的；最卓越的辩才，好似不善言辞一样。清静克服扰动，赛冷克服暑热。清静无为才能统治天下。","sourceUrl":"https://daodejing.org/45.html","english":"True perfection seems imperfect,\nyet it is perfectly itself.\nTrue fullness seems empty,\nyet it is fully present.\nTrue straightness seems crooked.\nTrue wisdom seems foolish.\nTrue art seems artless.\nThe Master allows things to happen.\nShe shapes events as they come.\nShe steps out of the way\nand lets the Tao speak for itself."},{"id":46,"chapter":"第四十六章","title":"第46章","original":"天下有道，却①走马以粪②，天下无道，戎马③生于郊④。祸莫大于不知足；咎莫大于欲得。故知足之足，常足矣⑤。","translation":"治理天下合乎“道”，就可以作到太平安定，把战马退还到田间给农夫用来耕种。治理天下不合乎“道”，连怀胎的母马也要送上战场，在战场的郊外生下马驹子。最大的祸害是不知足，最大的过失是贪得的欲望。知道到什么地步就该满足了的人，永远是满足的。","sourceUrl":"https://daodejing.org/46.html","english":"When a country is in harmony with the Tao,\nthe factories make trucks and tractors.\nWhen a country goes counter to the Tao,\nwarheads are stockpiled outside the cities.\nThere is no greater illusion than fear,\nno greater wrong than preparing to defend yourself,\nno greater misfortune than having an enemy.\nWhoever can see through all fear\nwill always be safe."},{"id":47,"chapter":"第四十七章","title":"第47章","original":"不出户，知天下；不窥牖①，见天道②。其出弥远，其知弥少。是以圣人不行而知，不见而明③，不为而成④。","translation":"不出门户，就能够推知天下的事理；不望窗外，就可以认识日月星辰运行的自然规律。他向外奔逐得越远，他所知道的道理就越少。所以，有“道”的圣人不出行却能够推知事理，不窥见而能明了“天道”，不妄为而可以有所成就。","sourceUrl":"https://daodejing.org/47.html","english":"Without opening your door,\nyou can open your heart to the world.\nWithout looking out your window,\nyou can see the essence of the Tao.\nThe more you know,\nthe less you understand.\nThe Master arrives without leaving,\nsees the light without looking,\nachieves without doing a thing."},{"id":48,"chapter":"第四十八章","title":"第48章","original":"为学日益①，为道日损②，损之又损，以至于无为。无为而无不为③，取④天下常以无事⑤；及其有事⑥，不足以取天下。","translation":"求学的人，其情欲文饰一天比一天增加；求道的人，其情欲文饰则一天比一天减少。减少又减少，到最后以至于“无为”的境地。如果能够做到无为，即不妄为，任何事情都可以有所作为。治理国家的人，要经常以不骚扰人民为治国之本，如果经常以繁苛之政扰害民众，那就不配治理国家了。","sourceUrl":"https://daodejing.org/48.html","english":"In pursuit of knowledge,\nevery day something is added.\nIn the practice of the Tao,\nevery day something is dropped.\nLess and less do you need to force things,\nuntil finally you arrive at non-action.\nWhen nothing is done,\nnothing is left undone.\nTrue mastery can be gained\nby letting things go their own way.\nIt can't be gained by interfering."},{"id":49,"chapter":"第四十九章","title":"第49章","original":"圣人常无心①，以百姓之心为心。善者，吾善之；不善者，吾亦善之，德善②。信者，吾信之；不信者，吾亦信之，德信。圣人在天下，歙歙焉③为天下浑其心④，百姓皆注其耳目⑤，圣人皆孩之⑥。","translation":"圣人常常是没有私心的，以百姓的心为自己的心。对于善良的人，我善待于他；对于不善良的人，我也善待他，这样就可以得到善良了，从而使人人向善。对于守信的人，我信任他；对不守信的人，我也信任他，这样可以得到诚信了，从而使人人守信。有道的圣人在其位，收敛自己的欲意，使天下的心思归于浑朴。百姓们都专注于自己的耳目聪明，有道的人使他们都回到婴孩般纯朴的状态。","sourceUrl":"https://daodejing.org/49.html","english":"The Master has no mind of her own.\nShe works with the mind of the people.\nShe is good to people who are good.\nShe is also good to people who aren't good.\nThis is true goodness.\nShe trusts people who are trustworthy.\nShe also trusts people who aren't trustworthy.\nThis is true trust.\nThe Master's mind is like space.\nPeople don't understand her.\nThey look to her and wait.\nShe treats them like her own children."},{"id":50,"chapter":"第五十章","title":"第50章","original":"出生入死①，生之徒②，十有三③；死之徒④，十有三；人之生，动之于死地⑤，亦十有三。夫何故？以其生生之厚⑥。盖闻善摄生⑦者，陆行不遇兕虎⑧，入军不被甲兵⑨。兕无所投其角，虎无所措其爪，兵无所容其刃。夫何故？以其无死地⑩。","translation":"人始出于世而生，最终入于地而死。属于长寿的人有十分之三；属于短命而亡的人有十分之三；人本来可以活得长久些，却自己走向死亡之路，也占十分之三。为什么会这样呢？因为奉养太过度了。据说，善于养护自己生命的人，在陆地上行走，不会遇到凶恶的犀牛和猛虎，在战争中也受不到武器的伤害。犀牛于其身无处投角，老虎对其身无处伸爪，武器对其身无处刺击锋刃。为什么会这样呢？因为他没有进入死亡的领域。","sourceUrl":"https://daodejing.org/50.html","english":"The Master gives himself up\nto whatever the moment brings.\nHe knows that he is going to die,\nand he has nothing left to hold on to:\nno illusions in his mind,\nno resistances in his body.\nHe doesn't think about his actions;\nthey flow from the core of his being.\nHe holds nothing back from life;\ntherefore he is ready for death,\nas a man is ready for sleep\nafter a good day's work."},{"id":51,"chapter":"第五十一章","title":"第51章","original":"道生之，德畜之，物形之，势①成之。是以万物莫不尊道而贵德。道之尊，德之贵，夫莫之命而常自然②。故道生之，德畜之，长之育之，亭之毒之③；养④之覆⑤之。生而不有，为而不恃，长而不宰，是谓玄德⑥。","translation":"道生成万事万物，德养育万事万物。万事万物虽现出各种各样的形态，环境使万事万物成长起来。故此，万事万物莫不尊崇道而珍贵德。道之所以被尊崇，德所以被珍贵，就是由于道生长万物而不加以干涉，德畜养万物而不加以主宰，顺其自然。因而，道生长万物，德养育万物，使万物生长发展，成熟结果，使其受到抚养、保护。生长万物而不居为己有，抚育万物而不自恃有功，导引万物而不主宰，这就是奥妙玄远的德。","sourceUrl":"https://daodejing.org/51.html","english":"Every being in the universe\nis an expression of the Tao.\nIt springs into existence,\nunconscious, perfect, free,\ntakes on a physical body,\nlets circumstances complete it.\nThat is why every being\nspontaneously honors the Tao.\nThe Tao gives birth to all beings,\nnourishes them, maintains them,\ncares for them, comforts them, protects them,\ntakes them back to itself,\ncreating without possessing,\nacting without expecting,\nguiding without interfering.\nThat is why love of the Tao\nis in the very nature of things."},{"id":52,"chapter":"第五十二章","title":"第52章","original":"天下有始①，以为天下母②。既得其母，以知其子③；既知其子，复守其母，没身不殆。塞其兑，闭其门④，终身不勤⑤。开其兑，济其事⑥，终身不救。见小曰明⑦，守柔曰强⑧。用其光，复归其明⑨，无遗身殃⑩；是为袭常⑾。","translation":"天地万物本身都有起始，这个始作为天地万物的根源。如果知道根源，就能认识万物，如果认识了万事万物，又把握着万物的根本，那么终身都不会有危险。塞住欲念的孔穴，闭起欲念的门径，终身都不会有烦扰之事。如果打开欲念的孔穴，就会增添纷杂的事件，终身都不可救治。能够察见到细微的，叫做“明”；能够持守柔弱的，叫做“强”。运用其光芒，返照内在的明，不会给自己带来灾难，这就叫做万世不绝的“常道”。","sourceUrl":"https://daodejing.org/52.html","english":"In the beginning was the Tao.\nAll things issue from it;\nall things return to it.\nTo find the origin,\ntrace back the manifestations.\nWhen you recognize the children\nand find the mother,\nyou will be free of sorrow.\nIf you close your mind in judgements\nand traffic with desires,\nyour heart will be troubled.\nIf you keep your mind from judging\nand aren't led by the senses,\nyour heart will find peace.\nSeeing into darkness is clarity.\nKnowing how to yield is strength.\nUse your own light\nand return to the source of light.\nThis is called practicing eternity."},{"id":53,"chapter":"第五十三章","title":"第53章","original":"使我①介然有知②，行于大道，唯施③是畏。大道甚夷④，而人⑤好径⑥。朝甚除⑦，田甚芜，仓甚虚，服文采，带利剑，厌饮食⑧，财货有余，是谓盗竽⑨。非道也哉！","translation":"假如我稍微地有了认识，在大道上行走，唯一担心的是害怕走了邪路。大道虽然平坦，但人君却喜欢走邪径。朝政腐败已极，弄得农田荒芜，仓库十分空虚，而人君仍穿着锦绣的衣服，佩带着锋利的宝剑，饱餐精美的饮食，搜刮占有富余的财货，这就叫做强盗头子。这是多么无道啊！","sourceUrl":"https://daodejing.org/53.html","english":"The great Way is easy,\nyet people prefer the side paths.\nBe aware when things are out of balance.\nStay centered within the Tao.\nWhen rich speculators prosper\nWhile farmers lose their land;\nwhen government officials spend money\non weapons instead of cures;\nwhen the upper class is extravagant and irresponsible\nwhile the poor have nowhere to turn-\nall this is robbery and chaos.\nIt is not in keeping with the Tao."},{"id":54,"chapter":"第五十四章","title":"第54章","original":"善建者不拔，善抱①者不脱，子孙以祭祀不辍②。修之于身，其德乃真；修之于家，其德乃余；修之于乡，其德乃长③；修之于邦④，其德乃丰；修之于天下，其德乃普。故以身观身，以家观家，以乡观乡⑤，以邦观邦，以天下观天下。吾何以知天下然哉？以此。","translation":"善于建树的不可能拔除，善于抱持的不可以脱掉，如果子孙能够遵循、守持这个道理，那么祖祖孙孙就不会断绝。把这个道理付诸于自身，他的德性就会是真实纯正的；把这个道理付诸于自家，他的德性就会是丰盈有余的；把这个道理付诸于自乡，他的德性就会受到尊崇；把这个道理付诸于自邦，他的德性就会丰盛硕大；把这个道理付诸于天下，他的德性就会无限普及。所以，用自身的修身之道来观察别身；以自家察看观照别家；以自乡察看观照别乡；以平天下之道察看观照天下。我怎么会知道天下的情况之所以如此呢？就是因为我用了以上的方法和道理。","sourceUrl":"https://daodejing.org/54.html","english":"Whoever is planted in the Tao\nwill not be rooted up.\nWhoever embraces the Tao\nwill not slip away.\nHer name will be held in honor\nfrom generation to generation.\nLet the Tao be present in your life\nand you will become genuine.\nLet it be present in your family\nand your family will flourish.\nLet it be present in your country\nand your country will be an example\nto all countries in the world.\nLet it be present in the universe\nand the universe will sing.\nHow do I know this is true?\nBy looking inside myself."},{"id":55,"chapter":"第五十五章","title":"第55章","original":"含德之厚，比于赤子。毒虫①不螫②，猛兽不据③,攫鸟④不搏⑤。骨弱筋柔而握固。未知牝牡之合而朘作⑥，精之至也。终日号而不嗄⑦，和之至也。知和曰\"常\"⑧，知常曰\"明\"，益生⑨曰祥⑩，心使气曰强⑾。物壮⑿则老，谓之不道，不道早已。","translation":"道德涵养浑厚的人，就好比初生的婴孩。毒虫不螫他，猛兽不伤害他，凶恶的鸟不搏击他。他的筋骨柔弱，但拳头却握得很牢固。他虽然不知道男女的交合之事，但他的小生殖器却勃然举起，这是因为精气充沛的缘故。他整天啼哭，但嗓子却不会沙哑，这是因为和气纯厚的缘故。认识淳和的道理叫做“常”，知道“常”的叫做“明”。贪生纵欲就会遭殃，欲念主使精气就叫做逞强。事物过于壮盛了就会变衰老，这就叫不合于“道”，不遵守常道就会很快地死亡。","sourceUrl":"https://daodejing.org/55.html","english":"He who is in harmony with the Tao\nis like a newborn child.\nIts bones are soft, its muscles are weak,\nbut its grip is powerful.\nIt doesn't know about the union\nof male and female,\nyet its penis can stand erect,\nso intense is its vital power.\nIt can scream its head off all day,\nyet it never becomes hoarse,\nso complete is its harmony.\nThe Master's power is like this.\nHe lets all things come and go\neffortlessly, without desire.\nHe never expects results;\nthus he is never disappointed.\nHe is never disappointed;\nthus his spirit never grows old."},{"id":56,"chapter":"第五十六章","title":"第56章","original":"知者不言，言者不知①。塞其兑，闭其门②；挫其锐，解其纷；和其光，同其尘③，是谓玄同④。故不可得而亲，不可得而疏；不可得而利，不可得而害；不可得而贵，不可得而贱⑤；故为天下贵。","translation":"聪明的智者不多说话，而到处说长论短的人就不是聪明的智者。塞堵住嗜欲的孔窍，关闭住嗜欲的门径。不露锋芒，消解纷争，挫去人们的锋芒，解脱他们的纷争，收敛他们的光耀，混同他们的尘世，这就是深奥的玄同。达到“玄同”境界的人，已经超脱亲疏、利害、贵贱的世俗范围，所以就为天下人所尊重。","sourceUrl":"https://daodejing.org/56.html","english":"Those who know don't talk.\nThose who talk don't know.\nClose your mouth,\nblock off your senses,\nblunt your sharpness,\nuntie your knots,\nsoften your glare,\nsettle your dust.\nThis is the primal identity.\nBe like the Tao.\nIt can't be approached or withdrawn from,\nbenefited or harmed,\nhonored or brought into disgrace.\nIt gives itself up continually.\nThat is why it endures."},{"id":57,"chapter":"第五十七章","title":"第57章","original":"以正①治国，以奇②用兵，以无事取天下③。吾何以知其然哉？以此④：天下多忌讳⑤，而民弥贫；人⑥多利器⑦，国家滋昏；人多伎巧⑧，奇物⑨滋起；法令滋彰，盗贼多有。故圣人云：\"我无为，而民自化⑩；我好静，而民自正；我无事，而民自富；我无欲，而民自朴。\"","translation":"以无为、清静之道去治理国家，以奇巧、诡秘的办法去用兵，以下扰害人民而治理天下。我怎么知道是这种情形呢？根据就在于此：天下的禁忌越多，而老百姓就越陷于贫穷；人民的锐利武器越多，国家就越陷于混乱；人们的技巧越多，邪风怪事就越闹得厉害；法令越是森严，盗贼就越是不断地增加。所以有道的圣人说，我无为，人民就自我化育；我好静，人民就自然富足；我无欲，而人民就自然淳朴。","sourceUrl":"https://daodejing.org/57.html","english":"If you want to be a great leader,\nyou must learn to follow the Tao.\nStop trying to control.\nLet go of fixed plans and concepts,\nand the world will govern itself.\nThe more prohibitions you have,\nthe less virtuous people will be.\nThe more weapons you have,\nthe less secure people will be.\nThe more subsidies you have,\nthe less self-reliant people will be.\nTherefore the Master says:\nI let go of the law,\nand people become honest.\nI let go of economics,\nand people become prosperous.\nI let go of religion,\nand people become serene.\nI let go of all desire for the common good,\nand the good becomes common as grass."},{"id":58,"chapter":"第五十八章","title":"第58章","original":"其政闷闷①，其民淳淳②；其政察察③，其民缺缺④。祸兮，福之所倚；福兮，祸之所伏。孰知其极：其无正也⑤。正复为奇，善复为妖⑥。人之迷，其日固久⑦。是以圣人方而不割⑧，廉而不刿⑨，直而不肆⑩，光而不耀⑾。","translation":"政治宽厚清明，人民就淳朴忠诚；政治苛酷黑暗，人民就狡黠、抱怨。灾祸啊，幸福依傍在它的里面；幸福啊，灾祸藏伏在它的里面。谁能知道究竟是灾祸呢还是幸福呢？它们并没有确定的标准。正忽然转变为邪的，善忽然转变为恶的，人们的迷惑，由来已久了。因此，有道的圣人方正而不生硬，有棱角而不伤害人，直率而不放肆，光亮而不刺眼。","sourceUrl":"https://daodejing.org/58.html","english":"If a country is governed with tolerance,\nthe people are comfortable and honest.\nIf a country is governed with repression,\nthe people are depressed and crafty.\nWhen the will to power is in charge\nthe higher the ideals, the lower the results.\nTry to make people happy,\nand you lay the groundwork for misery.\nTry to make people moral,\nand you lay the groundwork for vice.\nThus the Master is content\nto serve as an example\nand not to impose her will.\nShe is pointed, but doesn't pierce.\nStraightforward, but supple.\nRadiant, but easy on the eyes."},{"id":59,"chapter":"第五十九章","title":"第59章","original":"治人事天①，莫若啬②。夫唯啬，是谓早服③；早服谓之重积德④；重积德则无不克；无不克则莫知其极，莫知其极，可以有国；有国之母⑤，可以长久。是谓根深固柢，长生久视之道⑥。","translation":"治理百姓和养护身心，没有比爱惜精神更为重要的了。爱惜精神，得以能够做到早作准备；早作准备，就是不断地积“德”；不断地积“德”，就没有什么不能攻克的；没有什么不能攻克，那就无法估量他的力量；具备了这种无法估量的力量，就可以担负治理国家的重任。有了治理国家的原则和道理，国家就可以长久维持。国运长久，就叫做根深祗固，符合长久维持之道。","sourceUrl":"https://daodejing.org/59.html","english":"For governing a country well\nthere is nothing better than moderation.\nThe mark of a moderate man\nis freedom from his own ideas.\nTolerant like the sky,\nall-pervading like sunlight,\nfirm like a mountain,\nsupple like a tree in the wind,\nhe has no destination in view\nand makes use of anything\nlife happens to bring his way.\nNothing is impossible for him.\nBecause he has let go,\nhe can care for the people's welfare\nas a mother cares for her child."},{"id":60,"chapter":"第六十章","title":"第60章","original":"治大国，若烹小鲜①，以道莅②天下，其鬼不神③。非④其鬼不神，其神不伤人。非其神不伤人，圣人亦不伤人。夫两不相伤⑤，故德交归焉⑥。","translation":"治理大国，好像煎烹小鱼。用“道”治理天下，鬼神起不了作用，不仅鬼不起作用，而是鬼怪的作用伤不了人。不但鬼的作用伤害不了人，圣人有道也不会伤害人。这样，鬼神和有道的圣人都不伤害人，所以，就可以让人民享受到德的恩泽。","sourceUrl":"https://daodejing.org/60.html","english":"Governing a large country\nis like frying a small fish.\nYou spoil it with too much poking.\nCenter your country in the Tao\nand evil will have no power.\nNot that it isn't there,\nbut you'll be able to step out of its way.\nGive evil nothing to oppose\nand it will disappear by itself."},{"id":61,"chapter":"第六十一章","title":"第61章","original":"大邦①者下流，天下之牝，天下之交也②。牝常以静胜牡，以静为下。故大邦以下小邦，则取小邦；小邦以下大邦，则取大邦。故或下以取，或下而取③。大邦不过欲兼畜人④，小邦不过欲入事人。夫两者各得所欲，大者宜为下。","translation":"大国要像居于江河下游那样，使天下百川河流交汇在这里，处在天下雌柔的位置。雌柔常以安静守定而胜过雄强，这是因为它居于柔下的缘故。所以，大国对小国谦下忍让，就可以取得小国的信任和依赖；小国对大国谦下忍让，就可以见容于大国。所以，或者大国对小国谦让而取得大国的信任，或者小国对大国谦让而见容于大国。大国不要过分想统治小国，小国不要过分想顺从大国，两方面各得所欲求的，大国特别应该谦下忍让。","sourceUrl":"https://daodejing.org/61.html","english":"When a country obtains great power,\nit becomes like the sea:\nall streams run downward into it.\nThe more powerful it grows,\nthe greater the need for humility.\nHumility means trusting the Tao,\nthus never needing to be defensive.\nA great nation is like a great man:\nWhen he makes a mistake, he realizes it.\nHaving realized it, he admits it.\nHaving admitted it, he corrects it.\nHe considers those who point out his faults\nas his most benevolent teachers.\nHe thinks of his enemy\nas the shadow that he himself casts.\nIf a nation is centered in the Tao,\nif it nourishes its own people\nand doesn't meddle in the affairs of others,\nit will be a light to all nations in the world."},{"id":62,"chapter":"第六十二章","title":"第62章","original":"道者，万物之奥①，善人之宝，不善人之所保②。美言可以市尊③，美行可以加人④。人之不善，何弃之有？故立天子，置三公⑤，虽有拱璧以先驷马⑥，不如坐进此道⑦。古之所以贵此道者何？不曰：求以得⑧，有罪以免邪⑨？故为天下贵。","translation":"“道”是荫庇万物之所，善良之人珍贵它，不善的人也要保持它。需要的时候还要求它庇护。美好的言辞可以换来别人对你的尊重；良好的行为可以见重于人。不善的人怎能舍弃它呢？所以在天子即位、设置三公的时候，虽然有拱壁在先驷马在后的献礼仪式，还不如把这个“道”进献给他们。自古以来，人们所以把“道”看得这样宝贵，不正是由于求它庇护一定可以得到满足；犯了罪过，也可得到它的宽恕吗？就因为这个，天下人才如此珍视“道”。","sourceUrl":"https://daodejing.org/62.html","english":"The Tao is the center of the universe,\nthe good man's treasure,\nthe bad man's refuge.\nHonors can be bought with fine words,\nrespect can be won with good deeds;\nbut the Tao is beyond all value,\nand no one can achieve it.\nThus, when a new leader is chosen,\ndon't offer to help him\nwith your wealth or your expertise.\nOffer instead\nto teach him about the Tao.\nWhy did the ancient Masters esteem the Tao?\nBecause, being one with the Tao,\nwhen you seek, you find;\nand when you make a mistake, you are forgiven.\nThat is why everybody loves it."},{"id":63,"chapter":"第六十三章","title":"第63章","original":"为无为，事无事，味无味①。大小多少②。报怨以德③。图难于其易，为大于其细；天下难事，必作于易；天下大事，必作于细。是以圣人终不为大④，故能成其大。夫轻诺必寡信，多易必多难。是以圣人犹难之，故终无难矣。","translation":"以无为的态度去有所作为，以不滋事的方法去处理事物，以恬淡无味当作有味。大生于小，多起于少。处理问题要从容易的地方入手，实现远大要从细微的地方入手。天下的难事，一定从简易的地方做起；天下的大事，一定从微细的部分开端。因此，有“道”的圣人始终不贪图大贡献，所以才能做成大事。那些轻易发出诺言的，必定很少能够兑现的，把事情看得太容易，势必遭受很多困难。因此，有道的圣人总是看重困难，所以就终于没有困难了。","sourceUrl":"https://daodejing.org/63.html","english":"Act without doing;\nwork without effort.\nThink of the small as large\nand the few as many.\nConfront the difficult\nwhile it is still easy;\naccomplish the great task\nby a series of small acts.\nThe Master never reaches for the great;\nthus she achieves greatness.\nWhen she runs into a difficulty,\nshe stops and gives herself to it.\nShe doesn't cling to her own comfort;\nthus problems are no problem for her."},{"id":64,"chapter":"第六十四章","title":"第64章","original":"其安易持，其未兆易谋；其脆易泮①，其微易散。为之于未有，治之于未乱。合抱之木，生于毫末②；九层之台，起于累土③；千里之行，始于足下。为者败之，执者失之④。是以圣人无为故无败，无执故无失⑤。民之从事，常于几成而败之。慎终如始，则无败事。是以圣人欲不欲，不贵难得之货，学不学⑥，复众人之所过，以辅万物之自然而不敢为⑦。","translation":"局面安定时容易保持和维护，事变没有出现迹象时容易图谋；事物脆弱时容易消解；事物细微时容易散失；做事情要在它尚未发生以前就处理妥当；治理国政，要在祸乱没有产生以前就早做准备。合抱的大树，生长于细小的萌芽；九层的高台，筑起于每一堆泥土；千里的远行，是从脚下第一步开始走出来的。有所作为的将会招致失败，有所执着的将会遭受损害。因此圣人无所作为所以也不会招致失败，无所执着所以也不遭受损害。人们做事情，总是在快要成功时失败，所以当事情快要完成的时候，也要像开始时那样慎重，就没有办不成的事情。因此，有道的圣人追求人所不追求的，不稀罕难以得到的货物，学习别人所不学习的，补救众人所经常犯的过错。这样遵循万物的自然本性而不会妄加干预。","sourceUrl":"https://daodejing.org/64.html","english":"What is rooted is easy to nourish.\nWhat is recent is easy to correct.\nWhat is brittle is easy to break.\nWhat is small is easy to scatter.\nPrevent trouble before it arises.\nPut things in order before they exist.\nThe giant pine tree\ngrows from a tiny sprout.\nThe journey of a thousand miles\nstarts from beneath your feet.\nRushing into action, you fail.\nTrying to grasp things, you lose them.\nForcing a project to completion,\nyou ruin what was almost ripe.\nTherefore the Master takes action\nby letting things take their course.\nHe remains as calm\nat the end as at the beginning.\nHe has nothing,\nthus has nothing to lose.\nWhat he desires is non-desire;\nwhat he learns is to unlearn.\nHe simply reminds people\nof who they have always been.\nHe cares about nothing but the Tao.\nThus he can care for all things."},{"id":65,"chapter":"第六十五章","title":"第65章","original":"古之善为道者，非以明①民，将以愚之②。民之难治，以其智多③。故以智治国，国之贼④；不以智治国，国之福。知此两者⑤，亦稽式⑥。常知稽式，是谓玄德。玄德深矣，远矣，与物反矣⑦，然后乃至大顺⑧。","translation":"古代善于为道的人，不是教导人民知晓智巧伪诈，而是教导人民淳厚朴实。人们之所以难于统治，乃是因为他们使用太多的智巧心机。所以用智巧心机治理国家，就必然会危害国家，不用智巧心机治理国家，才是国家的幸福。了解这两种治国方式的差别，就是一个法则，经常了解这个法则，就叫做“玄德”。玄德又深又远，和具体的事物复归到真朴，然后才能极大地顺乎于自然。","sourceUrl":"https://daodejing.org/65.html","english":"The ancient Masters\ndidn't try to educate the people,\nbut kindly taught them to not-know.\nWhen they think that they know the answers,\npeople are difficult to guide.\nWhen they know that they don't know,\npeople can find their own way.\nIf you want to learn how to govern,\navoid being clever or rich.\nThe simplest pattern is the clearest.\nContent with an ordinary life,\nyou can show all people the way\nback to their own true nature."},{"id":66,"chapter":"第六十六章","title":"第66章","original":"江海之所以能为百谷王①者，以其善下之，故能为百谷王。是以圣人②欲上民，必以言下之；欲先民，必以身后之。是以圣人处上而民不重③，处前而民不害。是以天下乐推而不厌。以其不争，故天下莫能与之争。","translation":"江海所以能够成为百川河流所汇往的地方，乃是由于它善于处在低下的地方，所以能够成为百川之王。因此，圣人要领导人民，必须用言辞对人民表示谦下，要想领导人民，必须把自己的利益放在他们的后面。所以，有道的圣人虽然地位居于人民之上，而人民并不感到负担沉重；居于人民之前，而人民并不感到受害。天下的人民都乐意推戴而不感到厌倦。因为他不与人民相争，所以天下没有人能和他相争。","sourceUrl":"https://daodejing.org/66.html","english":"All streams flow to the sea\nbecause it is lower than they are.\nHumility gives it its power.\nIf you want to govern the people,\nyou must place yourself below them.\nIf you want to lead the people,\nyou must learn how to follow them.\nThe Master is above the people,\nand no one feels oppressed.\nShe goes ahead of the people,\nand no one feels manipulated.\nThe whole world is grateful to her.\nBecause she competes with no one,\nno one can compete with her."},{"id":67,"chapter":"第六十七章","title":"第67章","original":"天下皆谓我\"道\"大①，似不肖②。夫唯大，故似不肖。若肖，久矣其细也夫③！我有三宝④，持而保之：一曰慈，二曰俭⑤，三曰不敢为天下先。慈故能勇⑥；俭故能广⑦；不敢为天下先，故能成器长⑧。今舍慈且⑨勇；舍俭且广；舍后且先；死矣！夫慈，以战则胜⑩，以守则固。天将救之，以慈卫之。","translation":"天下人能说“我道”伟大，不像任何具体事物的样子。正因为它伟大，所以才不像任何具体的事物。如果它像任何一个具体的事物，那么“道”也就显得很渺小了。我有三件法宝执守而且保全它：第一件叫做慈爱；第二件叫做俭啬；第三件是不敢居于天下人的前面。有了这柔慈，所以能勇武；有了俭啬，所以能大方；不敢居于天下人之先，所以能成为万物的首长。现在丢弃了柔慈而追求勇武；丢弃了啬俭而追求大方；舍弃退让而求争先，结果是走向死亡。慈爱，用来征战，就能够胜利，用来守卫就能巩固。天要援助谁，就用柔慈来保护他。","sourceUrl":"https://daodejing.org/67.html","english":"Some say that my teaching is nonsense.\nOthers call it lofty but impractical.\nBut to those who have looked inside themselves,\nthis nonsense makes perfect sense.\nAnd to those who put it into practice,\nthis loftiness has roots that go deep.\nI have just three things to teach:\nsimplicity, patience, compassion.\nThese three are your greatest treasures.\nSimple in actions and in thoughts,\nyou return to the source of being.\nPatient with both friends and enemies,\nyou accord with the way things are.\nCompassionate toward yourself,\nyou reconcile all beings in the world."},{"id":68,"chapter":"第六十八章","title":"第68章","original":"善为士者①，不武；善战者，不怒；善胜敌者，不与②；善用人者，为之下。是谓不争之德，是谓用人之力，是谓配天古之极③。","translation":"善于带兵打仗的将帅，不逞其勇武；善于打仗的人，不轻易激怒；善于胜敌的人，不与敌人正面冲突；善于用人的人，对人表示谦下。这叫做不与人争的品德，这叫做运用别人的能力，这叫做符合自然的道理。","sourceUrl":"https://daodejing.org/68.html","english":"The best athlete\nwants his opponent at his best.\nThe best general\nenters the mind of his enemy.\nThe best businessman\nserves the communal good.\nThe best leader\nfollows the will of the people.\nAll of the embody\nthe virtue of non-competition.\nNot that they don't love to compete,\nbut they do it in the spirit of play.\nIn this they are like children\nand in harmony with the Tao."},{"id":69,"chapter":"第六十九章","title":"第69章","original":"用兵有言：\"吾不敢为主①，而为客②；不敢进寸，而退尺。\"是谓行无行③；攘无臂④；扔无敌⑤；执无兵⑥。祸莫大于轻敌，轻敌几丧吾宝。故抗兵相若⑦，哀⑧者胜矣。","translation":"用兵的人曾经这样说，“我不敢主动进犯，而采取守势；不敢前进一步，而宁可后退一尺。”这就叫做虽然有阵势，却像没有阵势可摆一样；虽然要奋臂，却像没有臂膀可举一样；虽然面临敌人，却像没有敌人可打一样；虽然有兵器，却像没有兵器可以执握一样。祸患再没有比轻敌更大的了，轻敌几乎丧失了我的“三宝”。所以，两军实力相当的时候，悲痛的一方可以获得胜利。","sourceUrl":"https://daodejing.org/69.html","english":"The generals have a saying:\n\"Rather than make the first move\nit is better to wait and see.\nRather than advance an inch\nit is better to retreat a yard.\" This is called\ngoing forward without advancing,\npushing back without using weapons.\nThere is no greater misfortune\nthan underestimating your enemy.\nUnderestimating your enemy\nmeans thinking that he is evil.\nThus you destroy your three treasures\nand become an enemy yourself.\nWhen two great forces oppose each other,\nthe victory will go\nto the one that knows how to yield."},{"id":70,"chapter":"第七十章","title":"第70章","original":"吾言甚易知，甚易行。天下莫能知，莫能行。言有宗①，事有君②，夫唯无知③，是以不我知。知我者希，则④我者贵。是以圣人被褐⑤而怀玉⑥。","translation":"我的话很容易理解，很容易施行。但是天下竟没有谁能理解，没有谁能实行。言论有主旨，行事有根据。正由于人们不理解这个道理，因此才不理解我。能理解我的人很少，那么能取法于我的人就更难得了。因此有道的圣人总是穿着粗布衣服，怀里揣着美玉。","sourceUrl":"https://daodejing.org/70.html","english":"My teachings are easy to understand\nand easy to put into practice.\nYet your intellect will never grasp them,\nand if you try to practice them, you'll fail.\nMy teachings are older than the world.\nHow can you grasp their meaning? If you want to know me,\nlook inside your heart."},{"id":71,"chapter":"第七十一章","title":"第71章","original":"知不知①，尚矣②；不知知③，病也。圣人不病，以其病病④。夫唯病病，是以不病。","translation":"知道自己还有所不知，这是很高明的。不知道却自以为知道，这就是很糟糕的。有道的圣人没有缺点，因为他把缺点当作缺点。正因为他把缺点当作缺点，所以，他没有缺点。","sourceUrl":"https://daodejing.org/71.html","english":"Not-knowing is true knowledge.\nPresuming to know is a disease.\nFirst realize that you are sick;\nthen you can move toward health.\nThe Master is her own physician.\nShe has healed herself of all knowing.\nThus she is truly whole."},{"id":72,"chapter":"第七十二章","title":"第72章","original":"民不畏威①，则大威至②。无狎③其所居，无厌④其所生。夫唯不厌⑤，是以不厌。是以圣人自知不自见⑥，自爱不自贵⑦。故去彼取此⑧。","translation":"当人民不畏惧统治者的威压时，那么，可怕的祸乱就要到来了。不要逼迫人民不得安居，不要阻塞人民谋生的道路。只有不压迫人民，人民才不厌恶统治者。因此，有道的圣人不但有自知之明，而且也不自我表现；有自爱之心也不自显高贵。所以要舍弃后者（自见、自贵）而保持前者（自知、自爱）。","sourceUrl":"https://daodejing.org/72.html","english":"When they lose their sense of awe,\npeople turn to religion.\nWhen they no longer trust themselves,\nthey begin to depend upon authority.\nTherefore the Master steps back\nso that people won't be confused.\nHe teaches without a teaching,\nso that people will have nothing to learn."},{"id":73,"chapter":"第七十三章","title":"第73章","original":"勇于敢则杀，勇于不敢则活①。此两者，或利或害②。天之所恶，孰知其故？是以圣人犹难之③。天之道④，不争而善胜，不言而善应，不召而自来，繟然⑤而善谋。天网恢恢⑥，疏而不失⑦。","translation":"勇于坚强就会死，勇于柔弱就可以活，这两种勇的结果，有的得利，有的受害。天所厌恶的，谁知道是什么缘故？有道的圣人也难以解说明白。自然的规律是，不斗争而善于取胜；不言语而善于应承；不召唤而自动到来，坦然而善于安排筹划。自然的范围，宽广无边，虽然宽疏但并不漏失。","sourceUrl":"https://daodejing.org/73.html","english":"The Tao is always at ease.\nIt overcomes without competing,\nanswers without speaking a word,\narrives without being summoned,\naccomplishes without a plan.\nIts net covers the whole universe.\nAnd though its meshes are wide,\nit doesn't let a thing slip through."},{"id":74,"chapter":"第七十四章","title":"第74章","original":"民不畏死，奈何以死惧之。若使民常畏死，而为奇①者，吾得执②而杀之，孰敢？常有司杀者③杀。夫代司杀者④杀，是谓代大匠斫⑤，希有不伤其手者矣。","translation":"人民不畏惧死亡，为什么用死来吓唬他们呢？假如人民真的畏惧死亡的话，对于为非作歹的人，我们就把他抓来杀掉。谁还敢为非作歹？经常有专管杀人的人去执行杀人的任务，代替专管杀人的人去杀人，就如同代替高明的木匠去砍木头，那代替高明的木匠砍木头的人，很少有不砍伤自己手指头的。","sourceUrl":"https://daodejing.org/74.html","english":"If you realize that all things change,\nthere is nothing you will try to hold on to.\nIf you aren't afraid of dying,\nthere is nothing you can't achieve.\nTrying to control the future\nis like trying to take the master carpenter's place.\nWhen you handle the master carpenter's tools, chances are that you'll cut your hand."},{"id":75,"chapter":"第七十五章","title":"第75章","original":"民之饥，以其上食税之多，是以饥。民之难治，以其上之有为①，是以难治。民之轻死，以其上求生之厚②，是以轻死。夫唯无以生为③者，是贤④于贵生⑤。","translation":"人民所以遭受饥荒，就是由于统治者吞吃赋税太多，所以人民才陷于饥饿。人民之所以难于统治，是由于统治者政令繁苛、喜欢有所作为，所以人民就难于统治。人民之所以轻生冒死，是由于统治者为了奉养自己，把民脂民膏都搜刮净了，所以人民觉得死了不算什么。只有不去追求生活享受的人，才比过分看重自己生命的人高明。","sourceUrl":"https://daodejing.org/75.html","english":"When taxes are too high,\npeople go hungry.\nWhen the government is too intrusive,\npeople lose their spirit.\nAct for the people's benefit.\nTrust them; leave them alone."},{"id":76,"chapter":"第七十六章","title":"第76章","original":"人之生也柔弱①，其死也坚强②。草木③之生也柔脆④，其死也枯槁⑤。故坚强者死之徒⑥，柔弱者生之徒⑦。是以兵强则灭，木强则折⑧。强大处下，柔弱处上。","translation":"人活着的时候身体是柔软的，死了以后身体就变得僵硬。草木生长时是柔软脆弱的，死了以后就变得干硬枯槁了。所以坚强的东西属于死亡的一类，柔弱的东西属于生长的一类。因此，用兵逞强就会遭到灭亡，树木强大了就会遭到砍伐摧折。凡是强大的，总是处于下位，凡是柔弱的，反而居于上位。","sourceUrl":"https://daodejing.org/76.html","english":"Men are born soft and supple;\ndead, they are stiff and hard.\nPlants are born tender and pliant;\ndead, they are brittle and dry.\nThus whoever is stiff and inflexible\nis a disciple of death.\nWhoever is soft and yielding\nis a disciple of life.\nThe hard and stiff will be broken.\nThe soft and supple will prevail."},{"id":77,"chapter":"第七十七章","title":"第77章","original":"天之道，其犹张弓与？高者抑下，下者举之，有余者损之，不足者补之。天之道，损有余而补不足。人之道①，则不然，损不足以奉有余。孰能有余以奉天下，唯有道者。是以圣人为而不恃，功成而不处，其不欲见贤②。","translation":"自然的规律，不是很像张弓射箭吗？弦拉高了就把它压低一些，低了就把它举高一些，拉得过满了就把它放松一些，拉得不足了就把它补充一些。自然的规律，是减少有余的补给不足的。可是社会的法则却不是这样，要减少不足的，来奉献给有余的人。那么，谁能够减少有余的，以补给天下人的不足呢？只有有道的人才可以做到。因此，有道的圣人这才有所作为而不占有，有所成就而不居功。他是不愿意显示自己的贤能。","sourceUrl":"https://daodejing.org/77.html","english":"As it acts in the world, the Tao\nis like the bending of a bow.\nThe top is bent downward;\nthe bottom is bent up.\nIt adjusts excess and deficiency\nso that there is perfect balance.\nIt takes from what is too much\nand gives to what isn't enough.\nThose who try to control,\nwho use force to protect their power,\ngo against the direction of the Tao.\nThey take from those who don't have enough\nand give to those who have far too much.\nThe Master can keep giving\nbecause there is no end to her wealth.\nShe acts without expectation,\nsucceeds without taking credit,\nand doesn't think that she is better\nthan anyone else."},{"id":78,"chapter":"第七十八章","title":"第78章","original":"天下莫柔弱于水，而攻坚强者莫之能胜，以其无以易之①。弱之胜强，柔之胜刚，天下莫不知，莫能行。是以圣人云：\"受国之垢②，是谓社稷主；受国不祥③，是为天下王。\"正言若反④。","translation":"遍天下再没有什么东西比水更柔弱了，而攻坚克强却没有什么东西可以胜过水。弱胜过强，柔胜过刚，遍天下没有人不知道，但是没有人能实行。所以有道的圣人这样说：“承担全国的屈辱，才能成为国家的君主，承担全国的祸灾，才能成为天下的君王。”正面的话好像在反说一样。","sourceUrl":"https://daodejing.org/78.html","english":"Nothing in the world\nis as soft and yielding as water.\nYet for dissolving the hard and inflexible,\nnothing can surpass it.\nThe soft overcomes the hard;\nthe gentle overcomes the rigid.\nEveryone knows this is true,\nbut few can put it into practice.\nTherefore the Master remains\nserene in the midst of sorrow.\nEvil cannot enter his heart.\nBecause he has given up helping,\nhe is people's greatest help.\nTrue words seem paradoxical."},{"id":79,"chapter":"第七十九章","title":"第79章","original":"和大怨，必有余怨；报怨以德①，安可以为善？是以圣人执左契②，而不责③于人。有德司契，无德司彻④。天道无亲⑤，常与善人。","translation":"和解深重的怨恨，必然还会残留下残余的怨恨；用德来报答怨恨，这怎么可以算是妥善的办法呢？因此，有道的圣人保存借据的存根，但并不以此强迫别人偿还债务。有“德”之人就像持有借据的圣人那样宽容，没有“德”的人就像掌管税收的人那样苛刻刁诈。自然规律对任何人都没有偏爱，永远帮助有德的善人。","sourceUrl":"https://daodejing.org/79.html","english":"Failure is an opportunity.\nIf you blame someone else,\nthere is no end to the blame.\nTherefore the Master\nfulfills her own obligations\nand corrects her own mistakes.\nShe does what she needs to do\nand demands nothing of others."},{"id":80,"chapter":"第八十章","title":"第80章","original":"小国寡民①。使②有什伯之器③而不用；使民重死④而不远徙⑤；虽有舟舆⑥，无所乘之；虽有甲兵⑦，无所陈之⑧。使人复结绳⑨而用之。至治之极。甘美食，美其服，安其居，乐其俗⑩，邻国相望，鸡犬之声相闻，民至老死不相往来。","translation":"使国家变小，使人民稀少。即使有各种各样的器具，却并不使用；使人民重视死亡，而不向远方迁徙；虽然有船只车辆，却不必每次坐它；虽然有武器装备，却没有地方去布阵打仗；使人民再回复到远古结绳记事的自然状态之中。国家治理得好极了，使人民吃得香甜，穿得漂亮、住得安适，过得快乐。国与国之间互相望得见，鸡犬的叫声都可以听得见，但人民从生到死，也不互相往来。","sourceUrl":"https://daodejing.org/80.html","english":"If a country is governed wisely,\nits inhabitants will be content.\nThey enjoy the labor of their hands\nand don't waste time inventing\nlabor-saving machines.\nSince they dearly love their homes,\nthey aren't interested in travel.\nThere may be a few wagons and boats,\nbut these don't go anywhere.\nThere may be an arsenal of weapons,\nbut nobody ever uses them.\nPeople enjoy their food,\ntake pleasure in being with their families,\nspend weekends working in their gardens,\ndelight in the doings of the neighborhood.\nAnd even though the next country is so close\nthat people can hear its roosters crowing and its dogs barking,\nthey are content to die of old age\nwithout ever having gone to see it."},{"id":81,"chapter":"第八十一章","title":"第81章","original":"信言①不美，美言不信。善者②不辩③，辩者不善。知者不博④，博者不知。圣人不积⑤，既以为人己愈有⑥，既以与人己愈多⑦。天之道，利而不害⑧。圣人之道⑨，为而不争。","translation":"真实可信的话不漂亮，漂亮的话不真实。善良的人不巧说，巧说的人不善良。真正有知识的人不卖弄，卖弄自己懂得多的人不是真有知识。圣人是不存占有之心的，而是尽力照顾别人，他自己也更为充足；他尽力给予别人，自己反而更丰富。自然的规律是让万事万物都得到好处，而不伤害它们。圣人的行为准则是，做什么事都不跟别人争夺。","sourceUrl":"https://daodejing.org/81.html","english":"True words aren't eloquent;\neloquent words aren't true.\nWise men don't need to prove their point;\nmen who need to prove their point aren't wise.\nThe Master has no possessions.\nThe more he does for others,\nthe happier he is.\nThe more he gives to others,\nthe wealthier he is.\nThe Tao nourishes by not forcing.\nBy not dominating, the Master leads."}];
+    const $ = (id) => document.getElementById(id);
+    const minFontSize = 16;
+    const maxFontSize = 32;
+    const stripMarkers = (text) => text
+      .replace(/[①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳⑴⑵⑶⑷⑸⑹⑺⑻⑼⑽⑾⑿⒀⒁⒂⒃⒄⒅⒆⒇]/g, '')
+      .replace(/\[\d+\]/g, '');
+    const readSetting = (key) => {
+      try { return localStorage.getItem(key); } catch { return null; }
+    };
+    const saveSetting = (key, value) => {
+      try { localStorage.setItem(key, value); } catch { /* File access may disable storage. */ }
+    };
+    let language = readSetting('daodejing-locale') === 'en' ? 'en' : 'zh';
+    let fontSize = Math.min(maxFontSize, Math.max(minFontSize, Number(readSetting('daodejing-font-size')) || 21));
+    let dark = readSetting('daodejing-theme') === 'smartisan-dark';
+    let drawerOpen = false;
+    let toolsOpen = false;
+    let sidebarBuilt = false;
+    let renderedLanguage = null;
+    let renderedContentKey = null;
+    let activeChapterButton = null;
+    const chapterButtons = new Map();
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const mobileLayout = window.matchMedia('(max-width: 760px)');
+    const sourceHrefs = new Map();
+
+    chapters.forEach((chapter) => {
+      try {
+        const sourceUrl = new URL(chapter.sourceUrl);
+        if (sourceUrl.protocol === 'https:' && sourceUrl.hostname === 'daodejing.org') {
+          sourceHrefs.set(chapter.id, sourceUrl.href);
+        } else {
+          console.warn('Ignoring unexpected chapter source URL:', chapter.sourceUrl);
+        }
+      } catch {
+        console.warn('Ignoring invalid chapter source URL:', chapter.sourceUrl);
+      }
+    });
+    const activeId = () => {
+      const matched = location.hash.match(/chapter-(\d+)/);
+      const id = matched ? Number(matched[1]) : 1;
+      return chapters.some((item) => item.id === id) ? id : 1;
+    };
+    const setTextParagraphs = (element, text) => {
+      element.replaceChildren();
+      text.split(/\n+/).map((part) => part.trim()).filter(Boolean).forEach((part) => {
+        const paragraph = document.createElement('p');
+        paragraph.textContent = part;
+        element.append(paragraph);
+      });
+    };
+    const render = () => {
+      const index = chapters.findIndex((item) => item.id === activeId());
+      const chapter = chapters[index] || chapters[0];
+      const previous = chapters[index - 1];
+      const next = chapters[index + 1];
+      document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+      document.documentElement.lang = language === 'zh' ? 'zh-CN' : 'en';
+      document.querySelector('meta[name="theme-color"]').content = dark ? '#1b1f26' : '#665a52';
+      document.documentElement.style.setProperty('--reader-size', `${fontSize}px`);
+      document.title = language === 'zh'
+        ? `道德经 · ${chapter.chapter}`
+        : `Tao Te Ching · Chapter ${chapter.id}`;
+      $('brandTitle').textContent = language === 'zh' ? '道德经' : 'Tao Te Ching';
+      $('sidebar').setAttribute(
+        'aria-label',
+        language === 'zh' ? '道德经章节目录' : 'Tao Te Ching chapters',
+      );
+      $('chapterTitle').textContent = language === 'zh' ? chapter.chapter : `Chapter ${chapter.id}`;
+      $('originalLabel').textContent = language === 'zh' ? '原文' : 'Original';
+      $('translationLabel').textContent = language === 'zh' ? '译文' : 'English';
+      $('skipLink').textContent = language === 'zh' ? '跳到主内容' : 'Skip to main content';
+      $('backToTop').setAttribute('aria-label', language === 'zh' ? '返回顶部' : 'Back to top');
+      $('sourceText').textContent = language === 'zh'
+        ? '内容参考来源：'
+        : 'Content reference: ';
+      const safeSourceUrl = sourceHrefs.get(chapter.id);
+      $('chapterSource').hidden = !safeSourceUrl;
+      if (safeSourceUrl) {
+        $('chapterSource').href = safeSourceUrl;
+        $('chapterSource').setAttribute('aria-label', language === 'zh'
+          ? `${chapter.chapter}来源参考（在新窗口打开）`
+          : `Reference for chapter ${chapter.id} (opens in a new tab)`);
+      } else {
+        $('chapterSource').removeAttribute('href');
+        $('chapterSource').removeAttribute('aria-label');
+      }
+      $('themeButton').textContent = dark ? '☀' : '☾';
+      $('themeButton').setAttribute(
+        'aria-label',
+        language === 'zh'
+          ? dark ? '切换到浅色主题' : '切换到深色主题'
+          : dark ? 'Switch to light theme' : 'Switch to dark theme',
+      );
+      $('zhButton').classList.toggle('active', language === 'zh');
+      $('enButton').classList.toggle('active', language === 'en');
+      $('mobileZh').classList.toggle('active', language === 'zh');
+      $('mobileEn').classList.toggle('active', language === 'en');
+      $('previous').textContent = previous
+        ? (language === 'zh' ? `上一章 · ${previous.chapter}` : `Previous · Chapter ${previous.id}`)
+        : (language === 'zh' ? '已是第一章' : 'First Chapter');
+      $('next').textContent = next
+        ? (language === 'zh' ? `下一章 · ${next.chapter}` : `Next · Chapter ${next.id}`)
+        : (language === 'zh' ? '已是最后一章' : 'Last Chapter');
+      $('previous').disabled = !previous;
+      $('next').disabled = !next;
+      const contentKey = `${chapter.id}:${language}`;
+      if (renderedContentKey !== contentKey) {
+        setTextParagraphs($('originalText'), stripMarkers(chapter.original));
+        setTextParagraphs(
+          $('translationText'),
+          language === 'zh' ? chapter.translation : chapter.english,
+        );
+        renderedContentKey = contentKey;
+      }
+      if (!sidebarBuilt) {
+        const fragment = document.createDocumentFragment();
+        chapters.forEach((item) => {
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.className = 'chapter';
+          button.dataset.chapterId = item.id;
+          const number = document.createElement('span');
+          number.className = 'chapter-number';
+          number.textContent = item.id;
+          const copy = document.createElement('span');
+          copy.className = 'chapter-copy';
+          const name = document.createElement('span');
+          name.className = 'chapter-name';
+          const preview = document.createElement('span');
+          preview.className = 'chapter-preview';
+          preview.textContent = language === 'zh'
+            ? stripMarkers(item.original).slice(0, 20)
+            : item.english.split('\n')[0].slice(0, 40);
+          copy.append(name, preview);
+          button.append(number, copy);
+          button.addEventListener('click', () => goToChapter(item.id));
+          fragment.append(button);
+          chapterButtons.set(item.id, button);
+        });
+        $('sidebar').append(fragment);
+        sidebarBuilt = true;
+      }
+      if (renderedLanguage !== language) {
+        chapters.forEach((item) => {
+          const button = chapterButtons.get(item.id);
+          button.querySelector('.chapter-name').textContent =
+            language === 'zh' ? item.chapter : `Chapter ${item.id}`;
+          button.querySelector('.chapter-preview').textContent = language === 'zh'
+            ? stripMarkers(item.original).slice(0, 20)
+            : item.english.split('\n')[0].slice(0, 40);
+        });
+        renderedLanguage = language;
+      }
+      const selectedButton = chapterButtons.get(chapter.id);
+      if (activeChapterButton !== selectedButton) {
+        activeChapterButton?.classList.remove('selected');
+        activeChapterButton?.removeAttribute('aria-current');
+        selectedButton.classList.add('selected');
+        selectedButton.setAttribute('aria-current', 'location');
+        activeChapterButton = selectedButton;
+      }
+      $('backToTop').hidden = window.scrollY < 500;
+    };
+    const syncDrawerState = () => {
+      const sidebar = $('sidebar');
+      const isModalDrawer = mobileLayout.matches && drawerOpen;
+      sidebar.inert = mobileLayout.matches && !drawerOpen;
+      sidebar.setAttribute('role', isModalDrawer ? 'dialog' : 'navigation');
+      if (isModalDrawer) {
+        sidebar.setAttribute('aria-modal', 'true');
+      } else {
+        sidebar.removeAttribute('aria-modal');
+      }
+      $('topbar').inert = isModalDrawer;
+      $('mainContent').inert = isModalDrawer;
+      $('skipLink').inert = isModalDrawer;
+      $('backToTop').inert = isModalDrawer;
+      $('menuButton').setAttribute('aria-expanded', String(drawerOpen));
+      sidebar.classList.toggle('open', drawerOpen);
+      $('backdrop').classList.toggle('visible', drawerOpen);
+    };
+    const closeToolsPanel = () => {
+      toolsOpen = false;
+      $('mobileToolsPanel').hidden = true;
+      $('toolsButton').setAttribute('aria-expanded', 'false');
+    };
+    const goToChapter = (id) => {
+      drawerOpen = false;
+      closeToolsPanel();
+      const chapterUnchanged = activeId() === id;
+      location.hash = `chapter-${id}`;
+      syncDrawerState();
+      window.scrollTo({ top: 0, behavior: reducedMotion.matches ? 'auto' : 'smooth' });
+      if (chapterUnchanged) $('chapterTitle').focus({ preventScroll: true });
+    };
+    $('previous').addEventListener('click', () => {
+      const index = chapters.findIndex((item) => item.id === activeId());
+      if (index > 0) goToChapter(chapters[index - 1].id);
+    });
+    $('next').addEventListener('click', () => {
+      const index = chapters.findIndex((item) => item.id === activeId());
+      if (index < chapters.length - 1) goToChapter(chapters[index + 1].id);
+    });
+    const setLanguage = (value) => {
+      closeToolsPanel();
+      if (language === value) return;
+      language = value;
+      saveSetting('daodejing-locale', language);
+      render();
+    };
+    $('zhButton').addEventListener('click', () => setLanguage('zh'));
+    $('enButton').addEventListener('click', () => setLanguage('en'));
+    const changeFontSize = (amount) => {
+      fontSize = Math.min(maxFontSize, Math.max(minFontSize, fontSize + amount));
+      saveSetting('daodejing-font-size', fontSize);
+      render();
+    };
+    ['smaller', 'mobileSmaller'].forEach((id) =>
+      $(id).addEventListener('click', () => changeFontSize(-1)),
+    );
+    ['larger', 'mobileLarger'].forEach((id) =>
+      $(id).addEventListener('click', () => changeFontSize(1)),
+    );
+    $('themeButton').addEventListener('click', () => {
+      dark = !dark;
+      saveSetting('daodejing-theme', dark ? 'smartisan-dark' : 'default');
+      render();
+    });
+    $('menuButton').addEventListener('click', () => {
+      drawerOpen = !drawerOpen;
+      closeToolsPanel();
+      syncDrawerState();
+      if (drawerOpen) {
+        $('sidebar').querySelector('.chapter')?.focus();
+      }
+    });
+    $('toolsButton').addEventListener('click', () => {
+      toolsOpen = !toolsOpen;
+      $('mobileToolsPanel').hidden = !toolsOpen;
+      $('toolsButton').setAttribute('aria-expanded', String(toolsOpen));
+    });
+    $('mobileZh').addEventListener('click', () => setLanguage('zh'));
+    $('mobileEn').addEventListener('click', () => setLanguage('en'));
+    $('backdrop').addEventListener('click', () => {
+      const hadDrawer = drawerOpen;
+      drawerOpen = false;
+      syncDrawerState();
+      closeToolsPanel();
+      if (hadDrawer && mobileLayout.matches) $('menuButton').focus();
+    });
+    document.addEventListener('click', (event) => {
+      const target = event.target;
+      const elementTarget = target instanceof Element
+        ? target
+        : target instanceof Node
+          ? target.parentElement
+          : null;
+      if (
+        toolsOpen &&
+        elementTarget &&
+        !elementTarget.closest('#mobileToolsPanel, #toolsButton')
+      ) {
+        closeToolsPanel();
+      }
+    });
+    window.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        const hadDrawer = drawerOpen;
+        const hadTools = toolsOpen;
+        drawerOpen = false;
+        syncDrawerState();
+        closeToolsPanel();
+        if (hadDrawer && mobileLayout.matches) {
+          $('menuButton').focus();
+        } else if (hadTools && mobileLayout.matches) {
+          $('toolsButton').focus();
+        }
+      } else if (
+        !drawerOpen &&
+        !toolsOpen &&
+        (event.key === 'ArrowLeft' || event.key === 'ArrowRight') &&
+        !event.altKey && !event.ctrlKey && !event.metaKey &&
+        !window.getSelection()?.toString()
+      ) {
+        const isEditable = event.target instanceof Element &&
+          Boolean(event.target.closest('input, textarea, select, [contenteditable="true"]'));
+        if (isEditable) return;
+        event.preventDefault();
+        if (event.key === 'ArrowLeft') {
+          $('previous').click();
+        } else {
+          $('next').click();
+        }
+      }
+    });
+    $('backToTop').addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: reducedMotion.matches ? 'auto' : 'smooth' });
+    });
+    window.addEventListener('scroll', () => {
+      $('backToTop').hidden = window.scrollY < 500;
+    }, { passive: true });
+    mobileLayout.addEventListener('change', () => {
+      drawerOpen = false;
+      closeToolsPanel();
+      syncDrawerState();
+    });
+    window.addEventListener('hashchange', () => {
+      render();
+      $('chapterTitle').focus({ preventScroll: true });
+    });
+    document.addEventListener('keydown', (event) => {
+      if (!drawerOpen || !mobileLayout.matches || event.key !== 'Tab') return;
+      const focusable = [...$('sidebar').querySelectorAll('button:not([disabled])')];
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    });
+    syncDrawerState();
+    render();
+  </script>
+</body>
+</html>
+
