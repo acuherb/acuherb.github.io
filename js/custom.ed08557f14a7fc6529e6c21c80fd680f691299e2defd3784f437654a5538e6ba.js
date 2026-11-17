@@ -194,14 +194,76 @@ class Blog {
   }
 }
 
+function detectHomePondLight() {
+  const theme = document.documentElement.dataset.theme;
+  if (theme === 'light' || theme === 'dark') {
+    return theme === 'light';
+  }
+  return matchMedia('(prefers-color-scheme: light)').matches;
+}
+
+function initHomePond() {
+  const target = document.querySelector('.home.posts .home-profile');
+  if (!target || window.__acuherbHomePond) return;
+  window.__acuherbHomePond = true;
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  const start = () => {
+    const small = matchMedia('(max-width: 680px)').matches;
+    const pond = window.__acuherbPondMount(target, {
+      species: [{ type: 'koi', count: small ? 2 : 3, young: small ? 0 : 1 }],
+      theme: detectHomePondLight() ? 'light' : 'dark',
+      avoid: '.home-avatar, .home-title, .home-subtitle, .links, .profile-ghchart, .contribution-graph',
+      palette: {
+        light: {
+          page: [250, 250, 248],
+          bg: [246, 245, 250],
+          water: [60, 10, 30],
+          shadow: [60, 10, 30],
+        },
+        dark: {
+          page: [37, 39, 42],
+          bg: [42, 44, 52],
+          water: [195, 245, 215],
+          shadow: [0, 0, 0],
+        },
+      },
+    });
+
+    const syncTheme = () => pond.setTheme(detectHomePondLight());
+    new MutationObserver(syncTheme).observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['data-theme'],
+    });
+    matchMedia('(prefers-color-scheme: light)').addEventListener('change', syncTheme);
+  };
+
+  if (window.__acuherbPondMount) {
+    start();
+    return;
+  }
+
+  document.addEventListener('ascii-pond:ready', start, { once: true });
+  const bootstrap = document.createElement('script');
+  bootstrap.type = 'module';
+  bootstrap.textContent = `
+    import('/ascii-pond/src/pond.js').then(({ mount }) => {
+      window.__acuherbPondMount = mount;
+      document.dispatchEvent(new Event('ascii-pond:ready'));
+    });
+  `;
+  document.head.appendChild(bootstrap);
+}
+
 /**
  * immediate.
  */
 (() => {
   const blog = new Blog();
   blog.init();
-  // it will be executed when the DOM tree is built
-  document.addEventListener('DOMContentLoaded', () => {
-    //
-  });
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initHomePond, { once: true });
+  } else {
+    initHomePond();
+  }
 })();
