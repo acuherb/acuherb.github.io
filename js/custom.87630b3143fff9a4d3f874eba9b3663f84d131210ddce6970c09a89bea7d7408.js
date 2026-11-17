@@ -203,14 +203,18 @@ function detectHomePondLight() {
 }
 
 function initHomePond() {
-  const target = document.querySelector('.home.posts .home-profile');
+  const home = document.querySelector('.home.posts');
+  const target = home?.closest('main.fi-container');
   if (!target || window.__acuherbHomePond) return;
   window.__acuherbHomePond = true;
   if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
   const start = () => {
+    const layer = document.createElement('div');
+    layer.className = 'home-pond-layer';
+    target.prepend(layer);
     const small = matchMedia('(max-width: 680px)').matches;
-    const pond = window.__acuherbPondMount(target, {
+    const pond = window.__acuherbPondMount(layer, {
       species: [{ type: 'koi', count: small ? 2 : 3, young: small ? 0 : 1 }],
       theme: detectHomePondLight() ? 'light' : 'dark',
       avoid: '.home-avatar, .home-title, .home-subtitle, .links, .profile-ghchart, .contribution-graph',
