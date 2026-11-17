@@ -247,7 +247,7 @@ function initHomePond() {
   const bootstrap = document.createElement('script');
   bootstrap.type = 'module';
   bootstrap.textContent = `
-    import('/ascii-pond/src/pond.js').then(({ mount }) => {
+    import('/ascii-pond/pond.js').then(({ mount }) => {
       window.__acuherbPondMount = mount;
       document.dispatchEvent(new Event('ascii-pond:ready'));
     });
