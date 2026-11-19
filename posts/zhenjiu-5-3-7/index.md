@@ -83,7 +83,7 @@
 
 > **古训**："八法如八阵，临证变通乃活法。"  
 
-![针刺手法7](/images/zhenjiu/21-7.webp)
+![针刺手法7](/images/zhenjiu/note/21-7.webp)
 
 ---
 

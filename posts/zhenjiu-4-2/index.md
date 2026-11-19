@@ -299,8 +299,8 @@
 > **下段温元阳、中段调胸背、上段开清窍。**  
 > 核心穴立住，其余穴位顺着脊柱与头顶面口一路串起来，督脉系统就完整了。
 
-![督脉经穴系统总结1](/images/zhenjiu/7-1.webp)
-![督脉经穴系统总结2](/images/zhenjiu/7-2.webp)
+![督脉经穴系统总结1](/images/zhenjiu/note/7-1.webp)
+![督脉经穴系统总结2](/images/zhenjiu/note/7-2.webp)
 
 
 ---

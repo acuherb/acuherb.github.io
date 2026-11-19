@@ -281,10 +281,10 @@
 > 瞳子髎、听会、风池、肩井、日月、京门、带脉、环跳、风市、阳陵泉、光明、悬钟、丘墟、足临泣、足窍阴十五穴立住，再以五输、原络、郄穴、俞募与八会穴串起来，胆经体系就清楚了。  
 > 胆经学习的关键，是一个“决”字：胆主决断，少阳主转枢，肝胆条达则筋脉通、耳目清。
 
-![足少阳胆经1](/images/zhenjiu/18-1.webp)
-![足少阳胆经2](/images/zhenjiu/18-2.webp)
-![足少阳胆经3](/images/zhenjiu/18-3.webp)
-![足少阳胆经4](/images/zhenjiu/18-4.webp)
+![足少阳胆经1](/images/zhenjiu/note/18-1.webp)
+![足少阳胆经2](/images/zhenjiu/note/18-2.webp)
+![足少阳胆经3](/images/zhenjiu/note/18-3.webp)
+![足少阳胆经4](/images/zhenjiu/note/18-4.webp)
 
 
 ---

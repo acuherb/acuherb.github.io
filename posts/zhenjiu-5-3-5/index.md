@@ -79,7 +79,7 @@
 3. **操作禁忌**：  
    - 避免在血管、神经密集处强刺激。  
 
-![针刺手法5](/images/zhenjiu/21-5.webp)
+![针刺手法5](/images/zhenjiu/note/21-5.webp)
 
 ---
 

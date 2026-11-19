@@ -277,10 +277,10 @@
 > 关冲、中渚、阳池、外关、支沟、肩髎、翳风、耳门、丝竹空九穴立住，再以三焦气化、五输补泻、外关通阳维和耳周三穴串联，三焦经体系就清楚了。  
 > 三焦经的关键，是一个“通”字：通水道、通阳气、通耳窍、通肩臂。
 
-![手少阳三焦经1](/images/zhenjiu/17-1.webp)
-![手少阳三焦经2](/images/zhenjiu/17-2.webp)
-![手少阳三焦经3](/images/zhenjiu/17-3.webp)
-![手少阳三焦经4](/images/zhenjiu/17-4.webp)
+![手少阳三焦经1](/images/zhenjiu/note/17-1.webp)
+![手少阳三焦经2](/images/zhenjiu/note/17-2.webp)
+![手少阳三焦经3](/images/zhenjiu/note/17-3.webp)
+![手少阳三焦经4](/images/zhenjiu/note/17-4.webp)
 
 
 ---

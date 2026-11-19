@@ -642,11 +642,11 @@
 > 背俞穴是膀胱经临床的核心，能诊断，也能治疗；委中、承山、昆仑、申脉、至阴则撑起腿足部分的主线。  
 > 膀胱经学习的关键，是一个“化”字：肾与小肠之火化水，膀胱再气化，清液归肝，浊液成尿。水火得宜，则水道通、腰背强、目窍清。
 
-![足太阳膀胱经1](/images/zhenjiu/14-1.webp)
-![足太阳膀胱经2](/images/zhenjiu/14-2.webp)
-![足太阳膀胱经3](/images/zhenjiu/14-3.webp)
-![足太阳膀胱经4](/images/zhenjiu/14-4.webp)
-![足太阳膀胱经5](/images/zhenjiu/14-5.webp)
+![足太阳膀胱经1](/images/zhenjiu/note/14-1.webp)
+![足太阳膀胱经2](/images/zhenjiu/note/14-2.webp)
+![足太阳膀胱经3](/images/zhenjiu/note/14-3.webp)
+![足太阳膀胱经4](/images/zhenjiu/note/14-4.webp)
+![足太阳膀胱经5](/images/zhenjiu/note/14-5.webp)
 
 
 ---

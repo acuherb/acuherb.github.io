@@ -89,8 +89,8 @@
 2. **慢性调俞募**（如糖尿病灸脾俞+章门）  
 3. **痛症透九针**（如坐骨神经痛用圆利针深刺环跳）
 
-![针灸治疗法1](/images/zhenjiu/22-1.webp)
-![针灸治疗法2](/images/zhenjiu/22-2.webp)
+![针灸治疗法1](/images/zhenjiu/note/22-1.webp)
+![针灸治疗法2](/images/zhenjiu/note/22-2.webp)
 
 ---
 
