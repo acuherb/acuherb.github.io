@@ -186,7 +186,7 @@ function initHomePond() {
     target.prepend(layer);
     const small = matchMedia('(max-width: 680px)').matches;
     const pond = window.__acuherbPondMount(layer, {
-      species: [{ type: 'koi', count: small ? 2 : 3, young: small ? 0 : 1 }],
+      species: [{ type: 'koi', count: small ? 3 : 4, young: small ? 0 : 1 }],
       theme: detectHomePondLight() ? 'light' : 'dark',
       avoid: '.home-avatar, .home-title, .home-subtitle, .links, .profile-ghchart, .contribution-graph',
       palette: {
