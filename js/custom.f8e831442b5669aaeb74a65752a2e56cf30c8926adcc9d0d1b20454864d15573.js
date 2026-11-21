@@ -240,14 +240,78 @@ function initHomePond() {
 }
 
 /**
+ * 在奶油的 8 个下垂尖端生成滴落元素：越靠下的尖端越容易滴落。
+ * 位置根据 ::after 的实际尺寸换算，跟随视口变化。
+ */
+function initCreamDrips() {
+  const header = document.querySelector('#header-desktop');
+  if (!header || header.querySelector('.cream-drips')) return;
+
+  // 尖端在 SVG viewBox(778.95 x 302.64) 中的坐标，y 越大越靠下。
+  const tips = [
+    { x: 168, y: 302 }, { x: 474, y: 276 },
+    { x: 674, y: 174 }, { x: 381, y: 173 },
+    { x: 626, y: 157 }, { x: 233, y: 153 },
+    { x: 513, y: 133 }, { x: 340, y: 124 },
+  ];
+  const maxY = 302, minY = 124;
+
+  const layer = document.createElement('div');
+  layer.className = 'cream-drips';
+  const drops = tips.map(() => {
+    const drop = document.createElement('span');
+    drop.className = 'cream-drop';
+    layer.appendChild(drop);
+    return drop;
+  });
+  header.appendChild(layer);
+
+  const place = () => {
+    const after = getComputedStyle(header, '::after');
+    const boxW = parseFloat(after.width) || 360;
+    const boxH = parseFloat(after.height) || 110;
+    const top = parseFloat(after.top) || 56;
+    const scale = Math.min(boxW / 778.95, boxH / 302.64);
+    const offsetX = (boxW - 778.95 * scale) / 2;
+    tips.forEach((tip, i) => {
+      // ::after 被 scaleX(-1) 水平翻转，尖端 x 也要翻转。
+      const x = boxW - (offsetX + tip.x * scale);
+      const y = top + tip.y * scale;
+      const depth = (tip.y - minY) / (maxY - minY);
+      const duration = 9 - depth * 5.5;          // 越深越快：3.5s ~ 9s
+      const delay = -((i * 0.9) % duration);      // 负延迟让初始就错开
+      const size = 5 + depth * 4;                 // 越深越大：5px ~ 9px
+      const drop = drops[i];
+      drop.style.left = `${x}px`;
+      drop.style.top = `${y}px`;
+      drop.style.width = `${size}px`;
+      drop.style.height = `${size * 1.5}px`;
+      drop.style.animationDuration = `${duration}s`;
+      drop.style.animationDelay = `${delay}s`;
+    });
+  };
+
+  place();
+  let timer;
+  window.addEventListener('resize', () => {
+    clearTimeout(timer);
+    timer = setTimeout(place, 150);
+  }, { passive: true });
+}
+
+/**
  * immediate.
  */
 (() => {
   const blog = new Blog();
   blog.init();
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initHomePond, { once: true });
-  } else {
+  const boot = () => {
+    initCreamDrips();
     initHomePond();
+  };
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot, { once: true });
+  } else {
+    boot();
   }
 })();
