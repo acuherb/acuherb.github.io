@@ -398,7 +398,7 @@
 - 07-18 [针刺手法：五门十变法](https://acuherb.xyz/posts/zhenjiu-5-3-4/ "2025-07-18 15:15:00")
 - 07-18 [针刺手法：留气法、运气法、提气法、中气法](https://acuherb.xyz/posts/zhenjiu-5-3-3/ "2025-07-18 15:15:00")
 - 07-18 [针刺手法：飞经引气、苍龟探穴、赤凤迎源、龙虎交战、龙虎升降](https://acuherb.xyz/posts/zhenjiu-5-3-5/ "2025-07-18 14:20:00")
-- 07-18 [针刺手法：阳中引阴、阴中引阳、留气法、报刺法](https://acuherb.xyz/posts/zhenjiu-5-3-2/ "2025-07-18 14:15:00")
+- 07-18 [针刺手法：阳中引阴、阴中引阳、留气法、烧针法、报刺法](https://acuherb.xyz/posts/zhenjiu-5-3-2/ "2025-07-18 14:15:00")
 - 07-18 [针刺手法：呼吸引气法、烧山火、透天凉](https://acuherb.xyz/posts/zhenjiu-5-3-1/ "2025-07-18 12:12:00")
 - 07-18 [奇经八脉](https://acuherb.xyz/posts/zhenjiu-5-2/ "2025-07-18 10:10:00")
 - 07-18 [十二经络与十五络脉](https://acuherb.xyz/posts/zhenjiu-5-1/ "2025-07-18 09:01:00")
