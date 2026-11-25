@@ -250,12 +250,12 @@ function initCreamDrips() {
   // 从 SVG 路径采样得到的下垂尖端最低点（viewBox 778.95 x 302.64），
   // 液滴从这些点长出，而不是从轮廓中段凭空冒出。
   const tips = [
-    { x: 173, y: 302 }, { x: 474, y: 276 },
+    { x: 173, y: 303 }, { x: 474, y: 276 },
     { x: 679, y: 175 }, { x: 382, y: 173 },
     { x: 627, y: 157 }, { x: 237, y: 154 },
-    { x: 516, y: 134 }, { x: 343, y: 125 },
+    { x: 562, y: 75 }, { x: 343, y: 125 },
   ];
-  const maxY = 302, minY = 125;
+  const maxY = 303, minY = 75;
 
   const layer = document.createElement('div');
   layer.className = 'cream-drips';
@@ -281,13 +281,14 @@ function initCreamDrips() {
       const depth = (tip.y - minY) / (maxY - minY);
       const duration = 10 - depth * 4;           // 越深越快：6s ~ 10s，给静置期留足时间
       const delay = -((i * 1.37) % duration);    // 黄金比错峰，整排不会同时滴落
-      const size = 5 + depth * 4;                // 越深越大：5px ~ 9px
+      // 尺寸取整，避免 1px 以下的亚像素边缘在坠落末段闪烁
+      const size = Math.round(5 + depth * 4);    // 越深越大：5px ~ 9px
       const drop = drops[i];
       // 液滴中心对准尖端；顶部嵌入 1px，避免与轮廓之间出现缝隙
       drop.style.left = `${x - size / 2}px`;
       drop.style.top = `${y - 1}px`;
       drop.style.width = `${size}px`;
-      drop.style.height = `${size * 1.5}px`;
+      drop.style.height = `${Math.round(size * 1.5)}px`;
       drop.style.animationDuration = `${duration}s`;
       drop.style.animationDelay = `${delay}s`;
     });
