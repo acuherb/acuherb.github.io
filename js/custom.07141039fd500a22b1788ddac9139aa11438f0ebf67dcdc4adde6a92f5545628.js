@@ -247,14 +247,15 @@ function initCreamDrips() {
   const header = document.querySelector('#header-desktop');
   if (!header || header.querySelector('.cream-drips')) return;
 
-  // 尖端在 SVG viewBox(778.95 x 302.64) 中的坐标，y 越大越靠下。
+  // 从 SVG 路径采样得到的下垂尖端最低点（viewBox 778.95 x 302.64），
+  // 液滴从这些点长出，而不是从轮廓中段凭空冒出。
   const tips = [
-    { x: 168, y: 302 }, { x: 474, y: 276 },
-    { x: 674, y: 174 }, { x: 381, y: 173 },
-    { x: 626, y: 157 }, { x: 233, y: 153 },
-    { x: 513, y: 133 }, { x: 340, y: 124 },
+    { x: 173, y: 302 }, { x: 474, y: 276 },
+    { x: 679, y: 175 }, { x: 382, y: 173 },
+    { x: 627, y: 157 }, { x: 237, y: 154 },
+    { x: 516, y: 134 }, { x: 343, y: 125 },
   ];
-  const maxY = 302, minY = 124;
+  const maxY = 302, minY = 125;
 
   const layer = document.createElement('div');
   layer.className = 'cream-drips';
@@ -278,12 +279,13 @@ function initCreamDrips() {
       const x = boxW - (offsetX + tip.x * scale);
       const y = top + tip.y * scale;
       const depth = (tip.y - minY) / (maxY - minY);
-      const duration = 9 - depth * 5.5;          // 越深越快：3.5s ~ 9s
-      const delay = -((i * 0.9) % duration);      // 负延迟让初始就错开
-      const size = 5 + depth * 4;                 // 越深越大：5px ~ 9px
+      const duration = 10 - depth * 4;           // 越深越快：6s ~ 10s，给静置期留足时间
+      const delay = -((i * 1.37) % duration);    // 黄金比错峰，整排不会同时滴落
+      const size = 5 + depth * 4;                // 越深越大：5px ~ 9px
       const drop = drops[i];
-      drop.style.left = `${x}px`;
-      drop.style.top = `${y}px`;
+      // 液滴中心对准尖端；顶部嵌入 1px，避免与轮廓之间出现缝隙
+      drop.style.left = `${x - size / 2}px`;
+      drop.style.top = `${y - 1}px`;
       drop.style.width = `${size}px`;
       drop.style.height = `${size * 1.5}px`;
       drop.style.animationDuration = `${duration}s`;
