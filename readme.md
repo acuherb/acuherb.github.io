@@ -384,7 +384,7 @@
 - 07-20 [灵龟八法与子午流注临床应用](https://acuherb.xyz/posts/zhenjiu-6-11/ "2025-07-20 12:20:00")
 - 07-20 [耳针与奇穴临床应用](https://acuherb.xyz/posts/zhenjiu-6-12/ "2025-07-20 12:20:00")
 - 07-20 [针灸治症：妇科疾病与孕产调理](https://acuherb.xyz/posts/zhenjiu-6-10/ "2025-07-20 11:45:00")
-- 07-20 [针灸治症：腹痛、痔疮、妇科与助孕](https://acuherb.xyz/posts/zhenjiu-6-9/ "2025-07-20 11:20:00")
+- 07-20 [针灸治症：腹痛、盲肠炎、痔疮、妇科与助孕](https://acuherb.xyz/posts/zhenjiu-6-9/ "2025-07-20 11:20:00")
 - 07-20 [针灸治症：血症、消渴、痞块与肝结石](https://acuherb.xyz/posts/zhenjiu-6-8/ "2025-07-20 10:56:00")
 - 07-20 [针灸治症：胆结石、肝病、脾肿大与胃病治疗](https://acuherb.xyz/posts/zhenjiu-6-7/ "2025-07-20 10:39:00")
 - 07-20 [针灸治症：乳癌分期治疗与肺积水灸法](https://acuherb.xyz/posts/zhenjiu-6-6/ "2025-07-20 10:15:00")
