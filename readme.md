@@ -389,7 +389,7 @@
 - 07-20 [针灸治症：胆结石、肝病、脾肿大与胃病治疗](https://acuherb.xyz/posts/zhenjiu-6-7/ "2025-07-20 10:39:00")
 - 07-20 [针灸治症：乳癌分期治疗与肺积水灸法](https://acuherb.xyz/posts/zhenjiu-6-6/ "2025-07-20 10:15:00")
 - 07-20 [针灸治症：肺积水、胸肋积水与心脏病](https://acuherb.xyz/posts/zhenjiu-6-5/ "2025-07-20 09:54:00")
-- 07-20 [针灸治症：肺症虚实、癫痫、肺癌、肺痨](https://acuherb.xyz/posts/zhenjiu-6-4/ "2025-07-20 09:22:00")
+- 07-20 [针灸治症：肺症虚实、内伤气乱、癫痫、肺癌、肺痨](https://acuherb.xyz/posts/zhenjiu-6-4/ "2025-07-20 09:22:00")
 - 07-20 [针灸治症：舌症、扁桃腺炎与甲状腺疾病](https://acuherb.xyz/posts/zhenjiu-6-3/ "2025-07-20 09:02:00")
 - 07-20 [针灸治症：眼、鼻、耳及面部中风](https://acuherb.xyz/posts/zhenjiu-6-2/ "2025-07-20 08:30:00")
 - 07-20 [针灸治症：梅花针、头部与脑瘤治症](https://acuherb.xyz/posts/zhenjiu-6-1/ "2025-07-20 08:00:00")
